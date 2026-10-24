@@ -1,0 +1,4845 @@
+[
+    {
+        "id":  "stream.iti",
+        "parentId":  "",
+        "level":  0,
+        "name":  "ITI / Vocational Training",
+        "shortCode":  "ITI",
+        "description":  "Short-term technical skill-based training for immediate employability.",
+        "phasesApplicable":  [
+                                 "After10th"
+                             ],
+        "domain":  "Vocational",
+        "eligibleEducationLevelsJson":  "[\"After10th\"]",
+        "icon":  "wrench",
+        "colorHex":  "#D97706"
+    },
+    {
+        "id":  "stream.diploma",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Diploma / Polytechnic",
+        "shortCode":  "DIPLOMA",
+        "description":  "3-year practical diploma courses in engineering or non-engineering trades directly after 10th.",
+        "phasesApplicable":  [
+                                 "After10th"
+                             ],
+        "domain":  "Vocational",
+        "eligibleEducationLevelsJson":  "[\"After10th\"]",
+        "icon":  "tool",
+        "colorHex":  "#F59E0B"
+    },
+    {
+        "id":  "stream.arts",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Arts \u0026 Humanities",
+        "shortCode":  "ARTS",
+        "description":  "Focus on History, Political Science, Psychology, Languages, and Creative fields.",
+        "phasesApplicable":  [
+                                 "After10th"
+                             ],
+        "domain":  "Arts",
+        "eligibleEducationLevelsJson":  "[\"After10th\"]",
+        "icon":  "palette",
+        "colorHex":  "#8B5CF6"
+    },
+    {
+        "id":  "stream.commerce",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Commerce (with/without Math)",
+        "shortCode":  "COMMERCE",
+        "description":  "Focus on Business, Finance, Accounting, and Economics.",
+        "phasesApplicable":  [
+                                 "After10th"
+                             ],
+        "domain":  "Commerce",
+        "eligibleEducationLevelsJson":  "[\"After10th\"]",
+        "icon":  "bar-chart",
+        "colorHex":  "#10B981"
+    },
+    {
+        "id":  "stream.pcb",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Science - PCB (Physics, Chemistry, Biology)",
+        "shortCode":  "PCB",
+        "description":  "Science stream focused on Biology, ideal for Medicine, Pharmacy, and Life Sciences.",
+        "phasesApplicable":  [
+                                 "After10th"
+                             ],
+        "domain":  "Science",
+        "eligibleEducationLevelsJson":  "[\"After10th\"]",
+        "icon":  "heart-pulse",
+        "colorHex":  "#EF4444"
+    },
+    {
+        "id":  "stream.pcm",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Science - PCM (Physics, Chemistry, Math)",
+        "shortCode":  "PCM",
+        "description":  "Science stream focused on Mathematics and Physics, ideal for Engineering, Architecture, and Tech careers.",
+        "phasesApplicable":  [
+                                 "After10th"
+                             ],
+        "domain":  "Science",
+        "eligibleEducationLevelsJson":  "[\"After10th\"]",
+        "icon":  "cpu",
+        "colorHex":  "#2563EB"
+    },
+    {
+        "id":  "stream.pcmb",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Science - PCMB (Physics, Chemistry, Math, Biology)",
+        "shortCode":  "PCMB",
+        "description":  "Science stream with both Mathematics and Biology, keeping options open for Engineering, Medicine, and Pure Sciences.",
+        "phasesApplicable":  [
+                                 "After10th"
+                             ],
+        "domain":  "Science",
+        "eligibleEducationLevelsJson":  "[\"After10th\"]",
+        "icon":  "microscope",
+        "colorHex":  "#3B82F6"
+    },
+    {
+        "id":  "sci",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Science \u0026 Technology",
+        "shortCode":  "SCIENCE",
+        "description":  "Careers rooted in scientific principles, technical analysis, and evidence-based problem solving",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "icon":  "flask",
+        "colorHex":  "#3B82F6"
+    },
+    {
+        "id":  "sci.eng",
+        "parentId":  "sci",
+        "level":  1,
+        "name":  "Engineering",
+        "shortCode":  "ENG",
+        "description":  "Application of scientific and mathematical principles to design, build, and maintain systems, structures, and devices",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "PHYSICS,MATHEMATICS",
+        "entranceExams":  [
+                              "JEE Main",
+                              "JEE Advanced",
+                              "BITSAT",
+                              "VITEEE",
+                              "COMEDK",
+                              "MET",
+                              "SRMJEEE"
+                          ],
+        "icon":  "settings",
+        "colorHex":  "#2563EB"
+    },
+    {
+        "id":  "sci.eng.civil",
+        "parentId":  "sci.eng",
+        "level":  2,
+        "name":  "Civil Engineering",
+        "shortCode":  "CIVIL",
+        "description":  "Design, construction, and maintenance of infrastructure including buildings, roads, bridges, dams, and water systems",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "PHYSICS,MATHEMATICS",
+        "typicalRoles":  [
+                             "Civil Engineer",
+                             "Site Engineer",
+                             "Structural Engineer",
+                             "Project Manager",
+                             "Urban Planner",
+                             "Surveyor"
+                         ],
+        "requiredDegrees":  [
+                                "B.Tech Civil Engineering",
+                                "B.E. Civil Engineering",
+                                "M.Tech Civil Engineering"
+                            ],
+        "recommendedCourses":  [
+                                   "Structural Analysis",
+                                   "Geotechnical Engineering",
+                                   "Fluid Mechanics",
+                                   "Construction Management",
+                                   "AutoCAD",
+                                   "STAAD.Pro"
+                               ],
+        "institutionTypes":  [
+                                 "IIT",
+                                 "NIT",
+                                 "Private Engineering College",
+                                 "Deemed University"
+                             ],
+        "entranceExams":  [
+                              "JEE Main",
+                              "JEE Advanced"
+                          ],
+        "salaryRange":  {
+                            "entry":  350000,
+                            "mid":  700000,
+                            "senior":  1800000
+                        },
+        "industryGrowthRate":  7.5,
+        "demandIndex":  72,
+        "icon":  "building",
+        "colorHex":  "#92400E"
+    },
+    {
+        "id":  "sci.eng.civil.struct",
+        "parentId":  "sci.eng.civil",
+        "level":  3,
+        "name":  "Structural Engineering",
+        "shortCode":  "STRUCT",
+        "description":  "Analysis and design of load-bearing structures: buildings, bridges, towers, offshore platforms",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Structural Engineer",
+                             "Bridge Design Engineer",
+                             "Earthquake Engineer",
+                             "Offshore Structural Engineer",
+                             "Design Consultant"
+                         ],
+        "requiredDegrees":  [
+                                "M.Tech Structural Engineering",
+                                "B.Tech Civil (Structural focus)"
+                            ],
+        "recommendedCourses":  [
+                                   "Structural Analysis",
+                                   "RCC Design",
+                                   "Steel Design",
+                                   "Earthquake Engineering",
+                                   "FEM",
+                                   "ETABS",
+                                   "STAAD.Pro"
+                               ],
+        "salaryRange":  {
+                            "entry":  400000,
+                            "mid":  900000,
+                            "senior":  2200000
+                        },
+        "industryGrowthRate":  7.0,
+        "demandIndex":  75
+    },
+    {
+        "id":  "sci.eng.civil.geo",
+        "parentId":  "sci.eng.civil",
+        "level":  3,
+        "name":  "Geotechnical Engineering",
+        "shortCode":  "GEO",
+        "description":  "Study of soil and rock mechanics to assess foundations, slopes, embankments, and underground structures",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Geotechnical Engineer",
+                             "Foundation Engineer",
+                             "Soil Testing Engineer",
+                             "Dam Safety Engineer"
+                         ],
+        "recommendedCourses":  [
+                                   "Soil Mechanics",
+                                   "Foundation Engineering",
+                                   "Geotechnical Investigation",
+                                   "Slope Stability",
+                                   "Ground Improvement"
+                               ],
+        "salaryRange":  {
+                            "entry":  380000,
+                            "mid":  850000,
+                            "senior":  2000000
+                        }
+    },
+    {
+        "id":  "sci.eng.civil.transport",
+        "parentId":  "sci.eng.civil",
+        "level":  3,
+        "name":  "Transportation Engineering",
+        "shortCode":  "TRANSPORT",
+        "description":  "Planning, design, and optimization of road, rail, air, and water transport infrastructure",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Highway Engineer",
+                             "Traffic Engineer",
+                             "Transport Planner",
+                             "Metro Rail Engineer",
+                             "Airport Planner"
+                         ],
+        "recommendedCourses":  [
+                                   "Transportation Engineering",
+                                   "Traffic Engineering",
+                                   "Highway Design",
+                                   "Rail Engineering",
+                                   "GIS for Transport"
+                               ],
+        "salaryRange":  {
+                            "entry":  380000,
+                            "mid":  900000,
+                            "senior":  2100000
+                        }
+    },
+    {
+        "id":  "sci.eng.civil.water",
+        "parentId":  "sci.eng.civil",
+        "level":  3,
+        "name":  "Water Resources Engineering",
+        "shortCode":  "WATER",
+        "description":  "Management of water systems: dams, irrigation canals, flood control, water supply networks",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Hydraulic Engineer",
+                             "Irrigation Engineer",
+                             "Dam Engineer",
+                             "Water Supply Engineer",
+                             "Hydrologist"
+                         ],
+        "recommendedCourses":  [
+                                   "Fluid Mechanics",
+                                   "Hydrology",
+                                   "Hydraulic Structures",
+                                   "Irrigation Engineering",
+                                   "Water Treatment"
+                               ],
+        "salaryRange":  {
+                            "entry":  380000,
+                            "mid":  850000,
+                            "senior":  2000000
+                        }
+    },
+    {
+        "id":  "sci.eng.civil.environ_civil",
+        "parentId":  "sci.eng.civil",
+        "level":  3,
+        "name":  "Environmental Engineering (Civil)",
+        "shortCode":  "ENV_CIVIL",
+        "description":  "Water and wastewater treatment, solid waste management, air quality control in built environments",
+        "phasesApplicable":  [
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Environmental Engineer",
+                             "Wastewater Treatment Engineer",
+                             "Solid Waste Engineer",
+                             "Pollution Control Officer"
+                         ],
+        "recommendedCourses":  [
+                                   "Environmental Engineering",
+                                   "Wastewater Treatment",
+                                   "Air Pollution Control",
+                                   "Solid Waste Management"
+                               ],
+        "salaryRange":  {
+                            "entry":  370000,
+                            "mid":  800000,
+                            "senior":  1800000
+                        }
+    },
+    {
+        "id":  "sci.eng.civil.construction",
+        "parentId":  "sci.eng.civil",
+        "level":  3,
+        "name":  "Construction Management",
+        "shortCode":  "CONSTR_MGMT",
+        "description":  "Planning, coordination, and execution of large construction projects; cost and schedule management",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Construction Manager",
+                             "Project Manager",
+                             "Quantity Surveyor",
+                             "Site Supervisor",
+                             "Contracts Engineer"
+                         ],
+        "recommendedCourses":  [
+                                   "Project Management",
+                                   "Quantity Surveying",
+                                   "Construction Law",
+                                   "MS Project",
+                                   "Primavera",
+                                   "BIM"
+                               ],
+        "salaryRange":  {
+                            "entry":  420000,
+                            "mid":  1000000,
+                            "senior":  2500000
+                        }
+    },
+    {
+        "id":  "sci.eng.civil.surveying",
+        "parentId":  "sci.eng.civil",
+        "level":  3,
+        "name":  "Surveying \u0026 Geomatics",
+        "shortCode":  "SURVEY",
+        "description":  "Measurement and mapping of land, structures, and geography using GPS, drones, and laser technology",
+        "phasesApplicable":  [
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Surveyor",
+                             "GIS Analyst",
+                             "Remote Sensing Engineer",
+                             "Cartographer",
+                             "Land Records Officer"
+                         ],
+        "recommendedCourses":  [
+                                   "Surveying",
+                                   "GIS",
+                                   "Remote Sensing",
+                                   "GPS Technology",
+                                   "Photogrammetry"
+                               ],
+        "salaryRange":  {
+                            "entry":  360000,
+                            "mid":  750000,
+                            "senior":  1600000
+                        }
+    },
+    {
+        "id":  "sci.eng.cs",
+        "parentId":  "sci.eng",
+        "level":  2,
+        "name":  "Computer Science \u0026 Engineering",
+        "shortCode":  "CSE",
+        "description":  "Study of computing systems, algorithms, data structures, programming, and software development",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "MATHEMATICS",
+        "typicalRoles":  [
+                             "Software Engineer",
+                             "Backend Developer",
+                             "Frontend Developer",
+                             "AI Engineer",
+                             "Data Scientist",
+                             "Cybersecurity Analyst"
+                         ],
+        "requiredDegrees":  [
+                                "B.Tech CSE",
+                                "B.E. CSE",
+                                "B.Tech IT",
+                                "BCA + MCA",
+                                "B.Sc CS"
+                            ],
+        "recommendedCourses":  [
+                                   "Data Structures",
+                                   "Algorithms",
+                                   "DBMS",
+                                   "OS",
+                                   "Computer Networks",
+                                   "OOP",
+                                   "Cloud Computing"
+                               ],
+        "entranceExams":  [
+                              "JEE Main",
+                              "JEE Advanced",
+                              "BITSAT",
+                              "VITEEE"
+                          ],
+        "salaryRange":  {
+                            "entry":  500000,
+                            "mid":  1200000,
+                            "senior":  3500000
+                        },
+        "industryGrowthRate":  22.0,
+        "demandIndex":  95,
+        "icon":  "code",
+        "colorHex":  "#7C3AED"
+    },
+    {
+        "id":  "sci.eng.cs.ai_ml",
+        "parentId":  "sci.eng.cs",
+        "level":  3,
+        "name":  "Artificial Intelligence \u0026 Machine Learning",
+        "shortCode":  "AI_ML",
+        "description":  "Building intelligent systems that learn from data: neural networks, NLP, computer vision, reinforcement learning",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "ML Engineer",
+                             "AI Researcher",
+                             "NLP Engineer",
+                             "Computer Vision Engineer",
+                             "Data Scientist",
+                             "Research Scientist"
+                         ],
+        "requiredDegrees":  [
+                                "M.Tech AI/ML",
+                                "B.Tech CSE with AI specialization",
+                                "M.S. Computer Science"
+                            ],
+        "recommendedCourses":  [
+                                   "Machine Learning",
+                                   "Deep Learning",
+                                   "NLP",
+                                   "Computer Vision",
+                                   "PyTorch",
+                                   "TensorFlow",
+                                   "Statistics",
+                                   "Linear Algebra"
+                               ],
+        "salaryRange":  {
+                            "entry":  800000,
+                            "mid":  2000000,
+                            "senior":  5000000
+                        },
+        "industryGrowthRate":  35.0,
+        "demandIndex":  98
+    },
+    {
+        "id":  "sci.eng.cs.cybersec",
+        "parentId":  "sci.eng.cs",
+        "level":  3,
+        "name":  "Cybersecurity",
+        "shortCode":  "CYBERSEC",
+        "description":  "Protection of computer systems, networks, and data from digital attacks, unauthorized access, and breaches",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "Upskilling"
+                             ],
+        "typicalRoles":  [
+                             "Security Analyst",
+                             "Penetration Tester",
+                             "SOC Analyst",
+                             "CISO",
+                             "Cryptographer",
+                             "Security Engineer"
+                         ],
+        "recommendedCourses":  [
+                                   "Network Security",
+                                   "Ethical Hacking",
+                                   "CISSP",
+                                   "CEH",
+                                   "CompTIA Security+",
+                                   "Forensics"
+                               ],
+        "salaryRange":  {
+                            "entry":  600000,
+                            "mid":  1500000,
+                            "senior":  4000000
+                        },
+        "industryGrowthRate":  30.0,
+        "demandIndex":  92
+    },
+    {
+        "id":  "sci.eng.cs.software",
+        "parentId":  "sci.eng.cs",
+        "level":  3,
+        "name":  "Software Engineering",
+        "shortCode":  "SWE",
+        "description":  "Design, development, testing, and maintenance of large-scale software systems using engineering principles",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "Upskilling"
+                             ],
+        "typicalRoles":  [
+                             "Software Developer",
+                             "Backend Engineer",
+                             "Full Stack Developer",
+                             "SDE-I/II/III",
+                             "Software Architect"
+                         ],
+        "recommendedCourses":  [
+                                   "System Design",
+                                   "OOPS",
+                                   "Design Patterns",
+                                   "Agile",
+                                   "Git",
+                                   "Docker",
+                                   "Kubernetes"
+                               ],
+        "salaryRange":  {
+                            "entry":  600000,
+                            "mid":  1500000,
+                            "senior":  4000000
+                        },
+        "industryGrowthRate":  25.0,
+        "demandIndex":  95
+    },
+    {
+        "id":  "sci.eng.cs.data",
+        "parentId":  "sci.eng.cs",
+        "level":  3,
+        "name":  "Data Science \u0026 Analytics",
+        "shortCode":  "DATA",
+        "description":  "Extraction of insights from large datasets using statistics, ML, and visualization to support business decisions",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "Upskilling"
+                             ],
+        "typicalRoles":  [
+                             "Data Scientist",
+                             "Data Analyst",
+                             "Business Intelligence Analyst",
+                             "Data Engineer",
+                             "Analytics Manager"
+                         ],
+        "recommendedCourses":  [
+                                   "Python",
+                                   "R",
+                                   "SQL",
+                                   "Tableau",
+                                   "Power BI",
+                                   "Statistics",
+                                   "Machine Learning",
+                                   "Big Data (Spark/Hadoop)"
+                               ],
+        "salaryRange":  {
+                            "entry":  600000,
+                            "mid":  1600000,
+                            "senior":  4500000
+                        },
+        "industryGrowthRate":  28.0,
+        "demandIndex":  93
+    },
+    {
+        "id":  "sci.eng.cs.cloud",
+        "parentId":  "sci.eng.cs",
+        "level":  3,
+        "name":  "Cloud Computing \u0026 DevOps",
+        "shortCode":  "CLOUD",
+        "description":  "Building and managing cloud infrastructure, CI/CD pipelines, containerization, and site reliability",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "Upskilling"
+                             ],
+        "typicalRoles":  [
+                             "Cloud Engineer",
+                             "DevOps Engineer",
+                             "SRE",
+                             "Cloud Architect",
+                             "Platform Engineer"
+                         ],
+        "recommendedCourses":  [
+                                   "AWS/Azure/GCP",
+                                   "Docker",
+                                   "Kubernetes",
+                                   "Terraform",
+                                   "CI/CD",
+                                   "Linux",
+                                   "Monitoring"
+                               ],
+        "salaryRange":  {
+                            "entry":  700000,
+                            "mid":  1800000,
+                            "senior":  4500000
+                        },
+        "industryGrowthRate":  32.0,
+        "demandIndex":  94
+    },
+    {
+        "id":  "sci.eng.cs.networks",
+        "parentId":  "sci.eng.cs",
+        "level":  3,
+        "name":  "Networking \u0026 Telecommunications",
+        "shortCode":  "NETWORKS",
+        "description":  "Design and management of computer networks, wireless systems, and communication infrastructure",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "Upskilling"
+                             ],
+        "typicalRoles":  [
+                             "Network Engineer",
+                             "Telecom Engineer",
+                             "Network Administrator",
+                             "5G Specialist",
+                             "CCNA/CCNP Engineer"
+                         ],
+        "recommendedCourses":  [
+                                   "CCNA",
+                                   "CCNP",
+                                   "Network Security",
+                                   "5G/LTE",
+                                   "SDN",
+                                   "Wireshark"
+                               ],
+        "salaryRange":  {
+                            "entry":  450000,
+                            "mid":  1000000,
+                            "senior":  2500000
+                        }
+    },
+    {
+        "id":  "sci.eng.mech",
+        "parentId":  "sci.eng",
+        "level":  2,
+        "name":  "Mechanical Engineering",
+        "shortCode":  "MECH",
+        "description":  "Design, analysis, manufacturing, and maintenance of mechanical systems — from engines to robots to HVAC",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "PHYSICS,MATHEMATICS",
+        "typicalRoles":  [
+                             "Mechanical Engineer",
+                             "Design Engineer",
+                             "Manufacturing Engineer",
+                             "Quality Engineer",
+                             "HVAC Engineer"
+                         ],
+        "recommendedCourses":  [
+                                   "Thermodynamics",
+                                   "Fluid Mechanics",
+                                   "Machine Design",
+                                   "Manufacturing Processes",
+                                   "CAD/CAM",
+                                   "AutoCAD",
+                                   "ANSYS"
+                               ],
+        "entranceExams":  [
+                              "JEE Main",
+                              "JEE Advanced"
+                          ],
+        "salaryRange":  {
+                            "entry":  380000,
+                            "mid":  800000,
+                            "senior":  2200000
+                        },
+        "industryGrowthRate":  8.5,
+        "demandIndex":  78,
+        "icon":  "settings",
+        "colorHex":  "#D97706"
+    },
+    {
+        "id":  "sci.eng.mech.auto",
+        "parentId":  "sci.eng.mech",
+        "level":  3,
+        "name":  "Automotive Engineering",
+        "shortCode":  "AUTO",
+        "description":  "Design and development of vehicles — engines, chassis, powertrains, EV systems",
+        "phasesApplicable":  [
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Automotive Engineer",
+                             "Vehicle Dynamics Engineer",
+                             "Powertrain Engineer",
+                             "EV Battery Engineer"
+                         ],
+        "recommendedCourses":  [
+                                   "Vehicle Dynamics",
+                                   "IC Engines",
+                                   "EV Technology",
+                                   "Automotive Design",
+                                   "CATIA",
+                                   "MATLAB"
+                               ]
+    },
+    {
+        "id":  "sci.eng.mech.robotics",
+        "parentId":  "sci.eng.mech",
+        "level":  3,
+        "name":  "Robotics \u0026 Mechatronics",
+        "shortCode":  "ROBOTICS",
+        "description":  "Integration of mechanical, electrical, and computer engineering to design intelligent automated systems",
+        "phasesApplicable":  [
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Robotics Engineer",
+                             "Automation Engineer",
+                             "Controls Engineer",
+                             "PLC Programmer",
+                             "Industrial Automation Specialist"
+                         ],
+        "recommendedCourses":  [
+                                   "Robotics",
+                                   "Control Systems",
+                                   "PLC Programming",
+                                   "ROS",
+                                   "Embedded Systems",
+                                   "MATLAB/Simulink"
+                               ]
+    },
+    {
+        "id":  "sci.eng.mech.mfg",
+        "parentId":  "sci.eng.mech",
+        "level":  3,
+        "name":  "Manufacturing \u0026 Production Engineering",
+        "shortCode":  "MFG",
+        "description":  "Design of manufacturing systems, quality control, lean manufacturing, process optimization",
+        "phasesApplicable":  [
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Manufacturing Engineer",
+                             "Production Engineer",
+                             "Quality Manager",
+                             "Lean/Six Sigma Consultant",
+                             "Industrial Engineer"
+                         ]
+    },
+    {
+        "id":  "sci.eng.elec",
+        "parentId":  "sci.eng",
+        "level":  2,
+        "name":  "Electrical Engineering",
+        "shortCode":  "EE",
+        "description":  "Study of electricity, electromagnetism, and electronics to design power systems, machines, and control systems",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "PHYSICS,MATHEMATICS",
+        "typicalRoles":  [
+                             "Electrical Engineer",
+                             "Power Systems Engineer",
+                             "Control Systems Engineer",
+                             "Electrical Design Engineer"
+                         ],
+        "entranceExams":  [
+                              "JEE Main",
+                              "JEE Advanced",
+                              "GATE"
+                          ],
+        "salaryRange":  {
+                            "entry":  380000,
+                            "mid":  850000,
+                            "senior":  2200000
+                        },
+        "industryGrowthRate":  9.0,
+        "demandIndex":  76,
+        "icon":  "zap",
+        "colorHex":  "#F59E0B"
+    },
+    {
+        "id":  "sci.eng.elec.power",
+        "parentId":  "sci.eng.elec",
+        "level":  3,
+        "name":  "Power Systems Engineering",
+        "shortCode":  "POWER",
+        "description":  "Generation, transmission, distribution, and smart grid management of electrical power",
+        "phasesApplicable":  [
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Power Systems Engineer",
+                             "Grid Engineer",
+                             "Substation Engineer",
+                             "Protection \u0026 Relay Engineer",
+                             "Energy Analyst"
+                         ]
+    },
+    {
+        "id":  "sci.eng.elec.renew",
+        "parentId":  "sci.eng.elec",
+        "level":  3,
+        "name":  "Renewable Energy Engineering",
+        "shortCode":  "RENEW",
+        "description":  "Design and deployment of solar, wind, hydro, and other clean energy systems",
+        "phasesApplicable":  [
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Solar Energy Engineer",
+                             "Wind Energy Engineer",
+                             "Energy Storage Engineer",
+                             "Sustainability Engineer"
+                         ]
+    },
+    {
+        "id":  "sci.eng.ece",
+        "parentId":  "sci.eng",
+        "level":  2,
+        "name":  "Electronics \u0026 Communication Engineering",
+        "shortCode":  "ECE",
+        "description":  "Design of electronic circuits, communication systems, signal processing, and embedded systems",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "PHYSICS,MATHEMATICS",
+        "typicalRoles":  [
+                             "Electronics Engineer",
+                             "Embedded Systems Engineer",
+                             "Signal Processing Engineer",
+                             "VLSI Engineer",
+                             "RF Engineer"
+                         ],
+        "entranceExams":  [
+                              "JEE Main",
+                              "JEE Advanced",
+                              "BITSAT"
+                          ],
+        "salaryRange":  {
+                            "entry":  420000,
+                            "mid":  950000,
+                            "senior":  2500000
+                        },
+        "industryGrowthRate":  12.0,
+        "demandIndex":  82,
+        "icon":  "cpu",
+        "colorHex":  "#10B981"
+    },
+    {
+        "id":  "sci.eng.chem",
+        "parentId":  "sci.eng",
+        "level":  2,
+        "name":  "Chemical Engineering",
+        "shortCode":  "CHEM_ENG",
+        "description":  "Design and optimization of chemical processes to convert raw materials into useful products at industrial scale",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "CHEMISTRY,MATHEMATICS,PHYSICS",
+        "typicalRoles":  [
+                             "Chemical Engineer",
+                             "Process Engineer",
+                             "Refinery Engineer",
+                             "Pharmaceutical Process Engineer",
+                             "Plant Manager"
+                         ],
+        "entranceExams":  [
+                              "JEE Main",
+                              "JEE Advanced"
+                          ],
+        "salaryRange":  {
+                            "entry":  400000,
+                            "mid":  900000,
+                            "senior":  2200000
+                        },
+        "industryGrowthRate":  8.0,
+        "demandIndex":  73,
+        "icon":  "flask",
+        "colorHex":  "#8B5CF6"
+    },
+    {
+        "id":  "sci.eng.aero",
+        "parentId":  "sci.eng",
+        "level":  2,
+        "name":  "Aerospace Engineering",
+        "shortCode":  "AERO",
+        "description":  "Design of aircraft, spacecraft, satellites, rockets, and related aerodynamic systems",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "PHYSICS,MATHEMATICS",
+        "typicalRoles":  [
+                             "Aerospace Engineer",
+                             "Aerodynamics Engineer",
+                             "Avionics Engineer",
+                             "Propulsion Engineer",
+                             "Satellite Engineer"
+                         ],
+        "entranceExams":  [
+                              "JEE Advanced (IIT Madras/Bombay)",
+                              "IIST entrance"
+                          ],
+        "salaryRange":  {
+                            "entry":  500000,
+                            "mid":  1200000,
+                            "senior":  3000000
+                        },
+        "industryGrowthRate":  15.0,
+        "demandIndex":  80,
+        "icon":  "send",
+        "colorHex":  "#1D4ED8"
+    },
+    {
+        "id":  "sci.eng.biomd",
+        "parentId":  "sci.eng",
+        "level":  2,
+        "name":  "Biomedical Engineering",
+        "shortCode":  "BIOMD",
+        "description":  "Application of engineering to healthcare: medical devices, diagnostic equipment, prosthetics, bioinformatics",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "PHYSICS,MATHEMATICS,BIOLOGY",
+        "typicalRoles":  [
+                             "Biomedical Engineer",
+                             "Clinical Engineer",
+                             "Medical Device Designer",
+                             "Bioinformatics Engineer"
+                         ],
+        "salaryRange":  {
+                            "entry":  420000,
+                            "mid":  950000,
+                            "senior":  2500000
+                        },
+        "industryGrowthRate":  18.0,
+        "demandIndex":  82
+    },
+    {
+        "id":  "sci.eng.marine",
+        "parentId":  "sci.eng",
+        "level":  2,
+        "name":  "Marine Engineering",
+        "shortCode":  "MARINE",
+        "description":  "Design and operation of ship engines, offshore platforms, and naval vessels",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "PHYSICS,MATHEMATICS",
+        "typicalRoles":  [
+                             "Marine Engineer",
+                             "Naval Architect",
+                             "Offshore Platform Engineer",
+                             "Ship Captain (Deck Officer)"
+                         ],
+        "salaryRange":  {
+                            "entry":  500000,
+                            "mid":  1500000,
+                            "senior":  4000000
+                        },
+        "industryGrowthRate":  10.0,
+        "demandIndex":  70
+    },
+    {
+        "id":  "sci.eng.mining",
+        "parentId":  "sci.eng",
+        "level":  2,
+        "name":  "Mining Engineering",
+        "shortCode":  "MINING",
+        "description":  "Extraction of minerals and metals from the earth safely and efficiently",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "PHYSICS,MATHEMATICS,CHEMISTRY",
+        "typicalRoles":  [
+                             "Mining Engineer",
+                             "Mine Manager",
+                             "Geologist-Engineer",
+                             "Rock Mechanics Engineer"
+                         ],
+        "salaryRange":  {
+                            "entry":  450000,
+                            "mid":  1000000,
+                            "senior":  2500000
+                        },
+        "industryGrowthRate":  7.0,
+        "demandIndex":  65
+    },
+    {
+        "id":  "sci.eng.environ",
+        "parentId":  "sci.eng",
+        "level":  2,
+        "name":  "Environmental Engineering",
+        "shortCode":  "ENV_ENG",
+        "description":  "Engineering solutions to environmental problems: pollution control, sustainable infrastructure, climate adaptation",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "PHYSICS,CHEMISTRY,MATHEMATICS",
+        "typicalRoles":  [
+                             "Environmental Engineer",
+                             "EIA Consultant",
+                             "Climate Resilience Planner",
+                             "Green Building Consultant"
+                         ],
+        "salaryRange":  {
+                            "entry":  380000,
+                            "mid":  800000,
+                            "senior":  2000000
+                        },
+        "industryGrowthRate":  14.0,
+        "demandIndex":  78
+    },
+    {
+        "id":  "sci.med",
+        "parentId":  "sci",
+        "level":  1,
+        "name":  "Medical \u0026 Health Sciences",
+        "shortCode":  "MEDICAL",
+        "description":  "Prevention, diagnosis, treatment, and management of human health and disease",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "keySubjectsRequired":  "BIOLOGY,CHEMISTRY",
+        "icon":  "heart-pulse",
+        "colorHex":  "#EF4444"
+    },
+    {
+        "id":  "sci.med.mbbs",
+        "parentId":  "sci.med",
+        "level":  2,
+        "name":  "Medicine (MBBS \u0026 Clinical Practice)",
+        "shortCode":  "MBBS",
+        "description":  "Diagnosis and treatment of diseases through clinical practice, surgery, and patient care",
+        "phasesApplicable":  [
+                                 "After12th"
+                             ],
+        "keySubjectsRequired":  "BIOLOGY,CHEMISTRY,PHYSICS",
+        "typicalRoles":  [
+                             "General Physician",
+                             "Specialist Doctor",
+                             "Surgeon",
+                             "Medical Officer",
+                             "CMO"
+                         ],
+        "requiredDegrees":  [
+                                "MBBS",
+                                "MD",
+                                "MS",
+                                "DM",
+                                "MCh"
+                            ],
+        "entranceExams":  [
+                              "NEET UG",
+                              "AIIMS",
+                              "JIPMER"
+                          ],
+        "salaryRange":  {
+                            "entry":  500000,
+                            "mid":  1500000,
+                            "senior":  5000000
+                        },
+        "industryGrowthRate":  12.0,
+        "demandIndex":  90
+    },
+    {
+        "id":  "sci.med.mbbs.cardio",
+        "parentId":  "sci.med.mbbs",
+        "level":  3,
+        "name":  "Cardiology",
+        "shortCode":  "CARDIO",
+        "description":  "Diagnosis and treatment of heart and cardiovascular system disorders",
+        "phasesApplicable":  [
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Cardiologist",
+                             "Interventional Cardiologist",
+                             "Cardiac Electrophysiologist"
+                         ],
+        "requiredDegrees":  [
+                                "MD Medicine + DM Cardiology"
+                            ]
+    },
+    {
+        "id":  "sci.med.mbbs.surgery",
+        "parentId":  "sci.med.mbbs",
+        "level":  3,
+        "name":  "Surgery",
+        "shortCode":  "SURGERY",
+        "description":  "Operative treatment of diseases and injuries",
+        "phasesApplicable":  [
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "General Surgeon",
+                             "Orthopedic Surgeon",
+                             "Neurosurgeon",
+                             "Plastic Surgeon",
+                             "Laparoscopic Surgeon"
+                         ]
+    },
+    {
+        "id":  "sci.med.mbbs.pediatrics",
+        "parentId":  "sci.med.mbbs",
+        "level":  3,
+        "name":  "Pediatrics",
+        "shortCode":  "PEDS",
+        "description":  "Medical care of infants, children, and adolescents"
+    },
+    {
+        "id":  "sci.med.mbbs.psychiatry",
+        "parentId":  "sci.med.mbbs",
+        "level":  3,
+        "name":  "Psychiatry",
+        "shortCode":  "PSYCH_MED",
+        "description":  "Diagnosis and treatment of mental health disorders"
+    },
+    {
+        "id":  "sci.med.bds",
+        "parentId":  "sci.med",
+        "level":  2,
+        "name":  "Dentistry (BDS / MDS)",
+        "shortCode":  "BDS",
+        "description":  "Prevention and treatment of oral diseases and conditions",
+        "phasesApplicable":  [
+                                 "After12th"
+                             ],
+        "keySubjectsRequired":  "BIOLOGY,CHEMISTRY",
+        "typicalRoles":  [
+                             "Dentist",
+                             "Oral Surgeon",
+                             "Orthodontist",
+                             "Periodontist",
+                             "Prosthodontist"
+                         ],
+        "entranceExams":  [
+                              "NEET UG"
+                          ],
+        "salaryRange":  {
+                            "entry":  400000,
+                            "mid":  1200000,
+                            "senior":  4000000
+                        }
+    },
+    {
+        "id":  "sci.med.pharma",
+        "parentId":  "sci.med",
+        "level":  2,
+        "name":  "Pharmacy",
+        "shortCode":  "PHARMA",
+        "description":  "Study of drug composition, preparation, dispensing, and pharmaceutical sciences",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "BIOLOGY,CHEMISTRY",
+        "typicalRoles":  [
+                             "Pharmacist",
+                             "Clinical Pharmacist",
+                             "Drug Regulatory Affairs Officer",
+                             "Pharmaceutical Researcher",
+                             "QC Analyst"
+                         ],
+        "requiredDegrees":  [
+                                "B.Pharm",
+                                "D.Pharm",
+                                "M.Pharm",
+                                "Pharm.D"
+                            ],
+        "entranceExams":  [
+                              "GPAT",
+                              "State Pharmacy Entrance"
+                          ],
+        "salaryRange":  {
+                            "entry":  350000,
+                            "mid":  700000,
+                            "senior":  1800000
+                        }
+    },
+    {
+        "id":  "sci.med.nursing",
+        "parentId":  "sci.med",
+        "level":  2,
+        "name":  "Nursing",
+        "shortCode":  "NURSING",
+        "description":  "Patient care, health promotion, disease prevention — core of the healthcare delivery system",
+        "phasesApplicable":  [
+                                 "After12th"
+                             ],
+        "keySubjectsRequired":  "BIOLOGY",
+        "typicalRoles":  [
+                             "Staff Nurse",
+                             "ICU Nurse",
+                             "Community Health Nurse",
+                             "Nursing Superintendent",
+                             "Nurse Educator"
+                         ],
+        "requiredDegrees":  [
+                                "B.Sc Nursing",
+                                "GNM",
+                                "ANM",
+                                "M.Sc Nursing"
+                            ],
+        "salaryRange":  {
+                            "entry":  250000,
+                            "mid":  600000,
+                            "senior":  1500000
+                        }
+    },
+    {
+        "id":  "sci.med.physio",
+        "parentId":  "sci.med",
+        "level":  2,
+        "name":  "Physiotherapy \u0026 Rehabilitation",
+        "shortCode":  "PHYSIO",
+        "description":  "Restoring movement and function through physical interventions after injury, illness, or disability",
+        "phasesApplicable":  [
+                                 "After12th"
+                             ],
+        "keySubjectsRequired":  "BIOLOGY",
+        "typicalRoles":  [
+                             "Physiotherapist",
+                             "Sports Physiotherapist",
+                             "Neuro Physiotherapist",
+                             "Occupational Therapist"
+                         ],
+        "requiredDegrees":  [
+                                "BPT",
+                                "MPT"
+                            ],
+        "salaryRange":  {
+                            "entry":  300000,
+                            "mid":  700000,
+                            "senior":  1800000
+                        }
+    },
+    {
+        "id":  "sci.med.allied",
+        "parentId":  "sci.med",
+        "level":  2,
+        "name":  "Allied Health Sciences",
+        "shortCode":  "ALLIED",
+        "description":  "Diagnostic, technical, and therapeutic health services beyond medicine and nursing",
+        "phasesApplicable":  [
+                                 "After12th"
+                             ],
+        "keySubjectsRequired":  "BIOLOGY",
+        "typicalRoles":  [
+                             "Medical Lab Technologist",
+                             "Radiographer",
+                             "Optometrist",
+                             "Speech Therapist",
+                             "Audiologist",
+                             "Dietitian"
+                         ],
+        "requiredDegrees":  [
+                                "BMLT",
+                                "BRIT",
+                                "B.Optom",
+                                "B.Audiology"
+                            ]
+    },
+    {
+        "id":  "sci.pure",
+        "parentId":  "sci",
+        "level":  1,
+        "name":  "Pure Sciences",
+        "shortCode":  "PURE_SCI",
+        "description":  "Fundamental research and study of the natural world without immediate commercial application",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "icon":  "microscope",
+        "colorHex":  "#0891B2"
+    },
+    {
+        "id":  "sci.pure.physics",
+        "parentId":  "sci.pure",
+        "level":  2,
+        "name":  "Physics",
+        "shortCode":  "PHYSICS",
+        "description":  "Study of matter, energy, space, and time — from quantum mechanics to astrophysics",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "keySubjectsRequired":  "PHYSICS,MATHEMATICS",
+        "typicalRoles":  [
+                             "Research Scientist",
+                             "Physicist",
+                             "Professor",
+                             "BARC Scientist",
+                             "ISRO Scientist",
+                             "Defense Scientist"
+                         ],
+        "requiredDegrees":  [
+                                "B.Sc Physics",
+                                "M.Sc Physics",
+                                "PhD Physics"
+                            ],
+        "entranceExams":  [
+                              "IIT JAM",
+                              "JEST",
+                              "CSIR NET",
+                              "TIFR GS"
+                          ],
+        "salaryRange":  {
+                            "entry":  400000,
+                            "mid":  900000,
+                            "senior":  2500000
+                        }
+    },
+    {
+        "id":  "sci.pure.chem",
+        "parentId":  "sci.pure",
+        "level":  2,
+        "name":  "Chemistry",
+        "shortCode":  "CHEMISTRY",
+        "description":  "Study of matter, its properties, structure, composition, and the changes it undergoes",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "CHEMISTRY,MATHEMATICS",
+        "typicalRoles":  [
+                             "Research Chemist",
+                             "Analytical Chemist",
+                             "Quality Control Chemist",
+                             "Professor",
+                             "Forensic Scientist"
+                         ],
+        "requiredDegrees":  [
+                                "B.Sc Chemistry",
+                                "M.Sc Chemistry",
+                                "PhD Chemistry"
+                            ],
+        "entranceExams":  [
+                              "IIT JAM",
+                              "CSIR NET"
+                          ]
+    },
+    {
+        "id":  "sci.pure.math",
+        "parentId":  "sci.pure",
+        "level":  2,
+        "name":  "Mathematics \u0026 Statistics",
+        "shortCode":  "MATH_STAT",
+        "description":  "Abstract mathematical theory and applied statistics for research, data analysis, and actuarial science",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "keySubjectsRequired":  "MATHEMATICS",
+        "typicalRoles":  [
+                             "Mathematician",
+                             "Statistician",
+                             "Actuary",
+                             "Quantitative Analyst",
+                             "Professor",
+                             "Data Analyst"
+                         ],
+        "requiredDegrees":  [
+                                "B.Sc Mathematics",
+                                "B.Stat",
+                                "M.Sc Mathematics",
+                                "M.Stat",
+                                "PhD Mathematics"
+                            ],
+        "entranceExams":  [
+                              "ISI Entrance",
+                              "CMI Entrance",
+                              "IIT JAM",
+                              "CSIR NET"
+                          ]
+    },
+    {
+        "id":  "sci.pure.biotech",
+        "parentId":  "sci.pure",
+        "level":  2,
+        "name":  "Biotechnology \u0026 Life Sciences",
+        "shortCode":  "BIOTECH",
+        "description":  "Use of biological systems and organisms to develop products and technologies in healthcare, agriculture, and industry",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "BIOLOGY,CHEMISTRY",
+        "typicalRoles":  [
+                             "Biotechnologist",
+                             "Research Scientist",
+                             "Bioinformatics Analyst",
+                             "Genetic Counselor",
+                             "QC/QA in Pharma"
+                         ],
+        "requiredDegrees":  [
+                                "B.Sc Biotechnology",
+                                "M.Sc Biotechnology",
+                                "PhD",
+                                "M.Tech Biotech"
+                            ],
+        "entranceExams":  [
+                              "NEET (optional)",
+                              "IIT JAM Biology"
+                          ]
+    },
+    {
+        "id":  "sci.pure.env_sci",
+        "parentId":  "sci.pure",
+        "level":  2,
+        "name":  "Environmental Science",
+        "shortCode":  "ENV_SCI",
+        "description":  "Study of environmental systems, ecology, pollution, and conservation",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "BIOLOGY,CHEMISTRY",
+        "typicalRoles":  [
+                             "Environmental Scientist",
+                             "Ecologist",
+                             "Conservation Biologist",
+                             "EIA Specialist",
+                             "Climate Scientist"
+                         ]
+    },
+    {
+        "id":  "sci.agri",
+        "parentId":  "sci",
+        "level":  1,
+        "name":  "Agriculture \u0026 Veterinary Sciences",
+        "shortCode":  "AGRI",
+        "description":  "Science of cultivating soil, growing crops, raising livestock, and veterinary medicine",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "keySubjectsRequired":  "BIOLOGY,CHEMISTRY",
+        "typicalRoles":  [
+                             "Agriculture Officer",
+                             "Agronomist",
+                             "Agricultural Scientist",
+                             "Veterinarian",
+                             "Horticulturalist",
+                             "Agribusiness Manager"
+                         ],
+        "entranceExams":  [
+                              "ICAR AIEEA",
+                              "State Agriculture Entrance",
+                              "OUAT"
+                          ],
+        "icon":  "sprout",
+        "colorHex":  "#16A34A"
+    },
+    {
+        "id":  "com",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Commerce \u0026 Finance",
+        "shortCode":  "COMMERCE",
+        "description":  "Careers in trade, finance, accounting, economics, and business management",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "icon":  "trending-up",
+        "colorHex":  "#16A34A"
+    },
+    {
+        "id":  "com.ca",
+        "parentId":  "com",
+        "level":  1,
+        "name":  "Chartered Accountancy (CA)",
+        "shortCode":  "CA",
+        "description":  "Professional qualification covering auditing, taxation, financial reporting, and business law",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Chartered Accountant",
+                             "Auditor",
+                             "Tax Consultant",
+                             "CFO",
+                             "Financial Controller",
+                             "Forensic Accountant"
+                         ],
+        "requiredDegrees":  [
+                                "CA (ICAI) — Foundation, Intermediate, Final"
+                            ],
+        "entranceExams":  [
+                              "CA Foundation",
+                              "CA Intermediate"
+                          ],
+        "salaryRange":  {
+                            "entry":  700000,
+                            "mid":  1800000,
+                            "senior":  6000000
+                        },
+        "industryGrowthRate":  12.0,
+        "demandIndex":  92
+    },
+    {
+        "id":  "com.cs_corp",
+        "parentId":  "com",
+        "level":  1,
+        "name":  "Company Secretary (CS)",
+        "shortCode":  "CS",
+        "description":  "Corporate governance, compliance, legal advisory, and secretarial practice",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Company Secretary",
+                             "Corporate Compliance Officer",
+                             "Legal Advisor",
+                             "Board Advisor"
+                         ],
+        "requiredDegrees":  [
+                                "CS (ICSI)"
+                            ],
+        "entranceExams":  [
+                              "CS Foundation",
+                              "CS Executive"
+                          ],
+        "salaryRange":  {
+                            "entry":  500000,
+                            "mid":  1200000,
+                            "senior":  3500000
+                        }
+    },
+    {
+        "id":  "com.cma",
+        "parentId":  "com",
+        "level":  1,
+        "name":  "Cost \u0026 Management Accountancy (CMA)",
+        "shortCode":  "CMA",
+        "description":  "Cost analysis, management accounting, financial planning, and performance management",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Cost Accountant",
+                             "Management Accountant",
+                             "Financial Analyst",
+                             "Budget Analyst"
+                         ],
+        "requiredDegrees":  [
+                                "CMA (ICMAI)"
+                            ]
+    },
+    {
+        "id":  "com.finance",
+        "parentId":  "com",
+        "level":  1,
+        "name":  "Finance \u0026 Investment",
+        "shortCode":  "FINANCE",
+        "description":  "Management of money, investments, banking, capital markets, and financial risk",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Financial Analyst",
+                             "Investment Banker",
+                             "Portfolio Manager",
+                             "Risk Analyst",
+                             "CFA",
+                             "FRM"
+                         ],
+        "requiredDegrees":  [
+                                "B.Com Finance",
+                                "BBA Finance",
+                                "MBA Finance",
+                                "CFA Charter",
+                                "FRM"
+                            ],
+        "entranceExams":  [
+                              "CFA Level 1/2/3",
+                              "CAT (for MBA)",
+                              "CFA Institute exam"
+                          ],
+        "salaryRange":  {
+                            "entry":  600000,
+                            "mid":  1800000,
+                            "senior":  6000000
+                        },
+        "industryGrowthRate":  15.0,
+        "demandIndex":  90
+    },
+    {
+        "id":  "com.banking",
+        "parentId":  "com",
+        "level":  1,
+        "name":  "Banking \u0026 Insurance",
+        "shortCode":  "BANKING",
+        "description":  "Retail banking, corporate banking, insurance, and financial services operations",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Bank PO",
+                             "Credit Analyst",
+                             "Relationship Manager",
+                             "Insurance Underwriter",
+                             "Actuary"
+                         ],
+        "requiredDegrees":  [
+                                "B.Com",
+                                "BBA",
+                                "MBA",
+                                "Actuarial Science"
+                            ],
+        "entranceExams":  [
+                              "IBPS PO",
+                              "SBI PO",
+                              "RBI Grade B",
+                              "LIC AAO"
+                          ]
+    },
+    {
+        "id":  "com.econ",
+        "parentId":  "com",
+        "level":  1,
+        "name":  "Economics",
+        "shortCode":  "ECON",
+        "description":  "Study of production, distribution, consumption of goods and services; policy analysis; quantitative research",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Economist",
+                             "Economic Analyst",
+                             "Policy Researcher",
+                             "RBI Economist",
+                             "Development Economist",
+                             "Professor"
+                         ],
+        "requiredDegrees":  [
+                                "B.A./B.Sc Economics",
+                                "M.A./M.Sc Economics",
+                                "PhD Economics"
+                            ],
+        "entranceExams":  [
+                              "DSE Entrance",
+                              "ISI Entrance",
+                              "JNU Entrance"
+                          ]
+    },
+    {
+        "id":  "com.marketing",
+        "parentId":  "com",
+        "level":  1,
+        "name":  "Marketing \u0026 Brand Management",
+        "shortCode":  "MARKETING",
+        "description":  "Understanding consumer behavior to create, communicate, and deliver value through products and services",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Marketing Manager",
+                             "Brand Manager",
+                             "Digital Marketing Specialist",
+                             "Growth Manager",
+                             "CMO"
+                         ],
+        "requiredDegrees":  [
+                                "BBA",
+                                "MBA Marketing"
+                            ],
+        "salaryRange":  {
+                            "entry":  450000,
+                            "mid":  1200000,
+                            "senior":  4000000
+                        }
+    },
+    {
+        "id":  "com.startup",
+        "parentId":  "com",
+        "level":  1,
+        "name":  "Entrepreneurship \u0026 Startups",
+        "shortCode":  "STARTUP",
+        "description":  "Building and scaling new businesses; venture creation; startup ecosystem",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "Entrepreneurship"
+                             ],
+        "typicalRoles":  [
+                             "Founder/CEO",
+                             "Co-founder",
+                             "Product Manager",
+                             "Business Development Lead",
+                             "Startup Consultant"
+                         ],
+        "salaryRange":  {
+                            "entry":  0,
+                            "mid":  1000000,
+                            "senior":  10000000
+                        },
+        "industryGrowthRate":  25.0,
+        "demandIndex":  80
+    },
+    {
+        "id":  "arts",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Arts, Humanities \u0026 Social Sciences",
+        "shortCode":  "ARTS",
+        "description":  "Understanding human culture, society, language, history, politics, and creative expression",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "icon":  "book-open",
+        "colorHex":  "#EC4899"
+    },
+    {
+        "id":  "arts.law",
+        "parentId":  "arts",
+        "level":  1,
+        "name":  "Law",
+        "shortCode":  "LAW",
+        "description":  "Study and practice of legal systems, rights, justice, and dispute resolution",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Advocate/Lawyer",
+                             "Judge",
+                             "Legal Advisor",
+                             "Public Prosecutor",
+                             "Legal Researcher"
+                         ],
+        "requiredDegrees":  [
+                                "BA LLB",
+                                "BBA LLB",
+                                "B.Com LLB",
+                                "LLB (3yr after graduation)",
+                                "LLM"
+                            ],
+        "entranceExams":  [
+                              "CLAT",
+                              "AILET",
+                              "LSAT India"
+                          ],
+        "salaryRange":  {
+                            "entry":  400000,
+                            "mid":  1200000,
+                            "senior":  5000000
+                        },
+        "industryGrowthRate":  10.0,
+        "demandIndex":  82,
+        "icon":  "scale",
+        "colorHex":  "#78716C"
+    },
+    {
+        "id":  "arts.law.corporate",
+        "parentId":  "arts.law",
+        "level":  2,
+        "name":  "Corporate \u0026 Commercial Law",
+        "shortCode":  "CORP_LAW",
+        "description":  "M\u0026A, contracts, IPO, compliance, governance — law for business entities",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Corporate Lawyer",
+                             "In-house Counsel",
+                             "M\u0026A Lawyer",
+                             "Compliance Officer"
+                         ]
+    },
+    {
+        "id":  "arts.law.ip",
+        "parentId":  "arts.law",
+        "level":  2,
+        "name":  "Intellectual Property Law",
+        "shortCode":  "IP_LAW",
+        "description":  "Patents, trademarks, copyright, trade secrets — protecting creations of the mind"
+    },
+    {
+        "id":  "arts.law.criminal",
+        "parentId":  "arts.law",
+        "level":  2,
+        "name":  "Criminal Law",
+        "shortCode":  "CRIM_LAW",
+        "description":  "Prosecution and defense in criminal cases; criminal justice system"
+    },
+    {
+        "id":  "arts.psych",
+        "parentId":  "arts",
+        "level":  1,
+        "name":  "Psychology",
+        "shortCode":  "PSYCH",
+        "description":  "Scientific study of human mind and behavior across development, clinical, organizational, and social contexts",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Clinical Psychologist",
+                             "Counseling Psychologist",
+                             "Industrial Psychologist",
+                             "School Counselor",
+                             "Researcher"
+                         ],
+        "requiredDegrees":  [
+                                "B.A./B.Sc Psychology",
+                                "M.A./M.Sc Clinical Psychology",
+                                "M.Phil (for RCI license)",
+                                "PhD"
+                            ],
+        "entranceExams":  [
+                              "DUET",
+                              "BHU Entrance",
+                              "TISS"
+                          ],
+        "salaryRange":  {
+                            "entry":  350000,
+                            "mid":  800000,
+                            "senior":  2500000
+                        },
+        "industryGrowthRate":  15.0,
+        "demandIndex":  80
+    },
+    {
+        "id":  "arts.sociol",
+        "parentId":  "arts",
+        "level":  1,
+        "name":  "Sociology \u0026 Social Work",
+        "shortCode":  "SOCIOL",
+        "description":  "Study of society, social behavior, institutions, and social change; professional social work practice",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Sociologist",
+                             "Social Worker",
+                             "Development Worker",
+                             "NGO Professional",
+                             "Community Organizer"
+                         ],
+        "requiredDegrees":  [
+                                "B.A. Sociology",
+                                "BSW",
+                                "MSW",
+                                "M.A. Sociology"
+                            ]
+    },
+    {
+        "id":  "arts.poli_sci",
+        "parentId":  "arts",
+        "level":  1,
+        "name":  "Political Science \u0026 Public Administration",
+        "shortCode":  "POLI_SCI",
+        "description":  "Government, politics, policy analysis, international relations, and civil service",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Civil Servant (IAS/IPS)",
+                             "Political Analyst",
+                             "Policy Researcher",
+                             "Diplomat",
+                             "Professor"
+                         ],
+        "requiredDegrees":  [
+                                "B.A. Political Science",
+                                "M.A. Political Science",
+                                "UPSC Civil Services"
+                            ]
+    },
+    {
+        "id":  "arts.journalism",
+        "parentId":  "arts",
+        "level":  1,
+        "name":  "Journalism \u0026 Mass Communication",
+        "shortCode":  "JOURNALISM",
+        "description":  "News reporting, media production, public relations, advertising, and digital content creation",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Journalist",
+                             "News Anchor",
+                             "PR Manager",
+                             "Content Strategist",
+                             "Digital Media Manager",
+                             "Filmmaker"
+                         ],
+        "requiredDegrees":  [
+                                "BJMC",
+                                "BA Journalism",
+                                "MJMC"
+                            ],
+        "entranceExams":  [
+                              "IIMC Entrance",
+                              "XIC Entrance",
+                              "AEJMC exams"
+                          ]
+    },
+    {
+        "id":  "arts.education",
+        "parentId":  "arts",
+        "level":  1,
+        "name":  "Education \u0026 Teaching",
+        "shortCode":  "EDUCATION",
+        "description":  "Teaching profession, curriculum design, educational technology, and academic leadership",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "typicalRoles":  [
+                             "School Teacher",
+                             "Professor/Lecturer",
+                             "Curriculum Designer",
+                             "EdTech Content Creator",
+                             "School Principal"
+                         ],
+        "requiredDegrees":  [
+                                "B.Ed",
+                                "D.El.Ed",
+                                "M.Ed",
+                                "UGC NET"
+                            ],
+        "entranceExams":  [
+                              "TET",
+                              "CTET",
+                              "UGC NET",
+                              "KVS Exam"
+                          ]
+    },
+    {
+        "id":  "arts.language",
+        "parentId":  "arts",
+        "level":  1,
+        "name":  "Language \u0026 Literature",
+        "shortCode":  "LANGUAGE",
+        "description":  "Study of languages — their structure, evolution, literature, and use in communication",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Writer",
+                             "Translator",
+                             "Interpreter",
+                             "Professor of Literature",
+                             "Content Writer",
+                             "Copy Editor"
+                         ],
+        "requiredDegrees":  [
+                                "B.A. English/Hindi/Regional Language",
+                                "M.A.",
+                                "UGC NET"
+                            ]
+    },
+    {
+        "id":  "design",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Design \u0026 Creative Arts",
+        "shortCode":  "DESIGN",
+        "description":  "Creative disciplines combining aesthetics, functionality, and user experience across visual and spatial domains",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "icon":  "palette",
+        "colorHex":  "#F97316"
+    },
+    {
+        "id":  "design.arch",
+        "parentId":  "design",
+        "level":  1,
+        "name":  "Architecture",
+        "shortCode":  "ARCH",
+        "description":  "Design of buildings and built environments that are functional, safe, sustainable, and aesthetically meaningful",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterPostGraduation"
+                             ],
+        "domain":  "Architecture",
+        "keySubjectsRequired":  "MATHEMATICS",
+        "typicalRoles":  [
+                             "Architect",
+                             "Urban Designer",
+                             "Conservation Architect",
+                             "BIM Specialist",
+                             "Landscape Architect"
+                         ],
+        "requiredDegrees":  [
+                                "B.Arch (5 years)",
+                                "M.Arch",
+                                "MBA in Construction Management"
+                            ],
+        "entranceExams":  [
+                              "NATA",
+                              "JEE Paper 2"
+                          ],
+        "salaryRange":  {
+                            "entry":  400000,
+                            "mid":  1000000,
+                            "senior":  3500000
+                        },
+        "industryGrowthRate":  11.0,
+        "demandIndex":  78
+    },
+    {
+        "id":  "design.arch.urban",
+        "parentId":  "design.arch",
+        "level":  2,
+        "name":  "Urban Design \u0026 Planning",
+        "shortCode":  "URBAN",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterPostGraduation"
+                             ],
+        "domain":  "Architecture",
+        "description":  "Planning cities and regions for sustainable growth, mobility, and quality of life",
+        "typicalRoles":  [
+                             "Urban Planner",
+                             "Urban Designer",
+                             "City Development Authority Officer",
+                             "Transport Planner"
+                         ]
+    },
+    {
+        "id":  "design.arch.landscape",
+        "parentId":  "design.arch",
+        "level":  2,
+        "name":  "Landscape Architecture",
+        "shortCode":  "LANDSCAPE",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterPostGraduation"
+                             ],
+        "domain":  "Architecture",
+        "description":  "Design of outdoor spaces — parks, gardens, public spaces, ecological corridors"
+    },
+    {
+        "id":  "design.interior",
+        "parentId":  "design",
+        "level":  1,
+        "name":  "Interior Design",
+        "shortCode":  "INTERIOR",
+        "description":  "Design and decoration of interior spaces for functionality, aesthetics, and user well-being",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Interior Designer",
+                             "Space Planner",
+                             "Furniture Designer",
+                             "Set Designer"
+                         ],
+        "requiredDegrees":  [
+                                "B.Des Interior Design",
+                                "Diploma in Interior Design"
+                            ]
+    },
+    {
+        "id":  "design.fashion",
+        "parentId":  "design",
+        "level":  1,
+        "name":  "Fashion Design \u0026 Textile",
+        "shortCode":  "FASHION",
+        "description":  "Design of clothing, accessories, and textiles with attention to trends, materials, and construction",
+        "phasesApplicable":  [
+                                 "After12th"
+                             ],
+        "typicalRoles":  [
+                             "Fashion Designer",
+                             "Textile Designer",
+                             "Merchandiser",
+                             "Costume Designer",
+                             "Stylist"
+                         ],
+        "entranceExams":  [
+                              "NIFT Entrance",
+                              "NID Entrance",
+                              "IIAD Entrance"
+                          ]
+    },
+    {
+        "id":  "design.graphic",
+        "parentId":  "design",
+        "level":  1,
+        "name":  "Graphic Design \u0026 Visual Communication",
+        "shortCode":  "GRAPHIC",
+        "description":  "Creation of visual content to communicate messages through typography, imagery, and color",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "Upskilling"
+                             ],
+        "typicalRoles":  [
+                             "Graphic Designer",
+                             "Brand Designer",
+                             "Motion Graphics Artist",
+                             "Creative Director"
+                         ],
+        "requiredDegrees":  [
+                                "B.Des Graphic Design",
+                                "B.FA",
+                                "Diploma in Graphic Design"
+                            ]
+    },
+    {
+        "id":  "design.ui_ux",
+        "parentId":  "design",
+        "level":  1,
+        "name":  "UI/UX Design \u0026 Product Design",
+        "shortCode":  "UI_UX",
+        "description":  "Designing digital products — apps, websites, software — for usability, accessibility, and delight",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "Upskilling",
+                                 "CareerSwitch"
+                             ],
+        "typicalRoles":  [
+                             "UX Designer",
+                             "UI Designer",
+                             "Product Designer",
+                             "Interaction Designer",
+                             "UX Researcher"
+                         ],
+        "requiredDegrees":  [
+                                "B.Des",
+                                "B.Tech + UX Certification",
+                                "Diploma in UX"
+                            ],
+        "recommendedCourses":  [
+                                   "Figma",
+                                   "Adobe XD",
+                                   "User Research",
+                                   "Prototyping",
+                                   "Accessibility",
+                                   "Design Thinking"
+                               ],
+        "salaryRange":  {
+                            "entry":  500000,
+                            "mid":  1400000,
+                            "senior":  4000000
+                        }
+    },
+    {
+        "id":  "design.animation",
+        "parentId":  "design",
+        "level":  1,
+        "name":  "Animation, VFX \u0026 Gaming",
+        "shortCode":  "ANIMATION",
+        "description":  "Creation of animated content, visual effects, and game design for film, TV, games, and digital media",
+        "phasesApplicable":  [
+                                 "After12th"
+                             ],
+        "typicalRoles":  [
+                             "Animator",
+                             "VFX Artist",
+                             "3D Modeler",
+                             "Game Designer",
+                             "Motion Designer"
+                         ],
+        "requiredDegrees":  [
+                                "B.Sc Animation",
+                                "B.Des Animation",
+                                "Diploma in VFX"
+                            ]
+    },
+    {
+        "id":  "design.fine_arts",
+        "parentId":  "design",
+        "level":  1,
+        "name":  "Fine Arts \u0026 Performing Arts",
+        "shortCode":  "FINE_ARTS",
+        "description":  "Visual arts (painting, sculpture, photography) and performing arts (music, dance, theatre)",
+        "phasesApplicable":  [
+                                 "After12th"
+                             ],
+        "typicalRoles":  [
+                             "Artist",
+                             "Art Director",
+                             "Musician",
+                             "Dancer",
+                             "Theatre Artist",
+                             "Photography Professional"
+                         ],
+        "requiredDegrees":  [
+                                "B.FA",
+                                "B.Mus",
+                                "Diploma in Fine Arts"
+                            ]
+    },
+    {
+        "id":  "design.film",
+        "parentId":  "design",
+        "level":  1,
+        "name":  "Film \u0026 Media Production",
+        "shortCode":  "FILM",
+        "description":  "Direction, production, cinematography, editing, and screenwriting for film, TV, and digital media",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Film Director",
+                             "Cinematographer",
+                             "Video Editor",
+                             "Screenwriter",
+                             "Producer"
+                         ],
+        "requiredDegrees":  [
+                                "B.Sc Film Studies",
+                                "FTII Diploma",
+                                "Degree in Mass Communication"
+                            ]
+    },
+    {
+        "id":  "govt",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Government Services \u0026 Defence",
+        "shortCode":  "GOVT",
+        "description":  "Public service, administration, defence, banking, railways, and other government sector careers",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "GovernmentJobs"
+                             ],
+        "icon":  "landmark",
+        "colorHex":  "#B45309"
+    },
+    {
+        "id":  "govt.upsc",
+        "parentId":  "govt",
+        "level":  1,
+        "name":  "UPSC Civil Services (IAS/IPS/IFS)",
+        "shortCode":  "UPSC",
+        "description":  "Indian Administrative Service, Indian Police Service, and Indian Foreign Service — top tier civil services",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "GovernmentJobs"
+                             ],
+        "typicalRoles":  [
+                             "District Collector/IAS",
+                             "SP/IPS Officer",
+                             "Indian Foreign Service Officer"
+                         ],
+        "requiredDegrees":  [
+                                "Any graduation (any stream)"
+                            ],
+        "entranceExams":  [
+                              "UPSC CSE Prelims + Mains + Interview"
+                          ],
+        "salaryRange":  {
+                            "entry":  700000,
+                            "mid":  1200000,
+                            "senior":  2500000
+                        }
+    },
+    {
+        "id":  "govt.defence_officer",
+        "parentId":  "govt",
+        "level":  1,
+        "name":  "Defence Services (Officer Cadre)",
+        "shortCode":  "DEFENCE",
+        "description":  "Commissioned officer in the Indian Army, Navy, or Air Force",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "GovernmentJobs"
+                             ],
+        "typicalRoles":  [
+                             "Army Officer",
+                             "Naval Officer",
+                             "Air Force Officer",
+                             "Short Service Commission Officer"
+                         ],
+        "requiredDegrees":  [
+                                "12th (NDA)",
+                                "Graduation (CDS)",
+                                "B.Tech (TES/UES)"
+                            ],
+        "entranceExams":  [
+                              "NDA",
+                              "CDS",
+                              "AFCAT",
+                              "TES",
+                              "SSB Interview"
+                          ]
+    },
+    {
+        "id":  "govt.banking",
+        "parentId":  "govt",
+        "level":  1,
+        "name":  "Government Banking \u0026 Finance",
+        "shortCode":  "GOVT_BANK",
+        "description":  "Probationary Officers, Clerks, and specialist positions in public sector banks and financial institutions",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "GovernmentJobs"
+                             ],
+        "typicalRoles":  [
+                             "Bank PO",
+                             "Bank Clerk",
+                             "RBI Grade B Officer",
+                             "NABARD Grade A/B",
+                             "LIC AAO"
+                         ],
+        "entranceExams":  [
+                              "IBPS PO",
+                              "IBPS Clerk",
+                              "SBI PO",
+                              "SBI Clerk",
+                              "RBI Grade B",
+                              "NABARD Grade A"
+                          ]
+    },
+    {
+        "id":  "govt.ssc",
+        "parentId":  "govt",
+        "level":  1,
+        "name":  "Staff Selection Commission (SSC)",
+        "shortCode":  "SSC",
+        "description":  "Central government clerical, executive, and technical positions filled via SSC exams",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "GovernmentJobs"
+                             ],
+        "typicalRoles":  [
+                             "SSC CGL Inspector",
+                             "Tax Assistant",
+                             "SSC CHSL LDC",
+                             "Multi-Tasking Staff"
+                         ],
+        "entranceExams":  [
+                              "SSC CGL",
+                              "SSC CHSL",
+                              "SSC MTS",
+                              "SSC CPO"
+                          ]
+    },
+    {
+        "id":  "govt.railways",
+        "parentId":  "govt",
+        "level":  1,
+        "name":  "Indian Railways (RRB)",
+        "shortCode":  "RAILWAYS",
+        "description":  "Technical, non-technical, and officer grade positions in Indian Railways",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "GovernmentJobs"
+                             ],
+        "typicalRoles":  [
+                             "Junior Engineer (RRB JE)",
+                             "Group D Technician",
+                             "RRB NTPC Clerk/ASM",
+                             "IRTS Officer"
+                         ],
+        "entranceExams":  [
+                              "RRB JE",
+                              "RRB NTPC",
+                              "RRB Group D",
+                              "IRMS"
+                          ]
+    },
+    {
+        "id":  "govt.psu_gate",
+        "parentId":  "govt",
+        "level":  1,
+        "name":  "PSU via GATE (ONGC/NTPC/BHEL/ISRO)",
+        "shortCode":  "PSU_GATE",
+        "description":  "Technical officer positions in public sector undertakings — recruited via GATE scores",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "GovernmentJobs"
+                             ],
+        "typicalRoles":  [
+                             "Engineer Trainee",
+                             "Scientific Officer",
+                             "Technical Officer at NTPC/ONGC/BHEL/ISRO/DRDO"
+                         ],
+        "requiredDegrees":  [
+                                "B.Tech (relevant branch)"
+                            ],
+        "entranceExams":  [
+                              "GATE",
+                              "DRDO CEPTAM",
+                              "ISRO Technical Assistant"
+                          ]
+    },
+    {
+        "id":  "govt.teaching_govt",
+        "parentId":  "govt",
+        "level":  1,
+        "name":  "Government Teaching",
+        "shortCode":  "GOVT_TEACH",
+        "description":  "Teaching positions in government schools, colleges, and central institutions",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "GovernmentJobs"
+                             ],
+        "typicalRoles":  [
+                             "KVS Teacher",
+                             "NVS Teacher",
+                             "Govt School Teacher",
+                             "College Lecturer",
+                             "Professor (Central University)"
+                         ],
+        "requiredDegrees":  [
+                                "B.Ed for school",
+                                "UGC NET/PhD for college"
+                            ],
+        "entranceExams":  [
+                              "CTET",
+                              "TET",
+                              "KVS Exam",
+                              "NVS Exam",
+                              "UGC NET"
+                          ]
+    },
+    {
+        "id":  "govt.police_para",
+        "parentId":  "govt",
+        "level":  1,
+        "name":  "Police \u0026 Paramilitary Services",
+        "shortCode":  "POLICE",
+        "description":  "State police, central armed police (CRPF/BSF/CISF/SSB/ITBP), and intelligence services",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "GovernmentJobs"
+                             ],
+        "typicalRoles":  [
+                             "Sub-Inspector of Police",
+                             "Constable",
+                             "CRPF/BSF Constable/ASI",
+                             "IB ACIO"
+                         ],
+        "entranceExams":  [
+                              "State PSC/Police Exams",
+                              "CAPF AC",
+                              "BSF/CRPF/CISF Recruitment",
+                              "IB ACIO"
+                          ]
+    },
+    {
+        "id":  "hosp",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Hospitality, Tourism \u0026 Aviation",
+        "shortCode":  "HOSP",
+        "description":  "Service industry careers in hotels, restaurants, travel, tourism, and aviation",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th"
+                             ],
+        "icon":  "plane",
+        "colorHex":  "#0EA5E9"
+    },
+    {
+        "id":  "hosp.hotel_mgmt",
+        "parentId":  "hosp",
+        "level":  1,
+        "name":  "Hotel \u0026 Hospitality Management",
+        "shortCode":  "HOTEL",
+        "description":  "Operations of hotels, restaurants, events, and hospitality businesses",
+        "phasesApplicable":  [
+                                 "After12th"
+                             ],
+        "typicalRoles":  [
+                             "Hotel Manager",
+                             "Front Office Executive",
+                             "F\u0026B Manager",
+                             "Chef",
+                             "Event Planner",
+                             "Revenue Manager"
+                         ],
+        "requiredDegrees":  [
+                                "B.Sc Hotel Management",
+                                "BHM",
+                                "Diploma in Hospitality"
+                            ],
+        "entranceExams":  [
+                              "NCHMCT JEE",
+                              "IHM Entrance"
+                          ]
+    },
+    {
+        "id":  "hosp.aviation",
+        "parentId":  "hosp",
+        "level":  1,
+        "name":  "Aviation (Pilot \u0026 Cabin Crew)",
+        "shortCode":  "AVIATION",
+        "description":  "Commercial piloting and cabin crew careers in airlines",
+        "phasesApplicable":  [
+                                 "After12th"
+                             ],
+        "keySubjectsRequired":  "PHYSICS,MATHEMATICS",
+        "typicalRoles":  [
+                             "Commercial Pilot",
+                             "Cabin Crew/Flight Attendant",
+                             "Ground Staff",
+                             "Air Traffic Controller"
+                         ],
+        "requiredDegrees":  [
+                                "CPL (Commercial Pilot License)",
+                                "BBA Aviation",
+                                "Diploma in Aviation Management"
+                            ],
+        "entranceExams":  [
+                              "DGCA CPL",
+                              "ATCO Exam",
+                              "NDA (Air Force)"
+                          ]
+    },
+    {
+        "id":  "voc",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Vocational \u0026 Skilled Trades",
+        "shortCode":  "VOCATIONAL",
+        "description":  "Hands-on skilled trade careers through ITI, polytechnic diploma, and vocational certification",
+        "phasesApplicable":  [
+                                 "After10th"
+                             ],
+        "icon":  "wrench",
+        "colorHex":  "#6B7280"
+    },
+    {
+        "id":  "voc.iti",
+        "parentId":  "voc",
+        "level":  1,
+        "name":  "Industrial Training Institute (ITI)",
+        "shortCode":  "ITI",
+        "description":  "Certified skilled trades training: electrician, fitter, welder, mechanic, machinist, plumber",
+        "phasesApplicable":  [
+                                 "After10th"
+                             ],
+        "typicalRoles":  [
+                             "Electrician",
+                             "Fitter",
+                             "Welder",
+                             "Turner",
+                             "Plumber",
+                             "Mechanic",
+                             "Machinist",
+                             "Draughtsman"
+                         ],
+        "requiredDegrees":  [
+                                "ITI (1–2 years)",
+                                "Apprenticeship"
+                            ]
+    },
+    {
+        "id":  "voc.diploma",
+        "parentId":  "voc",
+        "level":  1,
+        "name":  "Polytechnic Diploma",
+        "shortCode":  "POLYTECHNIC",
+        "description":  "3-year polytechnic diploma in engineering streams — bridge to degree or direct employment",
+        "phasesApplicable":  [
+                                 "After10th"
+                             ],
+        "typicalRoles":  [
+                             "Junior Engineer",
+                             "Technician",
+                             "Supervisor",
+                             "Lab Assistant"
+                         ],
+        "requiredDegrees":  [
+                                "Diploma in Civil/Mechanical/Electrical/CS/ECE/Chemical Engineering"
+                            ],
+        "entranceExams":  [
+                              "State Polytechnic Entrance (JEE/DET depending on state)"
+                          ]
+    },
+    {
+        "id":  "mgmt",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Management \u0026 Business Administration",
+        "shortCode":  "MANAGEMENT",
+        "description":  "Leadership, strategy, operations, HR, and business management education and careers",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation"
+                             ],
+        "icon":  "briefcase",
+        "colorHex":  "#0F766E"
+    },
+    {
+        "id":  "mgmt.mba",
+        "parentId":  "mgmt",
+        "level":  1,
+        "name":  "MBA / PGDM",
+        "shortCode":  "MBA",
+        "description":  "Master of Business Administration — leadership in finance, marketing, operations, strategy, HR",
+        "phasesApplicable":  [
+                                 "AfterGraduation"
+                             ],
+        "typicalRoles":  [
+                             "Management Consultant",
+                             "Business Analyst",
+                             "Marketing Manager",
+                             "Operations Manager",
+                             "Product Manager",
+                             "CFO"
+                         ],
+        "requiredDegrees":  [
+                                "MBA",
+                                "PGDM"
+                            ],
+        "entranceExams":  [
+                              "CAT",
+                              "XAT",
+                              "GMAT",
+                              "SNAP",
+                              "IIFT",
+                              "MAT"
+                          ],
+        "salaryRange":  {
+                            "entry":  800000,
+                            "mid":  2000000,
+                            "senior":  7000000
+                        },
+        "industryGrowthRate":  14.0,
+        "demandIndex":  88
+    },
+    {
+        "id":  "mgmt.operations",
+        "parentId":  "mgmt",
+        "level":  1,
+        "name":  "Operations \u0026 Supply Chain",
+        "shortCode":  "OPS",
+        "description":  "End-to-end management of production, procurement, logistics, and distribution",
+        "typicalRoles":  [
+                             "Supply Chain Manager",
+                             "Logistics Manager",
+                             "Procurement Manager",
+                             "Operations Director"
+                         ]
+    },
+    {
+        "id":  "mgmt.hr",
+        "parentId":  "mgmt",
+        "level":  1,
+        "name":  "Human Resources Management",
+        "shortCode":  "HR",
+        "description":  "Talent acquisition, people development, organizational culture, and HR strategy",
+        "typicalRoles":  [
+                             "HR Manager",
+                             "Talent Acquisition Lead",
+                             "L\u0026D Manager",
+                             "HRBP",
+                             "CHRO"
+                         ]
+    },
+    {
+        "id":  "sports",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Sports \u0026 Physical Education",
+        "shortCode":  "SPORTS",
+        "description":  "Professional sport, coaching, sports science, sports management, and physical education",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation"
+                             ],
+        "icon":  "trophy",
+        "colorHex":  "#84CC16"
+    },
+    {
+        "id":  "med",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Medical \u0026 Health Sciences",
+        "shortCode":  "MEDICINE",
+        "description":  "Diagnosis, treatment, surgical intervention, and prevention of human disease and promotion of health",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation"
+                             ],
+        "domain":  "Healthcare",
+        "subdomain":  "",
+        "specialization":  "",
+        "eligibleEducationLevelsJson":  "[\"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "activity",
+        "colorHex":  "#EF4444"
+    },
+    {
+        "id":  "med.clinical",
+        "parentId":  "med",
+        "level":  1,
+        "name":  "Clinical Medicine",
+        "shortCode":  "CLIN_MED",
+        "description":  "Direct non-surgical patient diagnosis, long-term disease management, and specialized therapies",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation"
+                             ],
+        "domain":  "Healthcare",
+        "subdomain":  "Clinical Medicine",
+        "specialization":  "",
+        "icon":  "heart",
+        "colorHex":  "#DC2626"
+    },
+    {
+        "id":  "med.clinical.gen_med",
+        "parentId":  "med.clinical",
+        "level":  2,
+        "name":  "General Medicine",
+        "shortCode":  "GEN_MED",
+        "description":  "Comprehensive diagnostic evaluation, differential diagnosis, and longitudinal treatment of multisystem conditions",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation"
+                             ],
+        "domain":  "Healthcare",
+        "subdomain":  "Clinical Medicine",
+        "specialization":  "Internal Medicine",
+        "eligibleEducationLevelsJson":  "[\"Graduation\", \"Postgraduation\", \"Recently Graduated\"]",
+        "traitWeightsJson":  "{\"diagnostic_reasoning\": 0.95, \"patient_communication\": 0.88, \"long_term_patient_management\": 0.92, \"differential_diagnosis\": 0.96, \"clinical_decision_making\": 0.9, \"procedural_interest\": 0.35, \"manual_precision\": 0.4, \"acute_interventions\": 0.5}",
+        "aptitudeDimensionsJson":  "{\"analytical_reasoning\": 0.95, \"deductive_logic\": 0.92, \"complex_synthesis\": 0.94}",
+        "workStyleDimensionsJson":  "{\"investigative\": 0.95, \"patient_facing\": 0.9, \"structured_review\": 0.85}",
+        "typicalRoles":  [
+                             "Physician",
+                             "Internist",
+                             "Consultant Physician",
+                             "Medical Officer"
+                         ],
+        "requiredDegrees":  [
+                                "MBBS",
+                                "MD General Medicine",
+                                "DNB Internal Medicine"
+                            ],
+        "icon":  "stethoscope",
+        "colorHex":  "#B91C1C"
+    },
+    {
+        "id":  "med.surg.gen_surg",
+        "parentId":  "med",
+        "level":  2,
+        "name":  "General Surgery",
+        "shortCode":  "GEN_SURG",
+        "description":  "Operative management, hands-on surgical interventions, acute trauma care, and perioperative treatment",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation"
+                             ],
+        "domain":  "Healthcare",
+        "subdomain":  "Surgical Medicine",
+        "specialization":  "General Surgery",
+        "eligibleEducationLevelsJson":  "[\"Graduation\", \"Postgraduation\", \"Recently Graduated\"]",
+        "traitWeightsJson":  "{\"procedural_interest\": 0.98, \"manual_precision\": 0.96, \"acute_decision_making\": 0.95, \"stress_tolerance\": 0.92, \"spatial_reasoning\": 0.88, \"diagnostic_reasoning\": 0.75, \"long_term_patient_management\": 0.45, \"patient_communication\": 0.65}",
+        "aptitudeDimensionsJson":  "{\"fine_motor_control\": 0.96, \"spatial_orientation\": 0.9, \"rapid_decision_under_pressure\": 0.95}",
+        "workStyleDimensionsJson":  "{\"hands_on_procedural\": 0.98, \"high_pressure_theater\": 0.95, \"fast_paced_intervention\": 0.92}",
+        "typicalRoles":  [
+                             "General Surgeon",
+                             "Surgical Consultant",
+                             "Trauma Surgeon"
+                         ],
+        "requiredDegrees":  [
+                                "MBBS",
+                                "MS General Surgery",
+                                "DNB Surgery",
+                                "FRCS"
+                            ],
+        "icon":  "scissors",
+        "colorHex":  "#991B1B"
+    },
+    {
+        "id":  "med.clinical.peds",
+        "parentId":  "med.clinical",
+        "level":  2,
+        "name":  "Pediatrics",
+        "shortCode":  "PEDIATRICS",
+        "description":  "Medical care, growth monitoring, developmental assessment, and disease management for infants, children, and adolescents",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation"
+                             ],
+        "domain":  "Healthcare",
+        "subdomain":  "Clinical Medicine",
+        "specialization":  "Pediatric Medicine",
+        "eligibleEducationLevelsJson":  "[\"Graduation\", \"Postgraduation\", \"Recently Graduated\"]",
+        "traitWeightsJson":  "{\"child_interaction\": 0.98, \"family_communication\": 0.95, \"empathy_and_patience\": 0.96, \"diagnostic_reasoning\": 0.88, \"growth_development_tracking\": 0.92, \"long_term_patient_management\": 0.9, \"procedural_interest\": 0.4, \"manual_precision\": 0.45}",
+        "aptitudeDimensionsJson":  "{\"observational_acuity\": 0.95, \"indirect_symptom_inference\": 0.92, \"emotional_intelligence\": 0.96}",
+        "workStyleDimensionsJson":  "{\"collaborative_family_care\": 0.98, \"longitudinal_nurturing\": 0.94, \"gentle_clinical_environment\": 0.9}",
+        "typicalRoles":  [
+                             "Pediatrician",
+                             "Child Health Specialist",
+                             "Pediatric Consultant"
+                         ],
+        "requiredDegrees":  [
+                                "MBBS",
+                                "MD Pediatrics",
+                                "DCH",
+                                "DNB Pediatrics"
+                            ],
+        "icon":  "smile",
+        "colorHex":  "#F87171"
+    },
+    {
+        "id":  "med.diag.radiology",
+        "parentId":  "med",
+        "level":  2,
+        "name":  "Radiology",
+        "shortCode":  "RADIOLOGY",
+        "description":  "Diagnostic imaging interpretation including MRI, CT, Ultrasound, and image-guided interventional procedures",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation"
+                             ],
+        "domain":  "Healthcare",
+        "subdomain":  "Diagnostics",
+        "specialization":  "Diagnostic Radiology",
+        "eligibleEducationLevelsJson":  "[\"Graduation\", \"Postgraduation\"]",
+        "traitWeightsJson":  "{\"image_interpretation\": 0.98, \"spatial_reasoning\": 0.94, \"technology_adaptation\": 0.9, \"diagnostic_reasoning\": 0.92, \"patient_communication\": 0.35, \"procedural_interest\": 0.55}",
+        "typicalRoles":  [
+                             "Radiologist",
+                             "Interventional Radiologist",
+                             "Sonologist"
+                         ],
+        "requiredDegrees":  [
+                                "MBBS",
+                                "MD Radio-Diagnosis",
+                                "DMRD"
+                            ],
+        "icon":  "film",
+        "colorHex":  "#7F1D1D"
+    },
+    {
+        "id":  "med.diag.pathology",
+        "parentId":  "med",
+        "level":  2,
+        "name":  "Pathology",
+        "shortCode":  "PATHOLOGY",
+        "description":  "Laboratory analysis of tissue, blood, and body fluids to diagnose disease mechanisms and oncology staging",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation"
+                             ],
+        "domain":  "Healthcare",
+        "subdomain":  "Diagnostics",
+        "specialization":  "Histopathology \u0026 Hematology",
+        "eligibleEducationLevelsJson":  "[\"Graduation\", \"Postgraduation\"]",
+        "traitWeightsJson":  "{\"microscopic_analysis\": 0.98, \"laboratory_precision\": 0.95, \"analytical_reasoning\": 0.92, \"oncology_correlation\": 0.88, \"patient_communication\": 0.2}",
+        "typicalRoles":  [
+                             "Pathologist",
+                             "Histopathologist",
+                             "Clinical Biochemist"
+                         ],
+        "requiredDegrees":  [
+                                "MBBS",
+                                "MD Pathology",
+                                "DCP"
+                            ],
+        "icon":  "search",
+        "colorHex":  "#991B1B"
+    },
+    {
+        "id":  "tech.cyber",
+        "parentId":  "sci",
+        "level":  1,
+        "name":  "Cybersecurity",
+        "shortCode":  "CYBERSEC",
+        "description":  "Protecting systems, networks, programs, devices and data from cyber attacks, unauthorized access, and exploitation",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation",
+                                 "CareerSwitch"
+                             ],
+        "domain":  "Technology",
+        "subdomain":  "Cybersecurity",
+        "specialization":  "",
+        "icon":  "shield",
+        "colorHex":  "#059669"
+    },
+    {
+        "id":  "tech.cyber.soc",
+        "parentId":  "tech.cyber",
+        "level":  2,
+        "name":  "Cybersecurity Analyst / SOC Analyst",
+        "shortCode":  "SOC_ANALYST",
+        "description":  "Real-time threat monitoring, SIEM log analysis, security alert triage, and frontline incident response",
+        "phasesApplicable":  [
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation",
+                                 "CareerSwitch"
+                             ],
+        "domain":  "Technology",
+        "subdomain":  "Security Operations",
+        "specialization":  "Defensive Security",
+        "eligibleEducationLevelsJson":  "[\"After12th\", \"Graduation\", \"Postgraduation\", \"CareerSwitch\"]",
+        "traitWeightsJson":  "{\"threat_detection\": 0.96, \"log_analysis\": 0.94, \"incident_response\": 0.92, \"siem_operations\": 0.95, \"alert_triage\": 0.9, \"offensive_exploitation\": 0.4, \"malware_reverse_engineering\": 0.5, \"security_governance\": 0.45}",
+        "aptitudeDimensionsJson":  "{\"pattern_recognition\": 0.94, \"rapid_triage\": 0.92, \"system_monitoring\": 0.95}",
+        "workStyleDimensionsJson":  "{\"soc_operations\": 0.96, \"incident_handling\": 0.92, \"structured_playbooks\": 0.9}",
+        "typicalRoles":  [
+                             "SOC Analyst (L1/L2)",
+                             "Security Operations Engineer",
+                             "Cyber Incident Responder"
+                         ],
+        "requiredDegrees":  [
+                                "B.Tech CS/IT",
+                                "BCA",
+                                "B.Sc Cyber Security",
+                                "Certifications (CompTIA CySA+, CEH)"
+                            ],
+        "icon":  "eye",
+        "colorHex":  "#10B981"
+    },
+    {
+        "id":  "tech.cyber.pentest",
+        "parentId":  "tech.cyber",
+        "level":  2,
+        "name":  "Penetration Tester",
+        "shortCode":  "PENTESTER",
+        "description":  "Ethical hacking, vulnerability discovery, simulated adversary attacks, network and web application penetration testing",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation",
+                                 "CareerSwitch"
+                             ],
+        "domain":  "Technology",
+        "subdomain":  "Offensive Security",
+        "specialization":  "Offensive Security",
+        "eligibleEducationLevelsJson":  "[\"Graduation\", \"Postgraduation\", \"CareerSwitch\"]",
+        "traitWeightsJson":  "{\"offensive_exploitation\": 0.98, \"vulnerability_assessment\": 0.95, \"exploit_development\": 0.9, \"web_app_security\": 0.92, \"creative_problem_solving\": 0.94, \"threat_detection\": 0.5, \"log_analysis\": 0.45, \"grc_compliance\": 0.25}",
+        "aptitudeDimensionsJson":  "{\"out_of_the_box_thinking\": 0.96, \"adversarial_modeling\": 0.95, \"deep_technical_probing\": 0.92}",
+        "workStyleDimensionsJson":  "{\"offensive_testing\": 0.98, \"autonomous_research\": 0.92, \"technical_reporting\": 0.88}",
+        "typicalRoles":  [
+                             "Penetration Tester",
+                             "Ethical Hacker",
+                             "Red Team Specialist",
+                             "Security Researcher"
+                         ],
+        "requiredDegrees":  [
+                                "B.Tech CS",
+                                "Certifications (OSCP, CEH, PNPT, GPEN)"
+                            ],
+        "icon":  "target",
+        "colorHex":  "#047857"
+    },
+    {
+        "id":  "tech.cyber.forensics",
+        "parentId":  "tech.cyber",
+        "level":  2,
+        "name":  "Digital Forensics Analyst",
+        "shortCode":  "FORENSICS",
+        "description":  "Post-incident digital evidence recovery, chain of custody preservation, memory \u0026 disk artifact reconstruction, and root cause analysis",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation",
+                                 "CareerSwitch"
+                             ],
+        "domain":  "Technology",
+        "subdomain":  "Digital Forensics",
+        "specialization":  "Forensics \u0026 Incident Investigation",
+        "eligibleEducationLevelsJson":  "[\"Graduation\", \"Postgraduation\", \"CareerSwitch\"]",
+        "traitWeightsJson":  "{\"digital_forensics\": 0.98, \"evidence_reconstruction\": 0.96, \"artifact_analysis\": 0.94, \"memory_analysis\": 0.9, \"chain_of_custody\": 0.95, \"incident_response\": 0.85, \"offensive_exploitation\": 0.35, \"cloud_architecture\": 0.45}",
+        "aptitudeDimensionsJson":  "{\"meticulous_investigation\": 0.98, \"timeline_reconstruction\": 0.95, \"forensic_synthesis\": 0.92}",
+        "workStyleDimensionsJson":  "{\"deep_investigative_inquiry\": 0.96, \"methodical_evidence_logging\": 0.95, \"post_mortem_analysis\": 0.9}",
+        "typicalRoles":  [
+                             "Digital Forensics Analyst",
+                             "Incident Forensics Specialist",
+                             "Cyber Crime Investigator"
+                         ],
+        "requiredDegrees":  [
+                                "B.Tech CS",
+                                "M.Sc Digital Forensics",
+                                "Certifications (CHFI, GCFA, GCFE)"
+                            ],
+        "icon":  "database",
+        "colorHex":  "#065F46"
+    },
+    {
+        "id":  "tech.cyber.threat_intel",
+        "parentId":  "tech.cyber",
+        "level":  2,
+        "name":  "Threat Intelligence Analyst",
+        "shortCode":  "THREAT_INTEL",
+        "description":  "Adversary profiling, mapping attacker TTPs (MITRE ATT\u0026CK), dark web tracking, and converting raw intelligence into defense strategies",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation"
+                             ],
+        "domain":  "Technology",
+        "subdomain":  "Threat Intelligence",
+        "specialization":  "Strategic \u0026 Technical Intelligence",
+        "eligibleEducationLevelsJson":  "[\"Graduation\", \"Postgraduation\"]",
+        "traitWeightsJson":  "{\"threat_intelligence\": 0.98, \"adversary_attribution\": 0.95, \"mitre_attack_mapping\": 0.94, \"tactical_reporting\": 0.9, \"analytical_synthesis\": 0.92, \"threat_detection\": 0.7, \"offensive_exploitation\": 0.5}",
+        "typicalRoles":  [
+                             "Cyber Threat Intelligence (CTI) Analyst",
+                             "Threat Researcher",
+                             "Adversary Hunter"
+                         ],
+        "requiredDegrees":  [
+                                "B.Tech CS",
+                                "M.Tech Cybersecurity",
+                                "Certifications (GCTI, CTIA)"
+                            ],
+        "icon":  "globe",
+        "colorHex":  "#047857"
+    },
+    {
+        "id":  "tech.cyber.cloud_sec",
+        "parentId":  "tech.cyber",
+        "level":  2,
+        "name":  "Cloud Security Engineer",
+        "shortCode":  "CLOUD_SEC",
+        "description":  "Architecting secure multi-cloud environments (AWS, Azure, GCP), IAM zero-trust policies, container security, and CSPM posture management",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation",
+                                 "CareerSwitch"
+                             ],
+        "domain":  "Technology",
+        "subdomain":  "Cloud Security",
+        "specialization":  "Cloud \u0026 Infrastructure Security",
+        "eligibleEducationLevelsJson":  "[\"Graduation\", \"Postgraduation\", \"CareerSwitch\"]",
+        "traitWeightsJson":  "{\"cloud_security\": 0.98, \"iam_zero_trust\": 0.95, \"infrastructure_as_code_security\": 0.92, \"container_kubernetes_sec\": 0.9, \"security_architecture\": 0.92, \"log_analysis\": 0.65, \"offensive_exploitation\": 0.45}",
+        "typicalRoles":  [
+                             "Cloud Security Engineer",
+                             "DevSecOps Engineer",
+                             "Cloud Security Architect"
+                         ],
+        "requiredDegrees":  [
+                                "B.Tech CS/IT",
+                                "Certifications (CCSP, AWS Certified Security, Azure Security AZ-500)"
+                            ],
+        "icon":  "cloud",
+        "colorHex":  "#059669"
+    },
+    {
+        "id":  "tech.data.ds",
+        "parentId":  "sci.eng.cs",
+        "level":  2,
+        "name":  "Data Scientist",
+        "shortCode":  "DATA_SCI",
+        "description":  "Statistical modeling, predictive machine learning, exploratory data analysis, and deriving business insights from complex datasets",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation"
+                             ],
+        "domain":  "Technology",
+        "subdomain":  "Data Science",
+        "specialization":  "Applied Statistics \u0026 Predictive Modeling",
+        "eligibleEducationLevelsJson":  "[\"Graduation\", \"Postgraduation\"]",
+        "traitWeightsJson":  "{\"statistical_analysis\": 0.96, \"predictive_modeling\": 0.95, \"exploratory_data_analysis\": 0.92, \"python_r_programming\": 0.9, \"machine_learning\": 0.92, \"business_communication\": 0.8, \"software_architecture\": 0.5}",
+        "typicalRoles":  [
+                             "Data Scientist",
+                             "Lead Data Scientist",
+                             "Analytics Specialist"
+                         ],
+        "requiredDegrees":  [
+                                "B.Tech CS/Data",
+                                "B.Sc/M.Sc Statistics/Math",
+                                "M.Tech Data Science"
+                            ],
+        "icon":  "bar-chart-2",
+        "colorHex":  "#6366F1"
+    },
+    {
+        "id":  "tech.data.ml_eng",
+        "parentId":  "sci.eng.cs",
+        "level":  2,
+        "name":  "Machine Learning Engineer",
+        "shortCode":  "ML_ENG",
+        "description":  "Production ML model deployment, MLOps pipelines, deep learning architectures, latency optimization, and distributed model training",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation"
+                             ],
+        "domain":  "Technology",
+        "subdomain":  "AI \u0026 Machine Learning",
+        "specialization":  "MLOps \u0026 Deep Learning Engineering",
+        "eligibleEducationLevelsJson":  "[\"Graduation\", \"Postgraduation\"]",
+        "traitWeightsJson":  "{\"deep_learning\": 0.96, \"mlops_pipelines\": 0.95, \"distributed_training\": 0.9, \"software_engineering\": 0.92, \"model_optimization\": 0.94, \"statistical_analysis\": 0.85}",
+        "typicalRoles":  [
+                             "ML Engineer",
+                             "AI Platform Engineer",
+                             "Deep Learning Scientist"
+                         ],
+        "requiredDegrees":  [
+                                "B.Tech CS",
+                                "M.Tech AI/ML",
+                                "MS Computer Science"
+                            ],
+        "icon":  "cpu",
+        "colorHex":  "#4F46E5"
+    },
+    {
+        "id":  "tech.data.analytics",
+        "parentId":  "sci.eng.cs",
+        "level":  2,
+        "name":  "Data Analyst",
+        "shortCode":  "DATA_ANALYST",
+        "description":  "SQL data querying, dashboard development (PowerBI/Tableau), trend metrics extraction, and stakeholder reporting",
+        "phasesApplicable":  [
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "Graduation",
+                                 "Postgraduation",
+                                 "CareerSwitch"
+                             ],
+        "domain":  "Technology",
+        "subdomain":  "Data Analytics",
+        "specialization":  "Business Intelligence \u0026 SQL Analytics",
+        "eligibleEducationLevelsJson":  "[\"After12th\", \"Graduation\", \"Postgraduation\", \"CareerSwitch\"]",
+        "traitWeightsJson":  "{\"sql_querying\": 0.96, \"bi_dashboards\": 0.95, \"business_metrics\": 0.9, \"stakeholder_reporting\": 0.92, \"exploratory_analysis\": 0.88, \"deep_learning\": 0.2}",
+        "typicalRoles":  [
+                             "Data Analyst",
+                             "BI Developer",
+                             "Operations Analyst"
+                         ],
+        "requiredDegrees":  [
+                                "B.Tech",
+                                "BCA",
+                                "B.Com",
+                                "B.Sc",
+                                "Any Graduate with SQL/BI"
+                            ],
+        "icon":  "pie-chart",
+        "colorHex":  "#4338CA"
+    },
+    {
+        "id":  "com.acco",
+        "parentId":  "com",
+        "level":  1,
+        "name":  "Accounting",
+        "shortCode":  "ACCOUNTING",
+        "description":  "Accounting operations and strategy.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Commerce",
+        "subdomain":  "Accounting",
+        "specialization":  "",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "com.fina",
+        "parentId":  "com",
+        "level":  1,
+        "name":  "Finance",
+        "shortCode":  "FINANCE",
+        "description":  "Finance operations and strategy.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Commerce",
+        "subdomain":  "Finance",
+        "specialization":  "",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "com.bank",
+        "parentId":  "com",
+        "level":  1,
+        "name":  "Banking",
+        "shortCode":  "BANKING",
+        "description":  "Banking operations and strategy.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Commerce",
+        "subdomain":  "Banking",
+        "specialization":  "",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "com.fina.corporate_finance",
+        "parentId":  "com.fina",
+        "level":  2,
+        "name":  "Corporate Finance",
+        "shortCode":  "CORPORATE_FINANCE",
+        "description":  "Corporate Finance roles.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Commerce",
+        "subdomain":  "Finance",
+        "specialization":  "Corporate Finance",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "com.fina.investment_banking",
+        "parentId":  "com.fina",
+        "level":  2,
+        "name":  "Investment Banking",
+        "shortCode":  "INVESTMENT_BANKING",
+        "description":  "Investment Banking roles.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Commerce",
+        "subdomain":  "Finance",
+        "specialization":  "Investment Banking",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "com.fina.financial_planning",
+        "parentId":  "com.fina",
+        "level":  2,
+        "name":  "Financial Planning",
+        "shortCode":  "FINANCIAL_PLANNING",
+        "description":  "Financial Planning roles.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Commerce",
+        "subdomain":  "Finance",
+        "specialization":  "Financial Planning",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "com.fina.portfolio_management",
+        "parentId":  "com.fina",
+        "level":  2,
+        "name":  "Portfolio Management",
+        "shortCode":  "PORTFOLIO_MANAGEMENT",
+        "description":  "Portfolio Management roles.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Commerce",
+        "subdomain":  "Finance",
+        "specialization":  "Portfolio Management",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "com.fina.equity_research",
+        "parentId":  "com.fina",
+        "level":  2,
+        "name":  "Equity Research",
+        "shortCode":  "EQUITY_RESEARCH",
+        "description":  "Equity Research roles.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Commerce",
+        "subdomain":  "Finance",
+        "specialization":  "Equity Research",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "com.fina.risk_management",
+        "parentId":  "com.fina",
+        "level":  2,
+        "name":  "Risk Management",
+        "shortCode":  "RISK_MANAGEMENT",
+        "description":  "Risk Management roles.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Commerce",
+        "subdomain":  "Finance",
+        "specialization":  "Risk Management",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "com.fina.financial_analysis",
+        "parentId":  "com.fina",
+        "level":  2,
+        "name":  "Financial Analysis",
+        "shortCode":  "FINANCIAL_ANALYSIS",
+        "description":  "Financial Analysis roles.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Commerce",
+        "subdomain":  "Finance",
+        "specialization":  "Financial Analysis",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "law",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Law \u0026 Legal Services",
+        "shortCode":  "LAW",
+        "description":  "Careers in legal representation, research, and corporate law.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Law",
+        "subdomain":  "",
+        "specialization":  "",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "law.corporate_law",
+        "parentId":  "law",
+        "level":  1,
+        "name":  "Corporate Law",
+        "shortCode":  "CORPORATE_LAW",
+        "description":  "Corporate Law practice.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Law",
+        "subdomain":  "Corporate Law",
+        "specialization":  "Corporate Law",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "law.criminal_law",
+        "parentId":  "law",
+        "level":  1,
+        "name":  "Criminal Law",
+        "shortCode":  "CRIMINAL_LAW",
+        "description":  "Criminal Law practice.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Law",
+        "subdomain":  "Criminal Law",
+        "specialization":  "Criminal Law",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "law.civil_law",
+        "parentId":  "law",
+        "level":  1,
+        "name":  "Civil Law",
+        "shortCode":  "CIVIL_LAW",
+        "description":  "Civil Law practice.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Law",
+        "subdomain":  "Civil Law",
+        "specialization":  "Civil Law",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "law.cyber_law",
+        "parentId":  "law",
+        "level":  1,
+        "name":  "Cyber Law",
+        "shortCode":  "CYBER_LAW",
+        "description":  "Cyber Law practice.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Law",
+        "subdomain":  "Cyber Law",
+        "specialization":  "Cyber Law",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "law.intellectual_property_law",
+        "parentId":  "law",
+        "level":  1,
+        "name":  "Intellectual Property Law",
+        "shortCode":  "INTELLECTUAL_PROPERTY_LAW",
+        "description":  "Intellectual Property Law practice.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Law",
+        "subdomain":  "Intellectual Property Law",
+        "specialization":  "Intellectual Property Law",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "arts.psyc",
+        "parentId":  "arts",
+        "level":  1,
+        "name":  "Psychology",
+        "shortCode":  "PSYCHOLOGY",
+        "description":  "Psychology study.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Humanities",
+        "subdomain":  "Psychology",
+        "specialization":  "",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "arts.soci",
+        "parentId":  "arts",
+        "level":  1,
+        "name":  "Sociology",
+        "shortCode":  "SOCIOLOGY",
+        "description":  "Sociology study.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Humanities",
+        "subdomain":  "Sociology",
+        "specialization":  "",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "arts.poli",
+        "parentId":  "arts",
+        "level":  1,
+        "name":  "Political Science",
+        "shortCode":  "POLITICAL_SCIENCE",
+        "description":  "Political Science study.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Humanities",
+        "subdomain":  "Political Science",
+        "specialization":  "",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "arts.hist",
+        "parentId":  "arts",
+        "level":  1,
+        "name":  "History",
+        "shortCode":  "HISTORY",
+        "description":  "History study.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Humanities",
+        "subdomain":  "History",
+        "specialization":  "",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "arts.psyc.clinical_psychology",
+        "parentId":  "arts.psyc",
+        "level":  2,
+        "name":  "Clinical Psychology",
+        "shortCode":  "CLINICAL_PSYCHOLOGY",
+        "description":  "Clinical Psychology specialization.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Humanities",
+        "subdomain":  "Psychology",
+        "specialization":  "Clinical Psychology",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "arts.psyc.counselling",
+        "parentId":  "arts.psyc",
+        "level":  2,
+        "name":  "Counselling",
+        "shortCode":  "COUNSELLING",
+        "description":  "Counselling specialization.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Humanities",
+        "subdomain":  "Psychology",
+        "specialization":  "Counselling",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "arts.psyc.organizational_psychology",
+        "parentId":  "arts.psyc",
+        "level":  2,
+        "name":  "Organizational Psychology",
+        "shortCode":  "ORGANIZATIONAL_PSYCHOLOGY",
+        "description":  "Organizational Psychology specialization.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Humanities",
+        "subdomain":  "Psychology",
+        "specialization":  "Organizational Psychology",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "des",
+        "parentId":  "",
+        "level":  0,
+        "name":  "Design \u0026 Creative",
+        "shortCode":  "DESIGN",
+        "description":  "Visual and interactive creative arts.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Design",
+        "subdomain":  "",
+        "specialization":  "",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "des.graphic_design",
+        "parentId":  "des",
+        "level":  1,
+        "name":  "Graphic Design",
+        "shortCode":  "GRAPHIC_DESIGN",
+        "description":  "Graphic Design profession.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Design",
+        "subdomain":  "Graphic Design",
+        "specialization":  "Graphic Design",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "des.ui_design",
+        "parentId":  "des",
+        "level":  1,
+        "name":  "UI Design",
+        "shortCode":  "UI_DESIGN",
+        "description":  "UI Design profession.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Design",
+        "subdomain":  "UI Design",
+        "specialization":  "UI Design",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "des.ux_design",
+        "parentId":  "des",
+        "level":  1,
+        "name":  "UX Design",
+        "shortCode":  "UX_DESIGN",
+        "description":  "UX Design profession.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Design",
+        "subdomain":  "UX Design",
+        "specialization":  "UX Design",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "des.product_design",
+        "parentId":  "des",
+        "level":  1,
+        "name":  "Product Design",
+        "shortCode":  "PRODUCT_DESIGN",
+        "description":  "Product Design profession.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Design",
+        "subdomain":  "Product Design",
+        "specialization":  "Product Design",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "des.industrial_design",
+        "parentId":  "des",
+        "level":  1,
+        "name":  "Industrial Design",
+        "shortCode":  "INDUSTRIAL_DESIGN",
+        "description":  "Industrial Design profession.",
+        "phasesApplicable":  [
+                                 "After10th",
+                                 "After12th",
+                                 "AfterGraduation",
+                                 "AfterPostGraduation",
+                                 "CareerSwitch",
+                                 "Upskilling"
+                             ],
+        "domain":  "Design",
+        "subdomain":  "Industrial Design",
+        "specialization":  "Industrial Design",
+        "eligibleEducationLevelsJson":  "[\"After10th\", \"After12th\", \"Graduation\", \"Postgraduation\"]",
+        "icon":  "briefcase",
+        "colorHex":  "#64748B"
+    },
+    {
+        "id":  "deg.btech.cse",
+        "name":  "B.Tech Computer Science Engineering",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Technology in CSE",
+        "parentId":  "sci.eng.cs",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.btech.ai",
+        "name":  "B.Tech Artificial Intelligence / ML",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Technology in AI/ML",
+        "parentId":  "sci.eng.cs",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.btech.mech",
+        "name":  "B.Tech Mechanical Engineering",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Technology in Mechanical",
+        "parentId":  "sci.eng.mech",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.btech.ece",
+        "name":  "B.Tech Electronics \u0026 Communication",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Technology in ECE",
+        "parentId":  "sci.eng.ece",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bsc.cs",
+        "name":  "B.Sc Computer Science",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Science in CS",
+        "parentId":  "sci.eng.cs",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bsc.data",
+        "name":  "B.Sc Data Science",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Science in Data Science",
+        "parentId":  "sci.eng.cs",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bca",
+        "name":  "Bachelor of Computer Applications (BCA)",
+        "nodeType":  "degree",
+        "description":  "BCA",
+        "parentId":  "sci.eng.cs",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bsc.math",
+        "name":  "B.Sc Mathematics",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Science in Math",
+        "parentId":  "sci.math",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.barch",
+        "name":  "Bachelor of Architecture (B.Arch)",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Architecture",
+        "parentId":  "sci.arch",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.mbbs",
+        "name":  "Bachelor of Medicine and Bachelor of Surgery (MBBS)",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Medicine and Bachelor of Surgery",
+        "parentId":  "sci.med.clin",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bds",
+        "name":  "Bachelor of Dental Surgery (BDS)",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Dental Surgery",
+        "parentId":  "sci.med.dent",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bpharm",
+        "name":  "Bachelor of Pharmacy (B.Pharm)",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Pharmacy",
+        "parentId":  "sci.med.pharm",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bsc.biotech",
+        "name":  "B.Sc Biotechnology",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Science in Biotech",
+        "parentId":  "sci.ls.biotech",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bpt",
+        "name":  "Bachelor of Physiotherapy (BPT)",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Physiotherapy",
+        "parentId":  "sci.med.rehab",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bsc.nursing",
+        "name":  "B.Sc Nursing",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Science in Nursing",
+        "parentId":  "sci.med.nurs",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bcom.fin",
+        "name":  "Bachelor of Commerce in Finance (B.Com Finance)",
+        "nodeType":  "degree",
+        "description":  "B.Com in Finance",
+        "parentId":  "com.fin.inv",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bcom.acc",
+        "name":  "Bachelor of Commerce in Accounting and Finance (B.Com)",
+        "nodeType":  "degree",
+        "description":  "B.Com in Accounting and Finance",
+        "parentId":  "com.acc.prof",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bcom.gen",
+        "name":  "Bachelor of Commerce (B.Com General)",
+        "nodeType":  "degree",
+        "description":  "General B.Com",
+        "parentId":  "com.acc",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bba.fin",
+        "name":  "Bachelor of Business Administration in Finance (BBA)",
+        "nodeType":  "degree",
+        "description":  "BBA in Finance",
+        "parentId":  "com.fin",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bba.gen",
+        "name":  "Bachelor of Business Administration (BBA)",
+        "nodeType":  "degree",
+        "description":  "General BBA",
+        "parentId":  "com.mgmt",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bsc.eco",
+        "name":  "B.Sc Economics",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Science in Economics",
+        "parentId":  "com.fin.eco",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.ba.psych",
+        "name":  "Bachelor of Arts in Psychology (BA)",
+        "nodeType":  "degree",
+        "description":  "BA in Psychology",
+        "parentId":  "arts.psych",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.ba.polsci",
+        "name":  "Bachelor of Arts in Political Science (BA)",
+        "nodeType":  "degree",
+        "description":  "BA in Political Science",
+        "parentId":  "arts.socsci.pol",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.ba.eng",
+        "name":  "Bachelor of Arts in English Literature (BA)",
+        "nodeType":  "degree",
+        "description":  "BA in English",
+        "parentId":  "arts.lit",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.ba.llb",
+        "name":  "Bachelor of Arts and Bachelor of Laws (BA LLB)",
+        "nodeType":  "degree",
+        "description":  "Integrated Law Degree",
+        "parentId":  "arts.law.corp",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.bdes",
+        "name":  "Bachelor of Design (B.Des)",
+        "nodeType":  "degree",
+        "description":  "Bachelor of Design",
+        "parentId":  "arts.des",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "deg.ba.journalism",
+        "name":  "Bachelor of Arts in Journalism and Mass Communication (BA)",
+        "nodeType":  "degree",
+        "description":  "BA in Journalism \u0026 Mass Comm",
+        "parentId":  "arts.media.jour",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "prof.ca",
+        "name":  "Chartered Accountant (CA)",
+        "nodeType":  "professional_qualification",
+        "description":  "CA Qualification",
+        "parentId":  "com.acc.prof",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "prof.cma",
+        "name":  "Cost and Management Accountant (CMA)",
+        "nodeType":  "professional_qualification",
+        "description":  "CMA Qualification",
+        "parentId":  "com.acc.prof",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "prof.cs",
+        "name":  "Company Secretary (CS)",
+        "nodeType":  "professional_qualification",
+        "description":  "CS Qualification",
+        "parentId":  "arts.law.corp",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "prof.cfa",
+        "name":  "Chartered Financial Analyst (CFA)",
+        "nodeType":  "professional_qualification",
+        "description":  "CFA Qualification",
+        "parentId":  "com.fin.inv",
+        "phasesApplicableJson":  "[\"After12th\"]"
+    },
+    {
+        "id":  "Phase_AfterPostGraduation",
+        "parentId":  "",
+        "level":  0,
+        "name":  "After Post-Graduation",
+        "shortCode":  "AFTER_PG",
+        "description":  "Pathways available after completing a Master\u0027s or equivalent PG qualification.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Generic",
+        "nodeType":  "phase"
+    },
+    {
+        "id":  "afterpg.doctoral",
+        "parentId":  "Phase_AfterPostGraduation",
+        "level":  1,
+        "name":  "Doctoral / Research Degrees",
+        "shortCode":  "DOCTORAL",
+        "description":  "Advanced research pathways such as PhD, D.Sc., Professional Doctorates.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Research",
+        "nodeType":  "category"
+    },
+    {
+        "id":  "afterpg.doctoral.phd",
+        "parentId":  "afterpg.doctoral",
+        "level":  2,
+        "name":  "Doctor of Philosophy (PhD)",
+        "shortCode":  "PHD",
+        "description":  "Highest academic research degree available in various disciplines.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Research",
+        "nodeType":  "degree"
+    },
+    {
+        "id":  "afterpg.doctoral.prof",
+        "parentId":  "afterpg.doctoral",
+        "level":  2,
+        "name":  "Professional Doctorate",
+        "shortCode":  "PROF_DOC",
+        "description":  "Doctorates such as EdD, PsyD tailored for advanced professional practice.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Research",
+        "nodeType":  "degree"
+    },
+    {
+        "id":  "afterpg.doctoral.higher",
+        "parentId":  "afterpg.doctoral",
+        "level":  2,
+        "name":  "Higher Doctorates (D.Sc. / D.Litt. / LL.D.)",
+        "shortCode":  "HIGHER_DOC",
+        "description":  "Post-doctoral or highly advanced degrees recognizing significant contribution to a field.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Research",
+        "nodeType":  "degree"
+    },
+    {
+        "id":  "afterpg.medical_super",
+        "parentId":  "Phase_AfterPostGraduation",
+        "level":  1,
+        "name":  "Medical Super-Specialization",
+        "shortCode":  "MED_SUPER",
+        "description":  "Advanced clinical and surgical pathways after MD/MS.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Medical",
+        "nodeType":  "category"
+    },
+    {
+        "id":  "afterpg.medical_super.dm",
+        "parentId":  "afterpg.medical_super",
+        "level":  2,
+        "name":  "Doctorate of Medicine (DM)",
+        "shortCode":  "DM",
+        "description":  "Super-specialty medical degree (e.g., Cardiology, Neurology).",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Medical",
+        "nodeType":  "degree"
+    },
+    {
+        "id":  "afterpg.medical_super.mch",
+        "parentId":  "afterpg.medical_super",
+        "level":  2,
+        "name":  "Master of Chirurgiae (MCh)",
+        "shortCode":  "MCH",
+        "description":  "Super-specialty surgical degree (e.g., Neurosurgery, Urology).",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Medical",
+        "nodeType":  "degree"
+    },
+    {
+        "id":  "afterpg.medical_super.fnb",
+        "parentId":  "afterpg.medical_super",
+        "level":  2,
+        "name":  "Fellow of National Board (FNB)",
+        "shortCode":  "FNB",
+        "description":  "Sub-specialty fellowships across various clinical fields.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Medical",
+        "nodeType":  "certification"
+    },
+    {
+        "id":  "afterpg.prof_qual",
+        "parentId":  "Phase_AfterPostGraduation",
+        "level":  1,
+        "name":  "Professional / Regulatory Qualifications",
+        "shortCode":  "PROF_QUAL",
+        "description":  "Advanced professional credentials.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Generic",
+        "nodeType":  "category"
+    },
+    {
+        "id":  "afterpg.prof_qual.finance",
+        "parentId":  "afterpg.prof_qual",
+        "level":  2,
+        "name":  "Advanced Financial / Accounting Qualifications",
+        "shortCode":  "ADV_FIN",
+        "description":  "Includes CA, CMA, CS, CFA, FRM, Actuarial.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Commerce",
+        "nodeType":  "professional_qualification"
+    },
+    {
+        "id":  "afterpg.adv_dip",
+        "parentId":  "Phase_AfterPostGraduation",
+        "level":  1,
+        "name":  "Post-Master Diplomas \u0026 Certificates",
+        "shortCode":  "POST_MASTER_DIP",
+        "description":  "Specialized PG Diplomas or advanced certifications in a particular domain.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Generic",
+        "nodeType":  "category"
+    },
+    {
+        "id":  "afterpg.adv_dip.tech",
+        "parentId":  "afterpg.adv_dip",
+        "level":  2,
+        "name":  "Advanced Technology Specializations",
+        "shortCode":  "ADV_TECH",
+        "description":  "PG Diplomas or Certifications in AI/ML, Cybersecurity, Cloud, etc.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Technology",
+        "nodeType":  "certification"
+    },
+    {
+        "id":  "afterpg.adv_dip.mgmt",
+        "parentId":  "afterpg.adv_dip",
+        "level":  2,
+        "name":  "Advanced Management Specializations",
+        "shortCode":  "ADV_MGMT",
+        "description":  "Executive Diplomas in Finance, Marketing, Supply Chain, Analytics.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Management",
+        "nodeType":  "certification"
+    },
+    {
+        "id":  "afterpg.adv_dip.arts",
+        "parentId":  "afterpg.adv_dip",
+        "level":  2,
+        "name":  "Advanced Humanities / Social Sciences Diplomas",
+        "shortCode":  "ADV_ARTS",
+        "description":  "Diplomas in Translation, Journalism, Public Policy, etc.",
+        "phasesApplicableJson":  "[\"AfterPostGraduation\"]",
+        "domain":  "Arts",
+        "nodeType":  "certification"
+    },
+    {
+        "id":  "gov_admin",
+        "title":  "Administration",
+        "description":  "Government Career Path: Administration",
+        "category":  "Career",
+        "tags":  [
+                     "gov.admin"
+                 ],
+        "parentId":  null,
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_admin_upsc",
+        "title":  "UPSC Civil Services",
+        "description":  "Government Career Path: UPSC Civil Services",
+        "category":  "Career",
+        "tags":  [
+                     "gov.admin.upsc"
+                 ],
+        "parentId":  "gov_admin",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_admin_state",
+        "title":  "State PSC",
+        "description":  "Government Career Path: State PSC",
+        "category":  "Career",
+        "tags":  [
+                     "gov.admin.state"
+                 ],
+        "parentId":  "gov_admin",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_admin_other",
+        "title":  "Other Central/State Administrative Recruitment",
+        "description":  "Government Career Path: Other Central/State Administrative Recruitment",
+        "category":  "Career",
+        "tags":  [
+                     "gov.admin.other",
+                     "gov.ssc"
+                 ],
+        "parentId":  "gov_admin",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_finance",
+        "title":  "Finance",
+        "description":  "Government Career Path: Finance",
+        "category":  "Career",
+        "tags":  [
+                     "gov.finance"
+                 ],
+        "parentId":  null,
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_finance_banking",
+        "title":  "Banking",
+        "description":  "Government Career Path: Banking",
+        "category":  "Career",
+        "tags":  [
+                     "gov.finance.banking"
+                 ],
+        "parentId":  "gov_finance",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_finance_regulatory",
+        "title":  "Regulatory Institutions",
+        "description":  "Government Career Path: Regulatory Institutions",
+        "category":  "Career",
+        "tags":  [
+                     "gov.finance.regulatory"
+                 ],
+        "parentId":  "gov_finance",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_finance_tax",
+        "title":  "Tax",
+        "description":  "Government Career Path: Tax",
+        "category":  "Career",
+        "tags":  [
+                     "gov.finance.tax"
+                 ],
+        "parentId":  "gov_finance",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_finance_accounts",
+        "title":  "Accounts",
+        "description":  "Government Career Path: Accounts",
+        "category":  "Career",
+        "tags":  [
+                     "gov.finance.accounts"
+                 ],
+        "parentId":  "gov_finance",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_finance_services",
+        "title":  "Financial Services",
+        "description":  "Government Career Path: Financial Services",
+        "category":  "Career",
+        "tags":  [
+                     "gov.finance.services"
+                 ],
+        "parentId":  "gov_finance",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_tech",
+        "title":  "Technical",
+        "description":  "Government Career Path: Technical",
+        "category":  "Career",
+        "tags":  [
+                     "gov.tech"
+                 ],
+        "parentId":  null,
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_tech_ies",
+        "title":  "Engineering Services",
+        "description":  "Government Career Path: Engineering Services",
+        "category":  "Career",
+        "tags":  [
+                     "gov.tech.ies"
+                 ],
+        "parentId":  "gov_tech",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_tech_psu",
+        "title":  "PSU/Technical Recruitment",
+        "description":  "Government Career Path: PSU/Technical Recruitment",
+        "category":  "Career",
+        "tags":  [
+                     "gov.tech.psu"
+                 ],
+        "parentId":  "gov_tech",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_tech_scientific",
+        "title":  "Scientific Organizations",
+        "description":  "Government Career Path: Scientific Organizations",
+        "category":  "Career",
+        "tags":  [
+                     "gov.tech.scientific"
+                 ],
+        "parentId":  "gov_tech",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_tech_state",
+        "title":  "Technical State Services",
+        "description":  "Government Career Path: Technical State Services",
+        "category":  "Career",
+        "tags":  [
+                     "gov.tech.state"
+                 ],
+        "parentId":  "gov_tech",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_defence",
+        "title":  "Defence \u0026 Security",
+        "description":  "Government Career Path: Defence \u0026 Security",
+        "category":  "Career",
+        "tags":  [
+                     "gov.defence"
+                 ],
+        "parentId":  null,
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_defence_officer",
+        "title":  "Defence Officer",
+        "description":  "Government Career Path: Defence Officer",
+        "category":  "Career",
+        "tags":  [
+                     "gov.defence.officer"
+                 ],
+        "parentId":  "gov_defence",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_defence_capf",
+        "title":  "CAPF",
+        "description":  "Government Career Path: CAPF",
+        "category":  "Career",
+        "tags":  [
+                     "gov.defence.capf"
+                 ],
+        "parentId":  "gov_defence",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_defence_other",
+        "title":  "Other Security/Uniformed Services",
+        "description":  "Government Career Path: Other Security/Uniformed Services",
+        "category":  "Career",
+        "tags":  [
+                     "gov.defence.other"
+                 ],
+        "parentId":  "gov_defence",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_medical",
+        "title":  "Medical",
+        "description":  "Government Career Path: Medical",
+        "category":  "Career",
+        "tags":  [
+                     "gov.medical"
+                 ],
+        "parentId":  null,
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_medical_gov",
+        "title":  "Government Medical Services",
+        "description":  "Government Career Path: Government Medical Services",
+        "category":  "Career",
+        "tags":  [
+                     "gov.medical.gov"
+                 ],
+        "parentId":  "gov_medical",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_medical_public",
+        "title":  "Public Health",
+        "description":  "Government Career Path: Public Health",
+        "category":  "Career",
+        "tags":  [
+                     "gov.medical.public"
+                 ],
+        "parentId":  "gov_medical",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_medical_research",
+        "title":  "Medical Research/Teaching",
+        "description":  "Government Career Path: Medical Research/Teaching",
+        "category":  "Career",
+        "tags":  [
+                     "gov.medical.research"
+                 ],
+        "parentId":  "gov_medical",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_education",
+        "title":  "Education",
+        "description":  "Government Career Path: Education",
+        "category":  "Career",
+        "tags":  [
+                     "gov.education"
+                 ],
+        "parentId":  null,
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_edu_school",
+        "title":  "School Teaching",
+        "description":  "Government Career Path: School Teaching",
+        "category":  "Career",
+        "tags":  [
+                     "gov.education.school"
+                 ],
+        "parentId":  "gov_education",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_edu_higher",
+        "title":  "Higher Education",
+        "description":  "Government Career Path: Higher Education",
+        "category":  "Career",
+        "tags":  [
+                     "gov.education.higher"
+                 ],
+        "parentId":  "gov_education",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_edu_research",
+        "title":  "Research",
+        "description":  "Government Career Path: Research",
+        "category":  "Career",
+        "tags":  [
+                     "gov.education.research"
+                 ],
+        "parentId":  "gov_education",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_specialized",
+        "title":  "Specialized",
+        "description":  "Government Career Path: Specialized",
+        "category":  "Career",
+        "tags":  [
+                     "gov.specialized"
+                 ],
+        "parentId":  null,
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_spec_econ",
+        "title":  "Economics",
+        "description":  "Government Career Path: Economics",
+        "category":  "Career",
+        "tags":  [
+                     "gov.specialized.econ"
+                 ],
+        "parentId":  "gov_specialized",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_spec_stat",
+        "title":  "Statistics",
+        "description":  "Government Career Path: Statistics",
+        "category":  "Career",
+        "tags":  [
+                     "gov.specialized.stat"
+                 ],
+        "parentId":  "gov_specialized",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_spec_law",
+        "title":  "Law/Judiciary",
+        "description":  "Government Career Path: Law/Judiciary",
+        "category":  "Career",
+        "tags":  [
+                     "gov.specialized.law"
+                 ],
+        "parentId":  "gov_specialized",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_spec_agri",
+        "title":  "Agriculture",
+        "description":  "Government Career Path: Agriculture",
+        "category":  "Career",
+        "tags":  [
+                     "gov.specialized.agri"
+                 ],
+        "parentId":  "gov_specialized",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_spec_forest",
+        "title":  "Forestry",
+        "description":  "Government Career Path: Forestry",
+        "category":  "Career",
+        "tags":  [
+                     "gov.specialized.forest"
+                 ],
+        "parentId":  "gov_specialized",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    },
+    {
+        "id":  "gov_spec_other",
+        "title":  "Other Specialist Services",
+        "description":  "Government Career Path: Other Specialist Services",
+        "category":  "Career",
+        "tags":  [
+                     "gov.specialized.other"
+                 ],
+        "parentId":  "gov_specialized",
+        "childrenIds":  [
+
+                        ],
+        "traits":  [
+
+                   ]
+    }
+]

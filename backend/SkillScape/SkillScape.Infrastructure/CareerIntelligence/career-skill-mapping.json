@@ -1,0 +1,482 @@
+[
+  {
+    "careerId": "career_software_dev",
+    "skills": [
+      { "skillId": "skill_python", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_javascript", "requiredLevel": 65, "importance": "Core" },
+      { "skillId": "skill_sql", "requiredLevel": 60, "importance": "Core" },
+      { "skillId": "skill_oop", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_react", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_nodejs", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_cloud", "requiredLevel": 50, "importance": "Supporting" },
+      { "skillId": "skill_devops", "requiredLevel": 45, "importance": "Advanced" },
+      { "skillId": "skill_communication", "requiredLevel": 55, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "career_data_scientist",
+    "skills": [
+      { "skillId": "skill_python", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_ml", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_statistics", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_pandas", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_sql", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_data_visualization", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_communication", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_cloud", "requiredLevel": 50, "importance": "Advanced" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 70, "importance": "Core" }
+    ]
+  },
+  {
+    "careerId": "career_data_analyst",
+    "skills": [
+      { "skillId": "skill_data_analysis", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_excel", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_sql", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_statistics", "requiredLevel": 60, "importance": "Core" },
+      { "skillId": "skill_data_visualization", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_power_bi", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_communication", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_python", "requiredLevel": 50, "importance": "Supporting" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 65, "importance": "Core" }
+    ]
+  },
+  {
+    "careerId": "career_cybersecurity_analyst",
+    "skills": [
+      { "skillId": "skill_cybersecurity_fundamentals", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_network_security", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_python", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_sql", "requiredLevel": 50, "importance": "Supporting" },
+      { "skillId": "skill_communication", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_cloud", "requiredLevel": 50, "importance": "Advanced" },
+      { "skillId": "skill_research", "requiredLevel": 60, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "career_financial_analyst",
+    "skills": [
+      { "skillId": "skill_financial_analysis", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_financial_modeling", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_excel", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_accounting", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_statistics", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_communication", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_power_bi", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_python", "requiredLevel": 45, "importance": "Advanced" },
+      { "skillId": "skill_risk_modeling", "requiredLevel": 55, "importance": "Advanced" },
+      { "skillId": "skill_investment", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "career_accountant",
+    "skills": [
+      { "skillId": "skill_accounting", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_excel", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_taxation", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_financial_analysis", "requiredLevel": 65, "importance": "Core" },
+      { "skillId": "skill_auditing", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_communication", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_ethics", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "career_chartered_accountant",
+    "skills": [
+      { "skillId": "skill_accounting", "requiredLevel": 90, "importance": "Core" },
+      { "skillId": "skill_auditing", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_taxation", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_financial_analysis", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_excel", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_ethics", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_financial_modeling", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_statistics", "requiredLevel": 50, "importance": "Advanced" }
+    ]
+  },
+  {
+    "careerId": "career_tax_consultant",
+    "skills": [
+      { "skillId": "skill_taxation", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_accounting", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_legal_reasoning", "requiredLevel": 65, "importance": "Core" },
+      { "skillId": "skill_excel", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_research", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_financial_analysis", "requiredLevel": 55, "importance": "Advanced" }
+    ]
+  },
+  {
+    "careerId": "career_business_analyst",
+    "skills": [
+      { "skillId": "skill_business_analysis", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_sql", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_excel", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_project_management", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_data_visualization", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_python", "requiredLevel": 40, "importance": "Advanced" }
+    ]
+  },
+  {
+    "careerId": "career_marketing_manager",
+    "skills": [
+      { "skillId": "skill_marketing", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_strategy", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 65, "importance": "Core" },
+      { "skillId": "skill_creative_thinking", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_writing", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_excel", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_research", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_leadership", "requiredLevel": 55, "importance": "Advanced" }
+    ]
+  },
+  {
+    "careerId": "career_operations_manager",
+    "skills": [
+      { "skillId": "skill_operations", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_leadership", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_project_management", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_excel", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_decision_making", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_strategy", "requiredLevel": 55, "importance": "Advanced" }
+    ]
+  },
+  {
+    "careerId": "career_product_manager",
+    "skills": [
+      { "skillId": "skill_product_management", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_strategy", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_business_analysis", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_leadership", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_ux_design", "requiredLevel": 50, "importance": "Supporting" },
+      { "skillId": "skill_sql", "requiredLevel": 45, "importance": "Advanced" }
+    ]
+  },
+  {
+    "careerId": "career_writer",
+    "skills": [
+      { "skillId": "skill_writing", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_creative_thinking", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_research", "requiredLevel": 65, "importance": "Core" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_marketing", "requiredLevel": 45, "importance": "Advanced" }
+    ]
+  },
+  {
+    "careerId": "career_content_strategist",
+    "skills": [
+      { "skillId": "skill_writing", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_strategy", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_marketing", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_research", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_creative_thinking", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "career_historian",
+    "skills": [
+      { "skillId": "skill_research", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_writing", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 50, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "career_research_scientist",
+    "skills": [
+      { "skillId": "skill_research", "requiredLevel": 90, "importance": "Core" },
+      { "skillId": "skill_scientific_reasoning", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_statistics", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_laboratory", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_writing", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_communication", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_python", "requiredLevel": 50, "importance": "Advanced" }
+    ]
+  },
+  {
+    "careerId": "career_biologist",
+    "skills": [
+      { "skillId": "skill_scientific_reasoning", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_laboratory", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_research", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_statistics", "requiredLevel": 65, "importance": "Core" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_writing", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "career_mechanical_engineer",
+    "skills": [
+      { "skillId": "skill_engineering_math", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_cad", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_project_management", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_communication", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 50, "importance": "Supporting" },
+      { "skillId": "skill_python", "requiredLevel": 40, "importance": "Advanced" }
+    ]
+  },
+  {
+    "careerId": "career_civil_engineer",
+    "skills": [
+      { "skillId": "skill_engineering_math", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_cad", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_project_management", "requiredLevel": 65, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 50, "importance": "Supporting" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "career_graphic_designer",
+    "skills": [
+      { "skillId": "skill_visual_design", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_typography", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_color_theory", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_creative_thinking", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_figma", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_communication", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_ux_design", "requiredLevel": 50, "importance": "Advanced" }
+    ]
+  },
+  {
+    "careerId": "career_ux_designer",
+    "skills": [
+      { "skillId": "skill_ux_design", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_figma", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_visual_design", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_research", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_typography", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_color_theory", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "career_legal_associate",
+    "skills": [
+      { "skillId": "skill_legal_research", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_legal_reasoning", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_writing", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_research", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_contract_knowledge", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_ethics", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "career_corporate_lawyer",
+    "skills": [
+      { "skillId": "skill_legal_reasoning", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_legal_research", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_contract_knowledge", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_writing", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_research", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_ethics", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_decision_making", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "career_healthcare_administrator",
+    "skills": [
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_leadership", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_operations", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_decision_making", "requiredLevel": 65, "importance": "Core" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_ethics", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_project_management", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_excel", "requiredLevel": 55, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "role_mbbs_doctor",
+    "skills": [
+      { "skillId": "skill_clinical_assessment", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_patient_safety", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_medical_documentation", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_ethics", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_pharmacology", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "role_physician",
+    "skills": [
+      { "skillId": "skill_clinical_assessment", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_patient_safety", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_medical_documentation", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_ethics", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 80, "importance": "Supporting" },
+      { "skillId": "skill_pharmacology", "requiredLevel": 70, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "role_registered_nurse",
+    "skills": [
+      { "skillId": "skill_clinical_assessment", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_patient_safety", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_medical_documentation", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_ethics", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_pharmacology", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "role_clinical_research_coordinator",
+    "skills": [
+      { "skillId": "skill_clinical_research", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_research", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_medical_documentation", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_ethics", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_patient_safety", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 55, "importance": "Supporting" },
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 70, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "role_health_informatics_specialist",
+    "skills": [
+      { "skillId": "skill_health_informatics", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_medical_documentation", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_sql", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_patient_safety", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_communication", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_ethics", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "role_healthcare_administrator",
+    "skills": [
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_operations", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_leadership", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_patient_safety", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_project_management", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_ethics", "requiredLevel": 70, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "role_medical_lab_technologist",
+    "skills": [
+      { "skillId": "skill_laboratory", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_patient_safety", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_medical_documentation", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_ethics", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_communication", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 55, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "role_radiologic_technologist",
+    "skills": [
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_patient_safety", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_clinical_assessment", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_medical_documentation", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_ethics", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 60, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "role_pharmacist",
+    "skills": [
+      { "skillId": "skill_pharmacology", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_patient_safety", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_medical_documentation", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_ethics", "requiredLevel": 75, "importance": "Supporting" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_research", "requiredLevel": 55, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "role_physiotherapist",
+    "skills": [
+      { "skillId": "skill_clinical_assessment", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_patient_safety", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_medical_documentation", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_ethics", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "role_dentist",
+    "skills": [
+      { "skillId": "skill_clinical_assessment", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_patient_safety", "requiredLevel": 85, "importance": "Core" },
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_medical_documentation", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 75, "importance": "Core" },
+      { "skillId": "skill_ethics", "requiredLevel": 75, "importance": "Supporting" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 70, "importance": "Supporting" },
+      { "skillId": "skill_problem_solving", "requiredLevel": 65, "importance": "Supporting" }
+    ]
+  },
+  {
+    "careerId": "career_public_health",
+    "skills": [
+      { "skillId": "skill_research", "requiredLevel": 80, "importance": "Core" },
+      { "skillId": "skill_statistics", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_data_analysis", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_healthcare_knowledge", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_communication", "requiredLevel": 70, "importance": "Core" },
+      { "skillId": "skill_critical_thinking", "requiredLevel": 65, "importance": "Supporting" },
+      { "skillId": "skill_writing", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_ethics", "requiredLevel": 60, "importance": "Supporting" },
+      { "skillId": "skill_python", "requiredLevel": 40, "importance": "Advanced" }
+    ]
+  }
+]

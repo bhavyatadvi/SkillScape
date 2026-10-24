@@ -1,0 +1,224 @@
+{
+  "skills": [
+    {
+      "id": "html-css",
+      "name": "HTML & CSS",
+      "category": "Web Development",
+      "level": "Beginner",
+      "description": "Master the fundamentals of web markup and styling.",
+      "estimatedMonths": 1,
+      "resources": [
+        {
+          "title": "HTML & CSS Crash Course",
+          "url": "https://www.codecademy.com",
+          "type": "Course",
+          "provider": "Codecademy",
+          "durationHours": 20
+        },
+        {
+          "title": "MDN Web Docs - HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+          "type": "Article",
+          "provider": "Mozilla"
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "category": "Web Development",
+      "level": "Beginner",
+      "description": "Learn the programming language of the web.",
+      "estimatedMonths": 2,
+      "resources": [
+        {
+          "title": "JavaScript Basics",
+          "url": "https://www.udemy.com",
+          "type": "Course",
+          "provider": "Udemy",
+          "durationHours": 30
+        },
+        {
+          "title": "You Don't Know JS",
+          "url": "https://github.com/getify/You-Dont-Know-JS",
+          "type": "Book",
+          "provider": "Free Online"
+        }
+      ]
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "category": "Frontend",
+      "level": "Intermediate",
+      "description": "Build interactive user interfaces with React.",
+      "estimatedMonths": 2,
+      "resources": [
+        {
+          "title": "React Official Documentation",
+          "url": "https://react.dev",
+          "type": "Article",
+          "provider": "React"
+        },
+        {
+          "title": "React - The Complete Guide",
+          "url": "https://www.udemy.com",
+          "type": "Course",
+          "provider": "Udemy",
+          "durationHours": 50
+        }
+      ]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js & Express",
+      "category": "Backend",
+      "level": "Intermediate",
+      "description": "Build server-side applications with Node.js.",
+      "estimatedMonths": 2,
+      "resources": [
+        {
+          "title": "The Complete Node.js Course",
+          "url": "https://www.udemy.com",
+          "type": "Course",
+          "provider": "Udemy",
+          "durationHours": 45
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "category": "Programming",
+      "level": "Beginner",
+      "description": "Learn Python for data science and backend development.",
+      "estimatedMonths": 2,
+      "resources": [
+        {
+          "title": "Python for Everybody",
+          "url": "https://www.coursera.org",
+          "type": "Course",
+          "provider": "Coursera",
+          "durationHours": 40
+        }
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "name": "Machine Learning",
+      "category": "Data & AI",
+      "level": "Advanced",
+      "description": "Master machine learning algorithms and frameworks.",
+      "estimatedMonths": 3,
+      "resources": [
+        {
+          "title": "Machine Learning Specialization",
+          "url": "https://www.coursera.org",
+          "type": "Course",
+          "provider": "Coursera",
+          "durationHours": 60
+        }
+      ]
+    },
+    {
+      "id": "sql-databases",
+      "name": "SQL & Databases",
+      "category": "Backend",
+      "level": "Intermediate",
+      "description": "Master relational databases and SQL queries.",
+      "estimatedMonths": 1,
+      "resources": [
+        {
+          "title": "SQL Tutorial",
+          "url": "https://www.w3schools.com/sql",
+          "type": "Tutorial",
+          "provider": "W3Schools"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "name": "Amazon Web Services (AWS)",
+      "category": "Cloud",
+      "level": "Intermediate",
+      "description": "Deploy and manage applications on AWS.",
+      "estimatedMonths": 2,
+      "resources": [
+        {
+          "title": "AWS Certified Solutions Architect",
+          "url": "https://www.udemy.com",
+          "type": "Course",
+          "provider": "Udemy",
+          "durationHours": 40
+        }
+      ]
+    },
+    {
+      "id": "docker-kubernetes",
+      "name": "Docker & Kubernetes",
+      "category": "DevOps",
+      "level": "Advanced",
+      "description": "Containerize and orchestrate applications.",
+      "estimatedMonths": 2,
+      "resources": [
+        {
+          "title": "Docker & Kubernetes Course",
+          "url": "https://www.udemy.com",
+          "type": "Course",
+          "provider": "Udemy",
+          "durationHours": 35
+        }
+      ]
+    },
+    {
+      "id": "git-version-control",
+      "name": "Git & Version Control",
+      "category": "Tools",
+      "level": "Beginner",
+      "description": "Master version control with Git.",
+      "estimatedMonths": 1,
+      "resources": [
+        {
+          "title": "Git & GitHub Crash Course",
+          "url": "https://www.youtube.com",
+          "type": "Video",
+          "provider": "YouTube"
+        }
+      ]
+    },
+    {
+      "id": "data-analysis",
+      "name": "Data Analysis",
+      "category": "Data & AI",
+      "level": "Intermediate",
+      "description": "Analyze data using Python, Pandas, and visualization tools.",
+      "estimatedMonths": 2,
+      "resources": [
+        {
+          "title": "Data Analysis with Pandas",
+          "url": "https://www.coursera.org",
+          "type": "Course",
+          "provider": "Coursera",
+          "durationHours": 40
+        }
+      ]
+    },
+    {
+      "id": "cybersecurity-basics",
+      "name": "Cybersecurity Fundamentals",
+      "category": "Security",
+      "level": "Beginner",
+      "description": "Learn security principles and best practices.",
+      "estimatedMonths": 2,
+      "resources": [
+        {
+          "title": "CompTIA Security+ Prep",
+          "url": "https://www.udemy.com",
+          "type": "Course",
+          "provider": "Udemy",
+          "durationHours": 50
+        }
+      ]
+    }
+  ]
+}

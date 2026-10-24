@@ -1,0 +1,76 @@
+[05-05-2026 09:33:02] ERROR: All AI providers failed. Please check your API keys.
+   at SkillScape.Infrastructure.Services.ChatBotService.GetAIResponseWithFallbackAsync(String systemPrompt, String userMessage, List`1 conversationHistory) in C:\Users\VIDHI TRIVEDI\Desktop\skill - navigator\SkillNavigator\backend\SkillScape\SkillScape.Infrastructure\Services\ChatBotService.cs:line 413
+   at SkillScape.Infrastructure.Services.ChatBotService.HandleSkillRecommendationAsync(ChatRequest chatRequest, String userId) in C:\Users\VIDHI TRIVEDI\Desktop\skill - navigator\SkillNavigator\backend\SkillScape\SkillScape.Infrastructure\Services\ChatBotService.cs:line 529
+   at SkillScape.Infrastructure.Services.ChatBotService.ProcessMessageAsync(ChatRequest chatRequest, String userId) in C:\Users\VIDHI TRIVEDI\Desktop\skill - navigator\SkillNavigator\backend\SkillScape\SkillScape.Infrastructure\Services\ChatBotService.cs:line 80
+Inner: One or more errors occurred. (Gemini API Error NotFound: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+) (Groq API returned status code: BadRequest) (OpenAI API key is not configured)
+
+[05-05-2026 09:44:18] ERROR: All AI providers failed. Please check your API keys.
+   at SkillScape.Infrastructure.Services.ChatBotService.GetAIResponseWithFallbackAsync(String systemPrompt, String userMessage, List`1 conversationHistory) in C:\Users\VIDHI TRIVEDI\Desktop\skill - navigator\SkillNavigator\backend\SkillScape\SkillScape.Infrastructure\Services\ChatBotService.cs:line 413
+   at SkillScape.Infrastructure.Services.ChatBotService.HandleSkillRecommendationAsync(ChatRequest chatRequest, String userId) in C:\Users\VIDHI TRIVEDI\Desktop\skill - navigator\SkillNavigator\backend\SkillScape\SkillScape.Infrastructure\Services\ChatBotService.cs:line 529
+   at SkillScape.Infrastructure.Services.ChatBotService.ProcessMessageAsync(ChatRequest chatRequest, String userId) in C:\Users\VIDHI TRIVEDI\Desktop\skill - navigator\SkillNavigator\backend\SkillScape\SkillScape.Infrastructure\Services\ChatBotService.cs:line 80
+Inner: One or more errors occurred. (Gemini API Error NotFound: {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+) (Groq API returned status code: BadRequest) (OpenAI API key is not configured)
+
+[05-05-2026 09:46:49] ERROR: All AI providers failed. Please check your API keys.
+Inner: One or more errors occurred. (All Gemini models failed. Last error: Model gemini-1.5-pro failed: NotFound - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+) (Groq API returned status code: BadRequest) (OpenAI API key is not configured)
+
+[05-05-2026 09:50:38] ERROR: All AI providers failed. Please check your API keys.
+Inner: One or more errors occurred. (All Gemini models failed. Last error: Model gemini-1.5-pro failed: NotFound - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+) (Groq API returned status code: BadRequest) (OpenAI API key is not configured)
+
+[05-05-2026 09:50:49] ERROR: All AI providers failed. Please check your API keys.
+Inner: One or more errors occurred. (All Gemini models failed. Last error: Model gemini-1.5-pro failed: NotFound - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+) (Groq API returned status code: BadRequest) (OpenAI API key is not configured)
+
+[05-05-2026 09:58:36] ERROR: All AI providers failed. Please check your API keys.
+Inner: One or more errors occurred. (All Gemini models failed. Last error: Model gemini-1.5-pro failed: NotFound - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+) (Groq API returned status code: BadRequest) (OpenAI API key is not configured)
+
+[05-05-2026 10:02:10] ERROR: All AI providers failed. Please check your API keys.
+Inner: One or more errors occurred. (All Gemini models failed. Last error: Model gemini-1.5-pro failed: NotFound - {
+  "error": {
+    "code": 404,
+    "message": "models/gemini-1.5-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+    "status": "NOT_FOUND"
+  }
+}
+) (Groq API returned status code: BadRequest) (OpenAI API key is not configured)
+

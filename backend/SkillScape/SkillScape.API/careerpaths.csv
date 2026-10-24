@@ -1,0 +1,14 @@
+Id,Title
+--,-----
+10th-art,Arts & Humanities
+10th-art-geog,Geography Branch
+10th-art-geog-f1,Geography Branch - Core Field
+10th-art-geog-f1-s1,Geography Branch - Core Field - Specialization
+10th-art-geog-f1-s1-r1,Lead Geography Branch - Core Field - Specialization
+10th-art-geog-f1-s1-r2,Senior Geography Branch - Core Field - Specialization Architect
+10th-art-hist,History Branch
+10th-art-hist-f1,History Branch - Core Field
+10th-art-hist-f1-s1,History Branch - Core Field - Specialization
+10th-art-hist-f1-s1-r1,Lead History Branch - Core Field - Specialization
+
+(10 rows affected)

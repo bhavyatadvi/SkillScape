@@ -1,0 +1,283 @@
+{
+  "roadmaps": [
+    {
+      "id": "web-dev-roadmap",
+      "title": "Web Developer Roadmap",
+      "description": "Complete learning path to become a professional web developer",
+      "totalDurationMonths": 12,
+      "difficulty": "Intermediate",
+      "phases": [
+        {
+          "name": "Foundation (Months 1-3)",
+          "durationMonths": 3,
+          "topics": [
+            "HTML5 semantics and structure",
+            "CSS3 layouts and responsive design",
+            "JavaScript fundamentals",
+            "DOM manipulation",
+            "ES6+ features"
+          ],
+          "projects": [
+            "Personal portfolio website",
+            "Responsive landing page",
+            "Interactive calculator"
+          ],
+          "milestones": [
+            "Create your first website",
+            "Master CSS Grid and Flexbox",
+            "Understand JavaScript event handling"
+          ]
+        },
+        {
+          "name": "Frontend Framework (Months 4-6)",
+          "durationMonths": 3,
+          "topics": [
+            "React basics and components",
+            "State management (Redux/Context)",
+            "React Router",
+            "API integration",
+            "Testing with Jest and React Testing Library"
+          ],
+          "projects": [
+            "Build a todo application",
+            "Create a weather app using APIs",
+            "Build a social media dashboard"
+          ],
+          "milestones": [
+            "Create reusable React components",
+            "Manage application state effectively",
+            "Integrate external APIs"
+          ]
+        },
+        {
+          "name": "Backend & Databases (Months 7-9)",
+          "durationMonths": 3,
+          "topics": [
+            "Node.js and Express",
+            "RESTful API design",
+            "SQL and relational databases",
+            "Authentication and authorization",
+            "MongoDB and NoSQL basics"
+          ],
+          "projects": [
+            "Build a RESTful API",
+            "Create a blog platform",
+            "Develop a task management app with authentication"
+          ],
+          "milestones": [
+            "Design and build your first API",
+            "Implement user authentication",
+            "Master database operations"
+          ]
+        },
+        {
+          "name": "Full Stack Integration & Deployment (Months 10-12)",
+          "durationMonths": 3,
+          "topics": [
+            "Full stack development integration",
+            "Git and version control",
+            "Deployment (Heroku, Vercel, AWS)",
+            "Performance optimization",
+            "Security best practices"
+          ],
+          "projects": [
+            "Build a complete full-stack application",
+            "Deploy your projects to production",
+            "Contribute to open source"
+          ],
+          "milestones": [
+            "Deploy your first application",
+            "Achieve good code quality and performance",
+            "Complete a production-ready project"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-scientist-roadmap",
+      "title": "Data Scientist Roadmap",
+      "description": "Complete learning path to become a professional data scientist",
+      "totalDurationMonths": 12,
+      "difficulty": "Advanced",
+      "phases": [
+        {
+          "name": "Foundation (Months 1-3)",
+          "durationMonths": 3,
+          "topics": [
+            "Python fundamentals",
+            "NumPy and Pandas",
+            "Data visualization (Matplotlib, Seaborn)",
+            "SQL for data querying",
+            "Statistics basics"
+          ],
+          "projects": [
+            "Exploratory data analysis on a public dataset",
+            "Data cleaning and preprocessing project",
+            "Statistical analysis report"
+          ],
+          "milestones": [
+            "Master Python data manipulation",
+            "Create compelling visualizations",
+            "Understand statistical concepts"
+          ]
+        },
+        {
+          "name": "Machine Learning (Months 4-7)",
+          "durationMonths": 4,
+          "topics": [
+            "Supervised learning algorithms",
+            "Unsupervised learning",
+            "Model evaluation and validation",
+            "Feature engineering",
+            "Scikit-learn library"
+          ],
+          "projects": [
+            "Build a classification model",
+            "Create a regression model",
+            "Implement clustering analysis"
+          ],
+          "milestones": [
+            "Train and evaluate ML models",
+            "Engineer effective features",
+            "Understand model trade-offs"
+          ]
+        },
+        {
+          "name": "Deep Learning & Advanced Topics (Months 8-10)",
+          "durationMonths": 3,
+          "topics": [
+            "Deep learning fundamentals",
+            "Neural networks (TensorFlow, PyTorch)",
+            "Natural Language Processing",
+            "Computer Vision basics",
+            "Time series analysis"
+          ],
+          "projects": [
+            "Build a neural network classifier",
+            "Create an NLP model",
+            "Develop a time series forecast"
+          ],
+          "milestones": [
+            "Train deep learning models",
+            "Understand NLP and CV basics",
+            "Implement advanced techniques"
+          ]
+        },
+        {
+          "name": "Production & Deployment (Months 11-12)",
+          "durationMonths": 2,
+          "topics": [
+            "Model productionization",
+            "Cloud deployment (AWS, GCP, Azure)",
+            "Big data tools (Spark, Hadoop)",
+            "MLOps and model monitoring",
+            "Data ethics and responsible AI"
+          ],
+          "projects": [
+            "Deploy a model to production",
+            "Build an end-to-end ML pipeline",
+            "Create a data product"
+          ],
+          "milestones": [
+            "Deploy ML models to production",
+            "Monitor and maintain models",
+            "Build end-to-end ML systems"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cloud-architect-roadmap",
+      "title": "Cloud Architect Roadmap",
+      "description": "Complete learning path to become an AWS/Cloud architect",
+      "totalDurationMonths": 12,
+      "difficulty": "Advanced",
+      "phases": [
+        {
+          "name": "Cloud Fundamentals (Months 1-2)",
+          "durationMonths": 2,
+          "topics": [
+            "Cloud computing basics",
+            "AWS core services overview",
+            "Identity and access management",
+            "Networking fundamentals",
+            "Cloud security basics"
+          ],
+          "projects": [
+            "Set up an AWS account",
+            "Create VPCs and subnets",
+            "Configure IAM policies"
+          ],
+          "milestones": [
+            "Understand cloud concepts",
+            "Navigate AWS console",
+            "Implement basic security"
+          ]
+        },
+        {
+          "name": "Core AWS Services (Months 3-6)",
+          "durationMonths": 4,
+          "topics": [
+            "EC2 instances and auto-scaling",
+            "Storage services (S3, EBS)",
+            "Databases (RDS, DynamoDB)",
+            "Load balancing",
+            "CloudFront and CDN"
+          ],
+          "projects": [
+            "Launch and configure EC2 instances",
+            "Build scalable web applications",
+            "Design multi-tier architecture"
+          ],
+          "milestones": [
+            "Deploy applications on AWS",
+            "Design scalable architectures",
+            "Optimize costs"
+          ]
+        },
+        {
+          "name": "Advanced Architecture (Months 7-10)",
+          "durationMonths": 4,
+          "topics": [
+            "Microservices architecture",
+            "Containerization (Docker, ECS, EKS)",
+            "Serverless computing (Lambda, API Gateway)",
+            "Monitoring and logging",
+            "Disaster recovery and backup"
+          ],
+          "projects": [
+            "Build microservices architecture",
+            "Deploy containerized applications",
+            "Design serverless solutions"
+          ],
+          "milestones": [
+            "Design resilient architectures",
+            "Implement microservices",
+            "Plan disaster recovery"
+          ]
+        },
+        {
+          "name": "Certification & Mastery (Months 11-12)",
+          "durationMonths": 2,
+          "topics": [
+            "AWS Solutions Architect exam preparation",
+            "Best practices and design patterns",
+            "Cost optimization strategies",
+            "Compliance and governance",
+            "Enterprise architecture"
+          ],
+          "projects": [
+            "Design enterprise solutions",
+            "Complete AWS certification exam",
+            "Lead architecture reviews"
+          ],
+          "milestones": [
+            "Earn AWS certification",
+            "Design enterprise-grade systems",
+            "Mentor junior architects"
+          ]
+        }
+      ]
+    }
+  ]
+}

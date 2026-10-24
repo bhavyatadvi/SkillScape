@@ -1,0 +1,477 @@
+[
+    {
+        "id": "Q_SWITCH_MOTIVATION_001",
+        "phaseKey": "CareerSwitch",
+        "subPhaseKey": "",
+        "questionType": "Motivations",
+        "languageComplexity": "Simple",
+        "text": "What is motivating you to change careers?",
+        "targetDiscriminatesJson": "[]",
+        "domain": "",
+        "subdomain": "",
+        "competencyId": "",
+        "intent": "",
+        "options": [
+            {
+                "index": 0,
+                "text": "Better salary",
+                "signals": []
+            },
+            {
+                "index": 1,
+                "text": "Better work-life balance",
+                "signals": []
+            },
+            {
+                "index": 2,
+                "text": "More interesting work",
+                "signals": []
+            },
+            {
+                "index": 3,
+                "text": "More creativity",
+                "signals": []
+            },
+            {
+                "index": 4,
+                "text": "More technical work",
+                "signals": []
+            },
+            {
+                "index": 5,
+                "text": "More leadership",
+                "signals": []
+            }
+        ]
+    },
+    {
+        "id": "Q_SWITCH_KEEP_002",
+        "phaseKey": "CareerSwitch",
+        "subPhaseKey": "",
+        "questionType": "PositivePreferences",
+        "languageComplexity": "Simple",
+        "text": "What would you like to carry from your current career into your next one?",
+        "targetDiscriminatesJson": "[]",
+        "domain": "",
+        "subdomain": "",
+        "competencyId": "",
+        "intent": "",
+        "options": [
+            {
+                "index": 0,
+                "text": "Problem solving",
+                "signals": []
+            },
+            {
+                "index": 1,
+                "text": "Technical knowledge",
+                "signals": []
+            },
+            {
+                "index": 2,
+                "text": "Project management",
+                "signals": []
+            },
+            {
+                "index": 3,
+                "text": "Working with people",
+                "signals": []
+            },
+            {
+                "index": 4,
+                "text": "Nothing â€” I want a fresh start",
+                "signals": []
+            }
+        ]
+    },
+    {
+        "id": "Q_SWITCH_AVOID_003",
+        "phaseKey": "CareerSwitch",
+        "subPhaseKey": "",
+        "questionType": "NegativePreferences",
+        "languageComplexity": "Simple",
+        "text": "What would you prefer NOT to do in your next career?",
+        "targetDiscriminatesJson": "[]",
+        "domain": "",
+        "subdomain": "",
+        "competencyId": "",
+        "intent": "",
+        "options": [
+            {
+                "index": 0,
+                "text": "Heavy coding",
+                "signals": []
+            },
+            {
+                "index": 1,
+                "text": "Frequent travel",
+                "signals": []
+            },
+            {
+                "index": 2,
+                "text": "Sales",
+                "signals": []
+            },
+            {
+                "index": 3,
+                "text": "Highly repetitive work",
+                "signals": []
+            }
+        ]
+    },
+    {
+        "id": "Q_SWITCH_ENG_CIVIL_001",
+        "phaseKey": "CareerSwitch",
+        "subPhaseKey": "sci.eng.civil",
+        "questionType": "DomainSpecific",
+        "languageComplexity": "Intermediate",
+        "text": "Imagine you're responsible for a delayed construction project. Which part would you most naturally want to take ownership of?",
+        "targetDiscriminatesJson": "[\"mgmt.project\", \"sci.eng.bim\"]",
+        "domain": "",
+        "subdomain": "",
+        "competencyId": "",
+        "intent": "",
+        "options": [
+            {
+                "index": 0,
+                "text": "Reorganizing the schedule, people and resources",
+                "signals": [
+                    {
+                        "nodeId": "mgmt.project",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Finding the technical reason for the delay",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.bim",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Analyzing the project data to identify inefficiencies",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.cs.data",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "I wouldn't enjoy this type of work",
+                "signals": []
+            }
+        ]
+    },
+    {
+        "id": "Q_SWITCH_NEW_001",
+        "phaseKey": "CareerSwitch",
+        "subPhaseKey": "",
+        "questionType": "TargetDomainDiscriminator",
+        "languageComplexity": "Intermediate",
+        "domain": "",
+        "subdomain": "",
+        "competencyId": "",
+        "intent": "Identify target career family for switcher",
+        "targetDiscriminatesJson": "[]",
+        "text": "Which broad career domain are you looking to switch into?",
+        "options": [
+            {
+                "index": 0,
+                "text": "Technology - software engineering, data, cybersecurity, or cloud",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.cs",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Finance and management - consulting, investment, strategy, or analytics",
+                "signals": [
+                    {
+                        "nodeId": "com.fin",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "com.mgmt",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Government and public sector - policy, administration, or technical public roles",
+                "signals": [
+                    {
+                        "nodeId": "gov.admin",
+                        "weight": 0.85
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Creative and media - design, content, marketing, or communication",
+                "signals": [
+                    {
+                        "nodeId": "arts.des",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "arts.media",
+                        "weight": 0.75
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_SWITCH_TECH_001",
+        "phaseKey": "CareerSwitch",
+        "subPhaseKey": "tech",
+        "questionType": "TransitionPreference",
+        "languageComplexity": "Intermediate",
+        "domain": "",
+        "subdomain": "",
+        "competencyId": "",
+        "intent": "Discriminate CS specialisation for tech switchers",
+        "targetDiscriminatesJson": "[\"sci.eng.cs.ai_ml\", \"sci.eng.cs.cybersec\", \"sci.eng.cs.software\", \"sci.eng.cs.data\"]",
+        "text": "You are moving into a technology career. Which specific direction interests you most?",
+        "options": [
+            {
+                "index": 0,
+                "text": "Building predictive models - using data to train machine learning systems",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.cs.ai_ml",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "sci.eng.cs.data",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Cybersecurity - protecting systems and investigating security breaches",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.cs.cybersec",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Software development - building applications, APIs, and backend systems",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.cs.software",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Data analytics - processing large datasets and communicating business insights",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.cs.data",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_SWITCH_SKILL_001",
+        "phaseKey": "CareerSwitch",
+        "subPhaseKey": "",
+        "questionType": "TransferableSkill",
+        "languageComplexity": "Simple",
+        "domain": "",
+        "subdomain": "",
+        "competencyId": "",
+        "intent": "Identify transferable skills to guide career match",
+        "targetDiscriminatesJson": "[]",
+        "text": "Which of these describes the skill you have used most successfully in your current career?",
+        "options": [
+            {
+                "index": 0,
+                "text": "Technical problem-solving - diagnosing complex issues and finding systematic solutions",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.cs",
+                        "weight": 0.7
+                    },
+                    {
+                        "nodeId": "sci.eng",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Data analysis - interpreting numbers, trends, and patterns to support decisions",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.cs.data",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "com.mgmt.analytics",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Communication and persuasion - presenting ideas clearly and influencing stakeholders",
+                "signals": [
+                    {
+                        "nodeId": "com.mktg",
+                        "weight": 0.7
+                    },
+                    {
+                        "nodeId": "arts.media",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Process management - organising workflows, timelines, and coordinating teams",
+                "signals": [
+                    {
+                        "nodeId": "mgmt.operations",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "mgmt.project",
+                        "weight": 0.75
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_SWITCH_FINANCE_001",
+        "phaseKey": "CareerSwitch",
+        "subPhaseKey": "finance",
+        "questionType": "DomainSpecific",
+        "languageComplexity": "Intermediate",
+        "domain": "",
+        "subdomain": "",
+        "competencyId": "",
+        "intent": "Discriminate finance sub-career for switchers",
+        "targetDiscriminatesJson": "[\"com.fin.ib\", \"com.fin.analysis\", \"com.mgmt.analytics\"]",
+        "text": "You are transitioning into the finance and business domain. Which type of work would you most like to take on?",
+        "options": [
+            {
+                "index": 0,
+                "text": "Financial modelling and valuation - analysing whether investments are worthwhile",
+                "signals": [
+                    {
+                        "nodeId": "com.fin.ib",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "com.fin.analysis",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Business analytics - using data to inform strategy and operational decisions",
+                "signals": [
+                    {
+                        "nodeId": "com.mgmt.analytics",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Risk management - identifying and mitigating financial and operational risks",
+                "signals": [
+                    {
+                        "nodeId": "com.fin.risk",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Management consulting - advising organisations on strategy and transformation",
+                "signals": [
+                    {
+                        "nodeId": "com.mgmt.consult",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_SWITCH_BARRIER_001",
+        "phaseKey": "CareerSwitch",
+        "subPhaseKey": "",
+        "questionType": "GapAssessment",
+        "languageComplexity": "Simple",
+        "domain": "",
+        "subdomain": "",
+        "competencyId": "",
+        "intent": "Understand commitment level and skill gap awareness",
+        "targetDiscriminatesJson": "[]",
+        "text": "How much time and effort are you willing to invest to build new skills for your career switch?",
+        "options": [
+            {
+                "index": 0,
+                "text": "6 to 12 months of intensive upskilling through online courses and certifications",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.cs",
+                        "weight": 0.5
+                    },
+                    {
+                        "nodeId": "com.fin",
+                        "weight": 0.4
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "1 to 2 years through a full postgraduate degree or professional qualification",
+                "signals": [
+                    {
+                        "nodeId": "com.fin",
+                        "weight": 0.5
+                    },
+                    {
+                        "nodeId": "sci.eng",
+                        "weight": 0.4
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "I want to make a gradual switch while continuing my current job part-time",
+                "signals": []
+            },
+            {
+                "index": 3,
+                "text": "I want to switch immediately using mostly transferable skills from my current role",
+                "signals": []
+            }
+        ]
+    }
+]

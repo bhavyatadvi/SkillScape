@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\SkillScape.Domain\SkillScape.Domain.csproj" />
+    <ProjectReference Include="..\SkillScape.Application\SkillScape.Application.csproj" />
+    <ProjectReference Include="..\SkillScape.Infrastructure\SkillScape.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

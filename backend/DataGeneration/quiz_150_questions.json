@@ -1,0 +1,4052 @@
+[
+  {
+    "id": "q1",
+    "text": "When building a web application, what is your primary focus?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q1_opt1",
+        "text": "Conducting user research, assessing ROI, and setting product requirements.",
+        "domain": "business"
+      },
+      {
+        "id": "q1_opt2",
+        "text": "Architecting secure API routes, managing databases, and processing business logic.",
+        "domain": "backend"
+      },
+      {
+        "id": "q1_opt3",
+        "text": "Structuring simple navigation, creating clear instructions, and ensuring learning accessibility.",
+        "domain": "education"
+      },
+      {
+        "id": "q1_opt4",
+        "text": "Setting up build automation, managing servers, and maintaining continuous delivery.",
+        "domain": "devops"
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "text": "What type of problem are you most comfortable solving in your daily work?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q2_opt1",
+        "text": "Fixing broken ETL pipelines, cleaning messy CSV columns, and optimizing aggregate queries.",
+        "domain": "data"
+      },
+      {
+        "id": "q2_opt2",
+        "text": "Fixing low course completion rates and designing simple materials for struggling learners.",
+        "domain": "education"
+      },
+      {
+        "id": "q2_opt3",
+        "text": "Diagnosing digital health record mismatches and maintaining system uptime for medical staff.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q2_opt4",
+        "text": "Tuning hyper-parameters, resolving model overfitting, and handling biased training data.",
+        "domain": "ml"
+      }
+    ]
+  },
+  {
+    "id": "q3",
+    "text": "Which software development tool or technology do you use or study the most?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q3_opt1",
+        "text": "Modern JS libraries and CSS processors like React, Vue, Tailwind, or Next.js.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q3_opt2",
+        "text": "Server frameworks and databases like Node.js, C#, PostgreSQL, or Redis.",
+        "domain": "backend"
+      },
+      {
+        "id": "q3_opt3",
+        "text": "Integrated systems like Next.js, full-stack frameworks, and monolithic web packages.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q3_opt4",
+        "text": "Visual mockup and vector tools like Figma, Sketch, Adobe Illustrator, or Miro.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q4",
+    "text": "What would make you feel most proud at the completion of a major project?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q4_opt1",
+        "text": "A fully functioning product built entirely from scratch, covering all technical layers.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q4_opt2",
+        "text": "An interactive dashboard revealing previously hidden business trends and metrics.",
+        "domain": "data"
+      },
+      {
+        "id": "q4_opt3",
+        "text": "A stable deployment environment with automated fallback recovery and zero downtime.",
+        "domain": "devops"
+      },
+      {
+        "id": "q4_opt4",
+        "text": "A secure system that ensures patients receive medical care quickly and safely.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q5",
+    "text": "Which of these tasks would you choose to perform if you had a free afternoon?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q5_opt1",
+        "text": "Writing a detailed step-by-step tutorial or planning a training workshop.",
+        "domain": "education"
+      },
+      {
+        "id": "q5_opt2",
+        "text": "Experimenting with a new interactive animation library or component style.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q5_opt3",
+        "text": "Mapping out the product roadmap for the next quarter and writing feature specs.",
+        "domain": "business"
+      },
+      {
+        "id": "q5_opt4",
+        "text": "Refactoring database queries to improve execution plans and server response times.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q6",
+    "text": "How do you prefer to approach the design of system components?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q6_opt1",
+        "text": "Defining product requirements, user personas, and target customer outcomes.",
+        "domain": "business"
+      },
+      {
+        "id": "q6_opt2",
+        "text": "Breaking down screens into modular, reusable UI components with clear props.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q6_opt3",
+        "text": "Architecting neural layers, training pipelines, and validation splits.",
+        "domain": "ml"
+      },
+      {
+        "id": "q6_opt4",
+        "text": "Planning how visual UI cards map to database models and server schemas.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q7",
+    "text": "What is your main strategy to improve the security of an application?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q7_opt1",
+        "text": "Implementing secure password hashing, JWT validations, and rate-limiting APIs.",
+        "domain": "backend"
+      },
+      {
+        "id": "q7_opt2",
+        "text": "Applying strict HIPAA/medical compliance encryption to all clinical data records.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q7_opt3",
+        "text": "Validating credentials at both the client-side forms and server-side logic layers.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q7_opt4",
+        "text": "Designing clear permission notices and helping users understand security settings.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q8",
+    "text": "When a web page loads slowly, what do you look at first?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q8_opt1",
+        "text": "The network tab to inspect HTTP request logs and full-stack response times.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q8_opt2",
+        "text": "Visual layout shifts, large graphic files, and non-optimized web font configurations.",
+        "domain": "design"
+      },
+      {
+        "id": "q8_opt3",
+        "text": "The bounce rate increase and potential conversion losses from slow load times.",
+        "domain": "business"
+      },
+      {
+        "id": "q8_opt4",
+        "text": "The inference latency of the prediction service and GPU server load.",
+        "domain": "ml"
+      }
+    ]
+  },
+  {
+    "id": "q9",
+    "text": "How do you prefer to collaborate with other members of your team?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q9_opt1",
+        "text": "Assisting both client-side and server-side developers to resolve integration conflicts.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q9_opt2",
+        "text": "Working with designers to bring wireframes to life and writing reusable UI widgets.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q9_opt3",
+        "text": "Configuring unified staging environments and helping coders debug deployment errors.",
+        "domain": "devops"
+      },
+      {
+        "id": "q9_opt4",
+        "text": "Providing clean API definitions and documentation to client developers.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "text": "What type of data do you prefer to work with in your projects?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q10_opt1",
+        "text": "Server metrics, YAML configs, deployment scripts, and resource limits.",
+        "domain": "devops"
+      },
+      {
+        "id": "q10_opt2",
+        "text": "Revenue records, customer retention tables, market sizes, and survey ratings.",
+        "domain": "business"
+      },
+      {
+        "id": "q10_opt3",
+        "text": "JSON payloads, HTML tags, CSS variables, and DOM event states.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q10_opt4",
+        "text": "Image datasets, text arrays, token sequences, and probability matrices.",
+        "domain": "ml"
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "text": "If a user reports that a critical button is not working on a website, how do you debug it?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q11_opt1",
+        "text": "Checking if the button's AI recommendation output failed to return results.",
+        "domain": "ml"
+      },
+      {
+        "id": "q11_opt2",
+        "text": "Analyzing how many users fail to click the button and the business impact.",
+        "domain": "business"
+      },
+      {
+        "id": "q11_opt3",
+        "text": "Checking if the button is visible, clickable, and visually clear to users.",
+        "domain": "design"
+      },
+      {
+        "id": "q11_opt4",
+        "text": "Verifying the frontend request payload matching against server controller variables.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "text": "When a server runs out of memory, what is your approach to resolve it?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q12_opt1",
+        "text": "Configuring swap files, adjusting container memory limits, and setting up auto-scale.",
+        "domain": "devops"
+      },
+      {
+        "id": "q12_opt2",
+        "text": "Identifying backend memory leaks, closing database connections, and tuning caching.",
+        "domain": "backend"
+      },
+      {
+        "id": "q12_opt3",
+        "text": "Breaking huge analytic queries into smaller batches to prevent DB server crashes.",
+        "domain": "data"
+      },
+      {
+        "id": "q12_opt4",
+        "text": "Optimizing memory usage by cleaning client event listeners and image caches.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "text": "If a database query takes too long, what is your direct fix?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q13_opt1",
+        "text": "Upgrading database server hardware, adjusting disk I/O, and adding read-replicas.",
+        "domain": "devops"
+      },
+      {
+        "id": "q13_opt2",
+        "text": "Redesigning database schemas, using column stores, and rewriting SQL aggregates.",
+        "domain": "data"
+      },
+      {
+        "id": "q13_opt3",
+        "text": "Reducing the amount of data requested and lazy-loading non-essential components.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q13_opt4",
+        "text": "Prioritizing critical medical chart queries over administrative operations.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "text": "How do you handle ambiguous requirements from a project lead?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q14_opt1",
+        "text": "Creating quick visual mockups to confirm how pages should look and function.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q14_opt2",
+        "text": "Running basic descriptive analyses on the data to see what insights are possible.",
+        "domain": "data"
+      },
+      {
+        "id": "q14_opt3",
+        "text": "Testing baseline models on sample datasets to define performance metrics.",
+        "domain": "ml"
+      },
+      {
+        "id": "q14_opt4",
+        "text": "Hosting a scoping meeting to draft detailed product requirement documents.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "text": "When code updates break existing features, what is your process?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q15_opt1",
+        "text": "Running server-side unit tests and checking API integrations.",
+        "domain": "backend"
+      },
+      {
+        "id": "q15_opt2",
+        "text": "Notifying course tutors and students of technical issues with lesson pages.",
+        "domain": "education"
+      },
+      {
+        "id": "q15_opt3",
+        "text": "Comparing model evaluation metrics against the baseline version.",
+        "domain": "ml"
+      },
+      {
+        "id": "q15_opt4",
+        "text": "Checking if layout changes or UI updates confused returning users.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "text": "What do you do when a user interface looks broken on mobile screens?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q16_opt1",
+        "text": "Designing mobile-friendly reporting structures and summarized text cards.",
+        "domain": "data"
+      },
+      {
+        "id": "q16_opt2",
+        "text": "Tuning light models that can perform inferences locally on mobile hardware.",
+        "domain": "ml"
+      },
+      {
+        "id": "q16_opt3",
+        "text": "Updating API payloads to send condensed data structures for mobile views.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q16_opt4",
+        "text": "Optimizing image compression APIs to serve lighter assets to mobile devices.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "text": "How do you handle a situation where data formatting is inconsistent?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q17_opt1",
+        "text": "Creating helper functions to clean and format strings before rendering them.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q17_opt2",
+        "text": "Writing ETL cleaning scripts in Python or SQL to standardize fields in database tables.",
+        "domain": "data"
+      },
+      {
+        "id": "q17_opt3",
+        "text": "Adding database migration scripts to clean existing database fields.",
+        "domain": "devops"
+      },
+      {
+        "id": "q17_opt4",
+        "text": "Setting strict grading criteria formats for course assignments and records.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "text": "If a cloud service provider goes down, what is your solution?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q18_opt1",
+        "text": "Rescheduling online lessons and migrating materials to backup document stores.",
+        "domain": "education"
+      },
+      {
+        "id": "q18_opt2",
+        "text": "Designing informative offline states and messaging to reassure users.",
+        "domain": "design"
+      },
+      {
+        "id": "q18_opt3",
+        "text": "Configuring the app to use cached local storage data and show offline modes.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q18_opt4",
+        "text": "Activating read-only database replicas hosted with secondary providers.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "text": "When users complain that a form is too difficult to fill, what do you change?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q19_opt1",
+        "text": "Configuring automatic address verification APIs to speed up form processes.",
+        "domain": "devops"
+      },
+      {
+        "id": "q19_opt2",
+        "text": "Redesigning layout hierarchy, grouping input labels, and improving hints.",
+        "domain": "design"
+      },
+      {
+        "id": "q19_opt3",
+        "text": "Splitting forms into multi-step wizards, adding inline validation, and autocomplete.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q19_opt4",
+        "text": "Ensuring medical history intake forms are easy for senior patients to navigate.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "text": "How do you resolve conflicts between design assets and code capabilities?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q20_opt1",
+        "text": "Deciding whether premium styling justifies the extra software development hours.",
+        "domain": "business"
+      },
+      {
+        "id": "q20_opt2",
+        "text": "Modifying visual layouts to use existing UI component frameworks.",
+        "domain": "design"
+      },
+      {
+        "id": "q20_opt3",
+        "text": "Refactoring system features to balance aesthetic needs with server scalability.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q20_opt4",
+        "text": "Adapting UI features to match dynamic machine learning outputs.",
+        "domain": "ml"
+      }
+    ]
+  },
+  {
+    "id": "q21",
+    "text": "Which framework or library would you prefer to explore in depth?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q21_opt1",
+        "text": "Figma design system kits, Webflow, or Adobe Creative Cloud features.",
+        "domain": "design"
+      },
+      {
+        "id": "q21_opt2",
+        "text": "Epic EHR APIs, FHIR standards, or medical imaging analysis toolkits.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q21_opt3",
+        "text": "Hugging Face, PyTorch Lightning, or LangChain for training intelligent agents.",
+        "domain": "ml"
+      },
+      {
+        "id": "q21_opt4",
+        "text": "Articulate Storyline, Moodle plugins, or digital lesson design tools.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q22",
+    "text": "How do you prefer to manage version control branch merges?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q22_opt1",
+        "text": "Comparing Figma file version history to ensure visual layout consistency.",
+        "domain": "design"
+      },
+      {
+        "id": "q22_opt2",
+        "text": "Verifying database migrations, API changes, and server controller logic.",
+        "domain": "backend"
+      },
+      {
+        "id": "q22_opt3",
+        "text": "Reviewing SQL schema update files, dataset scripts, and query logic changes.",
+        "domain": "data"
+      },
+      {
+        "id": "q22_opt4",
+        "text": "Applying dual-signature code approvals to verify health compliance rules.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q23",
+    "text": "What type of development environment configuration is most important to you?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q23_opt1",
+        "text": "Project planning boards, product analytics setups, and spreadsheet workspaces.",
+        "domain": "business"
+      },
+      {
+        "id": "q23_opt2",
+        "text": "Unified workspace configurations running both frontend and backend servers together.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q23_opt3",
+        "text": "Student view emulation tools, quiz test suites, and curriculum planning grids.",
+        "domain": "education"
+      },
+      {
+        "id": "q23_opt4",
+        "text": "GPU computing servers, model weight repositories, and tensor plotting libraries.",
+        "domain": "ml"
+      }
+    ]
+  },
+  {
+    "id": "q24",
+    "text": "If you could automate one manual task in your daily schedule, what would it be?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q24_opt1",
+        "text": "Labeling training data inputs and logging training performance charts.",
+        "domain": "ml"
+      },
+      {
+        "id": "q24_opt2",
+        "text": "Exporting graphic assets in multiple formats and sizes for developer use.",
+        "domain": "design"
+      },
+      {
+        "id": "q24_opt3",
+        "text": "Running routine data cleaning scripts and exporting reports to dashboards.",
+        "domain": "data"
+      },
+      {
+        "id": "q24_opt4",
+        "text": "Scaffolding backend tables and frontend inputs from a single schema spec.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q25",
+    "text": "What is your preference regarding software containerization (e.g., Docker)?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q25_opt1",
+        "text": "Using container builds to guarantee standard browser rendering outputs across teams.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q25_opt2",
+        "text": "Securing health containers to isolate patient data pipelines from external networks.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q25_opt3",
+        "text": "Writing custom Dockerfiles, minimizing image weights, and orchestrating containers.",
+        "domain": "devops"
+      },
+      {
+        "id": "q25_opt4",
+        "text": "Packaging API engines and databases to run consistently on any computer.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q26",
+    "text": "When evaluating a third-party code package, what is your top criteria?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q26_opt1",
+        "text": "Bundle weight size, support for responsive styles, and accessibility tags.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q26_opt2",
+        "text": "Simplicity of use, documentation quality, and learning curves for students.",
+        "domain": "education"
+      },
+      {
+        "id": "q26_opt3",
+        "text": "Implementation cost, commercial licenses, and timeline delivery improvements.",
+        "domain": "business"
+      },
+      {
+        "id": "q26_opt4",
+        "text": "Medical data security certs, audit trail logging, and regulatory safety approval.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q27",
+    "text": "How do you prefer to test your application code?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q27_opt1",
+        "text": "Validating data types, checking for null values, and testing query speed performance.",
+        "domain": "data"
+      },
+      {
+        "id": "q27_opt2",
+        "text": "Creating student pilot tests to ensure curriculum lessons are clear and easy.",
+        "domain": "education"
+      },
+      {
+        "id": "q27_opt3",
+        "text": "Testing API request formats, database mock outputs, and controller logic code.",
+        "domain": "backend"
+      },
+      {
+        "id": "q27_opt4",
+        "text": "Conducting interactive user reviews, A/B layouts, and accessibility checks.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q28",
+    "text": "What type of technical blog or documentation article appeals to you most?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q28_opt1",
+        "text": "Research papers explaining new neural network layers and AI model performance.",
+        "domain": "ml"
+      },
+      {
+        "id": "q28_opt2",
+        "text": "Posts detailing cloud infrastructure automation, CI/CD pipelines, and server security.",
+        "domain": "devops"
+      },
+      {
+        "id": "q28_opt3",
+        "text": "Pedagogical guidelines, educational technology trends, and training frameworks.",
+        "domain": "education"
+      },
+      {
+        "id": "q28_opt4",
+        "text": "Regulatory updates for health software and clinical data exchange standards.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q29",
+    "text": "How do you feel about command-line interfaces (CLI) versus graphic user interfaces (GUI)?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q29_opt1",
+        "text": "Using terminal commands for database ETL, but GUI dashboards to check insights.",
+        "domain": "data"
+      },
+      {
+        "id": "q29_opt2",
+        "text": "Prefer GUIs to preview pages, but use CLI for running component build commands.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q29_opt3",
+        "text": "Prefer visual business tools, boards, and analytics chart builders.",
+        "domain": "business"
+      },
+      {
+        "id": "q29_opt4",
+        "text": "Rely on highly secure graphical software designed for medical professionals.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q30",
+    "text": "What is your strategy for maintaining code quality in a codebase?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q30_opt1",
+        "text": "Creating clear data schema schemas, dictionary files, and testing query outputs.",
+        "domain": "data"
+      },
+      {
+        "id": "q30_opt2",
+        "text": "Enforcing database schemas, API documentation, and controller test coverage.",
+        "domain": "backend"
+      },
+      {
+        "id": "q30_opt3",
+        "text": "Documenting product goals, user feedback flows, and metric calculations.",
+        "domain": "business"
+      },
+      {
+        "id": "q30_opt4",
+        "text": "Maintaining consistent types and models across client and server layers.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q31",
+    "text": "When architecting a system, how do you handle state management?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q31_opt1",
+        "text": "Saving training parameters, feature scales, and neural layer weights.",
+        "domain": "ml"
+      },
+      {
+        "id": "q31_opt2",
+        "text": "Designing clear navigation flows so users always know their current step in the app.",
+        "domain": "design"
+      },
+      {
+        "id": "q31_opt3",
+        "text": "Maintaining data pipelines, temporal tables, and data version controls.",
+        "domain": "data"
+      },
+      {
+        "id": "q31_opt4",
+        "text": "Tracking student lesson progression, quiz completions, and skill histories.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q32",
+    "text": "If you had to design a messaging system, what would be the core focus?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q32_opt1",
+        "text": "Developing text analysis models to auto-moderate comments or suggest quick responses.",
+        "domain": "ml"
+      },
+      {
+        "id": "q32_opt2",
+        "text": "Applying secure clinical encryption to protect private doctor-patient messages.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q32_opt3",
+        "text": "Designing both front-end chat views and back-end socket server integrations.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q32_opt4",
+        "text": "Analyzing messaging traffic, user interaction counts, and saving chat history files.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q33",
+    "text": "How do you ensure a system can handle multiple languages (internationalization)?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q33_opt1",
+        "text": "Structuring education paths to easily localize lectures and learning guides.",
+        "domain": "education"
+      },
+      {
+        "id": "q33_opt2",
+        "text": "Designing layouts that adapt gracefully to varying text lengths in foreign scripts.",
+        "domain": "design"
+      },
+      {
+        "id": "q33_opt3",
+        "text": "Configuring global content delivery servers (CDN) to route files based on locale.",
+        "domain": "devops"
+      },
+      {
+        "id": "q33_opt4",
+        "text": "Configuring both UI translation labels and server-side locale database fields.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q34",
+    "text": "What is your strategy when designing database relationships?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q34_opt1",
+        "text": "Extracting database rows into flat feature arrays for training models.",
+        "domain": "ml"
+      },
+      {
+        "id": "q34_opt2",
+        "text": "Ensuring database tables match with server controllers and frontend models.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q34_opt3",
+        "text": "Structuring health databases to connect clinical diagnoses with medication logs.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q34_opt4",
+        "text": "Mapping student course enrollment keys to teacher assignment records.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q35",
+    "text": "How do you design a system to support multiple user roles (e.g., admin, student, guest)?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q35_opt1",
+        "text": "Providing teachers with gradebook inputs and students with lesson views.",
+        "domain": "education"
+      },
+      {
+        "id": "q35_opt2",
+        "text": "Designing personal models customized to different types of user behavior.",
+        "domain": "ml"
+      },
+      {
+        "id": "q35_opt3",
+        "text": "Defining target user tiers, workspace rights, and subscription pricing packages.",
+        "domain": "business"
+      },
+      {
+        "id": "q35_opt4",
+        "text": "Hiding or showing navigation tabs and buttons based on user permissions.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q36",
+    "text": "What is your approach to handling system notification systems?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q36_opt1",
+        "text": "Building smart filters to predict and send only high-priority alerts to users.",
+        "domain": "ml"
+      },
+      {
+        "id": "q36_opt2",
+        "text": "Tracking notification open rates, delivery counts, and click-through analytics.",
+        "domain": "data"
+      },
+      {
+        "id": "q36_opt3",
+        "text": "Connecting server notification tables to interactive client-side alert tabs.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q36_opt4",
+        "text": "Building sliding toast alerts, notification bell counts, and animation cards.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q37",
+    "text": "How do you structure microservices communication?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q37_opt1",
+        "text": "Ensuring patient health exchange between services complies with safety laws.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q37_opt2",
+        "text": "Consolidating data logs from multiple services into a single database.",
+        "domain": "data"
+      },
+      {
+        "id": "q37_opt3",
+        "text": "Isolating educational content microservices from grading history databases.",
+        "domain": "education"
+      },
+      {
+        "id": "q37_opt4",
+        "text": "Designing matching interface states when services fail to load.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q38",
+    "text": "What is your main target when planning database indexing?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q38_opt1",
+        "text": "Optimizing complex query scripts that analyze millions of rows.",
+        "domain": "data"
+      },
+      {
+        "id": "q38_opt2",
+        "text": "Ensuring searching for layout assets returns results instantly.",
+        "domain": "design"
+      },
+      {
+        "id": "q38_opt3",
+        "text": "Improving full stack feature speed by index optimization on tables.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q38_opt4",
+        "text": "Reducing loading spinners and ensuring lists update instantly.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q39",
+    "text": "How do you design for offline capability in applications?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q39_opt1",
+        "text": "Setting up caching proxies and configuring offline staging test systems.",
+        "domain": "devops"
+      },
+      {
+        "id": "q39_opt2",
+        "text": "Validating app utility in areas with low internet connectivity.",
+        "domain": "business"
+      },
+      {
+        "id": "q39_opt3",
+        "text": "Configuring Service Workers, PWA configurations, and indexedDB local storage.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q39_opt4",
+        "text": "Designing data synchronization APIs and handling merge conflict records.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q40",
+    "text": "When designing API payloads, what do you value most?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q40_opt1",
+        "text": "Including clear quiz scoring metadata and assignment feedback text.",
+        "domain": "education"
+      },
+      {
+        "id": "q40_opt2",
+        "text": "Including parameters needed to track product growth metrics.",
+        "domain": "business"
+      },
+      {
+        "id": "q40_opt3",
+        "text": "Formatting arrays into structured inputs suitable for neural processors.",
+        "domain": "ml"
+      },
+      {
+        "id": "q40_opt4",
+        "text": "Ensuring output values map cleanly to visual page labels and widgets.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q41",
+    "text": "What is your primary goal when writing a script to process a dataset?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q41_opt1",
+        "text": "Passing form data between client elements and database tables securely.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q41_opt2",
+        "text": "Extracting patient clinical symptoms to aid in medical diagnosis.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q41_opt3",
+        "text": "Normalizing dataset features and preparing training-test arrays.",
+        "domain": "ml"
+      },
+      {
+        "id": "q41_opt4",
+        "text": "Validating data integrity constraints before writing updates to databases.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q42",
+    "text": "How do you prefer to store system log files?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q42_opt1",
+        "text": "Streaming server logs to central dashboards like Elasticsearch or CloudWatch.",
+        "domain": "devops"
+      },
+      {
+        "id": "q42_opt2",
+        "text": "Storing pipeline logs in database tables to analyze system speed.",
+        "domain": "data"
+      },
+      {
+        "id": "q42_opt3",
+        "text": "Logging model training loss values and validation accuracies over time.",
+        "domain": "ml"
+      },
+      {
+        "id": "q42_opt4",
+        "text": "Maintaining strict HIPAA-compliant audit logs of patient record access.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q43",
+    "text": "When working with unstructured data (like free text), what do you do?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q43_opt1",
+        "text": "Analyzing user interview text notes to discover user pain points.",
+        "domain": "design"
+      },
+      {
+        "id": "q43_opt2",
+        "text": "Reading feedback surveys to identify customer sentiment and feature needs.",
+        "domain": "business"
+      },
+      {
+        "id": "q43_opt3",
+        "text": "Tokenizing text, training embeddings, and applying NLP models.",
+        "domain": "ml"
+      },
+      {
+        "id": "q43_opt4",
+        "text": "Creating UI text editors and saving rich-text configurations to servers.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q44",
+    "text": "How do you approach database backups?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q44_opt1",
+        "text": "Configuring auto-save triggers in forms to prevent user data loss.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q44_opt2",
+        "text": "Writing database export scripts and scheduling routine SQL dumps.",
+        "domain": "backend"
+      },
+      {
+        "id": "q44_opt3",
+        "text": "Structuring data warehouse staging and historical snapshot tables.",
+        "domain": "data"
+      },
+      {
+        "id": "q44_opt4",
+        "text": "Storing temporary user settings in browser local storage as a fallback.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q45",
+    "text": "What type of database system do you prefer?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q45_opt1",
+        "text": "Secure medical database systems designed for patient record compliance.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q45_opt2",
+        "text": "Student information systems and course progress tracking databases.",
+        "domain": "education"
+      },
+      {
+        "id": "q45_opt3",
+        "text": "Client storage databases like IndexedDB, LocalStorage, or key-value stores.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q45_opt4",
+        "text": "Analytical column databases like Snowflake, BigQuery, or Redshift.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q46",
+    "text": "How do you handle real-time streaming data?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q46_opt1",
+        "text": "Integrating real-time event systems with both frontend views and backend tables.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q46_opt2",
+        "text": "Configuring messaging brokers like Kafka or AWS Kinesis to route streams.",
+        "domain": "devops"
+      },
+      {
+        "id": "q46_opt3",
+        "text": "Building socket API servers and event listener endpoints.",
+        "domain": "backend"
+      },
+      {
+        "id": "q46_opt4",
+        "text": "Writing stream analysis scripts with Apache Spark or Flink.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q47",
+    "text": "When a dataset has missing values, what is your standard solution?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q47_opt1",
+        "text": "Applying feature engineering to replace missing data with mean, median, or predicted values.",
+        "domain": "ml"
+      },
+      {
+        "id": "q47_opt2",
+        "text": "Marking missing diagnostic charts as urgent to request immediate nurse checks.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q47_opt3",
+        "text": "Checking if database migration scripts failed to fill legacy columns.",
+        "domain": "devops"
+      },
+      {
+        "id": "q47_opt4",
+        "text": "Running imputation scripts or ignoring empty rows depending on data policies.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q48",
+    "text": "What do you look for when analyzing user engagement metrics?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q48_opt1",
+        "text": "Feeding interaction features to recommendation systems to predict retention.",
+        "domain": "ml"
+      },
+      {
+        "id": "q48_opt2",
+        "text": "Analyzing click heatmaps, scroll depth, and page performance times.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q48_opt3",
+        "text": "Analyzing user flow patterns across the frontend page routes to backend database updates.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q48_opt4",
+        "text": "Evaluating system usage rates by clinical staff to improve hospital software.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q49",
+    "text": "How do you handle data privacy regulations (like GDPR)?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q49_opt1",
+        "text": "Writing scripts to anonymize user identifiers in analytical datasets.",
+        "domain": "data"
+      },
+      {
+        "id": "q49_opt2",
+        "text": "Creating cookie consent bars, privacy check settings, and option toggles.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q49_opt3",
+        "text": "Designing clear privacy notices and helping users manage personal settings easily.",
+        "domain": "design"
+      },
+      {
+        "id": "q49_opt4",
+        "text": "Writing legal compliance policies and scheduling data safety audits.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q50",
+    "text": "What is your strategy for compiling reports?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q50_opt1",
+        "text": "Orchestrating BI software dashboards and automated SQL reporting pipelines.",
+        "domain": "data"
+      },
+      {
+        "id": "q50_opt2",
+        "text": "Writing efficient backend queries to compile database fields into JSON summaries.",
+        "domain": "backend"
+      },
+      {
+        "id": "q50_opt3",
+        "text": "Creating student report cards and lesson feedback forms for parent reviews.",
+        "domain": "education"
+      },
+      {
+        "id": "q50_opt4",
+        "text": "Writing executive summaries, financial charts, and business strategy slides.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q51",
+    "text": "When choosing colors for a website, what do you consider first?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q51_opt1",
+        "text": "Implementing color theme toggles in both frontend components and server configs.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q51_opt2",
+        "text": "Using company colors to build brand trust and improve customer clicks.",
+        "domain": "business"
+      },
+      {
+        "id": "q51_opt3",
+        "text": "Using color alerts in terminal monitoring dashboards to show server errors.",
+        "domain": "devops"
+      },
+      {
+        "id": "q51_opt4",
+        "text": "Creating harmonious color palettes, testing contrast ratios, and building brand styles.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q52",
+    "text": "How do you define layout spacing in your projects?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q52_opt1",
+        "text": "Structuring dashboard layouts to display analytical metrics logically.",
+        "domain": "data"
+      },
+      {
+        "id": "q52_opt2",
+        "text": "Using unified CSS variables, padding helpers, and tailwind spacing grids.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q52_opt3",
+        "text": "Configuring network configurations with clear IP range spacing partitions.",
+        "domain": "devops"
+      },
+      {
+        "id": "q52_opt4",
+        "text": "Calculating distance spacing in vector spaces for classification models.",
+        "domain": "ml"
+      }
+    ]
+  },
+  {
+    "id": "q53",
+    "text": "When designing a user interface, what type of navigation style do you use?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q53_opt1",
+        "text": "Structuring data tables to allow easy pagination and metric drilling.",
+        "domain": "data"
+      },
+      {
+        "id": "q53_opt2",
+        "text": "Validating routing parameters and path redirections in backend controllers.",
+        "domain": "backend"
+      },
+      {
+        "id": "q53_opt3",
+        "text": "Creating graph paths for recommendation models to suggest articles.",
+        "domain": "ml"
+      },
+      {
+        "id": "q53_opt4",
+        "text": "Drawing wireframes, user journeys, and choosing navigation systems.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q54",
+    "text": "What is your approach to handling typography (fonts)?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q54_opt1",
+        "text": "Choosing clean, highly legible font sizes for dashboard charts.",
+        "domain": "data"
+      },
+      {
+        "id": "q54_opt2",
+        "text": "Defining font pairings, styling hierarchies, font-weights, and line heights.",
+        "domain": "design"
+      },
+      {
+        "id": "q54_opt3",
+        "text": "Preprocessing character sets and text vectors for NLP models.",
+        "domain": "ml"
+      },
+      {
+        "id": "q54_opt4",
+        "text": "Configuring styling packages that deliver fonts cleanly across the app.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q55",
+    "text": "How do you approach the styling of custom icons?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q55_opt1",
+        "text": "Analyzing visual feature arrays in computer vision model training.",
+        "domain": "ml"
+      },
+      {
+        "id": "q55_opt2",
+        "text": "Designing custom vector icons, aligning them to grids, and matching line weights.",
+        "domain": "design"
+      },
+      {
+        "id": "q55_opt3",
+        "text": "Using universal medical icons (like red crosses) to label emergency charts.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q55_opt4",
+        "text": "Importing SVG icons, writing hover animations, and dynamic colors.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q56",
+    "text": "When designing a profile page, what elements do you prioritize?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q56_opt1",
+        "text": "Connecting profile form components to database update routes securely.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q56_opt2",
+        "text": "Building user models that predict interests based on profile details.",
+        "domain": "ml"
+      },
+      {
+        "id": "q56_opt3",
+        "text": "Creating responsive user avatars, clean layouts, and tabbed menus.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q56_opt4",
+        "text": "Analyzing profile completeness metrics to improve customer engagement.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q57",
+    "text": "How do you design a dashboard interface?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q57_opt1",
+        "text": "Connecting front-end chart components to real-time database update endpoints.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q57_opt2",
+        "text": "Implementing grid widgets, responsive cards, and dynamic theme colors.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q57_opt3",
+        "text": "Writing aggregate database queries to fetch dashboard statistics quickly.",
+        "domain": "backend"
+      },
+      {
+        "id": "q57_opt4",
+        "text": "Structuring clinical dashboards to display live patient vitals clearly.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q58",
+    "text": "When a page layout looks cluttered, what is your standard solution?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q58_opt1",
+        "text": "Refactoring features to prioritize core details and simplify screen states.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q58_opt2",
+        "text": "Reducing API payload weights and sending only requested database rows.",
+        "domain": "backend"
+      },
+      {
+        "id": "q58_opt3",
+        "text": "Applying dimensionality reduction to simplify complex feature data sets.",
+        "domain": "ml"
+      },
+      {
+        "id": "q58_opt4",
+        "text": "Simplifying lesson layouts to prevent cognitive overload for students.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q59",
+    "text": "What is your approach to designing dark modes?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q59_opt1",
+        "text": "Saving dark mode preferences in user database tables.",
+        "domain": "backend"
+      },
+      {
+        "id": "q59_opt2",
+        "text": "Creating dark mode clinical screens to reduce eye strain for night-shift doctors.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q59_opt3",
+        "text": "Checking if dark mode options increase user session durations.",
+        "domain": "business"
+      },
+      {
+        "id": "q59_opt4",
+        "text": "Using CSS variables, matching dark themes, and writing smooth theme transitions.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q60",
+    "text": "How do you test user interface usability?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q60_opt1",
+        "text": "Tracking user journey tests from client actions to backend database changes.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q60_opt2",
+        "text": "A/B testing machine learning outputs to see which predictions users click more.",
+        "domain": "ml"
+      },
+      {
+        "id": "q60_opt3",
+        "text": "Monitoring backend system loads during high user activity sessions.",
+        "domain": "devops"
+      },
+      {
+        "id": "q60_opt4",
+        "text": "Running local browser automation tests to simulate user clicks and form fills.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q61",
+    "text": "In a team meeting, which project update concerns you most?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q61_opt1",
+        "text": "Brand strategy shifts that require redesigning the visual styling guide.",
+        "domain": "design"
+      },
+      {
+        "id": "q61_opt2",
+        "text": "Integration mismatches between the client app and the server logic.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q61_opt3",
+        "text": "System deployment errors or cloud provider subscription cost increases.",
+        "domain": "devops"
+      },
+      {
+        "id": "q61_opt4",
+        "text": "Student feedback indicating that learning guides are confusing.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q62",
+    "text": "What type of tasks do you prefer to delegate to others?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q62_opt1",
+        "text": "Technical coding, database queries, and graphic design tasks.",
+        "domain": "business"
+      },
+      {
+        "id": "q62_opt2",
+        "text": "Software development coding and database table configurations.",
+        "domain": "design"
+      },
+      {
+        "id": "q62_opt3",
+        "text": "System operations work to focus on lesson curriculum design.",
+        "domain": "education"
+      },
+      {
+        "id": "q62_opt4",
+        "text": "Backend API database design and network configuration work.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q63",
+    "text": "How do you explain technical issues to non-technical stakeholders?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q63_opt1",
+        "text": "Explaining how changes affect student learning progress and course ease.",
+        "domain": "education"
+      },
+      {
+        "id": "q63_opt2",
+        "text": "Focusing on patient care quality, data privacy, and clinical safety impact.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q63_opt3",
+        "text": "Translating technical issues into customer impact and financial costs.",
+        "domain": "business"
+      },
+      {
+        "id": "q63_opt4",
+        "text": "Explaining the technical flow from user button clicks to database storage.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q64",
+    "text": "What is your contribution during project brainstorming sessions?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q64_opt1",
+        "text": "Focusing on course structures, mentoring strategies, and student help.",
+        "domain": "education"
+      },
+      {
+        "id": "q64_opt2",
+        "text": "Proposing end-to-end architectures and planning rapid feature prototyping.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q64_opt3",
+        "text": "Sketching page ideas, user flows, and planning design patterns.",
+        "domain": "design"
+      },
+      {
+        "id": "q64_opt4",
+        "text": "Defining target user segments, market fit, and project budget constraints.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q65",
+    "text": "How do you prefer to handle project code reviews?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q65_opt1",
+        "text": "Reviewing deployment YAML scripts, cloud permissions, and build settings.",
+        "domain": "devops"
+      },
+      {
+        "id": "q65_opt2",
+        "text": "Reviewing database query efficiency, secure API logic, and C# controller routes.",
+        "domain": "backend"
+      },
+      {
+        "id": "q65_opt3",
+        "text": "Verifying that frontend changes line up perfectly with backend endpoints.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q65_opt4",
+        "text": "Ensuring educational instructions and lesson files are simple and clear.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q66",
+    "text": "What type of team structure matches your preference?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q66_opt1",
+        "text": "Collaborating with designers and client-side engineers on web features.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q66_opt2",
+        "text": "Working with medical doctors, clinic directors, and regulatory leads.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q66_opt3",
+        "text": "Working with database managers and system engineers on secure logic.",
+        "domain": "backend"
+      },
+      {
+        "id": "q66_opt4",
+        "text": "Working with research scientists, data experts, and model deployers.",
+        "domain": "ml"
+      }
+    ]
+  },
+  {
+    "id": "q67",
+    "text": "How do you manage deadlines when a project falls behind?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q67_opt1",
+        "text": "Simplifying layout designs to use standard design kit templates.",
+        "domain": "design"
+      },
+      {
+        "id": "q67_opt2",
+        "text": "Using pre-trained models first instead of custom-training neural layers.",
+        "domain": "ml"
+      },
+      {
+        "id": "q67_opt3",
+        "text": "Prioritizing critical UI features and using pre-built style components to save time.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q67_opt4",
+        "text": "Simplifying API endpoints and postponing minor database refactoring.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q68",
+    "text": "What type of feedback motivates you most?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q68_opt1",
+        "text": "Design communities praising the product styling and usability layout.",
+        "domain": "design"
+      },
+      {
+        "id": "q68_opt2",
+        "text": "Students saying that lessons helped them learn a new career skill.",
+        "domain": "education"
+      },
+      {
+        "id": "q68_opt3",
+        "text": "Teams thanking you for build scripts that made deployment easy.",
+        "domain": "devops"
+      },
+      {
+        "id": "q68_opt4",
+        "text": "Medical professionals saying the system helps them diagnose patients safely.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q69",
+    "text": "When a team member makes a coding mistake, what is your approach?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q69_opt1",
+        "text": "Explaining why the model failed validation checks and how to adjust layers.",
+        "domain": "ml"
+      },
+      {
+        "id": "q69_opt2",
+        "text": "Creating a tutorial guide to explain the technical concepts clearly.",
+        "domain": "education"
+      },
+      {
+        "id": "q69_opt3",
+        "text": "Assisting them to align their work with documented feature specs.",
+        "domain": "business"
+      },
+      {
+        "id": "q69_opt4",
+        "text": "Showing them how to align UI components with the design system guide.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q70",
+    "text": "How do you document your team's processes?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q70_opt1",
+        "text": "Documenting training configurations, data splits, and model scoring rules.",
+        "domain": "ml"
+      },
+      {
+        "id": "q70_opt2",
+        "text": "Writing safety checklists, encryption rules, and medical audit steps.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q70_opt3",
+        "text": "Writing server build files, configuration guides, and backup routines.",
+        "domain": "devops"
+      },
+      {
+        "id": "q70_opt4",
+        "text": "Creating data dictionaries, ETL charts, and analytics report guides.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q71",
+    "text": "Which career milestone appeals to you most?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q71_opt1",
+        "text": "Winning design awards for creating an exceptionally user-friendly product.",
+        "domain": "design"
+      },
+      {
+        "id": "q71_opt2",
+        "text": "Leading the frontend development of a website used by millions of users.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q71_opt3",
+        "text": "Designing a cloud pipeline that automates all container operations.",
+        "domain": "devops"
+      },
+      {
+        "id": "q71_opt4",
+        "text": "Building an educational system that trains thousands of student careers.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q72",
+    "text": "What type of professional certification would you like to acquire?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q72_opt1",
+        "text": "Certified Data Management Professional or Google Data Analyst cert.",
+        "domain": "data"
+      },
+      {
+        "id": "q72_opt2",
+        "text": "Certified UX Designer, Interaction Design, or Figma System Architect.",
+        "domain": "design"
+      },
+      {
+        "id": "q72_opt3",
+        "text": "Full Stack Software Engineering or Cloud Application Developer certs.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q72_opt4",
+        "text": "Certified Health Informatics Professional or HIPAA compliance specialist.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q73",
+    "text": "What is the main KPI (Key Performance Indicator) you focus on?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q73_opt1",
+        "text": "Clinical record accuracy, clinical safety rates, and health system uptime.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q73_opt2",
+        "text": "Model training loss, prediction accuracy scores, and model inference speed.",
+        "domain": "ml"
+      },
+      {
+        "id": "q73_opt3",
+        "text": "Continuous build success rates, server costs, and time to deploy updates.",
+        "domain": "devops"
+      },
+      {
+        "id": "q73_opt4",
+        "text": "Data report delivery speed, SQL query times, and database metrics accuracy.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q74",
+    "text": "If you could write a technical book, what would the topic be?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q74_opt1",
+        "text": "Designing Responsive Web Applications with Modern JavaScript Frameworks.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q74_opt2",
+        "text": "Digital Health Informatics: Engineering Secure and Compliant Medical Systems.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q74_opt3",
+        "text": "Infrastructure as Code: Automating Cloud Deployments with Kubernetes.",
+        "domain": "devops"
+      },
+      {
+        "id": "q74_opt4",
+        "text": "Product Strategy: Aligning Engineering Teams with Market Opportunity.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q75",
+    "text": "What is your approach to professional networking?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q75_opt1",
+        "text": "Contributing to cloud configuration open-source scripts on GitHub.",
+        "domain": "devops"
+      },
+      {
+        "id": "q75_opt2",
+        "text": "Joining health informatics organizations to discuss medical technology updates.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q75_opt3",
+        "text": "Sharing design mockups on Dribbble, Figma libraries, and UX reviews.",
+        "domain": "design"
+      },
+      {
+        "id": "q75_opt4",
+        "text": "Sharing UI code snippets, design templates, and frontend tips on Twitter/GitHub.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q76",
+    "text": "Which career growth path interests you most?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q76_opt1",
+        "text": "Becoming a Director of Clinical Informatics, managing health system compliance.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q76_opt2",
+        "text": "Becoming a Chief Data Officer, directing business analytics and database plans.",
+        "domain": "data"
+      },
+      {
+        "id": "q76_opt3",
+        "text": "Becoming a Creative Director, managing user design guides and style layouts.",
+        "domain": "design"
+      },
+      {
+        "id": "q76_opt4",
+        "text": "Becoming a Principal Frontend Architect, specializing in UI design systems.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q77",
+    "text": "How do you stay up-to-date with your industry?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q77_opt1",
+        "text": "Reading medical journals, healthcare technology updates, and privacy laws.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q77_opt2",
+        "text": "Reading educational research papers, pedagogy guides, and learning technology reviews.",
+        "domain": "education"
+      },
+      {
+        "id": "q77_opt3",
+        "text": "Building personal side-projects using new tech stacks and framework features.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q77_opt4",
+        "text": "Reading analytics blogs, learning SQL updates, and checking public datasets.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q78",
+    "text": "What type of legacy do you wish to leave in your work?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q78_opt1",
+        "text": "Designing medical software that helped clinicians save patient lives.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q78_opt2",
+        "text": "Creating beautiful, highly accessible web pages that anyone can browse.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q78_opt3",
+        "text": "Building reliable, secure backend engines that never failed under high load.",
+        "domain": "backend"
+      },
+      {
+        "id": "q78_opt4",
+        "text": "Developing intelligent models that automated complex human tasks.",
+        "domain": "ml"
+      }
+    ]
+  },
+  {
+    "id": "q79",
+    "text": "When choosing a new job role, what company benefit is most important?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q79_opt1",
+        "text": "Budgets for hosting servers and opportunities to build modern CI/CD systems.",
+        "domain": "devops"
+      },
+      {
+        "id": "q79_opt2",
+        "text": "Workspaces with modern visual layout monitors and design system resources.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q79_opt3",
+        "text": "Access to high-compute GPU instances and neural model training environments.",
+        "domain": "ml"
+      },
+      {
+        "id": "q79_opt4",
+        "text": "Budget for robust local server configurations, databases, and debugging tools.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q80",
+    "text": "What is your approach to work-life balance?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q80_opt1",
+        "text": "Automating data updates to run on schedules without manual supervision.",
+        "domain": "data"
+      },
+      {
+        "id": "q80_opt2",
+        "text": "Building automated container systems that monitor and auto-heal systems 24/7.",
+        "domain": "devops"
+      },
+      {
+        "id": "q80_opt3",
+        "text": "Maintaining strict boundaries to prevent clinical shift burnout.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q80_opt4",
+        "text": "Delegating technical tasks to focus on strategy planning during business hours.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q81",
+    "text": "When launch date is tomorrow, what task is most critical?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q81_opt1",
+        "text": "Safety-checking production server loads and cloud autoscaling scripts.",
+        "domain": "devops"
+      },
+      {
+        "id": "q81_opt2",
+        "text": "Running end-to-end integration tests to safety-check core application paths.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q81_opt3",
+        "text": "Checking visual assets, icons, layouts, and style consistency.",
+        "domain": "design"
+      },
+      {
+        "id": "q81_opt4",
+        "text": "Reviewing marketing plans, client signup links, and billing configurations.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q82",
+    "text": "How do you evaluate if a product launch was successful?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q82_opt1",
+        "text": "Evaluating usability feedback, user reviews, and design layout satisfaction.",
+        "domain": "design"
+      },
+      {
+        "id": "q82_opt2",
+        "text": "Analyzing API error metrics and database connection health.",
+        "domain": "backend"
+      },
+      {
+        "id": "q82_opt3",
+        "text": "Measuring revenue numbers, conversion rates, and return on investment.",
+        "domain": "business"
+      },
+      {
+        "id": "q82_opt4",
+        "text": "Analyzing cloud server costs, CPU metrics, and container stability trends.",
+        "domain": "devops"
+      }
+    ]
+  },
+  {
+    "id": "q83",
+    "text": "If a competitor launches a superior visual layout, what is your response?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q83_opt1",
+        "text": "Focusing on medical safety and data reliability over cosmetic style updates.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q83_opt2",
+        "text": "Re-evaluating target markets and planning a competitive business campaign.",
+        "domain": "business"
+      },
+      {
+        "id": "q83_opt3",
+        "text": "Upgrading learning course visuals to keep lessons engaging and modern.",
+        "domain": "education"
+      },
+      {
+        "id": "q83_opt4",
+        "text": "Ensuring deployment configurations support rapid style updates without downtime.",
+        "domain": "devops"
+      }
+    ]
+  },
+  {
+    "id": "q84",
+    "text": "What is your approach to scoping a Minimum Viable Product (MVP)?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q84_opt1",
+        "text": "Training a simple baseline classification model to test prediction logic.",
+        "domain": "ml"
+      },
+      {
+        "id": "q84_opt2",
+        "text": "Creating wireframe drawings, layout systems, and page navigation flows.",
+        "domain": "design"
+      },
+      {
+        "id": "q84_opt3",
+        "text": "Building a simple fully functioning app containing only the core feature set.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q84_opt4",
+        "text": "Setting up basic data tables to capture user event logs.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q85",
+    "text": "How do you select which features to build next?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q85_opt1",
+        "text": "Selecting API upgrades that improve server performance and data security.",
+        "domain": "backend"
+      },
+      {
+        "id": "q85_opt2",
+        "text": "Prioritizing model updates that improve prediction accuracy and latency.",
+        "domain": "ml"
+      },
+      {
+        "id": "q85_opt3",
+        "text": "Checking which UI improvements are most requested by frontend users.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q85_opt4",
+        "text": "Focusing on updates that improve medical clinical safety and patient records.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q86",
+    "text": "If a client demands a feature that breaks technical conventions, what do you do?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q86_opt1",
+        "text": "Rejecting any feature request that violates patient privacy or clinical compliance.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q86_opt2",
+        "text": "Explaining the cost, refactoring the system, and building a workaround.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q86_opt3",
+        "text": "Writing customized SQL queries to process the unique data request.",
+        "domain": "data"
+      },
+      {
+        "id": "q86_opt4",
+        "text": "Isolating the unique service in a separate container to protect other servers.",
+        "domain": "devops"
+      }
+    ]
+  },
+  {
+    "id": "q87",
+    "text": "How do you manage software licensing costs?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q87_opt1",
+        "text": "Prioritizing open-source databases (like PostgreSQL) and server frameworks.",
+        "domain": "backend"
+      },
+      {
+        "id": "q87_opt2",
+        "text": "Using open-source codebases to avoid paying premium platform royalties.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q87_opt3",
+        "text": "Evaluating data storage pricing per query and choosing cost-effective options.",
+        "domain": "data"
+      },
+      {
+        "id": "q87_opt4",
+        "text": "Using open-source frontend style templates and code packages.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q88",
+    "text": "What is your approach to handling customer support queries?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q88_opt1",
+        "text": "Responding immediately to patient record issues to maintain medical safety.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q88_opt2",
+        "text": "Helping debug issues that occur across any layer of the app.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q88_opt3",
+        "text": "Fixing layout display issues and correcting user interface bugs.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q88_opt4",
+        "text": "Investigating server crash logs and correcting system permissions.",
+        "domain": "devops"
+      }
+    ]
+  },
+  {
+    "id": "q89",
+    "text": "How do you handle technical debt?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q89_opt1",
+        "text": "Upgrading server OS versions, cleaning docker files, and simplifying cloud setups.",
+        "domain": "devops"
+      },
+      {
+        "id": "q89_opt2",
+        "text": "Ensuring compliance updates are integrated into medical database code.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q89_opt3",
+        "text": "Updating outdated dependencies across both client and server repos.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q89_opt4",
+        "text": "Reorganizing outdated lesson curriculum plans to match fresh industry standards.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q90",
+    "text": "What is your approach to product pricing strategies?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q90_opt1",
+        "text": "Building models to predict customer price sensitivity based on usage metrics.",
+        "domain": "ml"
+      },
+      {
+        "id": "q90_opt2",
+        "text": "Structuring insurance data and medical pricing compliance pipelines.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q90_opt3",
+        "text": "Designing student scholarship packages and low-cost learning options.",
+        "domain": "education"
+      },
+      {
+        "id": "q90_opt4",
+        "text": "Designing visually attractive payment pages and price tables.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q91",
+    "text": "When a student fails to understand a concept, what do you do?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q91_opt1",
+        "text": "Creating simple setup scripts that help students build systems without errors.",
+        "domain": "devops"
+      },
+      {
+        "id": "q91_opt2",
+        "text": "Creating step-by-step interactive coding exercises covering all app layers.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q91_opt3",
+        "text": "Assessing if training costs justify rewriting learning materials.",
+        "domain": "business"
+      },
+      {
+        "id": "q91_opt4",
+        "text": "Providing clean log outputs and documentation to explain the logic.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q92",
+    "text": "How do you approach tutoring or training someone in coding?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q92_opt1",
+        "text": "Explaining Agile project management, customer reviews, and product strategy.",
+        "domain": "business"
+      },
+      {
+        "id": "q92_opt2",
+        "text": "Teaching neural network math, model training scripts, and evaluation rules.",
+        "domain": "ml"
+      },
+      {
+        "id": "q92_opt3",
+        "text": "Teaching UI layouts, Figma vector drawing, and usability principles.",
+        "domain": "design"
+      },
+      {
+        "id": "q92_opt4",
+        "text": "Structuring lesson modules, planning curriculum guides, and offering mentoring.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q93",
+    "text": "What type of student feedback makes you feel most accomplished?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q93_opt1",
+        "text": "Students pitching a product business model canvas to startup investors.",
+        "domain": "business"
+      },
+      {
+        "id": "q93_opt2",
+        "text": "Students understanding the math behind machine learning prediction models.",
+        "domain": "ml"
+      },
+      {
+        "id": "q93_opt3",
+        "text": "Students landing their first job using your curriculum and mentoring.",
+        "domain": "education"
+      },
+      {
+        "id": "q93_opt4",
+        "text": "Students creating professional, clean, and legibly formatted UI wireframes.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q94",
+    "text": "How do you evaluate student learning progress?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q94_opt1",
+        "text": "Checking their database schemas and testing their backend API routes.",
+        "domain": "backend"
+      },
+      {
+        "id": "q94_opt2",
+        "text": "Checking their docker build scripts and staging deployment servers.",
+        "domain": "devops"
+      },
+      {
+        "id": "q94_opt3",
+        "text": "Setting up quizzes, reviewing homework projects, and tracking lesson metrics.",
+        "domain": "education"
+      },
+      {
+        "id": "q94_opt4",
+        "text": "Reviewing their website designs and CSS layouts for code neatness.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q95",
+    "text": "If a student finds course material too difficult, what do you change?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q95_opt1",
+        "text": "Creating simpler database exercises and writing clearer API code comments.",
+        "domain": "backend"
+      },
+      {
+        "id": "q95_opt2",
+        "text": "Providing pre-cleaned datasets to simplify data analysis projects.",
+        "domain": "data"
+      },
+      {
+        "id": "q95_opt3",
+        "text": "Focusing medical informatics studies on patient records basics first.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q95_opt4",
+        "text": "Simplifying the design system tasks and offering basic layout guidelines.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q96",
+    "text": "How do you select which educational materials to purchase?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q96_opt1",
+        "text": "Acquiring access to GPU cloud servers and machine learning research articles.",
+        "domain": "ml"
+      },
+      {
+        "id": "q96_opt2",
+        "text": "Buying curriculum textbooks, instructional design software, and mentoring guides.",
+        "domain": "education"
+      },
+      {
+        "id": "q96_opt3",
+        "text": "Subscribing to cloud sandbox servers and terminal command tutorials.",
+        "domain": "devops"
+      },
+      {
+        "id": "q96_opt4",
+        "text": "Acquiring datasets, SQL training platforms, and BI data visualization licenses.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q97",
+    "text": "What is the primary role of a mentor in professional training?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q97_opt1",
+        "text": "Guiding students to train, evaluate, and tune prediction models.",
+        "domain": "ml"
+      },
+      {
+        "id": "q97_opt2",
+        "text": "Offering career guidance, clarifying concepts, and designing lesson paths.",
+        "domain": "education"
+      },
+      {
+        "id": "q97_opt3",
+        "text": "Teaching students to configure clouds and write deploy scripts safely.",
+        "domain": "devops"
+      },
+      {
+        "id": "q97_opt4",
+        "text": "Teaching students to secure API routes and design efficient database tables.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q98",
+    "text": "How do you structure classroom workshops?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q98_opt1",
+        "text": "Structuring workshops to train and score simple classification models.",
+        "domain": "ml"
+      },
+      {
+        "id": "q98_opt2",
+        "text": "Defining lesson outcomes, organizing group tasks, and scheduling review points.",
+        "domain": "education"
+      },
+      {
+        "id": "q98_opt3",
+        "text": "Leading clinical simulation tests to practice recording patient symptom data.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q98_opt4",
+        "text": "Structuring workshops around building and styling interactive web components.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q99",
+    "text": "What is your strategy when teaching coding to complete beginners?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q99_opt1",
+        "text": "Explaining why companies build software and what product value means.",
+        "domain": "business"
+      },
+      {
+        "id": "q99_opt2",
+        "text": "Using visual block coding, simple exercises, and encouraging tutoring check-ins.",
+        "domain": "education"
+      },
+      {
+        "id": "q99_opt3",
+        "text": "Beginning with simple SQL filters and plotting basic spreadsheet charts.",
+        "domain": "data"
+      },
+      {
+        "id": "q99_opt4",
+        "text": "Beginning with simple HTML tags, styling colors, and flexbox UI layout rules.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q100",
+    "text": "How do you handle grading class assignments?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q100_opt1",
+        "text": "Verifying that container configurations build and deploy without errors.",
+        "domain": "devops"
+      },
+      {
+        "id": "q100_opt2",
+        "text": "Verifying that clinical mockups follow medical privacy and HIPAA rules.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q100_opt3",
+        "text": "Applying standardized grading matrices and writing constructive student feedback.",
+        "domain": "education"
+      },
+      {
+        "id": "q100_opt4",
+        "text": "Testing API endpoint inputs and checking database transaction code.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q101",
+    "text": "What is your first priority when audit season arrives?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q101_opt1",
+        "text": "Checking student academic records for FERPA educational compliance.",
+        "domain": "education"
+      },
+      {
+        "id": "q101_opt2",
+        "text": "Safety-checking API access scopes, token hashing, and route security keys.",
+        "domain": "backend"
+      },
+      {
+        "id": "q101_opt3",
+        "text": "Auditing database access permissions and tracking row modifications.",
+        "domain": "data"
+      },
+      {
+        "id": "q101_opt4",
+        "text": "Auditing design layouts for accessibility contrast and keyboard navigation.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q102",
+    "text": "How do you design login systems for security?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q102_opt1",
+        "text": "Securing session storage tokens and designing clear error validation warnings.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q102_opt2",
+        "text": "Applying multi-signature biometric checks for medical diagnostic data access.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q102_opt3",
+        "text": "Implementing secure password hashing (BCrypt), JWT scopes, and api rate limits.",
+        "domain": "backend"
+      },
+      {
+        "id": "q102_opt4",
+        "text": "Assessing risk rules to balance security against customer registration conversion.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q103",
+    "text": "What is your approach to handling customer user delete requests (GDPR)?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q103_opt1",
+        "text": "Designing user-friendly deletion confirmation screens and account toggles.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q103_opt2",
+        "text": "Ensuring server storage backups are configured to process data deletes safely.",
+        "domain": "devops"
+      },
+      {
+        "id": "q103_opt3",
+        "text": "Archiving student grade records securely while purging personal profile details.",
+        "domain": "education"
+      },
+      {
+        "id": "q103_opt4",
+        "text": "Consulting legal experts to verify privacy policy updates are correct.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q104",
+    "text": "How do you secure server-to-server communications?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q104_opt1",
+        "text": "Negotiating security agreements with corporate partners and providers.",
+        "domain": "business"
+      },
+      {
+        "id": "q104_opt2",
+        "text": "Using secure gRPC routes, server API keys, and verifying token origins.",
+        "domain": "backend"
+      },
+      {
+        "id": "q104_opt3",
+        "text": "Encrypting model training data pipelines across cloud processing servers.",
+        "domain": "ml"
+      },
+      {
+        "id": "q104_opt4",
+        "text": "Securing data routes between school portals and student progress apps.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q105",
+    "text": "What is your response to a potential data leak alert?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q105_opt1",
+        "text": "Locking down cloud network routes, shutting ports, and inspecting VPC traffic logs.",
+        "domain": "devops"
+      },
+      {
+        "id": "q105_opt2",
+        "text": "Revoking API token access, rotating secret keys, and checking endpoint logs.",
+        "domain": "backend"
+      },
+      {
+        "id": "q105_opt3",
+        "text": "Checking if models are leaks training features in prediction outputs.",
+        "domain": "ml"
+      },
+      {
+        "id": "q105_opt4",
+        "text": "Drafting emergency incident statements and communicating with legal advisors.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q106",
+    "text": "How do you manage software updates for security?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q106_opt1",
+        "text": "Verifying that design component updates match visual library layouts.",
+        "domain": "design"
+      },
+      {
+        "id": "q106_opt2",
+        "text": "Scheduling software update timelines to avoid business sale downtime.",
+        "domain": "business"
+      },
+      {
+        "id": "q106_opt3",
+        "text": "Testing updates in medical test sandboxes to protect clinical software.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q106_opt4",
+        "text": "Automating container updates and running vulnerability scanner tools.",
+        "domain": "devops"
+      }
+    ]
+  },
+  {
+    "id": "q107",
+    "text": "What is your strategy for securing api keys?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q107_opt1",
+        "text": "Securing private model endpoint credentials to prevent prediction spam.",
+        "domain": "ml"
+      },
+      {
+        "id": "q107_opt2",
+        "text": "Accessing third-party services via backend routes instead of client files.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q107_opt3",
+        "text": "Restricting database API credentials to read-only roles when querying tables.",
+        "domain": "data"
+      },
+      {
+        "id": "q107_opt4",
+        "text": "Using cloud vault key managers and rotating passwords automatically.",
+        "domain": "devops"
+      }
+    ]
+  },
+  {
+    "id": "q108",
+    "text": "How do you handle software compliance checks?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q108_opt1",
+        "text": "Ensuring company systems meet industry compliance certificates (like SOC2).",
+        "domain": "business"
+      },
+      {
+        "id": "q108_opt2",
+        "text": "Testing all application paths to verify security compliance criteria are met.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q108_opt3",
+        "text": "Ensuring clinical technology follows strict HIPAA and medical device codes.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q108_opt4",
+        "text": "Setting up compliance monitoring tools to check cloud resource configs.",
+        "domain": "devops"
+      }
+    ]
+  },
+  {
+    "id": "q109",
+    "text": "What is your approach to system access logs?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q109_opt1",
+        "text": "Analyzing click maps and heatmaps to check layout usability paths.",
+        "domain": "design"
+      },
+      {
+        "id": "q109_opt2",
+        "text": "Maintaining strict audit logs showing which doctor read which patient chart.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q109_opt3",
+        "text": "Reviewing employee access logs to safety-verify business document privacy.",
+        "domain": "business"
+      },
+      {
+        "id": "q109_opt4",
+        "text": "Integrating user interface session logs with backend API database logs.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q110",
+    "text": "How do you evaluate security risks of cloud hosting options?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q110_opt1",
+        "text": "Checking database isolation layers and analytic warehouse security features.",
+        "domain": "data"
+      },
+      {
+        "id": "q110_opt2",
+        "text": "Evaluating database encryption options and API firewall support.",
+        "domain": "backend"
+      },
+      {
+        "id": "q110_opt3",
+        "text": "Choosing healthcare-specialized private cloud servers for patient systems.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q110_opt4",
+        "text": "Evaluating cloud pricing plans against compliance security guarantees.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q111",
+    "text": "When server traffic doubles in an hour, how does your system react?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q111_opt1",
+        "text": "Postponing heavy analytical runs to protect core transaction databases.",
+        "domain": "data"
+      },
+      {
+        "id": "q111_opt2",
+        "text": "Managing state caching on both UI layers and backend server nodes.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q111_opt3",
+        "text": "Monitoring cloud billing alerts and evaluating sales growth values.",
+        "domain": "business"
+      },
+      {
+        "id": "q111_opt4",
+        "text": "Scaling database connection pools and using Redis caching for API data.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q112",
+    "text": "What is your approach to reducing cloud hosting costs?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q112_opt1",
+        "text": "Deactivating student test servers during school holidays to save budgets.",
+        "domain": "education"
+      },
+      {
+        "id": "q112_opt2",
+        "text": "Refactoring API logic code to run with lower memory usage metrics.",
+        "domain": "backend"
+      },
+      {
+        "id": "q112_opt3",
+        "text": "Negotiating cloud subscription discounts and setting monthly cost alerts.",
+        "domain": "business"
+      },
+      {
+        "id": "q112_opt4",
+        "text": "Shutting down inactive staging systems and using compact server apps.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q113",
+    "text": "How do you distribute content globally to reduce latency?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q113_opt1",
+        "text": "Uploading web build files to global Content Delivery Networks (CDNs).",
+        "domain": "frontend"
+      },
+      {
+        "id": "q113_opt2",
+        "text": "Analyzing global customer location metrics to plan region launches.",
+        "domain": "business"
+      },
+      {
+        "id": "q113_opt3",
+        "text": "Caching educational video assets in CDNs near regional student clusters.",
+        "domain": "education"
+      },
+      {
+        "id": "q113_opt4",
+        "text": "Ensuring patient charts are hosted within regional legal borders for safety compliance.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q114",
+    "text": "What is your strategy for database scaling?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q114_opt1",
+        "text": "Setting up table partitions, sharding schemas, and building data warehouses.",
+        "domain": "data"
+      },
+      {
+        "id": "q114_opt2",
+        "text": "Implementing read-replicas, write connection pools, and database caching.",
+        "domain": "backend"
+      },
+      {
+        "id": "q114_opt3",
+        "text": "Caching database responses in browser state to minimize database calls.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q114_opt4",
+        "text": "Configuring student database partitions by school year or class groups.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q115",
+    "text": "How do you manage software release updates on servers?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q115_opt1",
+        "text": "Verifying that client browser cache clears after style updates.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q115_opt2",
+        "text": "Scheduling updates during clinical quiet hours to protect patient care.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q115_opt3",
+        "text": "Testing the deployment on staging before rolling changes to production.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q115_opt4",
+        "text": "Communicating release features to clients and coordinate sales plans.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q116",
+    "text": "What tools do you use to monitor application health?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q116_opt1",
+        "text": "Combined client-server dashboard alerts showing overall performance.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q116_opt2",
+        "text": "Datadog, Prometheus, Grafana, and cloud resource monitors.",
+        "domain": "devops"
+      },
+      {
+        "id": "q116_opt3",
+        "text": "Browser console tracking, client speed analytics, and error tracking tools.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q116_opt4",
+        "text": "API log monitors, server health endpoints, and database connection alerts.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q117",
+    "text": "How do you handle background processing tasks?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q117_opt1",
+        "text": "Configuring server cron jobs and message broker event handlers.",
+        "domain": "devops"
+      },
+      {
+        "id": "q117_opt2",
+        "text": "Scheduling offline batch prediction scripts and model training pipelines.",
+        "domain": "ml"
+      },
+      {
+        "id": "q117_opt3",
+        "text": "Using Web Workers to run heavy visual calculations without blocking pages.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q117_opt4",
+        "text": "Automating weekly sales reports and emailing updates to team leads.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q118",
+    "text": "What is your approach to infrastructure documentation?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q118_opt1",
+        "text": "Mapping server database connections, API configurations, and routes.",
+        "domain": "backend"
+      },
+      {
+        "id": "q118_opt2",
+        "text": "Mapping model serving endpoints, model servers, and GPU configurations.",
+        "domain": "ml"
+      },
+      {
+        "id": "q118_opt3",
+        "text": "Writing Terraform scripts, network map files, and server recovery guides.",
+        "domain": "devops"
+      },
+      {
+        "id": "q118_opt4",
+        "text": "Mapping clinical systems connections to meet safety compliance rules.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q119",
+    "text": "How do you select your hosting provider?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q119_opt1",
+        "text": "Evaluating Heroku, AWS EC2, or Azure App Services for server deployment.",
+        "domain": "backend"
+      },
+      {
+        "id": "q119_opt2",
+        "text": "Comparing Google Cloud, AWS, or Snowflake for analytical database power.",
+        "domain": "data"
+      },
+      {
+        "id": "q119_opt3",
+        "text": "Ensuring the host platform supports web preview links for visual mockups.",
+        "domain": "design"
+      },
+      {
+        "id": "q119_opt4",
+        "text": "Evaluating AWS, GCP, or Azure for network tools, IAM, and infrastructure.",
+        "domain": "devops"
+      }
+    ]
+  },
+  {
+    "id": "q120",
+    "text": "What is your approach to system recovery testing (chaos engineering)?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q120_opt1",
+        "text": "Testing school portal backups to ensure student progress data is saved.",
+        "domain": "education"
+      },
+      {
+        "id": "q120_opt2",
+        "text": "Simulating database failures to verify automated data backups recover safely.",
+        "domain": "data"
+      },
+      {
+        "id": "q120_opt3",
+        "text": "Testing server logic recovery when database connections drop.",
+        "domain": "backend"
+      },
+      {
+        "id": "q120_opt4",
+        "text": "Simulating prediction service drops to verify fallbacks to default outputs.",
+        "domain": "ml"
+      }
+    ]
+  },
+  {
+    "id": "q121",
+    "text": "What technical topic are you currently studying?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q121_opt1",
+        "text": "Kubernetes setups, Terraform templates, and AWS cloud networking.",
+        "domain": "devops"
+      },
+      {
+        "id": "q121_opt2",
+        "text": "Typography systems, Figma visual mockups, and interaction usability guidelines.",
+        "domain": "design"
+      },
+      {
+        "id": "q121_opt3",
+        "text": "Snowflake data warehouses, Spark scripts, and analytical query tuning.",
+        "domain": "data"
+      },
+      {
+        "id": "q121_opt4",
+        "text": "Advanced Tailwind styles, React rendering states, or Next.js layout structures.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q122",
+    "text": "How do you prefer to learn a new programming language?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q122_opt1",
+        "text": "Reviewing visual code editors and template layout features.",
+        "domain": "design"
+      },
+      {
+        "id": "q122_opt2",
+        "text": "Checking if the language supports secure health compliance libraries.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q122_opt3",
+        "text": "Building interactive page layouts, styling elements, and using CSS hooks.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q122_opt4",
+        "text": "Building a simple CRUD application that connects database to frontend views.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q123",
+    "text": "What type of online course appeals to you most?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q123_opt1",
+        "text": "Docker containers, Kubernetes setups, and cloud automation pipelines.",
+        "domain": "devops"
+      },
+      {
+        "id": "q123_opt2",
+        "text": "Visual CSS styling tricks, responsive component structures, and JS libraries.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q123_opt3",
+        "text": "Curriculum planning, student evaluation methods, and mentoring strategies.",
+        "domain": "education"
+      },
+      {
+        "id": "q123_opt4",
+        "text": "UI/UX wireframing principles, color theory, and high-fidelity mockups.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q124",
+    "text": "What do you do when you get stuck on a difficult code error?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q124_opt1",
+        "text": "Asking developer leads to estimate the cost of debugging versus redesigning.",
+        "domain": "business"
+      },
+      {
+        "id": "q124_opt2",
+        "text": "Checking the flow from the client input form down to the server logs.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q124_opt3",
+        "text": "Logging the issue in database logs while ensuring patient systems remain safe.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q124_opt4",
+        "text": "Checking browser element logs, styling parameters, and search solutions online.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q125",
+    "text": "Which technical community or forum do you visit most?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q125_opt1",
+        "text": "Health technology boards and clinical database compliance groups.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q125_opt2",
+        "text": "Tech startup forums, SaaS development groups, and coding channels.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q125_opt3",
+        "text": "Teacher mentoring boards, pedagogy forums, and course design communities.",
+        "domain": "education"
+      },
+      {
+        "id": "q125_opt4",
+        "text": "Product management forums, business strategy blogs, and growth boards.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q126",
+    "text": "How do you feel about learning computer science theory (algorithms)?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q126_opt1",
+        "text": "Value it highly for server speed, query optimization, and memory use.",
+        "domain": "backend"
+      },
+      {
+        "id": "q126_opt2",
+        "text": "Focus on network routing algorithms and server load balancer setups.",
+        "domain": "devops"
+      },
+      {
+        "id": "q126_opt3",
+        "text": "Value algorithmic logic to optimize pricing and financial budgeting.",
+        "domain": "business"
+      },
+      {
+        "id": "q126_opt4",
+        "text": "Find it useful for page search tools, but prioritize layout responsiveness.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q127",
+    "text": "What type of career growth workshop would you attend?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q127_opt1",
+        "text": "Creating scalable UI design libraries and running UX usability reviews.",
+        "domain": "design"
+      },
+      {
+        "id": "q127_opt2",
+        "text": "Tuning generative models, NLP networks, and AI architectures.",
+        "domain": "ml"
+      },
+      {
+        "id": "q127_opt3",
+        "text": "Rapidly building and launching online SaaS software independently.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q127_opt4",
+        "text": "Developing student training systems, mentoring programs, and lesson paths.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q128",
+    "text": "How do you share your knowledge with your colleagues?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q128_opt1",
+        "text": "Sharing visual layouts, Figma templates, and style documentation.",
+        "domain": "design"
+      },
+      {
+        "id": "q128_opt2",
+        "text": "Building data dashboard views to help others analyze business metrics.",
+        "domain": "data"
+      },
+      {
+        "id": "q128_opt3",
+        "text": "Writing API swagger files, SQL tips, and documenting database schemas.",
+        "domain": "backend"
+      },
+      {
+        "id": "q128_opt4",
+        "text": "Sharing UI component templates, styling tips, and front-end guides.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q129",
+    "text": "What is your main criteria when choosing a tech stack for a side project?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q129_opt1",
+        "text": "Whether the hosting complies with patient privacy and health security laws.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q129_opt2",
+        "text": "Whether the coding environment is easy for beginner students to understand.",
+        "domain": "education"
+      },
+      {
+        "id": "q129_opt3",
+        "text": "How simple it is to host the server in a container and deploy to clouds.",
+        "domain": "devops"
+      },
+      {
+        "id": "q129_opt4",
+        "text": "Whether it provides clean design components and layout templates.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q130",
+    "text": "How do you approach learning from failure?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q130_opt1",
+        "text": "Retraining model layers on fresh data sets to correct prediction bias.",
+        "domain": "ml"
+      },
+      {
+        "id": "q130_opt2",
+        "text": "Logging clinical system bugs and updating medical check protocols.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q130_opt3",
+        "text": "Evaluating customer feedback data to pivot product business strategies.",
+        "domain": "business"
+      },
+      {
+        "id": "q130_opt4",
+        "text": "Updating lesson manuals to clarify concepts that students struggled with.",
+        "domain": "education"
+      }
+    ]
+  },
+  {
+    "id": "q131",
+    "text": "If you were to design a game, what part would you code?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q131_opt1",
+        "text": "Designing educational challenges that teach lessons while students play.",
+        "domain": "education"
+      },
+      {
+        "id": "q131_opt2",
+        "text": "Hosting game servers, configuring latency networks, and auto-scale rules.",
+        "domain": "devops"
+      },
+      {
+        "id": "q131_opt3",
+        "text": "Building patient physical therapy games that log healing statistics.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q131_opt4",
+        "text": "Analyzing player metrics, drop-off levels, and in-game shop items data.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q132",
+    "text": "What type of creative project inspires you most?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q132_opt1",
+        "text": "Fully automated server systems that handle deployments without manual steps.",
+        "domain": "devops"
+      },
+      {
+        "id": "q132_opt2",
+        "text": "Launching a startup, pitching plans, and watching active user growth.",
+        "domain": "business"
+      },
+      {
+        "id": "q132_opt3",
+        "text": "Building functional web platforms that serve user accounts from scratch.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q132_opt4",
+        "text": "Designing digital health guides that help patients manage symptoms.",
+        "domain": "healthcare"
+      }
+    ]
+  },
+  {
+    "id": "q133",
+    "text": "When you have a new idea, what is your first step?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q133_opt1",
+        "text": "Drafting educational outcomes and outlining lesson pathways.",
+        "domain": "education"
+      },
+      {
+        "id": "q133_opt2",
+        "text": "Designing a database table schema and testing server API routes.",
+        "domain": "backend"
+      },
+      {
+        "id": "q133_opt3",
+        "text": "Sketching visual wireframes, user journeys, and layout designs.",
+        "domain": "design"
+      },
+      {
+        "id": "q133_opt4",
+        "text": "Tuning a baseline model to check prediction possibilities on sample data.",
+        "domain": "ml"
+      }
+    ]
+  },
+  {
+    "id": "q134",
+    "text": "How do you approach feature prototyping?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q134_opt1",
+        "text": "Using mock styling frameworks to quickly render page button styles and layouts.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q134_opt2",
+        "text": "Using local container environments to test system setups quickly.",
+        "domain": "devops"
+      },
+      {
+        "id": "q134_opt3",
+        "text": "Drawing high-fidelity layouts in Figma and linking frames into click prototypes.",
+        "domain": "design"
+      },
+      {
+        "id": "q134_opt4",
+        "text": "Testing pre-trained models on sample datasets to check prediction outputs.",
+        "domain": "ml"
+      }
+    ]
+  },
+  {
+    "id": "q135",
+    "text": "What type of innovation excites you most in software?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q135_opt1",
+        "text": "State-of-the-art layout aesthetics and usability interactions.",
+        "domain": "design"
+      },
+      {
+        "id": "q135_opt2",
+        "text": "Adaptive educational portals that customize lessons to student grades.",
+        "domain": "education"
+      },
+      {
+        "id": "q135_opt3",
+        "text": "Serverless hosting networks that scale server nodes without configurations.",
+        "domain": "devops"
+      },
+      {
+        "id": "q135_opt4",
+        "text": "Modern user interface frameworks that render responsive styles instantly.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q136",
+    "text": "If you could invent a tool, what would it do?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q136_opt1",
+        "text": "Track patient clinical vitals and predict medical emergencies instantly.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q136_opt2",
+        "text": "Build tailored courses, lessons, and provide tutoring to students automatically.",
+        "domain": "education"
+      },
+      {
+        "id": "q136_opt3",
+        "text": "Automatically setup cloud configurations and deploy container servers securely.",
+        "domain": "devops"
+      },
+      {
+        "id": "q136_opt4",
+        "text": "Automatically secure API paths and build optimized database indexes.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q137",
+    "text": "What is your preference regarding software styling?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q137_opt1",
+        "text": "Formatting command-line logs and terminal screens for readability.",
+        "domain": "devops"
+      },
+      {
+        "id": "q137_opt2",
+        "text": "Ensuring corporate presentation slides match company branding guidelines.",
+        "domain": "business"
+      },
+      {
+        "id": "q137_opt3",
+        "text": "Using colorful, motivating lesson styles to keep students engaged.",
+        "domain": "education"
+      },
+      {
+        "id": "q137_opt4",
+        "text": "Strongly prefer detailed control over CSS variables, styling layouts, and colors.",
+        "domain": "frontend"
+      }
+    ]
+  },
+  {
+    "id": "q138",
+    "text": "How do you choose your project names?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q138_opt1",
+        "text": "Choosing brand names that attract customers and register domain trademarks.",
+        "domain": "business"
+      },
+      {
+        "id": "q138_opt2",
+        "text": "Choosing names that inspire design concepts and graphic styles.",
+        "domain": "design"
+      },
+      {
+        "id": "q138_opt3",
+        "text": "Choosing clear, inspiring names that describe the training course topic.",
+        "domain": "education"
+      },
+      {
+        "id": "q138_opt4",
+        "text": "Choosing names that describe the database tables or analytical topics.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q139",
+    "text": "What type of technical presentation appeals to you most?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q139_opt1",
+        "text": "Deep dives explaining database index setups, API loops, and concurrency.",
+        "domain": "backend"
+      },
+      {
+        "id": "q139_opt2",
+        "text": "Teaching strategies explaining course design, student grades, and mentoring.",
+        "domain": "education"
+      },
+      {
+        "id": "q139_opt3",
+        "text": "Pitch decks highlighting market growth metrics, pricing tiers, and ROI.",
+        "domain": "business"
+      },
+      {
+        "id": "q139_opt4",
+        "text": "Design system reviews explaining UI grids, font sizes, and layout templates.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q140",
+    "text": "How do you structure side project folders?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q140_opt1",
+        "text": "Grouping folders into docker setups, server scripts, and CI/CD templates.",
+        "domain": "devops"
+      },
+      {
+        "id": "q140_opt2",
+        "text": "Isolating patient clinical databases from administrative document folders.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q140_opt3",
+        "text": "Structuring layout asset folders, logo formats, and design system drafts.",
+        "domain": "design"
+      },
+      {
+        "id": "q140_opt4",
+        "text": "Structuring company files by product specs, budgets, and marketing plans.",
+        "domain": "business"
+      }
+    ]
+  },
+  {
+    "id": "q141",
+    "text": "When a client complains that a page looks ugly, what is your direct fix?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q141_opt1",
+        "text": "We refer the client to the frontend team since we write backend database logic.",
+        "domain": "backend"
+      },
+      {
+        "id": "q141_opt2",
+        "text": "Ensuring the styling asset files load instantly via CDN servers.",
+        "domain": "devops"
+      },
+      {
+        "id": "q141_opt3",
+        "text": "Redesigning reporting dashboard graphics to present metrics more cleanly.",
+        "domain": "data"
+      },
+      {
+        "id": "q141_opt4",
+        "text": "Polishing frontend styles while keeping API server endpoints running smoothly.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q142",
+    "text": "How do you present project progress to clients?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q142_opt1",
+        "text": "Presenting medical safety checks, compliance files, and patient systems status.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q142_opt2",
+        "text": "Presenting analytical dashboards showing business metrics and trends.",
+        "domain": "data"
+      },
+      {
+        "id": "q142_opt3",
+        "text": "Showing live web pages, interactive styling components, and layout flows.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q142_opt4",
+        "text": "Presenting prediction outputs, model scores, and AI recommendations.",
+        "domain": "ml"
+      }
+    ]
+  },
+  {
+    "id": "q143",
+    "text": "What do you do when a customer requests a refund because the system was down?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q143_opt1",
+        "text": "Designing clear system maintenance warnings to prevent complaints.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q143_opt2",
+        "text": "Designing clear billing status layout screens for customer assistance.",
+        "domain": "design"
+      },
+      {
+        "id": "q143_opt3",
+        "text": "Reviewing client refund policies, financial balances, and issuing refunds.",
+        "domain": "business"
+      },
+      {
+        "id": "q143_opt4",
+        "text": "Verifying transaction databases and checking client session states.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q144",
+    "text": "How do you gather requirements for a client project?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q144_opt1",
+        "text": "Conducting stakeholder interviews, budgeting, and scoping product requirement documents.",
+        "domain": "business"
+      },
+      {
+        "id": "q144_opt2",
+        "text": "Running user research, wireframing page grids, and drafting brand design guides.",
+        "domain": "design"
+      },
+      {
+        "id": "q144_opt3",
+        "text": "Defining student target skills, curriculum levels, and training requirements.",
+        "domain": "education"
+      },
+      {
+        "id": "q144_opt4",
+        "text": "Asking what database systems, API payloads, and security levels they require.",
+        "domain": "backend"
+      }
+    ]
+  },
+  {
+    "id": "q145",
+    "text": "What is your approach to handling customer survey reviews?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q145_opt1",
+        "text": "Improving features mentioned as confusing across all code layers.",
+        "domain": "fullstack"
+      },
+      {
+        "id": "q145_opt2",
+        "text": "Feeding survey text arrays to NLP models to classify user sentiment.",
+        "domain": "ml"
+      },
+      {
+        "id": "q145_opt3",
+        "text": "Reviewing clinical software safety feedback to improve patient recording systems.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q145_opt4",
+        "text": "Analyzing visual feedback to simplify typography and page navigation layouts.",
+        "domain": "design"
+      }
+    ]
+  },
+  {
+    "id": "q146",
+    "text": "How do you define a project budget?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q146_opt1",
+        "text": "Estimating database hosting fees, server license costs, and API coding hours.",
+        "domain": "backend"
+      },
+      {
+        "id": "q146_opt2",
+        "text": "Estimating lesson curriculum planning hours, student licenses, and tutor payroll.",
+        "domain": "education"
+      },
+      {
+        "id": "q146_opt3",
+        "text": "Estimating frontend component library costs and custom stylesheet hours.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q146_opt4",
+        "text": "Estimating database storage queries pricing and BI tool license costs.",
+        "domain": "data"
+      }
+    ]
+  },
+  {
+    "id": "q147",
+    "text": "What do you write in a project proposal document?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q147_opt1",
+        "text": "Wireframe layouts, proposed style themes, CSS guidelines, and page features.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q147_opt2",
+        "text": "Cloud deployment plans, docker container configs, and backup recovery tracks.",
+        "domain": "devops"
+      },
+      {
+        "id": "q147_opt3",
+        "text": "Database models, api endpoint guides, security standards, and servers.",
+        "domain": "backend"
+      },
+      {
+        "id": "q147_opt4",
+        "text": "Complete architecture reviews detailing both frontend pages and backend logic.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q148",
+    "text": "How do you prepare for client presentations?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q148_opt1",
+        "text": "Structuring the lesson tutorial presentation and verifying course guide details.",
+        "domain": "education"
+      },
+      {
+        "id": "q148_opt2",
+        "text": "Testing website layouts and ensuring client visual interfaces work without styling errors.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q148_opt3",
+        "text": "Ensuring the staging server is online and has resources to run demo workloads.",
+        "domain": "devops"
+      },
+      {
+        "id": "q148_opt4",
+        "text": "Testing the full web app flow to ensure client actions save database records.",
+        "domain": "fullstack"
+      }
+    ]
+  },
+  {
+    "id": "q149",
+    "text": "What is your focus when building a client portfolio website?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q149_opt1",
+        "text": "Ensuring any health studies shared in the portfolio maintain patient anonymity.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q149_opt2",
+        "text": "Adding database tables to track user click events and portfolio traffic.",
+        "domain": "data"
+      },
+      {
+        "id": "q149_opt3",
+        "text": "Integrating a simple recommendation engine to suggest portfolio items.",
+        "domain": "ml"
+      },
+      {
+        "id": "q149_opt4",
+        "text": "Setting up quick CDN hosting paths and custom domains for the portfolio site.",
+        "domain": "devops"
+      }
+    ]
+  },
+  {
+    "id": "q150",
+    "text": "How do you explain system downtime to a client?",
+    "category": "General",
+    "options": [
+      {
+        "id": "q150_opt1",
+        "text": "Reassuring clinicians that safety failovers worked to protect patient charts.",
+        "domain": "healthcare"
+      },
+      {
+        "id": "q150_opt2",
+        "text": "Explaining cloud infrastructure network drops and showing recovery actions taken.",
+        "domain": "devops"
+      },
+      {
+        "id": "q150_opt3",
+        "text": "Explaining that the page layout didn't render due to styling file delivery failures.",
+        "domain": "frontend"
+      },
+      {
+        "id": "q150_opt4",
+        "text": "Detailing business backup steps and offering credit compensations.",
+        "domain": "business"
+      }
+    ]
+  }
+]

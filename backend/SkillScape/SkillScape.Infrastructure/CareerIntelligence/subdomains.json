@@ -1,0 +1,83 @@
+[
+  { "id": "cs_software_dev", "domainId": "cs", "name": "Software Development", "description": "Application engineering, web & mobile development, and full-stack software systems.", "order": 1 },
+  { "id": "cs_ai_ml", "domainId": "cs", "name": "Artificial Intelligence & Machine Learning", "description": "Machine learning, deep learning, natural language processing, and computer vision.", "order": 2 },
+  { "id": "cs_data", "domainId": "cs", "name": "Data Engineering & Databases", "description": "Database management, data pipelines, warehousing, and ETL architectures.", "order": 3 },
+  { "id": "cs_cloud", "domainId": "cs", "name": "Cloud Computing", "description": "Cloud infrastructure, AWS/Azure architectures, microservices, and serverless computing.", "order": 4 },
+  { "id": "cs_devops", "domainId": "cs", "name": "DevOps & Site Reliability", "description": "CI/CD pipelines, container orchestration, infrastructure as code, and system reliability.", "order": 5 },
+  { "id": "cs_cyber", "domainId": "cs", "name": "Cybersecurity & Systems", "description": "Network security, vulnerability assessments, penetration testing, and cryptography.", "order": 6 },
+
+  { "id": "it_infrastructure", "domainId": "it", "name": "IT Infrastructure & Operations", "description": "Server administration, enterprise networks, data center operations, and cloud setups.", "order": 1 },
+  { "id": "it_service", "domainId": "it", "name": "IT Service Management & Support", "description": "ITIL service management, technical support, helpdesk operations, and IT governance.", "order": 2 },
+  { "id": "it_enterprise", "domainId": "it", "name": "Enterprise Systems & ERP", "description": "SAP, Salesforce, ERP implementation, CRM systems, and enterprise software.", "order": 3 },
+
+  { "id": "eng_mechanical", "domainId": "engineering", "name": "Mechanical Engineering", "description": "CAD design, thermodynamics, robotics, manufacturing, and automotive systems.", "order": 1 },
+  { "id": "eng_civil", "domainId": "engineering", "name": "Civil Engineering", "description": "Structural engineering, construction management, urban design, and surveying.", "order": 2 },
+  { "id": "eng_electrical", "domainId": "engineering", "name": "Electrical & Power Engineering", "description": "Power systems, control systems, electrical circuit design, and renewable energy.", "order": 3 },
+  { "id": "eng_electronics", "domainId": "engineering", "name": "Electronics & Embedded Systems", "description": "VLSI design, embedded software, IoT hardware, and microcontrollers.", "order": 4 },
+
+  { "id": "com_accounting", "domainId": "commerce", "name": "Accounting & Auditing", "description": "Financial accounting, corporate taxation, statutory auditing, and GST compliance.", "order": 1 },
+  { "id": "com_finance", "domainId": "commerce", "name": "Financial Management & Banking", "description": "Corporate finance, retail banking, credit analysis, and financial operations.", "order": 2 },
+  { "id": "com_trade", "domainId": "commerce", "name": "Commerce & Business Operations", "description": "Business operations, trade management, inventory, and commercial administration.", "order": 3 },
+
+  { "id": "fin_investment", "domainId": "finance", "name": "Investment & Financial Analysis", "description": "Equity research, portfolio management, financial modeling, and investment banking.", "order": 1 },
+  { "id": "fin_corporate", "domainId": "finance", "name": "Corporate Finance & Risk", "description": "Treasury management, financial planning & analysis (FP&A), and risk assessment.", "order": 2 },
+
+  { "id": "acc_general", "domainId": "accounting", "name": "General & Corporate Accounting", "description": "General ledger, financial statements, accounts payable/receivable, and payroll.", "order": 1 },
+  { "id": "acc_taxation", "domainId": "accounting", "name": "Taxation & Statutory Compliance", "description": "Direct & indirect tax, GST filing, international taxation, and compliance auditing.", "order": 2 },
+  { "id": "acc_ca", "domainId": "accounting", "name": "Chartered Accountancy & Advisory", "description": "CA practice, statutory auditing, management consulting, and forensic accounting.", "order": 3 },
+
+  { "id": "bus_analysis", "domainId": "business", "name": "Business & Data Analysis", "description": "Business requirements gathering, process optimization, data-driven decisions.", "order": 1 },
+  { "id": "bus_ops", "domainId": "business", "name": "Operations & Supply Chain", "description": "Supply chain management, logistics, lean manufacturing, and operational excellence.", "order": 2 },
+  { "id": "bus_dev", "domainId": "business", "name": "Business Development & Strategy", "description": "Strategic planning, strategic partnerships, market expansion, and sales strategy.", "order": 3 },
+
+  { "id": "mgmt_product", "domainId": "management", "name": "Product Management", "description": "Product strategy, roadmap development, agile user stories, and product analytics.", "order": 1 },
+  { "id": "mgmt_project", "domainId": "management", "name": "Project Management & Agile", "description": "Scrum master, PMP project delivery, resource management, and risk mitigation.", "order": 2 },
+  { "id": "mgmt_hr", "domainId": "management", "name": "Human Resource Management", "description": "Talent acquisition, HR business partner, employee engagement, and compensation.", "order": 3 },
+
+  { "id": "arts_visual", "domainId": "arts", "name": "Visual Arts & Illustration", "description": "Graphic design, digital illustration, fine arts, and visual storytelling.", "order": 1 },
+  { "id": "arts_creative", "domainId": "arts", "name": "Creative Writing & Literature", "description": "Content creation, copywriting, literary research, and publishing.", "order": 2 },
+
+  { "id": "hum_history", "domainId": "humanities", "name": "History & Cultural Studies", "description": "Archival research, historical analysis, heritage preservation, and museum curating.", "order": 1 },
+  { "id": "hum_philosophy", "domainId": "humanities", "name": "Philosophy & Social Research", "description": "Ethics, critical reasoning, social research, and philosophical writing.", "order": 2 },
+
+  { "id": "sci_physics", "domainId": "science", "name": "Physical & Applied Sciences", "description": "Physics research, material science, optics, and laboratory analysis.", "order": 1 },
+  { "id": "sci_chemistry", "domainId": "science", "name": "Chemical & Bio Sciences", "description": "Organic chemistry, biochemistry, analytical chemistry, and lab research.", "order": 2 },
+
+  { "id": "soc_sociology", "domainId": "social_sciences", "name": "Sociology & Social Work", "description": "Social impact, community development, NGO management, and field research.", "order": 1 },
+  { "id": "soc_political", "domainId": "social_sciences", "name": "Political Science & Public Policy", "description": "Policy research, international relations, political analysis, and governance.", "order": 2 },
+
+  { "id": "psych_clinical", "domainId": "psychology", "name": "Clinical & Counseling Psychology", "description": "Psychological assessment, therapy, mental health counseling, and clinical practice.", "order": 1 },
+  { "id": "psych_org", "domainId": "psychology", "name": "Organizational & Industrial Psychology", "description": "Workplace behavior, leadership assessment, organizational development, talent assessment.", "order": 2 },
+
+  { "id": "law_corporate", "domainId": "law", "name": "Corporate & Commercial Law", "description": "Contracts, mergers & acquisitions, corporate governance, and commercial disputes.", "order": 1 },
+  { "id": "law_litigation", "domainId": "law", "name": "Litigation & Dispute Resolution", "description": "Court practice, legal drafting, advocacy, and arbitration.", "order": 2 },
+  { "id": "law_ip", "domainId": "law", "name": "Intellectual Property & Compliance", "description": "Patents, trademarks, copyright, data privacy, and regulatory compliance.", "order": 3 },
+
+  { "id": "health_clinical", "domainId": "healthcare", "name": "Clinical & Medical Practice", "description": "Medical diagnosis, patient treatment, clinical research, and hospital care.", "order": 1 },
+  { "id": "health_admin", "domainId": "healthcare", "name": "Healthcare Administration & Informatics", "description": "Hospital management, healthcare operations, health records, and clinical analytics.", "order": 2 },
+
+  { "id": "edu_school", "domainId": "education", "name": "K-12 & Secondary Education", "description": "School teaching, curriculum development, classroom management, and pedagogy.", "order": 1 },
+  { "id": "edu_higher", "domainId": "education", "name": "Higher Education & Research", "description": "University lecturing, academic research, professor roles, and department head.", "order": 2 },
+
+  { "id": "des_uiux", "domainId": "design", "name": "UI/UX & Digital Product Design", "description": "User experience research, wireframing, Figma UI design, prototyping, product design.", "order": 1 },
+  { "id": "des_visual", "domainId": "design", "name": "Visual & Brand Design", "description": "Brand identity, graphic illustration, typography, and marketing visuals.", "order": 2 },
+
+  { "id": "media_journalism", "domainId": "media", "name": "Journalism & News Writing", "description": "Investigative reporting, news editing, broadcast journalism, and media writing.", "order": 1 },
+  { "id": "media_digital", "domainId": "media", "name": "Digital Media & Video Production", "description": "Video editing, content creation, YouTube production, podcasting, digital strategy.", "order": 2 },
+
+  { "id": "comm_corp", "domainId": "communication", "name": "Corporate Communication & PR", "description": "Media relations, crisis communication, corporate branding, and public relations.", "order": 1 },
+
+  { "id": "agri_agronomy", "domainId": "agriculture", "name": "Agronomy & Crop Science", "description": "Crop management, soil science, agricultural technology, and sustainable farming.", "order": 1 },
+
+  { "id": "arch_design", "domainId": "architecture", "name": "Architectural Design & Planning", "description": "Building design, CAD/BIM modeling, structural planning, and interior design.", "order": 1 },
+
+  { "id": "hosp_hotel", "domainId": "hospitality", "name": "Hotel & Resort Management", "description": "Hotel operations, front office management, resort administration, and guest services.", "order": 1 },
+
+  { "id": "gov_civil", "domainId": "government", "name": "Civil Services & Public Policy", "description": "Administrative services, IAS/UPSC policy roles, public sector administration.", "order": 1 },
+
+  { "id": "ds_ml", "domainId": "data_science", "name": "Machine Learning & AI Engineering", "description": "Predictive modeling, deep learning algorithms, MLOps, and model deployment.", "order": 1 },
+  { "id": "ds_analytics", "domainId": "data_science", "name": "Data Analytics & Business Intelligence", "description": "Power BI dashboards, SQL data querying, statistical modeling, business analytics.", "order": 2 },
+
+  { "id": "cyber_sec", "domainId": "cybersecurity", "name": "Security Operations & SOC", "description": "Threat monitoring, incident response, SIEM management, and network security.", "order": 1 },
+  { "id": "cyber_audit", "domainId": "cybersecurity", "name": "Ethical Hacking & Penetration Testing", "description": "Vulnerability assessment, penetration testing, exploit analysis, red teaming.", "order": 2 }
+]

@@ -1,0 +1,5 @@
+Id CareerPathId CareerTaxonomyId CanonicalRoleName Domain Function Industry EducationRoutes ExperienceBands LocationBands SalaryCurrency SalaryUnit SourceName SourceUrl PublicationYear DataYear TrajectoryJson Confidence DataQuality LastUpdated
+-- ------------ ---------------- ----------------- ------ -------- -------- --------------- --------------- ------------- -------------- ---------- ---------- --------- --------------- -------- -------------- ---------- ----------- -----------
+01203f1b-e7a7-484d-8b37-7dea1f12dbb0 10th-art-psych-f1-s1-r2 TECH-PSYCHOLOGIST Psychologist Professional Operations Various [] [] [] INR LPA Payscale India 2024 https://www.payscale.com/research/IN/Job=Psychologist/Salary 2024 2024 [{"ExperienceYear":0,"CalendarYear":2026,"SalaryMin":200000,"SalaryMedian":250000,"SalaryMax":337500},{"ExperienceYear":1,"CalendarYear":2027,"SalaryMin":256000,"SalaryMedian":320000,"SalaryMax":432000},{"ExperienceYear":2,"CalendarYear":2028,"SalaryMin":3 Low  2026-10-02 16:39:15.2003801
+
+(1 rows affected)

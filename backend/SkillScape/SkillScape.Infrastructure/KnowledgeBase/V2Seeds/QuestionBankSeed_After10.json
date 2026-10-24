@@ -1,0 +1,1697 @@
+[
+    {
+        "id":  "Q_A10_SUBJ_001",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "SubjectPreference",
+        "languageComplexity":  "Simple",
+        "text":  "In your science class, which experiment would you find most exciting to do?",
+        "targetDiscriminates":  [
+                                    "stream.pcb",
+                                    "stream.pcmb",
+                                    "stream.arts",
+                                    "stream.pcm"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Building an electric circuit and testing how voltage affects a bulb",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.85
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Looking at cells under a microscope and drawing what I see",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Mixing chemicals to see which combinations cause a reaction",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.chem",
+                                                "weight":  0.75
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Conducting a survey about students\u0027 study habits and making charts",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.6
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.4
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_TASK_002",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "TaskPreference",
+        "languageComplexity":  "Simple",
+        "text":  "If your school gave you a free afternoon to work on any project, which would you pick?",
+        "targetDiscriminates":  [
+                                    "stream.commerce",
+                                    "stream.arts",
+                                    "stream.pcm",
+                                    "stream.diploma"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Programming a small game or app on a computer",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.85
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Designing a model of a building or bridge using cardboard and sticks",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.85
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Running a small shop in school — buying, selling, tracking profit and loss",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Writing and performing a short play or creating a school newspaper",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.85
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_SUBJ_003",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "SubjectPreference",
+        "languageComplexity":  "Simple",
+        "text":  "Which of these school subjects do you look forward to the most?",
+        "targetDiscriminates":  [
+                                    "stream.commerce",
+                                    "stream.pcm",
+                                    "stream.pcb",
+                                    "stream.diploma",
+                                    "stream.arts"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Mathematics — especially when solving equations and geometry problems",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Biology — understanding how the human body and living things work",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Social Science or Economics — understanding money, trade, and how societies work",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.65
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Language or History — reading stories, debating, and writing essays",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_PROB_004",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "ProblemSolving",
+        "languageComplexity":  "Simple",
+        "text":  "Your colony has a problem: the water supply cuts out every afternoon. How would you approach solving it?",
+        "targetDiscriminates":  [
+                                    "stream.pcmb",
+                                    "stream.commerce",
+                                    "stream.arts",
+                                    "stream.pcm"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Design a rainwater collection and storage system with pipes and tanks",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.civil.water",
+                                                "weight":  0.85
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Test the water quality and check if the source is contaminated",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "sci.pure.env_sci",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Gather the residents, write a formal petition to the municipality",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "arts.sociol",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "govt.upsc",
+                                                "weight":  0.65
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Calculate how much water is needed per day and propose a budget to dig a borewell",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "com.finance",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_LEARN_005",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "LearningPreference",
+        "languageComplexity":  "Simple",
+        "text":  "How do you prefer to understand something new?",
+        "targetDiscriminates":  [
+                                    "stream.pcb",
+                                    "stream.arts",
+                                    "stream.pcm",
+                                    "stream.diploma"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "By working through formulas, diagrams, and solving step-by-step problems",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.85
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "By observing real specimens or watching biological or chemical processes happen",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.85
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "By reading about it, discussing it with others, and forming opinions",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "By physically building it, taking it apart, and seeing how it works with my hands",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.iti",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "stream.diploma",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_CAREER_006",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "CareerAwareness",
+        "languageComplexity":  "Simple",
+        "text":  "Which of these people\u0027s jobs would you most like to have when you grow up?",
+        "targetDiscriminates":  [
+                                    "stream.commerce",
+                                    "stream.pcm",
+                                    "sci.med.mbbs",
+                                    "sci.eng.cs.ai_ml",
+                                    "arts.law"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "A doctor who diagnoses diseases and helps patients recover",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.med.mbbs",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.med.pharma",
+                                                "weight":  0.4
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "A software engineer who builds apps used by millions of people",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "A Chartered Accountant who manages finances for large companies",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "com.finance",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "A lawyer who argues cases in court and fights for justice",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "arts.law",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "arts.law.criminal",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "govt.upsc",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_WORK_007",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "WorkStylePreference",
+        "languageComplexity":  "Simple",
+        "text":  "Imagine your future job. Which kind of workplace would make you happiest?",
+        "targetDiscriminates":  [
+                                    "sci.med.mbbs",
+                                    "stream.arts",
+                                    "stream.pcm",
+                                    "stream.diploma"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "An office or studio where I work with computers and technology every day",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "design.ui_ux",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "com.finance",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "An outdoor construction site or engineering project — seeing real things built",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.aero",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "A hospital or clinic — helping people with their health every day",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.med.mbbs",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.med.nursing",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "sci.med.physio",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "A courtroom, newsroom, or school — working with people, ideas, and words",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "arts.law",
+                                                "weight":  0.75
+                                            },
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "arts.education",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_MATH_008",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "QuantitativeReasoning",
+        "languageComplexity":  "Simple",
+        "text":  "When you solve a difficult maths problem and get the right answer, how do you feel?",
+        "targetDiscriminates":  [
+                                    "stream.commerce",
+                                    "stream.arts",
+                                    "stream.pcm"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Very satisfied — I enjoy the logical process of working through maths",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Okay — maths is fine when it\u0027s about measuring or calculating real things",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.55
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Relieved — I find maths hard but I can manage it when needed",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.5
+                                            },
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.6
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.4
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Not for me — I strongly prefer reading, writing, and discussing ideas",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_SPATIAL_009",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "SpatialReasoning",
+        "languageComplexity":  "Simple",
+        "text":  "You\u0027re standing in front of a bridge. What goes through your mind first?",
+        "targetDiscriminates":  [
+                                    "stream.commerce",
+                                    "sci.eng.environ",
+                                    "sci.eng.civil.struct",
+                                    "stream.pcm",
+                                    "stream.arts"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "How do the steel cables and beams hold all that weight safely?",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.struct",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "The design is beautiful — how did they make it look so elegant?",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "design",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "design.arch.urban",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Is the construction affecting the river ecosystem below?",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.pure.env_sci",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.civil.environ_civil",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "What did this cost, who funded it, and how is it maintained?",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "com.finance",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.civil.construction",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_PRAC_010",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "PracticalVsTheoretical",
+        "languageComplexity":  "Simple",
+        "text":  "Which of these best describes how you like to spend your free time?",
+        "targetDiscriminates":  [
+                                    "stream.iti",
+                                    "stream.pcm",
+                                    "stream.pcb",
+                                    "stream.arts",
+                                    "design.graphic"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Watching tutorial videos and trying to build websites or small programs",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "design.ui_ux",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Sketching, painting, or creating digital art and designs",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "design.graphic",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "design.animation",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Gardening, tending to plants, or learning about farming techniques",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.pure.env_sci",
+                                                "weight":  0.65
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Reading books, writing stories or poetry, keeping a journal",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "arts.education",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_HUMAN_011",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "HumanInteraction",
+        "languageComplexity":  "Simple",
+        "text":  "If a classmate is struggling with a personal problem, what do you naturally do?",
+        "targetDiscriminates":  [
+                                    "sci.med.mbbs",
+                                    "stream.arts",
+                                    "stream.pcm",
+                                    "arts.sociol"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Listen carefully, ask questions, and try to understand exactly how they feel",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "arts.sociol",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "sci.med.mbbs.psychiatry",
+                                                "weight":  0.65
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Help them find a practical solution — give them advice and action steps",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "mgmt.hr",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.6
+                                            },
+                                            {
+                                                "nodeId":  "arts.education",
+                                                "weight":  0.65
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Suggest they talk to the school counselor or a trusted adult",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "arts.education",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "arts.sociol",
+                                                "weight":  0.75
+                                            },
+                                            {
+                                                "nodeId":  "govt.upsc",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "I\u0027m not the best at this — I prefer working with ideas and systems more than people problems",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_DIGITAL_012",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "DigitalTechInterest",
+        "languageComplexity":  "Simple",
+        "text":  "When you use a phone or computer, which activity interests you the most?",
+        "targetDiscriminates":  [
+                                    "design.ui_ux",
+                                    "stream.arts",
+                                    "sci.eng.cs.data",
+                                    "sci.eng.cs.software"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Building or customizing an app or website — the creation process itself",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "design.ui_ux",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Analyzing data — looking at YouTube analytics, player statistics, or trends",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.data",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.6
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.65
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Making the interface look better — colors, fonts, buttons, and layout",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "design.ui_ux",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "design.graphic",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.4
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Creating content — videos, blogs, social media posts, or podcasts",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "design.film",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_PATHWAY_013",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "EducationPathPreference",
+        "languageComplexity":  "Simple",
+        "text":  "After 10th, which educational path feels most appealing to you right now?",
+        "targetDiscriminates":  [
+                                    "stream.commerce",
+                                    "stream.iti",
+                                    "stream.pcm",
+                                    "stream.pcb",
+                                    "stream.diploma",
+                                    "stream.arts"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Science stream in Class 11–12, then a college degree",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.75
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.75
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Commerce stream in Class 11–12, then a finance or business degree",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "com.banking",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Arts/Humanities stream in Class 11–12, then law, journalism, or social sciences",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "arts.law",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "A 3-year polytechnic diploma — get into a job sooner",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.diploma",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_SOCIAL_014",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "SocialImpact",
+        "languageComplexity":  "Simple",
+        "text":  "Which type of difference would you most like to make in the world someday?",
+        "targetDiscriminates":  [
+                                    "govt.upsc",
+                                    "stream.commerce",
+                                    "stream.pcb",
+                                    "arts.education",
+                                    "sci.eng.environ"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Saving lives — curing diseases and improving healthcare for poor communities",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.med.mbbs",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "sci.med.allied",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Protecting the environment — fighting climate change and saving ecosystems",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.pure.env_sci",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.environ",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Building the nation — good governance and making government work for people",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "govt.upsc",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "arts.law.criminal",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Creating jobs — building a successful business that employs thousands",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "mgmt.mba",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_SCIENCE_015",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "ScientificReasoning",
+        "languageComplexity":  "Simple",
+        "text":  "Your teacher asks why plants near a road grow slower than those in a garden. What\u0027s your approach to finding out?",
+        "targetDiscriminates":  [
+                                    "sci.pure.env_sci",
+                                    "stream.pcmb",
+                                    "stream.pcb",
+                                    "sci.eng.cs.data"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Study the plants\u0027 biology — check their leaves, roots, and internal processes",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.75
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Test the soil and air near the road for pollutants and chemicals",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.pure.env_sci",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.environ",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Collect data on sunlight, water, and temperature differences between the two locations",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.data",
+                                                "weight":  0.75
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Research what scientists have already published about road pollution and plant growth",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "arts.education",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_RISK_016",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "RiskTolerance",
+        "languageComplexity":  "Simple",
+        "text":  "When it comes to your future career, which statement fits you best?",
+        "targetDiscriminates":  [
+                                    "sci.med.mbbs",
+                                    "stream.commerce",
+                                    "stream.pcm",
+                                    "govt.upsc"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "I\u0027d rather build my own business, even if it means uncertainty and risk",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "com.marketing",
+                                                "weight":  0.6
+                                            },
+                                            {
+                                                "nodeId":  "mgmt.mba",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "I want a stable government job — security and service matter more than high salary",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "govt.upsc",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "govt.banking",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "govt.teaching_govt",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "I want a well-paying private sector career — good salary with some stability",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.65
+                                            },
+                                            {
+                                                "nodeId":  "com.finance",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "I want to do something deeply meaningful, even if it takes many years of study",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.med.mbbs",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "arts.law",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_VERBAL_017",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "VerbalReasoning",
+        "languageComplexity":  "Simple",
+        "text":  "Which type of reading do you enjoy the most?",
+        "targetDiscriminates":  [
+                                    "stream.pcmb",
+                                    "stream.commerce",
+                                    "stream.arts"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Novels, poetry, or plays that explore human emotions and stories",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "News articles about business, the economy, or stock markets",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "com.finance",
+                                                "weight":  0.85
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Science books or magazines about discoveries, space, or technology",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.aero",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.ai_ml",
+                                                "weight":  0.65
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Books about history, politics, biographies of leaders, or social issues",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "govt.upsc",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_CREATIVE_018",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "CreativeProduction",
+        "languageComplexity":  "Simple",
+        "text":  "Given a real problem that needs solving, which approach excites you most?",
+        "targetDiscriminates":  [
+                                    "stream.pcb",
+                                    "arts.law",
+                                    "stream.pcm",
+                                    "sci.eng.cs.software"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Draw and design a creative solution — buildings, products, or visual layouts",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "design.interior",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "design.graphic",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Write code — automate it, build a tool, or design a digital system",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.ai_ml",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Research it deeply — find the cause, look at precedent, write a report with recommendations",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "arts.law",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "govt.upsc",
+                                                "weight":  0.75
+                                            },
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Investigate it scientifically — run experiments and test possible medical or biological causes",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.med.mbbs",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.65
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_DIFF_PCM_DIPLOMA",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "TaskPreference",
+        "languageComplexity":  "Simple",
+        "text":  "How do you prefer to learn about a complex machine (like a car engine)?",
+        "targetDiscriminates":  [
+                                    "stream.pcm",
+                                    "stream.diploma",
+                                    "stream.iti"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "I want to study the deep physics and mathematical formulas that explain how the engine works.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "I want to take a 3-year hands-on course immediately to learn how to design and fix these machines in a factory.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.diploma",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.4
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "I want to start an apprenticeship or quick training to become an expert mechanic as soon as possible.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.iti",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "stream.diploma",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "I am not interested in machines; I prefer studying living things or business.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.5
+                                            },
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.5
+                                            },
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_DIFF_PCB_PCMB",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "SubjectPreference",
+        "languageComplexity":  "Simple",
+        "text":  "When thinking about biology and mathematics, which statement best describes you?",
+        "targetDiscriminates":  [
+                                    "stream.pcb",
+                                    "stream.pcmb",
+                                    "stream.pcm"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "I only want to study biology to become a doctor. I do not want to study mathematics anymore.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "I love biology, but I also want to keep mathematics as a backup in case I want to pursue biotechnology or engineering.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.6
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "I only want to study mathematics and physics. Biology is not for me.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "stream.diploma",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "I am not highly interested in either; I prefer social sciences or accounts.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_DIFF_COMMERCE_ARTS",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "TaskPreference",
+        "languageComplexity":  "Simple",
+        "text":  "If you were to read a non-fiction book, which topic would you choose?",
+        "targetDiscriminates":  [
+                                    "stream.commerce",
+                                    "stream.arts"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "How successful companies manage their money, invest, and grow the economy.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "The history of ancient civilizations, human psychology, and political movements.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "New discoveries in space exploration, medical research, and technology.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "A guide on how to build, repair, and troubleshoot everyday electronics.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.diploma",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "stream.iti",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A10_DIFF_DIPLOMA_ITI",
+        "phaseKey":  "After10th",
+        "subPhaseKey":  "",
+        "questionType":  "TaskPreference",
+        "languageComplexity":  "Simple",
+        "text":  "If you decided not to study 11th and 12th standard, what would you rather do?",
+        "targetDiscriminates":  [
+                                    "stream.diploma",
+                                    "stream.iti"
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Join a 3-year Polytechnic Diploma to become a Junior Engineer.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.diploma",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Join a 1 or 2-year ITI course to quickly master a specific skill like plumbing or drafting.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.iti",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "I definitely want to study 11th and 12th standard in a Science stream.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.pcm",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcb",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "stream.pcmb",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "I definitely want to study 11th and 12th standard in Commerce or Arts.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "stream.commerce",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "stream.arts",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        }
+                    ]
+    }
+]

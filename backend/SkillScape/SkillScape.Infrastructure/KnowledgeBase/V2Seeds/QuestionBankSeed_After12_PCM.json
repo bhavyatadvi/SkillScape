@@ -1,0 +1,1288 @@
+[
+    {
+        "id":  "Q_A12_PCM_CLUSTER_001",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "",
+        "questionType":  "Situational",
+        "languageComplexity":  "Intermediate",
+        "text":  "Imagine you are leading a major innovation project. Which aspect of the project excites you the most?",
+        "targetDiscriminates":  [
+
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Designing the logical architecture, writing the code, and optimizing the algorithms.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.it",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Building physical prototypes, understanding thermodynamics, and designing moving parts.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mech",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.auto",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Working with circuits, microprocessors, and signal processing.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.ece",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.eee",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Planning large structures, analyzing materials, and ensuring structural integrity.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.arch",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A12_PCM_CLUSTER_002",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "",
+        "questionType":  "Situational",
+        "languageComplexity":  "Intermediate",
+        "text":  "You are given a complex dataset containing millions of user interactions. What is your instinct?",
+        "targetDiscriminates":  [
+
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Build a predictive model to understand future behavior using machine learning.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.ai_ml",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.data",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Design a highly secure, distributed database system to store and query it efficiently.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.cloudsec",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Analyze the financial implications and build a business strategy around it.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "com.mgmt.analytics",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A12_PCM_CSE_001",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Computer Science Engineering",
+        "questionType":  "Situational",
+        "languageComplexity":  "Intermediate",
+        "text":  "Within the software world, what specific challenge sounds the most engaging to you?",
+        "targetDiscriminates":  [
+
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Teaching a computer to recognize patterns, process language, or make decisions.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.ai_ml",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Protecting systems from hackers and finding vulnerabilities in code.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.cybersec",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Creating seamless user experiences and scalable web/mobile applications.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Managing servers, deployments, and cloud infrastructure.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.cloudsec",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A12_PCM_MECH_001",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Mechanical Engineering",
+        "questionType":  "Situational",
+        "languageComplexity":  "Intermediate",
+        "text":  "If you were to design a physical product, what would it be?",
+        "targetDiscriminates":  [
+
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "A high-performance electric vehicle or a next-gen engine.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.auto",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mech",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "An aircraft, drone, or propulsion system.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.aero",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "A complex robotic assembly line or automated manufacturing machine.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mechatronics",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mech",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "General heavy machinery, HVAC systems, or structural components.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mech",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_A12_PCM_ECE_001",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Electronics \u0026 Communication Engineering",
+        "questionType":  "Situational",
+        "languageComplexity":  "Intermediate",
+        "text":  "In the field of electronics, what fascinates you the most?",
+        "targetDiscriminates":  [
+
+                                ],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Designing microchips, VLSI, and embedded systems.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.ece",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.vlsi",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Working on 5G/6G networks, satellite communication, and IoT.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.ece",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.telecom",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Building robotics that combine mechanical parts with electronic brains.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mechatronics",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.ece",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Working with high voltage systems, power grids, and electrical machines.",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.eee",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_CSE_001",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Computer Science Engineering",
+        "questionType":  "ProjectPreference",
+        "languageComplexity":  "Intermediate",
+        "text":  "You are given six months to build one major technical project. Which would you be most excited to work on?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "A model that learns from images to detect early signs of disease",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.ai_ml",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.data",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "A platform that monitors network traffic and automatically blocks suspicious activity",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.cybersec",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.soc",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "A scalable backend API that handles millions of requests for a consumer app",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.backend",
+                                                "weight":  0.85
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "A cloud deployment pipeline that automatically provisions and scales infrastructure",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.cloudsec",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.devops",
+                                                "weight":  0.85
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_CSE_002",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Computer Science Engineering",
+        "questionType":  "TaskPreference",
+        "languageComplexity":  "Simple",
+        "text":  "A tech company asks you to join one team. Which daily work responsibility sounds most interesting to you?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Training machine learning models and improving their accuracy on real data",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.ai_ml",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Investigating security alerts and tracing how an attack penetrated the system",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.cybersec",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.soc",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Designing and building REST APIs and backend services for applications",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.backend",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Managing cloud servers, writing infrastructure-as-code, and automating deployments",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.devops",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.cloudsec",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_CSE_003",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Computer Science Engineering",
+        "questionType":  "ProblemSolving",
+        "languageComplexity":  "Intermediate",
+        "text":  "A production system is failing intermittently. Which root cause would you most want to investigate?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Why the machine learning model's predictions changed after a recent data update",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.ai_ml",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.data",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Whether an attacker exploited a vulnerability in the authentication layer",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.cybersec",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.pentest",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Whether the application is creating database bottlenecks under high user load",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.backend",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Why the cloud infrastructure is failing to auto-scale during traffic spikes",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.devops",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.cloudsec",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_CSE_004",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Data Science and AI",
+        "questionType":  "SubfieldDiscriminator",
+        "languageComplexity":  "Intermediate",
+        "text":  "Within artificial intelligence and data, which type of work appeals to you most?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Building systems that understand and generate human language — chatbots, translation, summarization",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.nlp",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.ai_ml",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Teaching computers to recognize faces, objects, and scenes from images and video",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.cv",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.ai_ml",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Discovering patterns in large datasets and presenting actionable insights to business teams",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.data",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.data_analysis",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Building and optimising the data pipelines that feed AI models and analytics dashboards",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.dataeng",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.data",
+                                                "weight":  0.5
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_CIVIL_001",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "ProjectPreference",
+        "languageComplexity":  "Simple",
+        "text":  "A city is planning a new metro corridor. Which part of the project would you most want to work on?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Designing tunnels, bridges, and elevated structures that support the metro system",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.struct",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.civil",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Planning the routes, analysing passenger flow, and optimising station placement",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.transport",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.civil",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Studying soil conditions and designing deep foundations for the underground stations",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.geotech",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.civil",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Managing construction teams, timelines, budgets, and material procurement",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.construction",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.civil",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_CIVIL_002",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "Investigation",
+        "languageComplexity":  "Intermediate",
+        "text":  "A major bridge is showing unexpected cracks after construction. Which investigation would you most want to lead?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Analysing the structural load distribution to find where stress is concentrated",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.struct",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Evaluating whether the foundation soil has shifted or settled unexpectedly",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.geotech",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Reviewing the construction sequence and inspecting material quality records",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.construction",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Examining whether water drainage and environmental exposure caused the deterioration",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.env",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.civil",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_MECH_001",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Mechanical Engineering",
+        "questionType":  "TaskPreference",
+        "languageComplexity":  "Simple",
+        "text":  "A manufacturing company wants to improve an existing production machine. Which part of the work interests you most?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Redesigning mechanical components for better strength and reduced weight",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mech.design",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mech",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Optimising the manufacturing process to reduce waste and cycle time",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mech.mfg",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mech",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Studying heat transfer and improving the cooling system's energy efficiency",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mech.thermal",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mech",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Integrating sensors and control software to automate the machine's operation",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mechatronics",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mech.robot",
+                                                "weight":  0.75
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_MECH_002",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Mechanical Engineering",
+        "questionType":  "CareerDirection",
+        "languageComplexity":  "Intermediate",
+        "text":  "Which long-term engineering career direction excites you the most?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Designing vehicle suspension, powertrains, or EV battery systems in the automotive industry",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.auto",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mech",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Developing aircraft structures, propulsion systems, or aerospace components",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.aero",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mech.aero",
+                                                "weight":  0.85
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Building and programming industrial robots for automated manufacturing",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mech.robot",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mechatronics",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Designing thermal power plants, HVAC systems, or renewable energy equipment",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mech.thermal",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mech",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_CSE_005",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Computer Science Engineering",
+        "questionType":  "ScenarioBased",
+        "languageComplexity":  "Intermediate",
+        "text":  "An e-commerce platform suffers a major fraud event. You can join one response team. Which role would you choose?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Building a fraud-detection model that learns from historical transaction patterns",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.ai_ml",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.data",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Investigating how attackers gained access and closing the exploited security gaps",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.cybersec",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.ir",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Redesigning the payment backend to add robust validation and fraud prevention logic",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.backend",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Hardening the cloud infrastructure and implementing zero-trust access controls",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.cloudsec",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.iam",
+                                                "weight":  0.75
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_BROAD_001",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "",
+        "questionType":  "BroadDiscriminator",
+        "languageComplexity":  "Simple",
+        "text":  "When you solve a difficult problem, which type of solution gives you the greatest satisfaction?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Writing code that automates a process and saves hours of repetitive work",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Building or assembling a physical device that performs a mechanical function",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mech",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Designing a structure or layout that is functional, safe, and built to last decades",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil",
+                                                "weight":  0.9
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Deriving a formula or mathematical relationship that explains an observed phenomenon",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.pure.physics",
+                                                "weight":  0.8
+                                            },
+                                            {
+                                                "nodeId":  "sci.pure.maths",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_CSE_006",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Computer Science Engineering",
+        "questionType":  "SkillDevelopmentPreference",
+        "languageComplexity":  "Simple",
+        "text":  "You want to develop one highly valuable technical skill set. Which would you invest the next two years of study into?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Deep learning, neural networks, and building AI applications from real datasets",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.ai_ml",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Ethical hacking, penetration testing, and building systems that resist attacks",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.cybersec",
+                                                "weight":  0.95
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.pentest",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "System design, microservices architecture, and building large-scale software products",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.backend",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Cloud platforms, Kubernetes, Terraform, and automated infrastructure management",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs.devops",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.cloudsec",
+                                                "weight":  0.75
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_CIVIL_003",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "TradeOff",
+        "languageComplexity":  "Simple",
+        "text":  "Which project would you rather lead for your final year of college?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Analysing a multi-storey building's structural behaviour under seismic loading",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.struct",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Designing a wastewater treatment system for an industrial zone",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.env",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.civil",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Modelling traffic flow at a busy urban intersection and proposing signal improvements",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.transport",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Estimating project costs and creating a construction schedule for a residential complex",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.construction",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.civil",
+                                                "weight":  0.6
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_MECH_003",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "Mechanical Engineering",
+        "questionType":  "InternshipChoice",
+        "languageComplexity":  "Intermediate",
+        "text":  "You join a mechanical engineering firm for a summer internship. You are offered a choice of projects. Which do you pick?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Simulating airflow over a vehicle body to improve its aerodynamic drag coefficient",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.auto",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mech.design",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Programming a robotic arm to perform precise repetitive assembly operations",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mech.robot",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mechatronics",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Performing thermal analysis on a heat exchanger to improve its efficiency",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mech.thermal",
+                                                "weight":  0.95
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Redesigning a CNC-machined component to reduce material waste and production cost",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mech.mfg",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mech.design",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id":  "Q_NEW_A12_PCM_BROAD_002",
+        "phaseKey":  "After12th",
+        "subPhaseKey":  "pcm",
+        "domain":  "Engineering",
+        "subdomain":  "",
+        "questionType":  "FutureWorkPreference",
+        "languageComplexity":  "Simple",
+        "text":  "Imagine yourself ten years into your engineering career. Which work setting sounds most fulfilling?",
+        "targetDiscriminates":  [],
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Leading a software engineering team building a digital product used by millions of people",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.cs",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.cs.software",
+                                                "weight":  0.8
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Designing the structural systems of landmark bridges or high-rise buildings",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.civil.struct",
+                                                "weight":  0.9
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.civil",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Managing the production engineering operations of a large manufacturing plant",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.eng.mech.mfg",
+                                                "weight":  0.85
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.mech",
+                                                "weight":  0.7
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Researching new materials or energy systems in a university or national laboratory",
+                            "signals":  [
+                                            {
+                                                "nodeId":  "sci.pure.physics",
+                                                "weight":  0.7
+                                            },
+                                            {
+                                                "nodeId":  "sci.eng.material",
+                                                "weight":  0.75
+                                            }
+                                        ]
+                        }
+                    ]
+    },
+    {
+        "id": "Q_A12_ARCH_020",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcm",
+        "domain": "Engineering",
+        "subdomain": "Architecture",
+        "questionType": "Situational",
+        "languageComplexity": "Simple",
+        "text": "Which project would you most enjoy developing from an idea into a detailed plan?",
+        "targetDiscriminatesJson": "[\"deg.barch\", \"sci.eng.civil\", \"deg.bdes\", \"sci.eng.cs\"]",
+        "options": [
+            { "index": 0, "text": "Design a comfortable, attractive building that responds to its site and the people using it", "signals": [{ "nodeId": "deg.barch", "weight": 0.98 }] },
+            { "index": 1, "text": "Plan safe structures, foundations, roads, and construction methods", "signals": [{ "nodeId": "sci.eng.civil", "weight": 0.95 }] },
+            { "index": 2, "text": "Create useful products, interiors, or visual experiences", "signals": [{ "nodeId": "deg.bdes", "weight": 0.9 }] },
+            { "index": 3, "text": "Build a digital tool that solves a technical problem", "signals": [{ "nodeId": "sci.eng.cs", "weight": 0.9 }] }
+        ]
+    },
+    {
+        "id": "Q_A12_ARCH_021",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcm",
+        "domain": "Engineering",
+        "subdomain": "Architecture",
+        "questionType": "LearningPreference",
+        "languageComplexity": "Simple",
+        "text": "Which set of activities would you choose for a long-term course project?",
+        "targetDiscriminatesJson": "[\"deg.barch\", \"sci.eng.civil\", \"deg.bdes\", \"sci.eng.mech\"]",
+        "options": [
+            { "index": 0, "text": "Sketch spaces, make models, study buildings, and refine plans after feedback", "signals": [{ "nodeId": "deg.barch", "weight": 0.98 }] },
+            { "index": 1, "text": "Calculate loads and plan how infrastructure can be built safely", "signals": [{ "nodeId": "sci.eng.civil", "weight": 0.95 }] },
+            { "index": 2, "text": "Prototype a product and improve its shape, materials, and usability", "signals": [{ "nodeId": "deg.bdes", "weight": 0.9 }] },
+            { "index": 3, "text": "Model a machine and test how its moving parts perform", "signals": [{ "nodeId": "sci.eng.mech", "weight": 0.9 }] }
+        ]
+    },
+    {
+        "id": "Q_A12_ARCH_022",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcm",
+        "domain": "Engineering",
+        "subdomain": "Architecture",
+        "questionType": "TradeOff",
+        "languageComplexity": "Simple",
+        "text": "When improving a neighborhood, which challenge would you most want to take responsibility for?",
+        "targetDiscriminatesJson": "[\"deg.barch\", \"sci.eng.civil\", \"sci.eng.civil.construction\", \"deg.bdes\"]",
+        "options": [
+            { "index": 0, "text": "Shape buildings and public spaces around how people live and move", "signals": [{ "nodeId": "deg.barch", "weight": 0.98 }] },
+            { "index": 1, "text": "Design reliable transport, drainage, and structural systems", "signals": [{ "nodeId": "sci.eng.civil", "weight": 0.95 }] },
+            { "index": 2, "text": "Coordinate construction work, resources, and site safety", "signals": [{ "nodeId": "sci.eng.civil.construction", "weight": 0.92 }] },
+            { "index": 3, "text": "Improve the look and usability of furnishings and shared interiors", "signals": [{ "nodeId": "deg.bdes", "weight": 0.88 }] }
+        ]
+    }
+]

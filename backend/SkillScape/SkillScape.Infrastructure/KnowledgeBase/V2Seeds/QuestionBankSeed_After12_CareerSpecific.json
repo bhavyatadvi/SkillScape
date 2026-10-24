@@ -1,0 +1,322 @@
+[
+  {
+    "id": "Q_A12_ARCH_SPEC_001",
+    "phaseKey": "After12th",
+    "subPhaseKey": "pcm",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "architecture_work",
+    "text": "A community needs a new public library on a difficult site. Which part of the architecture work would you most want to own?",
+    "targetDiscriminatesJson": "[\"deg.barch\"]",
+    "options": [
+      { "index": 0, "text": "Turn the community's needs into a clear brief, room plan, and circulation layout.", "signals": [{ "nodeId": "deg.barch", "weight": 0.95 }, { "nodeId": "arts.des.interior", "weight": 0.35 }] },
+      { "index": 1, "text": "Shape the building's form, daylight, materials, and relationship to the street.", "signals": [{ "nodeId": "deg.barch", "weight": 0.9 }, { "nodeId": "arts.des.interior", "weight": 0.4 }] },
+      { "index": 2, "text": "Calculate the structural system and coordinate technical building services.", "signals": [{ "nodeId": "deg.barch", "weight": 0.65 }, { "nodeId": "deg.btech.civil", "weight": 0.65 }] },
+      { "index": 3, "text": "Study how the library could support learning, access, and neighborhood activity.", "signals": [{ "nodeId": "deg.barch", "weight": 0.7 }, { "nodeId": "deg.ba.socio", "weight": 0.4 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_ARCH_SPEC_002",
+    "phaseKey": "After12th",
+    "subPhaseKey": "pcm",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "spatial_design",
+    "text": "Which studio assignment would keep you engaged through a long architecture course?",
+    "targetDiscriminatesJson": "[\"deg.barch\"]",
+    "options": [
+      { "index": 0, "text": "Design a small home for a family, balancing privacy, comfort, cost, and climate.", "signals": [{ "nodeId": "deg.barch", "weight": 0.95 }] },
+      { "index": 1, "text": "Rework a crowded street so walking, public transport, and local shops work better together.", "signals": [{ "nodeId": "deg.barch", "weight": 0.85 }, { "nodeId": "arts.urban_planning", "weight": 0.55 }] },
+      { "index": 2, "text": "Create a low-energy building using passive cooling, shade, and locally suitable materials.", "signals": [{ "nodeId": "deg.barch", "weight": 0.9 }, { "nodeId": "sci.env", "weight": 0.35 }] },
+      { "index": 3, "text": "Develop a precise digital model and drawings that help a team coordinate construction.", "signals": [{ "nodeId": "deg.barch", "weight": 0.8 }, { "nodeId": "deg.btech.civil", "weight": 0.45 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_ARCH_SPEC_003",
+    "phaseKey": "After12th",
+    "subPhaseKey": "pcm",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "architecture_tradeoffs",
+    "text": "A design looks striking but exceeds the client's budget. What would you most enjoy doing next?",
+    "targetDiscriminatesJson": "[\"deg.barch\"]",
+    "options": [
+      { "index": 0, "text": "Revise the design creatively while keeping its main experience and purpose.", "signals": [{ "nodeId": "deg.barch", "weight": 0.95 }] },
+      { "index": 1, "text": "Compare materials and construction methods to find practical savings.", "signals": [{ "nodeId": "deg.barch", "weight": 0.75 }, { "nodeId": "deg.btech.civil", "weight": 0.55 }] },
+      { "index": 2, "text": "Talk with the client to rank needs and agree what can change.", "signals": [{ "nodeId": "deg.barch", "weight": 0.8 }, { "nodeId": "deg.bba", "weight": 0.3 }] },
+      { "index": 3, "text": "Test the design against accessibility, safety, and local building requirements.", "signals": [{ "nodeId": "deg.barch", "weight": 0.8 }, { "nodeId": "deg.btech.civil", "weight": 0.5 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_ARCH_SPEC_004",
+    "phaseKey": "After12th",
+    "subPhaseKey": "pcm",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "built_environment_interest",
+    "text": "What would you most like to notice and understand when you enter an unfamiliar building?",
+    "targetDiscriminatesJson": "[\"deg.barch\"]",
+    "options": [
+      { "index": 0, "text": "How people move through it and whether the spaces feel intuitive.", "signals": [{ "nodeId": "deg.barch", "weight": 0.95 }] },
+      { "index": 1, "text": "How its structure carries loads and how it was assembled.", "signals": [{ "nodeId": "deg.btech.civil", "weight": 0.8 }, { "nodeId": "deg.barch", "weight": 0.55 }] },
+      { "index": 2, "text": "How light, sound, texture, and proportion affect the atmosphere.", "signals": [{ "nodeId": "deg.barch", "weight": 0.85 }, { "nodeId": "arts.des.interior", "weight": 0.6 }] },
+      { "index": 3, "text": "How the building uses energy and responds to its climate and surroundings.", "signals": [{ "nodeId": "deg.barch", "weight": 0.8 }, { "nodeId": "sci.env", "weight": 0.4 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_LAW_SPEC_001",
+    "phaseKey": "After12th",
+    "subPhaseKey": "arts",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_reasoning",
+    "text": "Two people give conflicting accounts of an agreement. Which part of resolving the dispute would interest you most?",
+    "targetDiscriminatesJson": "[\"deg.ba.llb\",\"deg.bba.llb\"]",
+    "options": [
+      { "index": 0, "text": "Read the contract closely and identify what each clause requires.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.8 }, { "nodeId": "deg.ba.llb", "weight": 0.75 }] },
+      { "index": 1, "text": "Question each account, test the evidence, and prepare arguments for a hearing.", "signals": [{ "nodeId": "arts.law.criminal", "weight": 0.75 }, { "nodeId": "deg.ba.llb", "weight": 0.7 }] },
+      { "index": 2, "text": "Help both sides negotiate a workable settlement before a lengthy case.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.7 }, { "nodeId": "deg.bba.llb", "weight": 0.65 }] },
+      { "index": 3, "text": "Research the relevant law and explain the likely outcomes clearly to a client.", "signals": [{ "nodeId": "deg.ba.llb", "weight": 0.85 }, { "nodeId": "arts.law.ip", "weight": 0.45 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_LAW_SPEC_002",
+    "phaseKey": "After12th",
+    "subPhaseKey": "arts",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "law_specialization",
+    "text": "Which legal issue would you most want to study in depth?",
+    "targetDiscriminatesJson": "[\"deg.ba.llb\",\"deg.bba.llb\"]",
+    "options": [
+      { "index": 0, "text": "Business contracts, company decisions, and mergers.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.95 }, { "nodeId": "deg.bba.llb", "weight": 0.65 }] },
+      { "index": 1, "text": "Criminal justice, fair trials, and the rights of accused people.", "signals": [{ "nodeId": "arts.law.criminal", "weight": 0.95 }, { "nodeId": "deg.ba.llb", "weight": 0.6 }] },
+      { "index": 2, "text": "Privacy, online harm, and the rules that should govern new technology.", "signals": [{ "nodeId": "arts.law.cyber", "weight": 0.95 }, { "nodeId": "deg.ba.llb", "weight": 0.6 }] },
+      { "index": 3, "text": "Patents, trademarks, and protecting creative or scientific work.", "signals": [{ "nodeId": "arts.law.ip", "weight": 0.95 }, { "nodeId": "deg.ba.llb", "weight": 0.6 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_LAW_SPEC_003",
+    "phaseKey": "After12th",
+    "subPhaseKey": "arts",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_work_style",
+    "text": "Which typical law task sounds most satisfying to you?",
+    "targetDiscriminatesJson": "[\"deg.ba.llb\",\"deg.bba.llb\"]",
+    "options": [
+      { "index": 0, "text": "Present a clear argument in court and respond to questions from a judge.", "signals": [{ "nodeId": "arts.law.criminal", "weight": 0.85 }, { "nodeId": "deg.ba.llb", "weight": 0.75 }] },
+      { "index": 1, "text": "Draft and review agreements so a business can make a decision safely.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.9 }, { "nodeId": "deg.bba.llb", "weight": 0.7 }] },
+      { "index": 2, "text": "Research cases and legislation, then write a careful legal opinion.", "signals": [{ "nodeId": "deg.ba.llb", "weight": 0.8 }, { "nodeId": "arts.law.ip", "weight": 0.5 }] },
+      { "index": 3, "text": "Explain legal choices to a person or organization and help them decide what to do.", "signals": [{ "nodeId": "deg.ba.llb", "weight": 0.85 }, { "nodeId": "deg.bba.llb", "weight": 0.55 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_LAW_SPEC_004",
+    "phaseKey": "After12th",
+    "subPhaseKey": "arts",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "law_values",
+    "text": "A local community may be affected by a new policy. What would you most want to contribute as a legal professional?",
+    "targetDiscriminatesJson": "[\"deg.ba.llb\",\"deg.bba.llb\"]",
+    "options": [
+      { "index": 0, "text": "Make sure people understand their rights and can access legal help.", "signals": [{ "nodeId": "deg.ba.llb", "weight": 0.9 }, { "nodeId": "arts.law.criminal", "weight": 0.5 }] },
+      { "index": 1, "text": "Check whether the policy follows constitutional and statutory requirements.", "signals": [{ "nodeId": "deg.ba.llb", "weight": 0.85 }, { "nodeId": "arts.law.corporate", "weight": 0.45 }] },
+      { "index": 2, "text": "Advise organizations on how to comply and reduce legal risks.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.8 }, { "nodeId": "deg.bba.llb", "weight": 0.75 }] },
+      { "index": 3, "text": "Research the policy's effects and recommend fairer legal protections.", "signals": [{ "nodeId": "deg.ba.llb", "weight": 0.8 }, { "nodeId": "arts.law.cyber", "weight": 0.4 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_LAW_COM_001",
+    "phaseKey": "After12th",
+    "subPhaseKey": "commerce",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_reasoning",
+    "text": "A company is negotiating a major partnership. Which legal task would you most want to take on?",
+    "targetDiscriminatesJson": "[\"deg.ba.llb\",\"deg.bba.llb\"]",
+    "options": [
+      { "index": 0, "text": "Review the commercial terms and identify risks in the agreement.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.9 }, { "nodeId": "deg.bba.llb", "weight": 0.75 }] },
+      { "index": 1, "text": "Research whether the proposed arrangement meets company and competition rules.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.85 }, { "nodeId": "deg.bba.llb", "weight": 0.7 }] },
+      { "index": 2, "text": "Negotiate language that protects both sides while keeping the deal workable.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.85 }, { "nodeId": "deg.bba.llb", "weight": 0.7 }] },
+      { "index": 3, "text": "Assess how customer data and intellectual property will be protected.", "signals": [{ "nodeId": "arts.law.cyber", "weight": 0.7 }, { "nodeId": "arts.law.ip", "weight": 0.7 }, { "nodeId": "deg.bba.llb", "weight": 0.55 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_LAW_COM_002",
+    "phaseKey": "After12th",
+    "subPhaseKey": "commerce",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "law_specialization",
+    "text": "Which question at the intersection of law and business would you most enjoy exploring?",
+    "targetDiscriminatesJson": "[\"deg.ba.llb\",\"deg.bba.llb\"]",
+    "options": [
+      { "index": 0, "text": "How should companies be governed and held accountable?", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.9 }, { "nodeId": "deg.bba.llb", "weight": 0.75 }] },
+      { "index": 1, "text": "How should a business protect a new product, brand, or invention?", "signals": [{ "nodeId": "arts.law.ip", "weight": 0.9 }, { "nodeId": "deg.bba.llb", "weight": 0.6 }] },
+      { "index": 2, "text": "How should online businesses use personal data responsibly?", "signals": [{ "nodeId": "arts.law.cyber", "weight": 0.9 }, { "nodeId": "deg.bba.llb", "weight": 0.6 }] },
+      { "index": 3, "text": "How should disputes between businesses be resolved fairly and efficiently?", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.8 }, { "nodeId": "deg.ba.llb", "weight": 0.55 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_LAW_COM_003",
+    "phaseKey": "After12th",
+    "subPhaseKey": "commerce",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_work_style",
+    "text": "Which responsibility would you prefer in a legal team supporting a growing company?",
+    "targetDiscriminatesJson": "[\"deg.ba.llb\",\"deg.bba.llb\"]",
+    "options": [
+      { "index": 0, "text": "Drafting contracts and advising teams before they enter business deals.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.9 }, { "nodeId": "deg.bba.llb", "weight": 0.75 }] },
+      { "index": 1, "text": "Researching laws and writing guidance that explains practical choices.", "signals": [{ "nodeId": "deg.bba.llb", "weight": 0.75 }, { "nodeId": "deg.ba.llb", "weight": 0.65 }] },
+      { "index": 2, "text": "Investigating a dispute and preparing evidence for negotiation or court.", "signals": [{ "nodeId": "arts.law.criminal", "weight": 0.55 }, { "nodeId": "deg.ba.llb", "weight": 0.7 }] },
+      { "index": 3, "text": "Building a compliance process that helps the company meet its obligations.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.85 }, { "nodeId": "deg.bba.llb", "weight": 0.7 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_LAW_COM_004",
+    "phaseKey": "After12th",
+    "subPhaseKey": "commerce",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "law_values",
+    "text": "A new regulation changes how a business can operate. Which response sounds most interesting to you?",
+    "targetDiscriminatesJson": "[\"deg.ba.llb\",\"deg.bba.llb\"]",
+    "options": [
+      { "index": 0, "text": "Interpret the rules and explain what the company must change.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.9 }, { "nodeId": "deg.bba.llb", "weight": 0.8 }] },
+      { "index": 1, "text": "Assess whether the regulation protects people while treating businesses fairly.", "signals": [{ "nodeId": "deg.ba.llb", "weight": 0.8 }, { "nodeId": "arts.law.corporate", "weight": 0.55 }] },
+      { "index": 2, "text": "Help design internal training and checks so teams follow the rules.", "signals": [{ "nodeId": "deg.bba.llb", "weight": 0.7 }, { "nodeId": "arts.law.corporate", "weight": 0.8 }] },
+      { "index": 3, "text": "Research how the change affects contracts, customers, and future strategy.", "signals": [{ "nodeId": "deg.bba.llb", "weight": 0.75 }, { "nodeId": "deg.ba.llb", "weight": 0.6 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_LAW_PCM_001",
+    "phaseKey": "After12th",
+    "subPhaseKey": "pcm",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_reasoning",
+    "text": "A new technology raises questions about privacy and ownership. Which legal work would interest you most?",
+    "targetDiscriminatesJson": "[\"deg.ba.llb\",\"deg.bba.llb\"]",
+    "options": [
+      { "index": 0, "text": "Research how privacy laws apply to the technology and its users.", "signals": [{ "nodeId": "arts.law.cyber", "weight": 0.9 }, { "nodeId": "deg.ba.llb", "weight": 0.7 }] },
+      { "index": 1, "text": "Help protect the invention through patents and intellectual property rights.", "signals": [{ "nodeId": "arts.law.ip", "weight": 0.9 }, { "nodeId": "deg.ba.llb", "weight": 0.65 }] },
+      { "index": 2, "text": "Advise the company on contracts, licensing, and commercial risk.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.85 }, { "nodeId": "deg.bba.llb", "weight": 0.7 }] },
+      { "index": 3, "text": "Explain the legal issue clearly to affected people and help them understand their options.", "signals": [{ "nodeId": "deg.ba.llb", "weight": 0.8 }, { "nodeId": "arts.law.cyber", "weight": 0.5 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_LAW_PCM_002",
+    "phaseKey": "After12th",
+    "subPhaseKey": "pcm",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "law_work_style",
+    "text": "Which task sounds most rewarding in a career that combines careful reading, reasoning, and communication?",
+    "targetDiscriminatesJson": "[\"deg.ba.llb\",\"deg.bba.llb\"]",
+    "options": [
+      { "index": 0, "text": "Build a persuasive case from facts, evidence, and legal precedents.", "signals": [{ "nodeId": "arts.law.criminal", "weight": 0.8 }, { "nodeId": "deg.ba.llb", "weight": 0.75 }] },
+      { "index": 1, "text": "Write a precise agreement that makes responsibilities clear.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.85 }, { "nodeId": "deg.bba.llb", "weight": 0.7 }] },
+      { "index": 2, "text": "Compare different interpretations of a law and explain the strongest one.", "signals": [{ "nodeId": "deg.ba.llb", "weight": 0.85 }, { "nodeId": "arts.law.ip", "weight": 0.4 }] },
+      { "index": 3, "text": "Help two sides reach a fair agreement through negotiation.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.7 }, { "nodeId": "deg.ba.llb", "weight": 0.65 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_LAW_PCB_001",
+    "phaseKey": "After12th",
+    "subPhaseKey": "pcb",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_reasoning",
+    "text": "A health company launches a new product. Which legal question would you most want to investigate?",
+    "targetDiscriminatesJson": "[\"deg.ba.llb\",\"deg.bba.llb\"]",
+    "options": [
+      { "index": 0, "text": "Whether the product claims are supported and meet health regulations.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.8 }, { "nodeId": "deg.ba.llb", "weight": 0.7 }] },
+      { "index": 1, "text": "How patient information should be protected when the product uses digital records.", "signals": [{ "nodeId": "arts.law.cyber", "weight": 0.9 }, { "nodeId": "deg.ba.llb", "weight": 0.65 }] },
+      { "index": 2, "text": "Who owns the research, formula, or brand behind the product.", "signals": [{ "nodeId": "arts.law.ip", "weight": 0.9 }, { "nodeId": "deg.bba.llb", "weight": 0.5 }] },
+      { "index": 3, "text": "How to explain a person's rights and options after a product-related complaint.", "signals": [{ "nodeId": "deg.ba.llb", "weight": 0.85 }, { "nodeId": "arts.law.criminal", "weight": 0.25 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_LAW_PCB_002",
+    "phaseKey": "After12th",
+    "subPhaseKey": "pcb",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "law_work_style",
+    "text": "Which kind of work would you prefer in a legal career connected to healthcare and science?",
+    "targetDiscriminatesJson": "[\"deg.ba.llb\",\"deg.bba.llb\"]",
+    "options": [
+      { "index": 0, "text": "Research laws and policies that affect patients and public health.", "signals": [{ "nodeId": "deg.ba.llb", "weight": 0.85 }] },
+      { "index": 1, "text": "Review company agreements and help organizations follow regulations.", "signals": [{ "nodeId": "arts.law.corporate", "weight": 0.85 }, { "nodeId": "deg.bba.llb", "weight": 0.7 }] },
+      { "index": 2, "text": "Protect medical inventions, research discoveries, and trademarks.", "signals": [{ "nodeId": "arts.law.ip", "weight": 0.9 }, { "nodeId": "deg.ba.llb", "weight": 0.55 }] },
+      { "index": 3, "text": "Help people understand a dispute and prepare a clear argument for resolution.", "signals": [{ "nodeId": "deg.ba.llb", "weight": 0.85 }, { "nodeId": "arts.law.criminal", "weight": 0.25 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_BPHARM_SPEC_001",
+    "phaseKey": "After12th",
+    "subPhaseKey": "pcb",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "pharmacy_practice",
+    "text": "A patient is prescribed several medicines and is worried about side effects. Which part of helping them would you most want to do?",
+    "targetDiscriminatesJson": "[\"deg.bpharm\"]",
+    "options": [
+      { "index": 0, "text": "Check the medicines for interactions and explain safe use in clear language.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.95 }] },
+      { "index": 1, "text": "Study how the medicines work in the body and why the side effects occur.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.9 }, { "nodeId": "deg.mbbs", "weight": 0.35 }] },
+      { "index": 2, "text": "Test medicine samples and verify their quality in a laboratory.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.9 }, { "nodeId": "deg.bsc.biotech", "weight": 0.35 }] },
+      { "index": 3, "text": "Help develop and evaluate a safer formulation for future patients.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.95 }, { "nodeId": "deg.bsc.biotech", "weight": 0.3 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_BPHARM_SPEC_002",
+    "phaseKey": "After12th",
+    "subPhaseKey": "pcb",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "pharmaceutical_research",
+    "text": "Which pharmaceutical science project would you choose for a semester?",
+    "targetDiscriminatesJson": "[\"deg.bpharm\"]",
+    "options": [
+      { "index": 0, "text": "Compare dosage forms and find a way to make a medicine easier to take.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.95 }] },
+      { "index": 1, "text": "Analyze how a drug is absorbed, distributed, and cleared from the body.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.9 }, { "nodeId": "deg.mbbs", "weight": 0.35 }] },
+      { "index": 2, "text": "Inspect a production process and identify where quality checks are needed.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.9 }] },
+      { "index": 3, "text": "Review evidence about whether a treatment is safe and effective for patients.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.85 }, { "nodeId": "deg.mbbs", "weight": 0.4 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_BPHARM_SPEC_003",
+    "phaseKey": "After12th",
+    "subPhaseKey": "pcb",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "medicine_quality",
+    "text": "A medicine batch fails a quality check. What would you be most interested in investigating?",
+    "targetDiscriminatesJson": "[\"deg.bpharm\"]",
+    "options": [
+      { "index": 0, "text": "Trace the production steps to find what caused the variation.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.95 }] },
+      { "index": 1, "text": "Run further tests to confirm the product's strength, purity, and stability.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.95 }] },
+      { "index": 2, "text": "Check the records and standards that govern the release of the batch.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.85 }] },
+      { "index": 3, "text": "Assess whether the issue could affect patients already using the medicine.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.9 }, { "nodeId": "deg.mbbs", "weight": 0.3 }] }
+    ]
+  },
+  {
+    "id": "Q_A12_BPHARM_SPEC_004",
+    "phaseKey": "After12th",
+    "subPhaseKey": "pcb",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "pharmacy_career_setting",
+    "text": "Which work setting in the medicines field sounds most appealing for your future?",
+    "targetDiscriminatesJson": "[\"deg.bpharm\"]",
+    "options": [
+      { "index": 0, "text": "A hospital or community pharmacy, helping people use medicines safely.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.9 }] },
+      { "index": 1, "text": "A pharmaceutical company developing and manufacturing medicines.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.95 }] },
+      { "index": 2, "text": "A quality or regulatory team checking that medicines meet required standards.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.9 }] },
+      { "index": 3, "text": "A research lab studying drug action, formulation, or delivery.", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.95 }, { "nodeId": "deg.bsc.biotech", "weight": 0.35 }] }
+    ]
+  }
+]

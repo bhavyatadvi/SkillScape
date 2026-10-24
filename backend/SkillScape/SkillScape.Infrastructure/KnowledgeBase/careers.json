@@ -1,0 +1,156 @@
+{
+  "careers": [
+    {
+      "id": "web-dev",
+      "title": "Web Developer",
+      "description": "Build responsive, interactive websites and web applications using modern frameworks and technologies.",
+      "category": "Technology",
+      "averageSalary": "$80,000 - $120,000",
+      "jobOutlook": "Growing 23% faster than average",
+      "keyResponsibilities": [
+        "Design and develop user-facing features",
+        "Optimize applications for speed and scalability",
+        "Maintain and improve existing code",
+        "Collaborate with UX/UI designers",
+        "Implement responsive design",
+        "Debug and fix website bugs"
+      ],
+      "relatedCareers": ["Frontend Developer", "Backend Developer", "Full Stack Developer"],
+      "requiredSkillsIds": ["web-dev-skills"],
+      "roadmapId": "web-dev-roadmap"
+    },
+    {
+      "id": "data-scientist",
+      "title": "Data Scientist",
+      "description": "Extract insights from data using statistical analysis, machine learning, and programming to drive business decisions.",
+      "category": "Data & Analytics",
+      "averageSalary": "$100,000 - $150,000",
+      "jobOutlook": "Growing 36% faster than average",
+      "keyResponsibilities": [
+        "Analyze complex datasets",
+        "Build predictive models",
+        "Create data visualizations",
+        "Develop algorithms",
+        "Communicate insights to stakeholders",
+        "Deploy machine learning models"
+      ],
+      "relatedCareers": ["Machine Learning Engineer", "Data Analyst", "Analytics Engineer"],
+      "requiredSkillsIds": ["data-scientist-skills"],
+      "roadmapId": "data-scientist-roadmap"
+    },
+    {
+      "id": "mobile-dev",
+      "title": "Mobile App Developer",
+      "description": "Create mobile applications for iOS and Android platforms using native or cross-platform technologies.",
+      "category": "Technology",
+      "averageSalary": "$85,000 - $130,000",
+      "jobOutlook": "Growing 15% faster than average",
+      "keyResponsibilities": [
+        "Develop mobile applications",
+        "Write clean, maintainable code",
+        "Test and debug applications",
+        "Optimize for mobile performance",
+        "Integrate APIs",
+        "Publish to app stores"
+      ],
+      "relatedCareers": ["iOS Developer", "Android Developer", "React Native Developer"],
+      "requiredSkillsIds": ["mobile-dev-skills"],
+      "roadmapId": "mobile-dev-roadmap"
+    },
+    {
+      "id": "cloud-architect",
+      "title": "Cloud Architect",
+      "description": "Design and implement scalable, secure cloud solutions using AWS, Azure, or Google Cloud.",
+      "category": "Technology",
+      "averageSalary": "$130,000 - $180,000",
+      "jobOutlook": "Growing 28% faster than average",
+      "keyResponsibilities": [
+        "Design cloud infrastructure",
+        "Ensure security and compliance",
+        "Optimize costs",
+        "Plan system scalability",
+        "Implement disaster recovery",
+        "Mentor junior developers"
+      ],
+      "relatedCareers": ["DevOps Engineer", "Solutions Architect", "Cloud Engineer"],
+      "requiredSkillsIds": ["cloud-architect-skills"],
+      "roadmapId": "cloud-architect-roadmap"
+    },
+    {
+      "id": "devops-engineer",
+      "title": "DevOps Engineer",
+      "description": "Automate deployment, scaling, and monitoring of applications using CI/CD pipelines and infrastructure as code.",
+      "category": "Technology",
+      "averageSalary": "$95,000 - $145,000",
+      "jobOutlook": "Growing 25% faster than average",
+      "keyResponsibilities": [
+        "Design CI/CD pipelines",
+        "Manage infrastructure as code",
+        "Monitor system performance",
+        "Implement automation",
+        "Ensure security practices",
+        "Troubleshoot deployment issues"
+      ],
+      "relatedCareers": ["Site Reliability Engineer", "System Administrator", "Infrastructure Engineer"],
+      "requiredSkillsIds": ["devops-skills"],
+      "roadmapId": "devops-roadmap"
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity Analyst",
+      "description": "Protect organizations from digital attacks by implementing security measures and monitoring systems.",
+      "category": "Security",
+      "averageSalary": "$100,000 - $150,000",
+      "jobOutlook": "Growing 33% faster than average",
+      "keyResponsibilities": [
+        "Monitor networks for breaches",
+        "Implement security protocols",
+        "Conduct security assessments",
+        "Create incident response plans",
+        "Update security policies",
+        "Train employees on security"
+      ],
+      "relatedCareers": ["Security Engineer", "Penetration Tester", "Security Architect"],
+      "requiredSkillsIds": ["cybersecurity-skills"],
+      "roadmapId": "cybersecurity-roadmap"
+    },
+    {
+      "id": "product-manager",
+      "title": "Product Manager",
+      "description": "Drive product vision, strategy, and development by working with engineering, design, and marketing teams.",
+      "category": "Management",
+      "averageSalary": "$110,000 - $160,000",
+      "jobOutlook": "Growing 8% faster than average",
+      "keyResponsibilities": [
+        "Define product strategy",
+        "Create product roadmaps",
+        "Work with cross-functional teams",
+        "Analyze market trends",
+        "Manage product metrics",
+        "Make data-driven decisions"
+      ],
+      "relatedCareers": ["Product Designer", "Program Manager", "Technical Program Manager"],
+      "requiredSkillsIds": ["product-manager-skills"],
+      "roadmapId": "product-manager-roadmap"
+    },
+    {
+      "id": "ai-ml-engineer",
+      "title": "AI/ML Engineer",
+      "description": "Build and deploy artificial intelligence and machine learning solutions for real-world problems.",
+      "category": "Technology",
+      "averageSalary": "$120,000 - $180,000",
+      "jobOutlook": "Growing 46% faster than average",
+      "keyResponsibilities": [
+        "Develop ML models",
+        "Prepare and analyze data",
+        "Deploy models to production",
+        "Optimize model performance",
+        "Conduct A/B testing",
+        "Collaborate with data engineers"
+      ],
+      "relatedCareers": ["Deep Learning Engineer", "NLP Engineer", "Computer Vision Engineer"],
+      "requiredSkillsIds": ["ai-ml-skills"],
+      "roadmapId": "ai-ml-roadmap"
+    }
+  ]
+}

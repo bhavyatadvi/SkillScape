@@ -1,0 +1,1782 @@
+[
+    {
+        "id": "Q_GOV_PRE_01",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "What kind of government work attracts you most?",
+        "intent": "Determine primary government sector preference",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Administration, policy implementation and public problem-solving",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Finance, banking, taxation and economic decision-making",
+                "signals": [
+                    {
+                        "trait": "gov.finance",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Engineering, technology, science or other technical work",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Defence, law enforcement, security and field operations",
+                "signals": [
+                    {
+                        "trait": "gov.defence",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 4,
+                "text": "Healthcare, teaching, research or another professional service",
+                "signals": [
+                    {
+                        "trait": "gov.medical",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.education",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.specialized",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 1,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_PRE_02",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "Where would you prefer to work?",
+        "intent": "Determine central vs state preference",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Across India / Central Government",
+                "signals": [
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.tech.ies",
+                        "weight": 3.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Mainly within my state",
+                "signals": [
+                    {
+                        "trait": "gov.admin.state",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.tech.state",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Either Central or State Government",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 2.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "I care more about the organization/role than Central vs State",
+                "signals": [
+                    {
+                        "trait": "gov.specialized",
+                        "weight": 2.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.finance",
+                        "weight": 2.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 2,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_PRE_03",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "What kind of work would you enjoy most?",
+        "intent": "Determine public interaction / work style",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Managing departments and implementing government policies",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Analysing financial/economic information",
+                "signals": [
+                    {
+                        "trait": "gov.finance",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.specialized.econ",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Solving technical or engineering problems",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Investigating, enforcing rules or maintaining security",
+                "signals": [
+                    {
+                        "trait": "gov.defence",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 4,
+                "text": "Conducting research/teaching/providing professional services",
+                "signals": [
+                    {
+                        "trait": "gov.education",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.medical",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 3,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_PRE_04",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "Which responsibility sounds most appealing?",
+        "intent": "Determine leadership/decision making preference",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Taking administrative decisions affecting citizens",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Managing financial resources and institutional performance",
+                "signals": [
+                    {
+                        "trait": "gov.finance",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Designing or implementing a technical solution",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Handling field operations and enforcement",
+                "signals": [
+                    {
+                        "trait": "gov.defence",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 4,
+                "text": "Conducting research or developing specialized knowledge",
+                "signals": [
+                    {
+                        "trait": "gov.specialized",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.education.research",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 4,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_PRE_05",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "Which exam preparation style would you prefer?",
+        "intent": "Determine exam intensity tolerance",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "A highly competitive, broad, multi-stage examination (e.g. Civil Services)",
+                "signals": [
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.admin.state",
+                        "weight": 4.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Aptitude, reasoning, English and general-awareness based examination (e.g. SSC/Banking)",
+                "signals": [
+                    {
+                        "trait": "gov.admin.other",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.finance.banking",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "An examination heavily related to my degree/specialization",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.medical",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.specialized",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "A professional/specialized recruitment process (e.g. PSU/Regulatory)",
+                "signals": [
+                    {
+                        "trait": "gov.finance.regulatory",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.tech.psu",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 4,
+                "text": "I am willing to prepare for multiple types",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 1.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 5,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_PRE_06",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "Generalist or specialist?",
+        "intent": "Determine generalist vs specialist preference",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "I want to become a general administrator.",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "reject.gov.tech",
+                        "weight": -5.0,
+                        "isRejection": true
+                    },
+                    {
+                        "trait": "reject.gov.medical",
+                        "weight": -5.0,
+                        "isRejection": true
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "I want to use my degree directly.",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.medical",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.specialized",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "I want finance/economics/banking work.",
+                "signals": [
+                    {
+                        "trait": "gov.finance",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "reject.gov.admin",
+                        "weight": -5.0,
+                        "isRejection": true
+                    },
+                    {
+                        "trait": "reject.gov.defence",
+                        "weight": -5.0,
+                        "isRejection": true
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "I want a scientific/technical specialization.",
+                "signals": [
+                    {
+                        "trait": "gov.tech.scientific",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.education.research",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 4,
+                "text": "I want a uniformed/operational career.",
+                "signals": [
+                    {
+                        "trait": "gov.defence",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "reject.gov.finance",
+                        "weight": -5.0,
+                        "isRejection": true
+                    },
+                    {
+                        "trait": "reject.gov.education",
+                        "weight": -5.0,
+                        "isRejection": true
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 5,
+                "text": "I am not sure.",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 1.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 6,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_PRE_07",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "Public interaction preference:",
+        "intent": "Determine public interaction style",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "I want frequent interaction with citizens.",
+                "signals": [
+                    {
+                        "trait": "gov.admin.state",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.finance.banking",
+                        "weight": 4.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "I prefer policy/administrative work.",
+                "signals": [
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "I prefer technical work with limited public interaction.",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "I prefer financial/institutional work.",
+                "signals": [
+                    {
+                        "trait": "gov.finance.regulatory",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.admin.other",
+                        "weight": 3.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 4,
+                "text": "I prefer operational/field work.",
+                "signals": [
+                    {
+                        "trait": "gov.defence",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 7,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_PRE_08",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "What matters most to you in a government career?",
+        "intent": "Determine career priority",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Public impact and administrative responsibility",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Technical utilization of my degree",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.medical",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Financial/analytical work",
+                "signals": [
+                    {
+                        "trait": "gov.finance",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Stability and structured career progression",
+                "signals": [
+                    {
+                        "trait": "gov.admin.other",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.finance.banking",
+                        "weight": 4.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 4,
+                "text": "Field service and operational responsibility",
+                "signals": [
+                    {
+                        "trait": "gov.defence",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 5,
+                "text": "Research/knowledge contribution",
+                "signals": [
+                    {
+                        "trait": "gov.education",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.tech.scientific",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 8,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_PRE_10_EXPLICIT",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "Do you already have an exam/career in mind? (Select one that most closely aligns, or 'I don't know' to explore)",
+        "intent": "Explicit Candidate Selection",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "UPSC Civil Services",
+                "signals": [
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": 20.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "State PSC",
+                "signals": [
+                    {
+                        "trait": "gov.admin.state",
+                        "weight": 20.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "SSC / Central Government Administration",
+                "signals": [
+                    {
+                        "trait": "gov.admin.other",
+                        "weight": 20.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Banking / Finance",
+                "signals": [
+                    {
+                        "trait": "gov.finance",
+                        "weight": 20.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 4,
+                "text": "Defence / CAPF",
+                "signals": [
+                    {
+                        "trait": "gov.defence",
+                        "weight": 20.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 5,
+                "text": "Engineering / Technical Government Services",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 20.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 6,
+                "text": "Medical / Scientific / Teaching",
+                "signals": [
+                    {
+                        "trait": "gov.medical",
+                        "weight": 20.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.education",
+                        "weight": 20.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.tech.scientific",
+                        "weight": 20.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 7,
+                "text": "I don't know — I want the assessment to discover it",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 0.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 9,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_ADAPT_ADMIN_01",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Administration",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "A district faces a major public-service problem involving multiple departments. Which responsibility appeals to you most?",
+        "intent": "Distinguish UPSC vs SSC vs Tech",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Coordinating departments and implementing the government's response",
+                "signals": [
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": 6.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.admin.state",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Analysing the financial resources required and maintaining accounts",
+                "signals": [
+                    {
+                        "trait": "gov.finance",
+                        "weight": 6.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.admin.other",
+                        "weight": 4.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Investigating violations of regulations or standard procedures",
+                "signals": [
+                    {
+                        "trait": "gov.admin.other",
+                        "weight": 6.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Designing the technical infrastructure solution",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 6.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.admin",
+                        "weight": -5.0,
+                        "isRejection": true
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 10,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_ADAPT_ADMIN_02",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Administration",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "Which career environment would appeal to you more?",
+        "intent": "Distinguish UPSC CSE vs State PSC",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Working across different parts of India and potentially handling national-level policy",
+                "signals": [
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": 8.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.admin.state",
+                        "weight": -3.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Building a long-term career focused primarily on administration within my state",
+                "signals": [
+                    {
+                        "trait": "gov.admin.state",
+                        "weight": 8.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": -3.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Working mainly in a specialized technical government role",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 8.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.admin",
+                        "weight": -5.0,
+                        "isRejection": true
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Working in a financial or regulatory institution",
+                "signals": [
+                    {
+                        "trait": "gov.finance",
+                        "weight": 8.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.admin",
+                        "weight": -5.0,
+                        "isRejection": true
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 11,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_ADAPT_ADMIN_03",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Administration",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "Within the broader civil services (UPSC), which specialized service orientation attracts you most?",
+        "intent": "Distinguish UPSC Service Preferences",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Public administration, district management, and policy implementation",
+                "signals": [
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Law and order, security, and police administration",
+                "signals": [
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.defence.capf",
+                        "weight": 4.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "International relations, diplomacy, and foreign affairs",
+                "signals": [
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Taxation, revenue administration, and financial management",
+                "signals": [
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.finance.tax",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 4,
+                "text": "None of these / I prefer a different type of government career",
+                "signals": [
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": -10.0,
+                        "isRejection": true
+                    }
+                ],
+                "isRejection": true
+            }
+        ],
+        "displayOrder": 12,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_ADAPT_FIN_01",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Finance",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "Which responsibility would you enjoy most in a financial institution?",
+        "intent": "Distinguish Banking vs Regulatory vs General Accounts",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Managing branch operations and customer relationships (e.g. Bank PO)",
+                "signals": [
+                    {
+                        "trait": "gov.finance.banking",
+                        "weight": 6.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.finance.regulatory",
+                        "weight": -2.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Evaluating borrowers, credit risk and financial statements",
+                "signals": [
+                    {
+                        "trait": "gov.finance.banking",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.finance.services",
+                        "weight": 4.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Designing financial policies and regulatory frameworks (e.g. RBI/SEBI)",
+                "signals": [
+                    {
+                        "trait": "gov.finance.regulatory",
+                        "weight": 8.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.finance.banking",
+                        "weight": -3.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Auditing and managing government department accounts",
+                "signals": [
+                    {
+                        "trait": "gov.admin.other",
+                        "weight": 6.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.finance.accounts",
+                        "weight": 6.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 13,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_ADAPT_TECH_01",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Technical",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "Would you prefer your government career to use your engineering specialization directly?",
+        "intent": "Ensure technical focus vs generalist",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Yes, I want to work as an engineer/technical specialist (e.g. Engineering Services/PSU)",
+                "signals": [
+                    {
+                        "trait": "gov.tech.ies",
+                        "weight": 6.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.tech.psu",
+                        "weight": 6.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "No, I want to pivot to general administration (e.g. UPSC CSE/SSC)",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 6.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.tech",
+                        "weight": -8.0,
+                        "isRejection": true
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "I am interested in both technical and administrative roles.",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 2.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.admin",
+                        "weight": 2.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 14,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_ADAPT_TECH_02",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Technical",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "Which technical environment interests you more?",
+        "intent": "Distinguish Tech Subdomains",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Designing and analysing major public infrastructure projects",
+                "signals": [
+                    {
+                        "trait": "gov.tech.ies",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.tech.state",
+                        "weight": 4.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Managing industrial production or energy generation (e.g. Maharatna PSUs)",
+                "signals": [
+                    {
+                        "trait": "gov.tech.psu",
+                        "weight": 7.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.tech.ies",
+                        "weight": -2.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Working in cutting-edge research and development (e.g. ISRO/DRDO/BARC)",
+                "signals": [
+                    {
+                        "trait": "gov.tech.scientific",
+                        "weight": 8.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Developing government software and IT systems (e.g. NIC/CDAC)",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 4.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 15,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_ADAPT_DEF_01",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Defence & Security",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "Which operational environment do you see yourself leading in?",
+        "intent": "Distinguish Defence vs CAPF",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Leading armed forces in national defence and military operations",
+                "signals": [
+                    {
+                        "trait": "gov.defence.officer",
+                        "weight": 8.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.defence.capf",
+                        "weight": -3.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Managing internal security, border guarding, and paramilitary operations",
+                "signals": [
+                    {
+                        "trait": "gov.defence.capf",
+                        "weight": 8.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.defence.officer",
+                        "weight": -3.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Technical/Engineering roles within the defence sector",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 6.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.defence.officer",
+                        "weight": 3.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Civilian intelligence or investigative agencies",
+                "signals": [
+                    {
+                        "trait": "gov.defence.other",
+                        "weight": 6.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 16,
+        "isActive": true
+    },
+    {
+        "id": "Q_GOV_ADAPT_GEN_01",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "Goals",
+        "competencyId": "",
+        "text": "In a typical workday, what kind of files or information would you prefer to handle?",
+        "intent": "Workstyle distinction",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Policy documents, public petitions, and legal frameworks",
+                "signals": [
+                    {
+                        "trait": "gov.admin.upsc",
+                        "weight": 4.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.admin.state",
+                        "weight": 4.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Financial statements, market reports, and economic data",
+                "signals": [
+                    {
+                        "trait": "gov.finance",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Technical specifications, schematics, or scientific data",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.medical",
+                        "weight": 3.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Operational briefings, security reports, and deployment plans",
+                "signals": [
+                    {
+                        "trait": "gov.defence",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 4,
+                "text": "Tax records, audit reports, and compliance checks",
+                "signals": [
+                    {
+                        "trait": "gov.finance.tax",
+                        "weight": 5.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.admin.other",
+                        "weight": 4.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 17,
+        "isActive": true
+    },
+    {
+        "id": "Q_NEW_GOV_001",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Simple",
+        "dimension": "CareerPreference",
+        "competencyId": "",
+        "text": "Which type of government exam and career track aligns with your long-term ambition?",
+        "intent": "Distinguish UPSC vs SSC vs banking vs technical government track",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "UPSC Civil Services - becoming an IAS/IPS/IFS officer to administer districts or embassies",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "SSC CGL or CHSL - joining a central government ministry or department",
+                "signals": [
+                    {
+                        "trait": "gov.ssc",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Bank PO or Clerk - working in a nationalised bank or RBI",
+                "signals": [
+                    {
+                        "trait": "gov.finance",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Technical government service - DRDO, ISRO, railway engineering, or state PWD",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 4,
+                "text": "Defence services - NDA, CDS, or joining the Army, Navy, or Air Force",
+                "signals": [
+                    {
+                        "trait": "gov.defence",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 99,
+        "isActive": true
+    },
+    {
+        "id": "Q_NEW_GOV_002",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "Administration",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Intermediate",
+        "dimension": "TaskPreference",
+        "competencyId": "",
+        "text": "Which type of administrative responsibility would you find most engaging in a government role?",
+        "intent": "Discriminate administrative vs policy vs regulatory government interest",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Overseeing local governance - managing district affairs, public works, and social schemes",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Formulating national policies and implementing government programmes at scale",
+                "signals": [
+                    {
+                        "trait": "gov.admin",
+                        "weight": 4.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.specialized",
+                        "weight": 3.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Conducting audits and ensuring financial compliance across public expenditure",
+                "signals": [
+                    {
+                        "trait": "gov.finance",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Providing legal counsel and ensuring government bodies comply with the law",
+                "signals": [
+                    {
+                        "trait": "gov.specialized",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 100,
+        "isActive": true
+    },
+    {
+        "id": "Q_NEW_GOV_003",
+        "phaseKey": "GovernmentJobs",
+        "subPhaseKey": "",
+        "domain": "Universal",
+        "subdomain": "Technical",
+        "questionType": "multiple_choice",
+        "languageComplexity": "Intermediate",
+        "dimension": "SubfieldPreference",
+        "competencyId": "",
+        "text": "If you are interested in a technical government role, which sector interests you most?",
+        "intent": "Discriminate DRDO vs ISRO vs Railway vs PWD within technical government track",
+        "targetDiscriminatesJson": "[]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Defence research - working with DRDO on missile systems, materials, or electronics",
+                "signals": [
+                    {
+                        "trait": "gov.defence",
+                        "weight": 4.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.tech",
+                        "weight": 4.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 1,
+                "text": "Space technology - contributing to ISRO satellite, launch vehicle, or mission projects",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 2,
+                "text": "Railway engineering - maintaining track, signalling systems, or rolling stock",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 4.0,
+                        "isRejection": false
+                    },
+                    {
+                        "trait": "gov.railways",
+                        "weight": 5.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            },
+            {
+                "index": 3,
+                "text": "Civil infrastructure - working in PWD, CPWD, or NHAI on roads and public buildings",
+                "signals": [
+                    {
+                        "trait": "gov.tech",
+                        "weight": 4.0,
+                        "isRejection": false
+                    }
+                ],
+                "isRejection": false
+            }
+        ],
+        "displayOrder": 101,
+        "isActive": true
+    }
+]

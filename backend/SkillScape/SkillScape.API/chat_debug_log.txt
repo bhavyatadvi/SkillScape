@@ -1,0 +1,11 @@
+
+[25-02-2026 13:08:47] SendMessage Triggered! sender=4804542c-49da-4d58-a598-6e5ca8d0a1b6, receiver=3bfddabc-2a15-408e-9a8b-a02b09c3f101, content=Hello, Sarah Chen! Can we discuss full stack development? - DB Save Success - Broadcast Success
+[25-02-2026 13:13:01] SendMessage Triggered! sender=4804542c-49da-4d58-a598-6e5ca8d0a1b6, receiver=3bfddabc-2a15-408e-9a8b-a02b09c3f101, content=Second test message - DB Save Success - Broadcast Success
+[25-02-2026 13:13:30] SendMessage Triggered! sender=4804542c-49da-4d58-a598-6e5ca8d0a1b6, receiver=3bfddabc-2a15-408e-9a8b-a02b09c3f101, content=Third test message - DB Save Success - Broadcast Success
+[25-02-2026 13:14:53] SendMessage Triggered! sender=4804542c-49da-4d58-a598-6e5ca8d0a1b6, receiver=3bfddabc-2a15-408e-9a8b-a02b09c3f101, content=hii - DB Save Success - Broadcast Success
+[25-02-2026 13:31:10] SendMessage Triggered! sender=3ea335ac-f361-4357-a657-8a07ee8fa506, receiver=4804542c-49da-4d58-a598-6e5ca8d0a1b6, content=hii - DB Save Success - Broadcast Success
+[25-02-2026 17:42:57] SendMessage Triggered! sender=4804542c-49da-4d58-a598-6e5ca8d0a1b6, receiver=3ea335ac-f361-4357-a657-8a07ee8fa506, content=Sent an image - DB Save Success - Broadcast Success
+[25-02-2026 17:43:18] SendMessage Triggered! sender=3ea335ac-f361-4357-a657-8a07ee8fa506, receiver=4804542c-49da-4d58-a598-6e5ca8d0a1b6, content=hihmjhiuerhiuhrug - DB Save Success - Broadcast Success
+[25-02-2026 19:16:21] SendMessage Triggered! sender=4804542c-49da-4d58-a598-6e5ca8d0a1b6, receiver=3bfddabc-2a15-408e-9a8b-a02b09c3f101, content=HII - DB Save Success - Broadcast Success
+[25-02-2026 19:40:01] SendMessage Triggered! sender=4804542c-49da-4d58-a598-6e5ca8d0a1b6, receiver=3bfddabc-2a15-408e-9a8b-a02b09c3f101, content=hii - DB Save Success - Broadcast Success
+[02-03-2026 02:14:53] SendMessage Triggered! sender=4804542c-49da-4d58-a598-6e5ca8d0a1b6, receiver=3bfddabc-2a15-408e-9a8b-a02b09c3f101, content=hii - DB Save Success - Broadcast Success

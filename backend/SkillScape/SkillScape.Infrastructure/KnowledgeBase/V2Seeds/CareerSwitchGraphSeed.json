@@ -1,0 +1,73 @@
+[
+    {
+        "NodeId":  "sci.eng.civil",
+        "Title":  "Civil Engineer",
+        "Description":  "Designs and supervises large construction projects.",
+        "Industry":  "Engineering",
+        "Domain":  "Civil",
+        "MinimumEducation":  "B.Tech/BE",
+        "IsRegulated":  false,
+        "OutgoingTransitions":  [
+                                    {
+                                        "ToCareerId":  "mgmt.project",
+                                        "TransitionDifficulty":  "Moderate",
+                                        "TransitionType":  "Cross-Functional",
+                                        "CompatibilityScore":  91,
+                                        "WhyItFits":  "Strong project coordination, planning skills, and stakeholder communication.",
+                                        "PotentialChallenges":  "Requires formal project management frameworks (PMP/Agile) and budget management skills.",
+                                        "ExistingSkillsUsed":  "Project planning, Technical communication, Risk assessment",
+                                        "NewSkillsRequired":  "Budget management, Contract management, Leadership, PM Software",
+                                        "EntryRoles":  "Project Coordinator, Assistant Project Manager"
+                                    },
+                                    {
+                                        "ToCareerId":  "sci.eng.bim",
+                                        "TransitionDifficulty":  "Easy",
+                                        "TransitionType":  "Adjacent",
+                                        "CompatibilityScore":  87,
+                                        "WhyItFits":  "Leverages existing structural knowledge with new software skills.",
+                                        "PotentialChallenges":  "Requires intensive learning of BIM software tools.",
+                                        "ExistingSkillsUsed":  "Structural knowledge, CAD, Technical drawing",
+                                        "NewSkillsRequired":  "Revit, Navisworks, BIM Coordination",
+                                        "EntryRoles":  "BIM Modeler, Junior BIM Coordinator"
+                                    },
+                                    {
+                                        "ToCareerId":  "sci.eng.cs.data",
+                                        "TransitionDifficulty":  "Major Reskilling",
+                                        "TransitionType":  "Cross-Industry",
+                                        "CompatibilityScore":  65,
+                                        "WhyItFits":  "Uses strong analytical and mathematical foundation.",
+                                        "PotentialChallenges":  "Requires entirely new technical stack (Python, SQL, Stats).",
+                                        "ExistingSkillsUsed":  "Analytical thinking, Mathematics",
+                                        "NewSkillsRequired":  "Python, SQL, Data Visualization, Statistics",
+                                        "EntryRoles":  "Junior Data Analyst, Data Entry Analyst"
+                                    }
+                                ]
+    },
+    {
+        "NodeId":  "mgmt.project",
+        "Title":  "Construction Project Manager",
+        "Description":  "Oversees construction projects from conception to completion.",
+        "Industry":  "Construction",
+        "Domain":  "Management",
+        "MinimumEducation":  "Bachelors",
+        "IsRegulated":  false
+    },
+    {
+        "NodeId":  "sci.eng.bim",
+        "Title":  "BIM Manager",
+        "Description":  "Manages Building Information Modeling processes.",
+        "Industry":  "Engineering",
+        "Domain":  "Civil",
+        "MinimumEducation":  "Bachelors",
+        "IsRegulated":  false
+    },
+    {
+        "NodeId":  "sci.eng.cs.data",
+        "Title":  "Data Analyst",
+        "Description":  "Analyzes data to help businesses make decisions.",
+        "Industry":  "Technology",
+        "Domain":  "Data",
+        "MinimumEducation":  "Bachelors",
+        "IsRegulated":  false
+    }
+]

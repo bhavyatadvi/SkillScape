@@ -1,0 +1,96 @@
+[
+  {"version":"2.2.0","lastUpdated":"2026-09-09","source":"ESCO v1.2.1 / O*NET crosswalk-informed local normalization","domains":[
+    {"id":"it","name":"Information Technology","specializations":[
+      {"id":"it_infrastructure","name":"IT Infrastructure & Operations","order":1,"targetRoles":[{"id":"role_it_operations_engineer","name":"IT Operations Engineer","description":"Operates enterprise IT services."},{"id":"role_data_center_engineer","name":"Data Center Engineer","description":"Supports data-center infrastructure."}]},
+      {"id":"it_service","name":"IT Service Management & Support","order":2,"targetRoles":[{"id":"role_service_desk_analyst","name":"Service Desk Analyst","description":"Resolves IT service requests."},{"id":"role_itil_process_manager","name":"ITIL Process Manager","description":"Improves IT service processes."}]},
+      {"id":"it_enterprise","name":"Enterprise Systems & ERP","order":3,"targetRoles":[{"id":"role_erp_consultant","name":"ERP Consultant","description":"Implements enterprise resource-planning systems."},{"id":"role_crm_administrator","name":"CRM Administrator","description":"Administers customer-management platforms."}]}
+    ]},
+    {"id":"commerce","name":"Commerce","specializations":[
+      {"id":"com_accounting","name":"Accounting & Auditing","order":1,"targetRoles":[{"id":"role_bookkeeper","name":"Bookkeeper","description":"Maintains financial transaction records."},{"id":"role_audit_assistant","name":"Audit Assistant","description":"Supports audit evidence and reporting."}]},
+      {"id":"com_finance","name":"Financial Management & Banking","order":2,"targetRoles":[{"id":"role_credit_officer","name":"Credit Officer","description":"Supports lending decisions and review."},{"id":"role_financial_services_associate","name":"Financial Services Associate","description":"Supports financial-service operations."}]},
+      {"id":"com_trade","name":"Commerce & Business Operations","order":3,"targetRoles":[{"id":"role_business_operations_coordinator","name":"Business Operations Coordinator","description":"Coordinates commercial operations."},{"id":"role_inventory_controller","name":"Inventory Controller","description":"Controls inventory and stock records."}]}
+    ]},
+    {"id":"finance","name":"Finance","specializations":[
+      {"id":"fin_investment","name":"Investment & Financial Analysis","order":1,"targetRoles":[{"id":"role_investment_analyst","name":"Investment Analyst","description":"Analyzes investments and securities."},{"id":"role_portfolio_analyst","name":"Portfolio Analyst","description":"Monitors portfolio performance."}]},
+      {"id":"fin_corporate","name":"Corporate Finance & Risk","order":2,"targetRoles":[{"id":"role_corporate_finance_analyst","name":"Corporate Finance Analyst","description":"Analyzes company finance and performance."},{"id":"role_enterprise_risk_analyst","name":"Enterprise Risk Analyst","description":"Assesses organization-wide risk."}]}
+    ]},
+    {"id":"accounting","name":"Accounting","specializations":[
+      {"id":"acc_general","name":"General & Corporate Accounting","order":1,"targetRoles":[{"id":"role_general_accountant","name":"General Accountant","description":"Manages general-ledger accounting."},{"id":"role_corporate_accountant","name":"Corporate Accountant","description":"Supports corporate reporting and close."}]},
+      {"id":"acc_taxation","name":"Taxation & Statutory Compliance","order":2,"targetRoles":[{"id":"role_tax_analyst","name":"Tax Analyst","description":"Analyzes tax compliance requirements."},{"id":"role_statutory_compliance_officer","name":"Statutory Compliance Officer","description":"Coordinates statutory filings and controls."}]},
+      {"id":"acc_ca","name":"Chartered Accountancy & Advisory","order":3,"targetRoles":[{"id":"role_chartered_accountant","name":"Chartered Accountant","description":"Provides professional accounting services."},{"id":"role_accounting_advisory_consultant","name":"Accounting Advisory Consultant","description":"Advises on accounting and controls."}]}
+    ]},
+    {"id":"business","name":"Business","specializations":[
+      {"id":"bus_analysis","name":"Business & Data Analysis","order":1,"targetRoles":[{"id":"role_business_analyst","name":"Business Analyst","description":"Analyzes business needs and processes."},{"id":"role_business_intelligence_analyst","name":"Business Intelligence Analyst","description":"Delivers business reporting and insight."}]},
+      {"id":"bus_ops","name":"Operations & Supply Chain","order":2,"targetRoles":[{"id":"role_operations_analyst","name":"Operations Analyst","description":"Analyzes operational performance."},{"id":"role_supply_chain_coordinator","name":"Supply Chain Coordinator","description":"Coordinates supply-chain activities."}]},
+      {"id":"bus_dev","name":"Business Development & Strategy","order":3,"targetRoles":[{"id":"role_business_development_manager","name":"Business Development Manager","description":"Develops growth opportunities."},{"id":"role_strategy_consultant","name":"Strategy Consultant","description":"Advises on business strategy."}]}
+    ]},
+    {"id":"management","name":"Management","specializations":[
+      {"id":"mgmt_product","name":"Product Management","order":1,"targetRoles":[{"id":"role_associate_product_manager","name":"Associate Product Manager","description":"Supports product strategy and delivery."},{"id":"role_product_owner","name":"Product Owner","description":"Owns product backlog and priorities."}]},
+      {"id":"mgmt_project","name":"Project Management & Agile","order":2,"targetRoles":[{"id":"role_project_manager","name":"Project Manager","description":"Leads project scope, schedule and delivery."},{"id":"role_scrum_master","name":"Scrum Master","description":"Facilitates agile team delivery."}]},
+      {"id":"mgmt_hr","name":"Human Resource Management","order":3,"targetRoles":[{"id":"role_hr_business_partner","name":"HR Business Partner","description":"Partners with leaders on people strategy."},{"id":"role_hr_generalist","name":"HR Generalist","description":"Supports core people operations."}]}
+    ]},
+    {"id":"arts","name":"Arts","specializations":[
+      {"id":"arts_visual","name":"Visual Arts & Illustration","order":1,"targetRoles":[{"id":"role_illustrator","name":"Illustrator","description":"Creates visual illustrations."},{"id":"role_visual_artist","name":"Visual Artist","description":"Creates professional visual-art work."}]},
+      {"id":"arts_creative","name":"Creative Writing & Literature","order":2,"targetRoles":[{"id":"role_creative_writer","name":"Creative Writer","description":"Writes original creative content."},{"id":"role_literary_editor","name":"Literary Editor","description":"Edits literary manuscripts."}]}
+    ]},
+    {"id":"humanities","name":"Humanities","specializations":[
+      {"id":"hum_history","name":"History & Cultural Studies","order":1,"targetRoles":[{"id":"role_historian","name":"Historian","description":"Researches and interprets history."},{"id":"role_heritage_officer","name":"Heritage Officer","description":"Supports cultural-heritage work."}]},
+      {"id":"hum_philosophy","name":"Philosophy & Social Research","order":2,"targetRoles":[{"id":"role_social_research_analyst","name":"Social Research Analyst","description":"Analyzes social-research evidence."},{"id":"role_ethics_researcher","name":"Ethics Researcher","description":"Researches applied ethical questions."}]}
+    ]},
+    {"id":"science","name":"Science","specializations":[
+      {"id":"sci_chemistry","name":"Chemical & Bio Sciences","order":2,"targetRoles":[{"id":"role_chemist","name":"Chemist","description":"Conducts chemical analysis and research."},{"id":"role_biochemist","name":"Biochemist","description":"Studies chemical processes in living systems."}]}
+    ]},
+    {"id":"social_sciences","name":"Social Sciences","specializations":[
+      {"id":"soc_sociology","name":"Sociology & Social Work","order":1,"targetRoles":[{"id":"role_sociologist","name":"Sociologist","description":"Studies social groups and institutions."},{"id":"role_community_development_officer","name":"Community Development Officer","description":"Supports community-development work."}]},
+      {"id":"soc_political","name":"Political Science & Public Policy","order":2,"targetRoles":[{"id":"role_political_analyst","name":"Political Analyst","description":"Analyzes political developments."},{"id":"role_public_affairs_officer","name":"Public Affairs Officer","description":"Supports public-policy engagement."}]}
+    ]},
+    {"id":"psychology","name":"Psychology","specializations":[
+      {"id":"psych_clinical","name":"Clinical & Counseling Psychology","order":1,"targetRoles":[{"id":"role_clinical_psychologist","name":"Clinical Psychologist","description":"Provides clinical psychological care subject to licensure."},{"id":"role_counsellor","name":"Counsellor","description":"Provides counselling support subject to local requirements."}]},
+      {"id":"psych_org","name":"Organizational & Industrial Psychology","order":2,"targetRoles":[{"id":"role_organizational_psychologist","name":"Organizational Psychologist","description":"Applies psychology in organizations."},{"id":"role_talent_assessment_specialist","name":"Talent Assessment Specialist","description":"Assesses talent and workplace fit."}]}
+    ]},
+    {"id":"law","name":"Law","specializations":[
+      {"id":"law_corporate","name":"Corporate & Commercial Law","order":1,"targetRoles":[{"id":"role_corporate_lawyer","name":"Corporate Lawyer","description":"Advises on corporate legal matters subject to licensure."},{"id":"role_commercial_lawyer","name":"Commercial Lawyer","description":"Advises on commercial matters subject to licensure."}]},
+      {"id":"law_litigation","name":"Litigation & Dispute Resolution","order":2,"targetRoles":[{"id":"role_litigation_lawyer","name":"Litigation Lawyer","description":"Represents clients in disputes subject to licensure."},{"id":"role_arbitration_specialist","name":"Arbitration Specialist","description":"Supports alternative dispute resolution."}]}
+    ]},
+    {"id":"healthcare","name":"Healthcare","specializations":[
+      {"id":"health_clinical","name":"Clinical & Medical Practice","order":1,"targetRoles":[{"id":"role_mbbs_doctor","name":"MBBS Doctor / Medical Officer","alternateNames":["MBBS Doctor","Medical Officer","General Physician","Junior Doctor"],"description":"Provides supervised medical care after the required registration and licensure."},{"id":"role_physician","name":"Physician","description":"Provides medical care subject to licensure."},{"id":"role_clinical_research_coordinator","name":"Clinical Research Coordinator","description":"Coordinates clinical studies."}]},
+      {"id":"health_nursing","name":"Nursing & Patient Care","order":2,"targetRoles":[{"id":"role_registered_nurse","name":"Registered Nurse","alternateNames":["Staff Nurse","GNM Nurse","BSc Nurse"],"description":"Delivers patient care subject to local registration requirements."},{"id":"role_medical_lab_technologist","name":"Medical Laboratory Technologist","alternateNames":["MLT","Lab Technologist","Medical Lab Technician"],"description":"Performs laboratory testing and quality-controlled sample workflows."},{"id":"role_radiologic_technologist","name":"Radiologic Technologist","alternateNames":["Radiographer","X-Ray Technician","Imaging Technologist"],"description":"Supports diagnostic imaging safely under applicable supervision."}]},
+      {"id":"health_allied","name":"Allied Health & Rehabilitation","order":3,"targetRoles":[{"id":"role_pharmacist","name":"Pharmacist","alternateNames":["Clinical Pharmacist","Hospital Pharmacist","BPharm Pharmacist"],"description":"Supports safe medication use subject to pharmacy registration requirements."},{"id":"role_physiotherapist","name":"Physiotherapist","alternateNames":["Physical Therapist","BPT Physiotherapist"],"description":"Plans rehabilitation and mobility care subject to professional registration."},{"id":"role_dentist","name":"Dentist","alternateNames":["Dental Surgeon","BDS Dentist"],"description":"Provides oral-health care subject to dental registration and licensure."}]},
+      {"id":"health_admin","name":"Healthcare Administration & Informatics","order":4,"targetRoles":[{"id":"role_healthcare_administrator","name":"Healthcare Administrator","description":"Manages healthcare operations."},{"id":"role_health_informatics_specialist","name":"Health Informatics Specialist","description":"Manages healthcare information systems."}]}
+    ]},
+    {"id":"education","name":"Education","specializations":[
+      {"id":"edu_school","name":"K-12 & Secondary Education","order":1,"targetRoles":[{"id":"role_school_teacher","name":"School Teacher","description":"Teaches in school education."},{"id":"role_subject_teacher","name":"Subject Teacher","description":"Teaches a specialist school subject."}]},
+      {"id":"edu_higher","name":"Higher Education & Research","order":2,"targetRoles":[{"id":"role_lecturer","name":"Lecturer","description":"Teaches in higher education."},{"id":"role_academic_researcher","name":"Academic Researcher","description":"Conducts academic research."}]}
+    ]},
+    {"id":"design","name":"Design","specializations":[
+      {"id":"des_uiux","name":"UI/UX & Digital Product Design","order":1,"targetRoles":[{"id":"role_ux_designer","name":"UX Designer","description":"Designs usable product experiences."},{"id":"role_uiux_designer","name":"UI/UX Designer","description":"Designs visual and interaction systems."}]},
+      {"id":"des_visual","name":"Visual & Brand Design","order":2,"targetRoles":[{"id":"role_graphic_designer","name":"Graphic Designer","description":"Creates visual communication assets."},{"id":"role_brand_designer","name":"Brand Designer","description":"Develops brand identity systems."}]}
+    ]},
+    {"id":"media","name":"Media","specializations":[
+      {"id":"media_digital","name":"Digital Media & Video Production","order":2,"targetRoles":[{"id":"role_digital_media_specialist","name":"Digital Media Specialist","description":"Creates and manages digital media."},{"id":"role_multimedia_producer","name":"Multimedia Producer","description":"Produces multimedia content."}]}
+    ]},
+    {"id":"communication","name":"Communication","specializations":[
+      {"id":"comm_corp","name":"Corporate Communication & PR","order":1,"targetRoles":[{"id":"role_corporate_communications_specialist","name":"Corporate Communications Specialist","description":"Creates corporate communication."},{"id":"role_public_relations_manager","name":"Public Relations Manager","description":"Leads public-relations activity."}]}
+    ]},
+    {"id":"agriculture","name":"Agriculture","specializations":[
+      {"id":"agri_agronomy","name":"Agronomy & Crop Science","order":1,"targetRoles":[{"id":"role_crop_scientist","name":"Crop Scientist","description":"Improves crop production and health."},{"id":"role_agricultural_extension_officer","name":"Agricultural Extension Officer","description":"Advises farmers on agricultural practice."}]}
+    ]},
+    {"id":"architecture","name":"Architecture","specializations":[
+      {"id":"arch_design","name":"Architectural Design & Planning","order":1,"targetRoles":[{"id":"role_architect","name":"Architect","description":"Designs buildings subject to local licensure."},{"id":"role_architectural_designer","name":"Architectural Designer","description":"Develops architectural designs."}]}
+    ]},
+    {"id":"hospitality","name":"Hospitality","specializations":[
+      {"id":"hosp_hotel","name":"Hotel & Resort Management","order":1,"targetRoles":[{"id":"role_hotel_manager","name":"Hotel Manager","description":"Leads hotel operations."},{"id":"role_resort_manager","name":"Resort Manager","description":"Leads resort operations and guest service."}]}
+    ]},
+    {"id":"government","name":"Government & Public Administration","specializations":[
+      {"id":"gov_civil","name":"Civil Services & Public Policy","order":1,"targetRoles":[{"id":"role_civil_service_officer","name":"Civil Service Officer","description":"Supports public administration."},{"id":"role_policy_officer","name":"Policy Officer","description":"Develops and implements policy."}]}
+    ]},
+    {"id":"data_science","name":"Data Science & Analytics","specializations":[
+      {"id":"ds_ml","name":"Machine Learning & AI Engineering","order":1,"targetRoles":[{"id":"role_machine_learning_scientist","name":"Machine Learning Scientist","description":"Researches and develops ML methods."},{"id":"role_ai_research_engineer","name":"AI Research Engineer","description":"Builds applied AI systems."}]},
+      {"id":"ds_analytics","name":"Data Analytics & Business Intelligence","order":2,"targetRoles":[{"id":"role_data_analyst","name":"Data Analyst","description":"Analyzes data for business insight."},{"id":"role_dashboard_developer","name":"Dashboard Developer","description":"Builds analytical dashboards."}]}
+    ]},
+    {"id":"cybersecurity","name":"Cybersecurity","specializations":[
+      {"id":"cyber_sec","name":"Security Operations & SOC","order":1,"targetRoles":[{"id":"role_soc_analyst","name":"SOC Analyst","description":"Monitors security events and alerts."},{"id":"role_threat_intelligence_analyst","name":"Threat Intelligence Analyst","description":"Analyzes cyber threats."}]},
+      {"id":"cyber_audit","name":"Ethical Hacking & Penetration Testing","order":2,"targetRoles":[{"id":"role_ethical_hacker","name":"Ethical Hacker","description":"Tests systems for vulnerabilities."},{"id":"role_vulnerability_assessment_analyst","name":"Vulnerability Assessment Analyst","description":"Assesses technical vulnerabilities."}]}
+    ]}
+  ]}
+]

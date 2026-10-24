@@ -1,0 +1,471 @@
+[
+  {
+    "id": "Q_AFTERGRAD_BPHARM_02",
+    "phaseKey": "AfterGraduation",
+    "domain": "Pharmacy",
+    "subdomain": "Pharmacy",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "pharmacy_practice",
+    "text": "A patient takes several medicines and is worried about side effects. Which part of helping them would you most want to handle?",
+    "intent": "Distinguish pharmacy patient-safety interests",
+    "targetDiscriminatesJson": "[\"sci.med.pharma\"]",
+    "options": [
+      { "index": 0, "text": "Check for medicine interactions and explain a safe schedule in plain language.", "signals": [{ "nodeId": "pharm.clinical", "weight": 0.95 }, { "nodeId": "sci.med.pharma", "weight": 0.65 }] },
+      { "index": 1, "text": "Review the prescription and identify whether the dose is appropriate.", "signals": [{ "nodeId": "pharm.clinical", "weight": 0.8 }, { "nodeId": "pharm.safety", "weight": 0.8 }] },
+      { "index": 2, "text": "Investigate why the side effect occurs and what evidence supports a safer alternative.", "signals": [{ "nodeId": "pharm.research", "weight": 0.9 }, { "nodeId": "pharm.clinical", "weight": 0.45 }] },
+      { "index": 3, "text": "Report and document the suspected reaction so it can be monitored across patients.", "signals": [{ "nodeId": "pharm.pharmacovigilance", "weight": 0.95 }, { "nodeId": "pharm.quality", "weight": 0.45 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_BPHARM_03",
+    "phaseKey": "AfterGraduation",
+    "domain": "Pharmacy",
+    "subdomain": "Pharmacy",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "drug_formulation",
+    "text": "A medicine works, but patients find it difficult to take. Which improvement would you most enjoy developing?",
+    "intent": "Identify preferred pharmaceutical formulation work",
+    "targetDiscriminatesJson": "[\"sci.med.pharma\"]",
+    "options": [
+      { "index": 0, "text": "Create a tablet that dissolves more reliably and is easier to swallow.", "signals": [{ "nodeId": "pharm.formulation", "weight": 0.95 }] },
+      { "index": 1, "text": "Design a controlled-release form that keeps the medicine active for longer.", "signals": [{ "nodeId": "pharm.drug_delivery", "weight": 0.95 }] },
+      { "index": 2, "text": "Test a liquid or alternative form for patients who cannot use tablets.", "signals": [{ "nodeId": "pharm.formulation", "weight": 0.8 }, { "nodeId": "pharm.clinical", "weight": 0.4 }] },
+      { "index": 3, "text": "Study how food and the body affect the medicine's absorption.", "signals": [{ "nodeId": "pharm.pharmacokinetics", "weight": 0.95 }, { "nodeId": "pharm.research", "weight": 0.45 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_BPHARM_04",
+    "phaseKey": "AfterGraduation",
+    "domain": "Pharmacy",
+    "subdomain": "Pharmacy",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "pharmaceutical_quality",
+    "text": "A medicine batch fails a quality check. What would you most want to investigate first?",
+    "intent": "Identify pharmaceutical quality and manufacturing interests",
+    "targetDiscriminatesJson": "[\"sci.med.pharma\"]",
+    "options": [
+      { "index": 0, "text": "Run confirmatory tests for identity, strength, purity, and stability.", "signals": [{ "nodeId": "pharm.quality_control", "weight": 0.95 }] },
+      { "index": 1, "text": "Trace the manufacturing record to find where the process changed.", "signals": [{ "nodeId": "pharm.manufacturing", "weight": 0.9 }, { "nodeId": "pharm.quality_assurance", "weight": 0.6 }] },
+      { "index": 2, "text": "Check whether the facility followed validated procedures and documentation rules.", "signals": [{ "nodeId": "pharm.quality_assurance", "weight": 0.95 }, { "nodeId": "pharm.regulatory", "weight": 0.5 }] },
+      { "index": 3, "text": "Assess whether the issue could affect patients who already received the batch.", "signals": [{ "nodeId": "pharm.pharmacovigilance", "weight": 0.8 }, { "nodeId": "pharm.clinical", "weight": 0.55 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_BPHARM_05",
+    "phaseKey": "AfterGraduation",
+    "domain": "Pharmacy",
+    "subdomain": "Pharmacy",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "pharmacy_research",
+    "text": "Which research question about a new treatment would keep you curious?",
+    "intent": "Identify preferred pharmacy research direction",
+    "targetDiscriminatesJson": "[\"sci.med.pharma\"]",
+    "options": [
+      { "index": 0, "text": "How can the compound be made more effective and less toxic?", "signals": [{ "nodeId": "pharm.drug_discovery", "weight": 0.95 }] },
+      { "index": 1, "text": "How does the medicine move through the body and reach its target?", "signals": [{ "nodeId": "pharm.pharmacokinetics", "weight": 0.9 }, { "nodeId": "pharm.pharmacology", "weight": 0.55 }] },
+      { "index": 2, "text": "Does the treatment improve outcomes for people in a well-designed clinical study?", "signals": [{ "nodeId": "pharm.clinical_research", "weight": 0.95 }] },
+      { "index": 3, "text": "Can a different formulation deliver the same medicine more reliably?", "signals": [{ "nodeId": "pharm.formulation", "weight": 0.85 }, { "nodeId": "pharm.drug_delivery", "weight": 0.75 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_BPHARM_06",
+    "phaseKey": "AfterGraduation",
+    "domain": "Pharmacy",
+    "subdomain": "Pharmacy",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "pharmacy_regulation",
+    "text": "A company plans to launch a medicine in a new market. Which responsibility would you most like to take on?",
+    "intent": "Distinguish pharmacy regulatory and commercial work",
+    "targetDiscriminatesJson": "[\"sci.med.pharma\"]",
+    "options": [
+      { "index": 0, "text": "Prepare the evidence and documentation required for regulatory approval.", "signals": [{ "nodeId": "pharm.regulatory", "weight": 0.95 }] },
+      { "index": 1, "text": "Review the clinical evidence and explain the medicine's appropriate use.", "signals": [{ "nodeId": "pharm.medical_affairs", "weight": 0.9 }, { "nodeId": "pharm.clinical", "weight": 0.45 }] },
+      { "index": 2, "text": "Coordinate production planning and make sure supply meets demand.", "signals": [{ "nodeId": "pharm.manufacturing", "weight": 0.8 }, { "nodeId": "pharm.supply_chain", "weight": 0.75 }] },
+      { "index": 3, "text": "Explain the product accurately to healthcare professionals and answer their questions.", "signals": [{ "nodeId": "pharm.sales", "weight": 0.85 }, { "nodeId": "pharm.medical_affairs", "weight": 0.5 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_BPHARM_07",
+    "phaseKey": "AfterGraduation",
+    "domain": "Pharmacy",
+    "subdomain": "Pharmacy",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "pharmacy_patient_care",
+    "text": "A doctor asks for help choosing between two medicines for a patient with several conditions. What would you most enjoy contributing?",
+    "intent": "Identify clinical pharmacy decision support interests",
+    "targetDiscriminatesJson": "[\"sci.med.pharma\"]",
+    "options": [
+      { "index": 0, "text": "Compare likely benefits, risks, interactions, and the patient's existing medicines.", "signals": [{ "nodeId": "pharm.clinical", "weight": 0.95 }] },
+      { "index": 1, "text": "Find and summarize the strongest current evidence for each treatment.", "signals": [{ "nodeId": "pharm.evidence_based", "weight": 0.9 }, { "nodeId": "pharm.clinical_research", "weight": 0.5 }] },
+      { "index": 2, "text": "Discuss practical instructions and barriers that could affect safe use.", "signals": [{ "nodeId": "pharm.patient_counselling", "weight": 0.95 }, { "nodeId": "pharm.clinical", "weight": 0.5 }] },
+      { "index": 3, "text": "Monitor the patient's response and document any unexpected effects.", "signals": [{ "nodeId": "pharm.pharmacovigilance", "weight": 0.9 }, { "nodeId": "pharm.clinical", "weight": 0.5 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_BPHARM_08",
+    "phaseKey": "AfterGraduation",
+    "domain": "Pharmacy",
+    "subdomain": "Pharmacy",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "pharmacy_laboratory_work",
+    "text": "Which laboratory task would you be happiest to repeat carefully until the result is reliable?",
+    "intent": "Identify pharmacy laboratory preferences",
+    "targetDiscriminatesJson": "[\"sci.med.pharma\"]",
+    "options": [
+      { "index": 0, "text": "Measure the amount of active ingredient in a medicine sample.", "signals": [{ "nodeId": "pharm.analytical", "weight": 0.95 }, { "nodeId": "pharm.quality_control", "weight": 0.7 }] },
+      { "index": 1, "text": "Test how a formulation dissolves under different conditions.", "signals": [{ "nodeId": "pharm.formulation", "weight": 0.9 }, { "nodeId": "pharm.drug_delivery", "weight": 0.55 }] },
+      { "index": 2, "text": "Study how a drug affects cells or biological pathways.", "signals": [{ "nodeId": "pharm.pharmacology", "weight": 0.95 }] },
+      { "index": 3, "text": "Check whether packaging protects a medicine from heat, light, or moisture.", "signals": [{ "nodeId": "pharm.stability", "weight": 0.9 }, { "nodeId": "pharm.quality_control", "weight": 0.5 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_BPHARM_09",
+    "phaseKey": "AfterGraduation",
+    "domain": "Pharmacy",
+    "subdomain": "Pharmacy",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "pharmacy_industry_role",
+    "text": "Which contribution in the medicines sector would feel most meaningful to you?",
+    "intent": "Distinguish pharmaceutical career settings",
+    "targetDiscriminatesJson": "[\"sci.med.pharma\"]",
+    "options": [
+      { "index": 0, "text": "Help patients get the full benefit of their prescribed medicines.", "signals": [{ "nodeId": "pharm.clinical", "weight": 0.9 }, { "nodeId": "pharm.patient_counselling", "weight": 0.7 }] },
+      { "index": 1, "text": "Improve how medicines are discovered, formulated, or tested.", "signals": [{ "nodeId": "pharm.research", "weight": 0.85 }, { "nodeId": "pharm.formulation", "weight": 0.65 }] },
+      { "index": 2, "text": "Make sure every released batch meets high standards of quality and safety.", "signals": [{ "nodeId": "pharm.quality_assurance", "weight": 0.9 }, { "nodeId": "pharm.regulatory", "weight": 0.5 }] },
+      { "index": 3, "text": "Make important treatments available through dependable production and supply.", "signals": [{ "nodeId": "pharm.manufacturing", "weight": 0.8 }, { "nodeId": "pharm.supply_chain", "weight": 0.8 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_BPHARM_10",
+    "phaseKey": "AfterGraduation",
+    "domain": "Pharmacy",
+    "subdomain": "Pharmacy",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "pharmacy_scientific_interest",
+    "text": "Which topic would you choose for an independent pharmacy project?",
+    "intent": "Identify pharmaceutical science interests",
+    "targetDiscriminatesJson": "[\"sci.med.pharma\"]",
+    "options": [
+      { "index": 0, "text": "How a plant-derived compound could be evaluated as a medicine.", "signals": [{ "nodeId": "pharm.pharmacognosy", "weight": 0.95 }] },
+      { "index": 1, "text": "How a medicine's structure relates to its biological effect.", "signals": [{ "nodeId": "pharm.medicinal_chemistry", "weight": 0.95 }] },
+      { "index": 2, "text": "How to improve medicine safety reporting in a hospital.", "signals": [{ "nodeId": "pharm.pharmacovigilance", "weight": 0.9 }, { "nodeId": "pharm.clinical", "weight": 0.5 }] },
+      { "index": 3, "text": "How to make medicines more stable and affordable to produce.", "signals": [{ "nodeId": "pharm.formulation", "weight": 0.8 }, { "nodeId": "pharm.manufacturing", "weight": 0.65 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_BPHARM_11",
+    "phaseKey": "AfterGraduation",
+    "domain": "Pharmacy",
+    "subdomain": "Pharmacy",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "pharmacy_responsibility",
+    "text": "A medicine is recalled after a safety concern. Which responsibility would you most want to take on?",
+    "intent": "Distinguish pharmaceutical safety response roles",
+    "targetDiscriminatesJson": "[\"sci.med.pharma\"]",
+    "options": [
+      { "index": 0, "text": "Review reports to understand the possible risk to patients.", "signals": [{ "nodeId": "pharm.pharmacovigilance", "weight": 0.95 }] },
+      { "index": 1, "text": "Coordinate product withdrawal and trace affected batches through the supply chain.", "signals": [{ "nodeId": "pharm.quality_assurance", "weight": 0.85 }, { "nodeId": "pharm.supply_chain", "weight": 0.6 }] },
+      { "index": 2, "text": "Investigate the laboratory or manufacturing evidence behind the concern.", "signals": [{ "nodeId": "pharm.quality_control", "weight": 0.9 }, { "nodeId": "pharm.manufacturing", "weight": 0.5 }] },
+      { "index": 3, "text": "Communicate clear, evidence-based guidance to healthcare professionals.", "signals": [{ "nodeId": "pharm.medical_affairs", "weight": 0.9 }, { "nodeId": "pharm.clinical", "weight": 0.4 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_LLB_02",
+    "phaseKey": "AfterGraduation",
+    "domain": "Law",
+    "subdomain": "Law",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_reasoning",
+    "text": "Two companies disagree about a contract. Which part of resolving the dispute would interest you most?",
+    "intent": "Identify preferred commercial law work",
+    "targetDiscriminatesJson": "[\"law.corporate_law\",\"law.civil_law\"]",
+    "options": [
+      { "index": 0, "text": "Interpret the contract and explain what each clause requires.", "signals": [{ "nodeId": "law.corporate_law", "weight": 0.95 }] },
+      { "index": 1, "text": "Build an argument from documents, evidence, and relevant case law.", "signals": [{ "nodeId": "law.civil_law", "weight": 0.85 }, { "nodeId": "law.corporate_law", "weight": 0.55 }] },
+      { "index": 2, "text": "Negotiate a practical settlement that protects the client's main interests.", "signals": [{ "nodeId": "law.corporate_law", "weight": 0.85 }, { "nodeId": "law.civil_law", "weight": 0.5 }] },
+      { "index": 3, "text": "Prepare a clear opinion on likely outcomes and the best next step.", "signals": [{ "nodeId": "law.civil_law", "weight": 0.8 }, { "nodeId": "law.corporate_law", "weight": 0.6 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_LLB_03",
+    "phaseKey": "AfterGraduation",
+    "domain": "Law",
+    "subdomain": "Law",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_advocacy",
+    "text": "A client is facing a criminal charge. Which responsibility would you most want to take on?",
+    "intent": "Identify criminal practice preferences",
+    "targetDiscriminatesJson": "[\"law.criminal_law\"]",
+    "options": [
+      { "index": 0, "text": "Interview witnesses and test the reliability of evidence.", "signals": [{ "nodeId": "law.criminal_law", "weight": 0.9 }] },
+      { "index": 1, "text": "Research legal protections and prepare arguments for a hearing.", "signals": [{ "nodeId": "law.criminal_law", "weight": 0.95 }] },
+      { "index": 2, "text": "Explain the process, possible outcomes, and choices to the client.", "signals": [{ "nodeId": "law.criminal_law", "weight": 0.8 }, { "nodeId": "law.civil_law", "weight": 0.25 }] },
+      { "index": 3, "text": "Examine whether the investigation followed fair legal procedures.", "signals": [{ "nodeId": "law.criminal_law", "weight": 0.85 }, { "nodeId": "law.civil_law", "weight": 0.25 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_LLB_04",
+    "phaseKey": "AfterGraduation",
+    "domain": "Law",
+    "subdomain": "Law",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_specialization",
+    "text": "A startup has created a new product and online service. Which legal issue would you most want to work on?",
+    "intent": "Identify technology and business law interests",
+    "targetDiscriminatesJson": "[\"law.corporate_law\",\"law.cyber_law\",\"law.intellectual_property_law\"]",
+    "options": [
+      { "index": 0, "text": "Protect the invention, brand, and creative work from misuse.", "signals": [{ "nodeId": "law.intellectual_property_law", "weight": 0.95 }] },
+      { "index": 1, "text": "Advise on privacy, security, and responsible use of customer data.", "signals": [{ "nodeId": "law.cyber_law", "weight": 0.95 }] },
+      { "index": 2, "text": "Draft founder agreements and help the company structure its business.", "signals": [{ "nodeId": "law.corporate_law", "weight": 0.95 }] },
+      { "index": 3, "text": "Review partnerships, investment terms, and commercial contracts.", "signals": [{ "nodeId": "law.corporate_law", "weight": 0.9 }, { "nodeId": "law.intellectual_property_law", "weight": 0.3 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_LLB_05",
+    "phaseKey": "AfterGraduation",
+    "domain": "Law",
+    "subdomain": "Law",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_research",
+    "text": "Which legal research assignment would keep you engaged for a full week?",
+    "intent": "Identify legal research preferences",
+    "targetDiscriminatesJson": "[\"law.corporate_law\",\"law.criminal_law\",\"law.civil_law\"]",
+    "options": [
+      { "index": 0, "text": "Compare court decisions to clarify an unsettled point of law.", "signals": [{ "nodeId": "law.civil_law", "weight": 0.85 }, { "nodeId": "law.criminal_law", "weight": 0.55 }] },
+      { "index": 1, "text": "Assess whether a company followed its duties and governance rules.", "signals": [{ "nodeId": "law.corporate_law", "weight": 0.95 }] },
+      { "index": 2, "text": "Trace evidence and precedent relevant to a criminal trial.", "signals": [{ "nodeId": "law.criminal_law", "weight": 0.95 }] },
+      { "index": 3, "text": "Explain how a legal rule affects a person's rights and remedies.", "signals": [{ "nodeId": "law.civil_law", "weight": 0.9 }, { "nodeId": "law.criminal_law", "weight": 0.35 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_LLB_06",
+    "phaseKey": "AfterGraduation",
+    "domain": "Law",
+    "subdomain": "Law",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_work_style",
+    "text": "Which typical legal task feels most satisfying to you?",
+    "intent": "Distinguish litigation and advisory preferences",
+    "targetDiscriminatesJson": "[\"law.corporate_law\",\"law.criminal_law\",\"law.civil_law\"]",
+    "options": [
+      { "index": 0, "text": "Present a persuasive argument and respond to questions in court.", "signals": [{ "nodeId": "law.criminal_law", "weight": 0.9 }, { "nodeId": "law.civil_law", "weight": 0.7 }] },
+      { "index": 1, "text": "Draft an agreement that makes obligations and risks clear.", "signals": [{ "nodeId": "law.corporate_law", "weight": 0.95 }] },
+      { "index": 2, "text": "Advise a client before a decision so a dispute can be avoided.", "signals": [{ "nodeId": "law.corporate_law", "weight": 0.8 }, { "nodeId": "law.civil_law", "weight": 0.5 }] },
+      { "index": 3, "text": "Help a person understand the process and prepare for a hearing.", "signals": [{ "nodeId": "law.criminal_law", "weight": 0.75 }, { "nodeId": "law.civil_law", "weight": 0.65 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_LLB_07",
+    "phaseKey": "AfterGraduation",
+    "domain": "Law",
+    "subdomain": "Law",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_client_service",
+    "text": "A person cannot afford a lawyer and may lose access to an essential service. What would you most want to do?",
+    "intent": "Identify public-interest legal work preferences",
+    "targetDiscriminatesJson": "[\"law.civil_law\",\"law.criminal_law\"]",
+    "options": [
+      { "index": 0, "text": "Explain their rights and help them find a route to legal assistance.", "signals": [{ "nodeId": "law.civil_law", "weight": 0.9 }, { "nodeId": "law.criminal_law", "weight": 0.5 }] },
+      { "index": 1, "text": "Research the rules and prepare a clear case for their claim.", "signals": [{ "nodeId": "law.civil_law", "weight": 0.9 }] },
+      { "index": 2, "text": "Represent them in a hearing and challenge an unfair decision.", "signals": [{ "nodeId": "law.civil_law", "weight": 0.85 }, { "nodeId": "law.criminal_law", "weight": 0.55 }] },
+      { "index": 3, "text": "Work with an organization to improve the policy affecting many people.", "signals": [{ "nodeId": "law.civil_law", "weight": 0.65 }, { "nodeId": "law.corporate_law", "weight": 0.25 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_LLB_08",
+    "phaseKey": "AfterGraduation",
+    "domain": "Law",
+    "subdomain": "Law",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_negotiation",
+    "text": "Two parties want to settle a disagreement without a long court case. Which role would you prefer?",
+    "intent": "Identify negotiation and dispute resolution preferences",
+    "targetDiscriminatesJson": "[\"law.corporate_law\",\"law.civil_law\"]",
+    "options": [
+      { "index": 0, "text": "Help both sides identify priorities and negotiate a settlement.", "signals": [{ "nodeId": "law.civil_law", "weight": 0.8 }, { "nodeId": "law.corporate_law", "weight": 0.7 }] },
+      { "index": 1, "text": "Review the evidence and advise what outcome is realistic.", "signals": [{ "nodeId": "law.civil_law", "weight": 0.9 }] },
+      { "index": 2, "text": "Draft settlement terms that clearly prevent future disagreement.", "signals": [{ "nodeId": "law.corporate_law", "weight": 0.9 }, { "nodeId": "law.civil_law", "weight": 0.55 }] },
+      { "index": 3, "text": "Prepare for a formal hearing if an agreement cannot be reached.", "signals": [{ "nodeId": "law.civil_law", "weight": 0.75 }, { "nodeId": "law.criminal_law", "weight": 0.35 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_LLB_09",
+    "phaseKey": "AfterGraduation",
+    "domain": "Law",
+    "subdomain": "Law",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_compliance",
+    "text": "A company discovers that a new regulation changes how it can use customer information. What would you most want to own?",
+    "intent": "Identify privacy and compliance interests",
+    "targetDiscriminatesJson": "[\"law.cyber_law\",\"law.corporate_law\"]",
+    "options": [
+      { "index": 0, "text": "Interpret privacy obligations and advise teams what must change.", "signals": [{ "nodeId": "law.cyber_law", "weight": 0.95 }] },
+      { "index": 1, "text": "Review vendor contracts and update terms for data handling.", "signals": [{ "nodeId": "law.corporate_law", "weight": 0.85 }, { "nodeId": "law.cyber_law", "weight": 0.65 }] },
+      { "index": 2, "text": "Create a practical compliance process and train staff to follow it.", "signals": [{ "nodeId": "law.corporate_law", "weight": 0.8 }, { "nodeId": "law.cyber_law", "weight": 0.6 }] },
+      { "index": 3, "text": "Research how the regulation protects individuals and what remedies apply.", "signals": [{ "nodeId": "law.cyber_law", "weight": 0.85 }, { "nodeId": "law.civil_law", "weight": 0.5 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_LLB_10",
+    "phaseKey": "AfterGraduation",
+    "domain": "Law",
+    "subdomain": "Law",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_evidence",
+    "text": "A case depends on a large set of documents and digital records. Which task would you most enjoy?",
+    "intent": "Identify evidence analysis preferences in legal practice",
+    "targetDiscriminatesJson": "[\"law.criminal_law\",\"law.corporate_law\",\"law.cyber_law\"]",
+    "options": [
+      { "index": 0, "text": "Organize the evidence into a clear timeline of events.", "signals": [{ "nodeId": "law.criminal_law", "weight": 0.8 }, { "nodeId": "law.civil_law", "weight": 0.55 }] },
+      { "index": 1, "text": "Identify inconsistencies and prepare focused questions for witnesses.", "signals": [{ "nodeId": "law.criminal_law", "weight": 0.95 }] },
+      { "index": 2, "text": "Check whether the records were collected and handled lawfully.", "signals": [{ "nodeId": "law.cyber_law", "weight": 0.85 }, { "nodeId": "law.criminal_law", "weight": 0.5 }] },
+      { "index": 3, "text": "Connect the documents to contractual duties and business decisions.", "signals": [{ "nodeId": "law.corporate_law", "weight": 0.9 }, { "nodeId": "law.civil_law", "weight": 0.4 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_LLB_11",
+    "phaseKey": "AfterGraduation",
+    "domain": "Law",
+    "subdomain": "Law",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "legal_professional_interest",
+    "text": "Which outcome would make you feel proud of your work as a lawyer?",
+    "intent": "Identify law career motivation",
+    "targetDiscriminatesJson": "[\"law.corporate_law\",\"law.criminal_law\",\"law.civil_law\",\"law.cyber_law\"]",
+    "options": [
+      { "index": 0, "text": "A client is treated fairly because you built a strong, evidence-based case.", "signals": [{ "nodeId": "law.criminal_law", "weight": 0.8 }, { "nodeId": "law.civil_law", "weight": 0.65 }] },
+      { "index": 1, "text": "A business makes a sound decision after receiving clear legal advice.", "signals": [{ "nodeId": "law.corporate_law", "weight": 0.95 }] },
+      { "index": 2, "text": "A person's rights are protected through a practical legal remedy.", "signals": [{ "nodeId": "law.civil_law", "weight": 0.9 }, { "nodeId": "law.criminal_law", "weight": 0.4 }] },
+      { "index": 3, "text": "A digital service changes its practices to respect privacy and the law.", "signals": [{ "nodeId": "law.cyber_law", "weight": 0.95 }] }
+    ]
+  }
+  ,
+  {
+    "id": "Q_AFTERGRAD_MBBS_01", "phaseKey": "AfterGraduation", "domain": "Healthcare", "subdomain": "Medicine", "questionType": "CareerSpecific", "languageComplexity": "Simple", "dimension": "clinical_specialty_interest", "text": "Which part of caring for patients would you most like to focus on?", "intent": "Explore clinical specialty interests after MBBS", "targetDiscriminatesJson": "[\"sci.med.emergency\",\"sci.med.mbbs.surgery\",\"sci.med.mbbs.pediatrics\",\"sci.med.mbbs.psychiatry\"]",
+    "options": [
+      { "index": 0, "text": "Make rapid decisions for patients with sudden, serious illness or injury.", "signals": [{ "nodeId": "sci.med.emergency", "weight": 1.0 }] },
+      { "index": 1, "text": "Treat disease through procedures and operations.", "signals": [{ "nodeId": "sci.med.mbbs.surgery", "weight": 1.0 }] },
+      { "index": 2, "text": "Support children's health from infancy through adolescence.", "signals": [{ "nodeId": "sci.med.mbbs.pediatrics", "weight": 1.0 }] },
+      { "index": 3, "text": "Understand emotional wellbeing and treat mental health conditions.", "signals": [{ "nodeId": "sci.med.mbbs.psychiatry", "weight": 1.0 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_MBBS_02", "phaseKey": "AfterGraduation", "domain": "Healthcare", "subdomain": "Medicine", "questionType": "CareerSpecific", "languageComplexity": "Simple", "dimension": "clinical_work_style", "text": "Which clinical work setting sounds most engaging to you?", "intent": "Distinguish preferred medical work settings", "targetDiscriminatesJson": "[\"sci.med.emergency\",\"sci.med.mbbs.cardio\",\"sci.med.mbbs.surgery\",\"sci.med.anesthesiology\"]",
+    "options": [
+      { "index": 0, "text": "A busy emergency department where each case needs quick assessment.", "signals": [{ "nodeId": "sci.med.emergency", "weight": 1.0 }] },
+      { "index": 1, "text": "A clinic following patients with long-term heart conditions.", "signals": [{ "nodeId": "sci.med.mbbs.cardio", "weight": 1.0 }] },
+      { "index": 2, "text": "An operating theatre performing hands-on procedures.", "signals": [{ "nodeId": "sci.med.mbbs.surgery", "weight": 1.0 }] },
+      { "index": 3, "text": "The operating theatre managing pain, anaesthesia, and vital functions.", "signals": [{ "nodeId": "sci.med.anesthesiology", "weight": 1.0 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_MBBS_03", "phaseKey": "AfterGraduation", "domain": "Healthcare", "subdomain": "Medicine", "questionType": "CareerSpecific", "languageComplexity": "Simple", "dimension": "diagnostic_interest", "text": "Which kind of medical problem would you enjoy investigating most?", "intent": "Identify diagnostic specialty interests", "targetDiscriminatesJson": "[\"sci.med.mbbs.cardio\",\"sci.med.radiology\",\"sci.med.pathology\",\"sci.med.mbbs.psychiatry\"]",
+    "options": [
+      { "index": 0, "text": "Why a patient's heart symptoms or test results are changing.", "signals": [{ "nodeId": "sci.med.mbbs.cardio", "weight": 1.0 }] },
+      { "index": 1, "text": "What scans and medical images reveal about an illness or injury.", "signals": [{ "nodeId": "sci.med.radiology", "weight": 1.0 }] },
+      { "index": 2, "text": "What tissue, blood, or laboratory findings show about disease.", "signals": [{ "nodeId": "sci.med.pathology", "weight": 1.0 }] },
+      { "index": 3, "text": "How thoughts, emotions, and life circumstances affect a patient's health.", "signals": [{ "nodeId": "sci.med.mbbs.psychiatry", "weight": 1.0 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_MBBS_04", "phaseKey": "AfterGraduation", "domain": "Healthcare", "subdomain": "Medicine", "questionType": "CareerSpecific", "languageComplexity": "Simple", "dimension": "patient_group_interest", "text": "Which patient group would you be especially motivated to care for?", "intent": "Explore medical patient-group preferences", "targetDiscriminatesJson": "[\"sci.med.mbbs.pediatrics\",\"sci.med.mbbs.cardio\",\"sci.med.emergency\",\"sci.med.mbbs.psychiatry\"]",
+    "options": [
+      { "index": 0, "text": "Babies, children, and adolescents as they grow.", "signals": [{ "nodeId": "sci.med.mbbs.pediatrics", "weight": 1.0 }] },
+      { "index": 1, "text": "Adults managing heart disease and cardiovascular risk.", "signals": [{ "nodeId": "sci.med.mbbs.cardio", "weight": 1.0 }] },
+      { "index": 2, "text": "People of any age who arrive with an urgent health problem.", "signals": [{ "nodeId": "sci.med.emergency", "weight": 1.0 }] },
+      { "index": 3, "text": "People seeking help with mental health or substance-use concerns.", "signals": [{ "nodeId": "sci.med.mbbs.psychiatry", "weight": 1.0 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_MBBS_05", "phaseKey": "AfterGraduation", "domain": "Healthcare", "subdomain": "Medicine", "questionType": "CareerSpecific", "languageComplexity": "Simple", "dimension": "treatment_approach", "text": "Which way of helping a patient recover appeals to you most?", "intent": "Distinguish treatment approach preferences", "targetDiscriminatesJson": "[\"sci.med.mbbs.surgery\",\"sci.med.anesthesiology\",\"sci.med.mbbs.cardio\",\"sci.med.mbbs.psychiatry\"]",
+    "options": [
+      { "index": 0, "text": "Performing an operation or procedure to treat the cause.", "signals": [{ "nodeId": "sci.med.mbbs.surgery", "weight": 1.0 }] },
+      { "index": 1, "text": "Keeping a patient safe and comfortable during surgery and recovery.", "signals": [{ "nodeId": "sci.med.anesthesiology", "weight": 1.0 }] },
+      { "index": 2, "text": "Combining medicines, procedures, and follow-up for heart disease.", "signals": [{ "nodeId": "sci.med.mbbs.cardio", "weight": 1.0 }] },
+      { "index": 3, "text": "Building a treatment plan through conversation and ongoing care.", "signals": [{ "nodeId": "sci.med.mbbs.psychiatry", "weight": 1.0 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_MBBS_06", "phaseKey": "AfterGraduation", "domain": "Healthcare", "subdomain": "Medicine", "questionType": "CareerSpecific", "languageComplexity": "Simple", "dimension": "clinical_decision_style", "text": "Which kind of decision-making would you find most satisfying?", "intent": "Explore clinical decision styles", "targetDiscriminatesJson": "[\"sci.med.emergency\",\"sci.med.mbbs.cardio\",\"sci.med.radiology\",\"sci.med.pathology\"]",
+    "options": [
+      { "index": 0, "text": "Prioritise several urgent cases and act quickly with limited information.", "signals": [{ "nodeId": "sci.med.emergency", "weight": 1.0 }] },
+      { "index": 1, "text": "Balance evidence and patient preferences for complex heart disease.", "signals": [{ "nodeId": "sci.med.mbbs.cardio", "weight": 1.0 }] },
+      { "index": 2, "text": "Interpret imaging findings and help the care team choose next steps.", "signals": [{ "nodeId": "sci.med.radiology", "weight": 1.0 }] },
+      { "index": 3, "text": "Reach a diagnosis from careful analysis of laboratory specimens.", "signals": [{ "nodeId": "sci.med.pathology", "weight": 1.0 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_MBBS_07", "phaseKey": "AfterGraduation", "domain": "Healthcare", "subdomain": "Medicine", "questionType": "CareerSpecific", "languageComplexity": "Simple", "dimension": "medical_procedure_interest", "text": "Which procedure-related responsibility sounds most interesting?", "intent": "Explore procedure and perioperative specialties", "targetDiscriminatesJson": "[\"sci.med.mbbs.surgery\",\"sci.med.anesthesiology\",\"sci.med.radiology\",\"sci.med.emergency\"]",
+    "options": [
+      { "index": 0, "text": "Operating to repair, remove, or reconstruct tissue.", "signals": [{ "nodeId": "sci.med.mbbs.surgery", "weight": 1.0 }] },
+      { "index": 1, "text": "Managing anaesthesia, airways, pain, and patient stability.", "signals": [{ "nodeId": "sci.med.anesthesiology", "weight": 1.0 }] },
+      { "index": 2, "text": "Using imaging to guide diagnosis or minimally invasive procedures.", "signals": [{ "nodeId": "sci.med.radiology", "weight": 1.0 }] },
+      { "index": 3, "text": "Stabilising injuries and performing urgent bedside procedures.", "signals": [{ "nodeId": "sci.med.emergency", "weight": 1.0 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_MBBS_08", "phaseKey": "AfterGraduation", "domain": "Healthcare", "subdomain": "Medicine", "questionType": "CareerSpecific", "languageComplexity": "Simple", "dimension": "care_continuity", "text": "How would you prefer to follow a patient's care?", "intent": "Distinguish continuity-of-care interests", "targetDiscriminatesJson": "[\"sci.med.mbbs.pediatrics\",\"sci.med.mbbs.cardio\",\"sci.med.emergency\",\"sci.med.mbbs.psychiatry\"]",
+    "options": [
+      { "index": 0, "text": "Build relationships while supporting health through childhood.", "signals": [{ "nodeId": "sci.med.mbbs.pediatrics", "weight": 1.0 }] },
+      { "index": 1, "text": "Review progress over time for a chronic medical condition.", "signals": [{ "nodeId": "sci.med.mbbs.cardio", "weight": 1.0 }] },
+      { "index": 2, "text": "Focus on assessment and stabilisation during an acute visit.", "signals": [{ "nodeId": "sci.med.emergency", "weight": 1.0 }] },
+      { "index": 3, "text": "Support a patient's longer-term mental health and functioning.", "signals": [{ "nodeId": "sci.med.mbbs.psychiatry", "weight": 1.0 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_MBBS_09", "phaseKey": "AfterGraduation", "domain": "Healthcare", "subdomain": "Medicine", "questionType": "CareerSpecific", "languageComplexity": "Simple", "dimension": "medical_team_role", "text": "Which contribution to a hospital team fits you best?", "intent": "Explore specialist roles in multidisciplinary care", "targetDiscriminatesJson": "[\"sci.med.radiology\",\"sci.med.pathology\",\"sci.med.anesthesiology\",\"sci.med.mbbs.surgery\"]",
+    "options": [
+      { "index": 0, "text": "Explain imaging findings that help clinicians plan treatment.", "signals": [{ "nodeId": "sci.med.radiology", "weight": 1.0 }] },
+      { "index": 1, "text": "Provide laboratory diagnoses that guide patient care.", "signals": [{ "nodeId": "sci.med.pathology", "weight": 1.0 }] },
+      { "index": 2, "text": "Coordinate anaesthesia and critical monitoring around procedures.", "signals": [{ "nodeId": "sci.med.anesthesiology", "weight": 1.0 }] },
+      { "index": 3, "text": "Lead the operative treatment plan for a patient.", "signals": [{ "nodeId": "sci.med.mbbs.surgery", "weight": 1.0 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_MBBS_10", "phaseKey": "AfterGraduation", "domain": "Healthcare", "subdomain": "Medicine", "questionType": "CareerSpecific", "languageComplexity": "Simple", "dimension": "medical_challenge_interest", "text": "Which challenge would you be keen to learn more about?", "intent": "Identify specialty learning interests", "targetDiscriminatesJson": "[\"sci.med.emergency\",\"sci.med.mbbs.pediatrics\",\"sci.med.mbbs.cardio\",\"sci.med.mbbs.psychiatry\"]",
+    "options": [
+      { "index": 0, "text": "Recognising dangerous conditions early in a high-pressure setting.", "signals": [{ "nodeId": "sci.med.emergency", "weight": 1.0 }] },
+      { "index": 1, "text": "Adapting diagnosis and treatment to a child's age and development.", "signals": [{ "nodeId": "sci.med.mbbs.pediatrics", "weight": 1.0 }] },
+      { "index": 2, "text": "Managing complex heart disease and preventing complications.", "signals": [{ "nodeId": "sci.med.mbbs.cardio", "weight": 1.0 }] },
+      { "index": 3, "text": "Understanding complex mental health needs and recovery.", "signals": [{ "nodeId": "sci.med.mbbs.psychiatry", "weight": 1.0 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_MBBS_11", "phaseKey": "AfterGraduation", "domain": "Healthcare", "subdomain": "Medicine", "questionType": "CareerSpecific", "languageComplexity": "Simple", "dimension": "medical_research_interest", "text": "If you joined a medical research project, what would you choose to study?", "intent": "Explore research interests across medicine", "targetDiscriminatesJson": "[\"sci.med.mbbs.cardio\",\"sci.med.radiology\",\"sci.med.pathology\",\"sci.med.mbbs.pediatrics\"]",
+    "options": [
+      { "index": 0, "text": "Better ways to prevent and treat cardiovascular disease.", "signals": [{ "nodeId": "sci.med.mbbs.cardio", "weight": 1.0 }] },
+      { "index": 1, "text": "How new imaging techniques improve early diagnosis.", "signals": [{ "nodeId": "sci.med.radiology", "weight": 1.0 }] },
+      { "index": 2, "text": "How cells and tissues change in different diseases.", "signals": [{ "nodeId": "sci.med.pathology", "weight": 1.0 }] },
+      { "index": 3, "text": "How to improve health outcomes for children and adolescents.", "signals": [{ "nodeId": "sci.med.mbbs.pediatrics", "weight": 1.0 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_MBBS_12", "phaseKey": "AfterGraduation", "domain": "Healthcare", "subdomain": "Medicine", "questionType": "CareerSpecific", "languageComplexity": "Simple", "dimension": "medical_career_preference", "text": "Which future medical career would you like this quiz to explore further?", "intent": "Confirm preferred medical career direction", "targetDiscriminatesJson": "[\"sci.med.emergency\",\"sci.med.anesthesiology\",\"sci.med.radiology\",\"sci.med.pathology\"]",
+    "options": [
+      { "index": 0, "text": "Emergency medicine and acute care.", "signals": [{ "nodeId": "sci.med.emergency", "weight": 1.0 }] },
+      { "index": 1, "text": "Anaesthesia, pain medicine, and perioperative care.", "signals": [{ "nodeId": "sci.med.anesthesiology", "weight": 1.0 }] },
+      { "index": 2, "text": "Radiology and diagnostic imaging.", "signals": [{ "nodeId": "sci.med.radiology", "weight": 1.0 }] },
+      { "index": 3, "text": "Pathology and laboratory medicine.", "signals": [{ "nodeId": "sci.med.pathology", "weight": 1.0 }] }
+    ]
+  }
+]

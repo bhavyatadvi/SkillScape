@@ -1,0 +1,580 @@
+[
+    {
+        "id": "Q_VOC_TRADE_001",
+        "phaseKey": "After12th",
+        "subPhaseKey": "vocational",
+        "questionType": "TradeDiscriminator",
+        "languageComplexity": "Simple",
+        "text": "Which kind of trade or technical work interests you the most?",
+        "targetDiscriminates": [
+            "voc.iti",
+            "voc.diploma",
+            "hosp.hotel_mgmt",
+            "hosp.aviation"
+        ],
+        "options": [
+            {
+                "index": 0,
+                "text": "Electrical work — wiring buildings, repairing motors, industrial electrical systems",
+                "signals": [
+                    {
+                        "nodeId": "voc.iti",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "sci.eng.elec",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "A polytechnic diploma in civil/mechanical/CS engineering — then a job or degree",
+                "signals": [
+                    {
+                        "nodeId": "voc.diploma",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Hotel management — culinary arts, hospitality, and guest services",
+                "signals": [
+                    {
+                        "nodeId": "hosp.hotel_mgmt",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Aviation — working for an airline as cabin crew, ground staff, or pilot trainee",
+                "signals": [
+                    {
+                        "nodeId": "hosp.aviation",
+                        "weight": 0.95
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_VOC_SKILL_002",
+        "phaseKey": "After12th",
+        "subPhaseKey": "vocational",
+        "questionType": "ManualVsManagerial",
+        "languageComplexity": "Simple",
+        "text": "Do you prefer hands-on skill work or managing people and operations?",
+        "targetDiscriminates": [
+            "voc.iti",
+            "voc.diploma",
+            "mgmt.operations"
+        ],
+        "options": [
+            {
+                "index": 0,
+                "text": "Hands-on — I enjoy the physical work of building, repairing, and maintaining things",
+                "signals": [
+                    {
+                        "nodeId": "voc.iti",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "sci.eng.mech.mfg",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Technical lead — I want to be the supervisor who oversees the technical team",
+                "signals": [
+                    {
+                        "nodeId": "voc.diploma",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "mgmt.operations",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Operations management — organizing processes, supply chains, and logistics",
+                "signals": [
+                    {
+                        "nodeId": "mgmt.operations",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "com.startup",
+                        "weight": 0.4
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Hospitality management — managing a restaurant, hotel, or event",
+                "signals": [
+                    {
+                        "nodeId": "hosp.hotel_mgmt",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_VOC_GOVT_003",
+        "phaseKey": "After12th",
+        "subPhaseKey": "vocational",
+        "questionType": "GovernmentTechnicianInterest",
+        "languageComplexity": "Simple",
+        "text": "Would you consider a government technical job — railway technician, PWD supervisor, or similar?",
+        "targetDiscriminates": [
+            "govt.railways",
+            "govt.ssc",
+            "voc.diploma"
+        ],
+        "options": [
+            {
+                "index": 0,
+                "text": "Yes — Railways or PWD as a technician or junior engineer is my goal",
+                "signals": [
+                    {
+                        "nodeId": "govt.railways",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "govt.ssc",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Yes — SSC or state government technical posts sound stable",
+                "signals": [
+                    {
+                        "nodeId": "govt.ssc",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "I prefer private sector industry jobs with better growth",
+                "signals": [
+                    {
+                        "nodeId": "voc.diploma",
+                        "weight": 0.7
+                    },
+                    {
+                        "nodeId": "sci.eng.mech.mfg",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "I want to upgrade to a full engineering degree after diploma (lateral entry)",
+                "signals": [
+                    {
+                        "nodeId": "voc.diploma",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "sci.eng",
+                        "weight": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_VOC_CHEF_004",
+        "phaseKey": "After12th",
+        "subPhaseKey": "vocational",
+        "questionType": "CulinaryInterest",
+        "languageComplexity": "Simple",
+        "text": "If hotel management, which area of hospitality interests you?",
+        "targetDiscriminates": [
+            "hosp.hotel_mgmt",
+            "hosp.aviation"
+        ],
+        "options": [
+            {
+                "index": 0,
+                "text": "Culinary arts and cooking — becoming a professional chef",
+                "signals": [
+                    {
+                        "nodeId": "hosp.hotel_mgmt",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Hotel operations — front desk, housekeeping, events management",
+                "signals": [
+                    {
+                        "nodeId": "hosp.hotel_mgmt",
+                        "weight": 0.85
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Travel and tourism — tour guiding, travel agency management",
+                "signals": [
+                    {
+                        "nodeId": "hosp.hotel_mgmt",
+                        "weight": 0.7
+                    },
+                    {
+                        "nodeId": "hosp.aviation",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Airline hospitality — cabin crew and passenger experience",
+                "signals": [
+                    {
+                        "nodeId": "hosp.aviation",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_VOC_001",
+        "phaseKey": "After12th",
+        "subPhaseKey": "vocational",
+        "questionType": "SpecializationDiscriminator",
+        "languageComplexity": "Simple",
+        "text": "If you are doing a polytechnic diploma, which branch would you most like to specialise in?",
+        "targetDiscriminates": [
+            "voc.diploma",
+            "sci.eng.civil",
+            "sci.eng.mech",
+            "sci.eng.ece"
+        ],
+        "options": [
+            {
+                "index": 0,
+                "text": "Civil engineering - construction, site supervision, and structural work",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.civil",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "voc.diploma",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Mechanical engineering - manufacturing, machines, and industrial equipment",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.mech",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "voc.diploma",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Electronics and communication - circuit boards, IoT, and signal systems",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.ece",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "voc.diploma",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Computer science - programming, IT support, and software development",
+                "signals": [
+                    {
+                        "nodeId": "sci.eng.cs",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "voc.diploma",
+                        "weight": 0.7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_VOC_002",
+        "phaseKey": "After12th",
+        "subPhaseKey": "vocational",
+        "questionType": "TradeOff",
+        "languageComplexity": "Simple",
+        "text": "Which of these vocational career paths sounds most appealing for your future?",
+        "targetDiscriminates": [
+            "voc.iti",
+            "hosp.hotel_mgmt",
+            "hosp.aviation",
+            "voc.diploma"
+        ],
+        "options": [
+            {
+                "index": 0,
+                "text": "Becoming a certified electrician, welder, or plumber with an ITI qualification",
+                "signals": [
+                    {
+                        "nodeId": "voc.iti",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Working as a chef or hotel manager in the hospitality industry",
+                "signals": [
+                    {
+                        "nodeId": "hosp.hotel_mgmt",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Becoming an airline cabin crew member or working in airport operations",
+                "signals": [
+                    {
+                        "nodeId": "hosp.aviation",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Starting as a junior engineer with a diploma and working up to a technical supervisor",
+                "signals": [
+                    {
+                        "nodeId": "voc.diploma",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_VOC_003",
+        "phaseKey": "After12th",
+        "subPhaseKey": "vocational",
+        "questionType": "SkillPreference",
+        "languageComplexity": "Simple",
+        "text": "Which type of hands-on technical skill would you most enjoy developing over the next few years?",
+        "targetDiscriminates": [
+            "voc.iti",
+            "sci.eng.elec",
+            "sci.eng.mech"
+        ],
+        "options": [
+            {
+                "index": 0,
+                "text": "Precision welding and fabrication of metal structures",
+                "signals": [
+                    {
+                        "nodeId": "voc.iti",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "sci.eng.mech.mfg",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Industrial electrical installation - wiring factories, panels, and motors",
+                "signals": [
+                    {
+                        "nodeId": "voc.iti",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "sci.eng.elec",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "HVAC - installing and maintaining air conditioning and refrigeration systems",
+                "signals": [
+                    {
+                        "nodeId": "voc.iti",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "sci.eng.mech.thermal",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Automotive repair and servicing - maintaining cars, trucks, and engines",
+                "signals": [
+                    {
+                        "nodeId": "voc.iti",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "sci.eng.auto",
+                        "weight": 0.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_VOC_004",
+        "phaseKey": "After12th",
+        "subPhaseKey": "vocational",
+        "questionType": "EnvironmentPreference",
+        "languageComplexity": "Simple",
+        "text": "Which work setting would you be most comfortable in long-term?",
+        "targetDiscriminates": [
+            "hosp.hotel_mgmt",
+            "hosp.aviation",
+            "voc.iti",
+            "voc.diploma"
+        ],
+        "options": [
+            {
+                "index": 0,
+                "text": "A luxury hotel - interacting with guests from around the world every day",
+                "signals": [
+                    {
+                        "nodeId": "hosp.hotel_mgmt",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "An airline cabin or airport - working across different cities and countries",
+                "signals": [
+                    {
+                        "nodeId": "hosp.aviation",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "A factory or workshop - operating and repairing industrial machinery",
+                "signals": [
+                    {
+                        "nodeId": "voc.iti",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "A construction site or infrastructure project - supervising technical work in the field",
+                "signals": [
+                    {
+                        "nodeId": "voc.diploma",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "sci.eng.civil",
+                        "weight": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_VOC_005",
+        "phaseKey": "After12th",
+        "subPhaseKey": "vocational",
+        "questionType": "ProblemSolving",
+        "languageComplexity": "Simple",
+        "text": "A piece of equipment on a factory floor is malfunctioning and halting production. Which action would you most want to take?",
+        "targetDiscriminates": [
+            "voc.iti",
+            "voc.diploma",
+            "mgmt.operations"
+        ],
+        "options": [
+            {
+                "index": 0,
+                "text": "Diagnose the electrical fault and repair the circuit or component",
+                "signals": [
+                    {
+                        "nodeId": "voc.iti",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "sci.eng.elec",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Analyse the mechanical failure and replace or realign the damaged part",
+                "signals": [
+                    {
+                        "nodeId": "voc.iti",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "sci.eng.mech",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Coordinate the repair team and organise a workaround to keep production going",
+                "signals": [
+                    {
+                        "nodeId": "mgmt.operations",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "voc.diploma",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Document the fault systematically and file a technical report for the maintenance log",
+                "signals": [
+                    {
+                        "nodeId": "voc.diploma",
+                        "weight": 0.8
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+Loading data...
+Building pipeline...
+Training model...
+Evaluating model...
+Macro Accuracy: 71.65%
+Micro Accuracy: 71.67%
+Saving model...
+Model saved to C:\Users\Priyansh\Downloads\skill-navigator-main (1)\skill-navigator-main\backend\SkillScape.MLTrainer\CareerPredictor.zip
+----------------------------------------------------------
+Training Salary Predictor (with Multi-Year Trend Data) ...
+----------------------------------------------------------
+R^2: 0.87
+Root Mean Squared Error: 14395.281001196168
+Unhandled exception. System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Priyansh\Downloads\skill-navigator-main (1)\skill-navigator-main\backend\SkillScape.API\SalaryPredictor.zip'.
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.File.Create(String path)
+   at Microsoft.ML.ModelOperationsCatalog.Save(ITransformer model, DataViewSchema inputSchema, String filePath)
+   at SkillScape.MLTrainer.Program.Main(String[] args) in C:\Users\Priyansh\Downloads\skill-navigator-main (1)\skill-navigator-main\backend\SkillScape.MLTrainer\Program.cs:line 102

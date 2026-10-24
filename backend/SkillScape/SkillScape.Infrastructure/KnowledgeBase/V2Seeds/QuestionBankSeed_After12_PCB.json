@@ -1,0 +1,910 @@
+[
+    {
+        "id": "Q_PCB_DEG_01",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "DegreePreference",
+        "languageComplexity": "Simple",
+        "text": "In the medical and life sciences field, how do you prefer to interact with patients or research?",
+        "targetDiscriminatesJson": "[\"deg.mbbs\", \"deg.bds\", \"deg.bsc.biotech\", \"deg.bsc.nursing\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "I want to be the primary diagnosing doctor, willing to study for 5+ years.",
+                "signals": [
+                    {
+                        "nodeId": "deg.mbbs",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "I want to specialize specifically in dental health and oral surgery.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bds",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "I prefer being in a lab, researching genetics, DNA, and developing drugs.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bpharm",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "I want a career in patient care, nursing, and daily clinical assistance.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.nursing",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "deg.bpt",
+                        "weight": 0.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_PCB_SPEC_02",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "Interest",
+        "languageComplexity": "Simple",
+        "text": "Which specific area of biology fascinates you the most?",
+        "targetDiscriminatesJson": "[\"deg.bams\", \"deg.bhms\", \"deg.bvsc\", \"deg.bsc.agri\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Traditional Indian medicine, Ayurveda, and natural healing methods.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bams",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Homeopathic medicine and holistic wellness.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bhms",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Animal health, veterinary sciences, and wildlife conservation.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bvsc",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Plant biology, crop genetics, farming technologies, and agriculture.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.agri",
+                        "weight": 0.95
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_PCB_ENV_03",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "WorkEnvironment",
+        "languageComplexity": "Simple",
+        "text": "Which work environment sounds most appealing?",
+        "targetDiscriminatesJson": "[\"deg.mbbs\", \"deg.bpharm\", \"deg.bpt\", \"deg.bsc.nutri\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "A fast-paced hospital emergency room or intensive care unit.",
+                "signals": [
+                    {
+                        "nodeId": "deg.mbbs",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "deg.bsc.nursing",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "A clean, quiet pharmaceutical manufacturing plant or research lab.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpharm",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "A rehabilitation center helping people recover their physical mobility.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpt",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "A private clinic consulting clients on diet, fitness, and lifestyle.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.nutri",
+                        "weight": 0.95
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_PCB_SKILL_04",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "Aptitude",
+        "languageComplexity": "Intermediate",
+        "text": "When approaching a complex problem, what is your strongest skill?",
+        "targetDiscriminatesJson": "[\"deg.mbbs\", \"deg.bsc.biotech\", \"deg.bpharm\", \"deg.bpt\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Making quick, high-stakes decisions under extreme pressure.",
+                "signals": [
+                    {
+                        "nodeId": "deg.mbbs",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Meticulously analyzing microscopic data and genetic sequences over time.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Understanding complex chemical interactions and molecular compounds.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpharm",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Patience and empathy while manually manipulating physical structures (like joints/muscles).",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpt",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_PCB_TECH_05",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "Interest",
+        "languageComplexity": "Simple",
+        "text": "How do you feel about the intersection of technology and biology?",
+        "targetDiscriminatesJson": "[\"deg.btech.biotech\", \"deg.bsc.biotech\", \"deg.mbbs\", \"deg.bds\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "I love it! I want to engineer biological systems using advanced tech (Bioinformatics, B.Tech Biotech).",
+                "signals": [
+                    {
+                        "nodeId": "deg.btech.biotech",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "I prefer pure theoretical biology and genetic research.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "I prefer interacting with humans directly rather than machines or microscopes.",
+                "signals": [
+                    {
+                        "nodeId": "deg.mbbs",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "deg.bds",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "I'm more interested in the chemistry of medicines rather than bio-engineering.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpharm",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_PCB_001",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "ProjectPreference",
+        "languageComplexity": "Simple",
+        "text": "You are given an opportunity to work on one healthcare project for the next year. Which would interest you most?",
+        "targetDiscriminatesJson": "[\"deg.mbbs\", \"deg.bsc.biotech\", \"deg.bpharm\", \"deg.bsc.nursing\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Diagnosing patients, interpreting symptoms, and planning clinical treatment",
+                "signals": [
+                    {
+                        "nodeId": "deg.mbbs",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Studying molecular and genetic causes of a disease in a laboratory",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bsc.genetics",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Developing and testing a drug compound that could treat the disease",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpharm",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Analysing health data across a large population to track disease spread",
+                "signals": [
+                    {
+                        "nodeId": "deg.mbbs",
+                        "weight": 0.5
+                    },
+                    {
+                        "nodeId": "deg.bsc.nutri",
+                        "weight": 0.4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_PCB_002",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "Investigation",
+        "languageComplexity": "Intermediate",
+        "text": "A laboratory discovers an unusual disease pattern in a community. Which part of the investigation would you most want to own?",
+        "targetDiscriminatesJson": "[\"deg.mbbs\", \"deg.bsc.biotech\", \"deg.bpharm\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Examining how the disease affects different organs and body systems",
+                "signals": [
+                    {
+                        "nodeId": "deg.mbbs",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bams",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Identifying the molecular or genetic mutation that caused the disease",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.btech.biotech",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Researching and synthesising a compound that could prevent or treat it",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpharm",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Mapping how the disease is spreading and identifying high-risk groups",
+                "signals": [
+                    {
+                        "nodeId": "deg.mbbs",
+                        "weight": 0.5
+                    },
+                    {
+                        "nodeId": "deg.bsc.nutri",
+                        "weight": 0.4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_PCB_003",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "TaskPreference",
+        "languageComplexity": "Simple",
+        "text": "Within a hospital setting, which type of work would you find most engaging on a daily basis?",
+        "targetDiscriminatesJson": "[\"deg.mbbs\", \"deg.bds\", \"deg.bsc.nursing\", \"deg.bpt\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Conducting surgical procedures or assisting in the operating theatre",
+                "signals": [
+                    {
+                        "nodeId": "deg.mbbs",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Examining patients oral health, performing fillings, and doing root canals",
+                "signals": [
+                    {
+                        "nodeId": "deg.bds",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Providing bedside care, administering medications, and monitoring patients",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.nursing",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Helping patients regain physical movement through rehabilitation exercises",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpt",
+                        "weight": 0.95
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_PCB_004",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "ResearchPreference",
+        "languageComplexity": "Intermediate",
+        "text": "You are offered one research internship at a science institute. Which project would you choose?",
+        "targetDiscriminatesJson": "[\"deg.bsc.biotech\", \"deg.bsc.microbio\", \"deg.bpharm\", \"deg.btech.biotech\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Studying how CRISPR gene editing can correct hereditary disorders",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "deg.btech.biotech",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Investigating how bacteria develop antibiotic resistance",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.microbio",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Testing the efficacy and safety of a new anti-inflammatory drug compound",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpharm",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Designing a bio-reactor process for large-scale protein production",
+                "signals": [
+                    {
+                        "nodeId": "deg.btech.biotech",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_PCB_005",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "CareerDirection",
+        "languageComplexity": "Simple",
+        "text": "Which long-term career direction in life sciences interests you the most?",
+        "targetDiscriminatesJson": "[\"deg.mbbs\", \"deg.bsc.biotech\", \"deg.bpharm\", \"deg.bvsc\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Becoming a specialist doctor such as a cardiologist, neurologist, or oncologist",
+                "signals": [
+                    {
+                        "nodeId": "deg.mbbs",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Conducting life sciences research or working in genomics and biotech",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.btech.biotech",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Working in the pharmaceutical industry on drug development and clinical trials",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpharm",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Treating animals and working in veterinary clinics or wildlife conservation",
+                "signals": [
+                    {
+                        "nodeId": "deg.bvsc",
+                        "weight": 0.95
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_PCB_006",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "ScenarioBased",
+        "languageComplexity": "Intermediate",
+        "text": "A patient arrives with unusual neurological symptoms that have not been diagnosed. Which role in the response team would you most want to take?",
+        "targetDiscriminatesJson": "[\"deg.mbbs\", \"deg.bsc.biotech\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Examine the patient, order tests, and determine the clinical diagnosis",
+                "signals": [
+                    {
+                        "nodeId": "deg.mbbs",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Analyse the lab results to identify biomarkers and molecular abnormalities",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "deg.bsc.microbio",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Review the drug interactions and recommend suitable medication adjustments",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpharm",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Design a physiotherapy plan to help the patient regain lost motor functions",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpt",
+                        "weight": 0.95
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_PCB_007",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "SubfieldDiscriminator",
+        "languageComplexity": "Intermediate",
+        "text": "Within biotechnology and life sciences, which area of specialisation would you prefer to work in?",
+        "targetDiscriminatesJson": "[\"deg.bsc.biotech\", \"deg.bsc.genetics\", \"deg.bsc.microbio\", \"deg.btech.biotech\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Genetic engineering - studying gene expression, mutations, and hereditary diseases",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.genetics",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Microbiology - studying bacterial, viral, and fungal organisms and their behaviour",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.microbio",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Industrial biotechnology - developing biological processes for manufacturing",
+                "signals": [
+                    {
+                        "nodeId": "deg.btech.biotech",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Biochemistry - understanding the chemical reactions that drive living systems",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.7
+                    },
+                    {
+                        "nodeId": "deg.bpharm",
+                        "weight": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_PCB_008",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "TradeOff",
+        "languageComplexity": "Simple",
+        "text": "You have two career paths in front of you after completing your PCB degree. Which would you choose?",
+        "targetDiscriminatesJson": "[\"deg.mbbs\", \"deg.bpharm\", \"deg.bsc.nutri\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Spend 5.5 years studying MBBS and become a practising doctor",
+                "signals": [
+                    {
+                        "nodeId": "deg.mbbs",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Complete a 4-year B.Pharm and work in drug manufacturing or clinical research",
+                "signals": [
+                    {
+                        "nodeId": "deg.bpharm",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Pursue a 3-year B.Sc. and then an M.Sc. in a life science specialisation",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.biotech",
+                        "weight": 0.75
+                    },
+                    {
+                        "nodeId": "deg.bsc.microbio",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Study nutrition and dietetics to work in hospitals, sports, or public health",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.nutri",
+                        "weight": 0.95
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_BPHARM_INTEREST_01",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "Interest",
+        "languageComplexity": "Simple",
+        "text": "Which part of the journey from a medicine idea to a safe treatment interests you most?",
+        "targetDiscriminatesJson": "[\"deg.bpharm\", \"deg.mbbs\", \"deg.bsc.biotech\", \"deg.bsc.nursing\"]",
+        "options": [
+            { "index": 0, "text": "Designing and testing medicines, dosage forms, or formulations", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.98 }] },
+            { "index": 1, "text": "Diagnosing illness and choosing treatment as a doctor", "signals": [{ "nodeId": "deg.mbbs", "weight": 0.98 }] },
+            { "index": 2, "text": "Studying cells and genes to understand disease mechanisms", "signals": [{ "nodeId": "deg.bsc.biotech", "weight": 0.9 }, { "nodeId": "deg.bpharm", "weight": 0.45 }] },
+            { "index": 3, "text": "Supporting patients with day-to-day clinical care", "signals": [{ "nodeId": "deg.bsc.nursing", "weight": 0.98 }, { "nodeId": "deg.bpt", "weight": 0.5 }] }
+        ]
+    },
+    {
+        "id": "Q_BPHARM_LAB_02",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "WorkStyle",
+        "languageComplexity": "Simple",
+        "text": "In a science lab, which task would you be happiest to repeat carefully until the results are reliable?",
+        "targetDiscriminatesJson": "[\"deg.bpharm\", \"deg.bsc.biotech\", \"deg.mbbs\", \"deg.bds\"]",
+        "options": [
+            { "index": 0, "text": "Measure ingredients and test whether a medicine meets its quality standards", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.98 }] },
+            { "index": 1, "text": "Run experiments on cells, DNA, or microorganisms", "signals": [{ "nodeId": "deg.bsc.biotech", "weight": 0.95 }, { "nodeId": "deg.bsc.microbio", "weight": 0.6 }] },
+            { "index": 2, "text": "Review patient tests to help identify a disease", "signals": [{ "nodeId": "deg.mbbs", "weight": 0.9 }] },
+            { "index": 3, "text": "Practice precise procedures focused on oral health", "signals": [{ "nodeId": "deg.bds", "weight": 0.95 }] }
+        ]
+    },
+    {
+        "id": "Q_BPHARM_CHEMISTRY_03",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "SubjectInterest",
+        "languageComplexity": "Simple",
+        "text": "How do you feel about using chemistry to understand how medicines are made and behave in the body?",
+        "targetDiscriminatesJson": "[\"deg.bpharm\", \"deg.mbbs\", \"deg.bsc.biotech\", \"deg.bsc.nursing\"]",
+        "options": [
+            { "index": 0, "text": "That sounds exciting; I want to study drugs, formulations, and their effects", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.98 }] },
+            { "index": 1, "text": "I am more interested in diagnosing and treating the whole patient", "signals": [{ "nodeId": "deg.mbbs", "weight": 0.92 }] },
+            { "index": 2, "text": "I prefer chemistry as part of broader molecular and cell research", "signals": [{ "nodeId": "deg.bsc.biotech", "weight": 0.88 }, { "nodeId": "deg.bpharm", "weight": 0.45 }] },
+            { "index": 3, "text": "I would rather focus on direct patient support than drug science", "signals": [{ "nodeId": "deg.bsc.nursing", "weight": 0.92 }, { "nodeId": "deg.bpt", "weight": 0.45 }] }
+        ]
+    },
+    {
+        "id": "Q_BPHARM_MEDICATION_SAFETY_04",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "Scenario",
+        "languageComplexity": "Simple",
+        "text": "A patient is unsure how to take two prescribed medicines safely. Which role would you want to play?",
+        "targetDiscriminatesJson": "[\"deg.bpharm\", \"deg.mbbs\", \"deg.bsc.nursing\", \"deg.bds\"]",
+        "options": [
+            { "index": 0, "text": "Check medicine use, interactions, and explain safe use", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.98 }] },
+            { "index": 1, "text": "Examine the patient and decide the diagnosis and treatment plan", "signals": [{ "nodeId": "deg.mbbs", "weight": 0.98 }] },
+            { "index": 2, "text": "Help the patient follow the care plan and monitor their condition", "signals": [{ "nodeId": "deg.bsc.nursing", "weight": 0.95 }] },
+            { "index": 3, "text": "Focus on a dental problem and explain its treatment", "signals": [{ "nodeId": "deg.bds", "weight": 0.95 }] }
+        ]
+    },
+    {
+        "id": "Q_BPHARM_PRODUCT_05",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "Interest",
+        "languageComplexity": "Simple",
+        "text": "Which project would you most like to join?",
+        "targetDiscriminatesJson": "[\"deg.bpharm\", \"deg.bsc.biotech\", \"deg.mbbs\", \"deg.bds\"]",
+        "options": [
+            { "index": 0, "text": "Develop a tablet or other dosage form and check its stability", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.98 }] },
+            { "index": 1, "text": "Use biological systems to develop a new research tool", "signals": [{ "nodeId": "deg.bsc.biotech", "weight": 0.95 }] },
+            { "index": 2, "text": "Study a disease and improve how patients are diagnosed", "signals": [{ "nodeId": "deg.mbbs", "weight": 0.92 }] },
+            { "index": 3, "text": "Create a better approach to prevent or treat dental disease", "signals": [{ "nodeId": "deg.bds", "weight": 0.95 }] }
+        ]
+    },
+    {
+        "id": "Q_BPHARM_WORKPLACE_06",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "WorkEnvironment",
+        "languageComplexity": "Simple",
+        "text": "Which future work setting sounds most appealing to you?",
+        "targetDiscriminatesJson": "[\"deg.bpharm\", \"deg.mbbs\", \"deg.bsc.biotech\", \"deg.bsc.nursing\"]",
+        "options": [
+            { "index": 0, "text": "A pharmaceutical company, medicine quality lab, or pharmacy service", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.98 }] },
+            { "index": 1, "text": "A clinic or hospital where I diagnose and treat patients", "signals": [{ "nodeId": "deg.mbbs", "weight": 0.98 }] },
+            { "index": 2, "text": "A research laboratory studying biology and biotechnology", "signals": [{ "nodeId": "deg.bsc.biotech", "weight": 0.95 }, { "nodeId": "deg.bsc.microbio", "weight": 0.55 }] },
+            { "index": 3, "text": "A hospital ward focused on continuous patient care", "signals": [{ "nodeId": "deg.bsc.nursing", "weight": 0.98 }] }
+        ]
+    },
+    {
+        "id": "Q_BPHARM_TRADEOFF_07",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "TradeOff",
+        "languageComplexity": "Simple",
+        "text": "Which responsibility would you rather have after completing your degree?",
+        "targetDiscriminatesJson": "[\"deg.bpharm\", \"deg.mbbs\", \"deg.bsc.biotech\", \"deg.bpt\"]",
+        "options": [
+            { "index": 0, "text": "Help make medicines dependable and guide their appropriate use", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.98 }] },
+            { "index": 1, "text": "Take responsibility for diagnosing disease and prescribing treatment", "signals": [{ "nodeId": "deg.mbbs", "weight": 0.98 }] },
+            { "index": 2, "text": "Investigate biological questions through experiments and research", "signals": [{ "nodeId": "deg.bsc.biotech", "weight": 0.95 }] },
+            { "index": 3, "text": "Help people restore movement and physical function", "signals": [{ "nodeId": "deg.bpt", "weight": 0.98 }] }
+        ]
+    },
+    {
+        "id": "Q_BPHARM_STUDY_08",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "LearningPreference",
+        "languageComplexity": "Simple",
+        "text": "Which mix of subjects would keep you curious through a multi-year degree?",
+        "targetDiscriminatesJson": "[\"deg.bpharm\", \"deg.mbbs\", \"deg.bsc.biotech\", \"deg.bsc.nursing\"]",
+        "options": [
+            { "index": 0, "text": "Pharmacology, pharmaceutics, medicinal chemistry, and drug safety", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.98 }] },
+            { "index": 1, "text": "Anatomy, pathology, clinical medicine, and patient diagnosis", "signals": [{ "nodeId": "deg.mbbs", "weight": 0.98 }] },
+            { "index": 2, "text": "Genetics, molecular biology, microbiology, and research methods", "signals": [{ "nodeId": "deg.bsc.biotech", "weight": 0.95 }, { "nodeId": "deg.bsc.microbio", "weight": 0.7 }] },
+            { "index": 3, "text": "Nursing practice, patient monitoring, and clinical procedures", "signals": [{ "nodeId": "deg.bsc.nursing", "weight": 0.98 }] }
+        ]
+    },
+    {
+        "id": "Q_PCB_MBBSPHARM_09",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "Situational",
+        "languageComplexity": "Simple",
+        "text": "A patient has several symptoms and is taking multiple medicines. Which part of the situation would you most want to handle?",
+        "targetDiscriminatesJson": "[\"deg.mbbs\", \"deg.bpharm\", \"deg.bsc.nursing\", \"deg.bsc.biotech\"]",
+        "options": [
+            { "index": 0, "text": "Examine the patient, identify the likely illness, and plan treatment", "signals": [{ "nodeId": "deg.mbbs", "weight": 0.98 }] },
+            { "index": 1, "text": "Review the medicines for safety, interactions, and the right way to use them", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.98 }] },
+            { "index": 2, "text": "Monitor the patient's condition and support their daily care", "signals": [{ "nodeId": "deg.bsc.nursing", "weight": 0.95 }] },
+            { "index": 3, "text": "Study samples to understand the biological cause of the illness", "signals": [{ "nodeId": "deg.bsc.biotech", "weight": 0.9 }] }
+        ]
+    },
+    {
+        "id": "Q_PCB_MBBSPHARM_10",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "TradeOff",
+        "languageComplexity": "Simple",
+        "text": "Which responsibility would feel most meaningful to you in a healthcare team?",
+        "targetDiscriminatesJson": "[\"deg.mbbs\", \"deg.bpharm\", \"deg.bds\", \"deg.bpt\"]",
+        "options": [
+            { "index": 0, "text": "Make a diagnosis and take overall responsibility for a patient's treatment plan", "signals": [{ "nodeId": "deg.mbbs", "weight": 0.98 }] },
+            { "index": 1, "text": "Help ensure medicines are effective, safe, and used appropriately", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.98 }] },
+            { "index": 2, "text": "Care for oral health and treat problems with teeth and gums", "signals": [{ "nodeId": "deg.bds", "weight": 0.98 }] },
+            { "index": 3, "text": "Help people regain movement and function through rehabilitation", "signals": [{ "nodeId": "deg.bpt", "weight": 0.98 }] }
+        ]
+    },
+    {
+        "id": "Q_PCB_MBBSPHARM_11",
+        "phaseKey": "After12th",
+        "subPhaseKey": "pcb",
+        "questionType": "LearningPreference",
+        "languageComplexity": "Simple",
+        "text": "Which problem would you be happiest to study in depth for several years?",
+        "targetDiscriminatesJson": "[\"deg.mbbs\", \"deg.bpharm\", \"deg.bsc.biotech\", \"deg.bsc.nursing\"]",
+        "options": [
+            { "index": 0, "text": "How diseases affect the whole body and how doctors choose treatment", "signals": [{ "nodeId": "deg.mbbs", "weight": 0.98 }] },
+            { "index": 1, "text": "How medicines are discovered, formulated, tested, and used safely", "signals": [{ "nodeId": "deg.bpharm", "weight": 0.98 }] },
+            { "index": 2, "text": "How cells, genes, and microbes explain biological processes", "signals": [{ "nodeId": "deg.bsc.biotech", "weight": 0.95 }] },
+            { "index": 3, "text": "How to provide continuous care and respond to patients' changing needs", "signals": [{ "nodeId": "deg.bsc.nursing", "weight": 0.95 }] }
+        ]
+    }
+]

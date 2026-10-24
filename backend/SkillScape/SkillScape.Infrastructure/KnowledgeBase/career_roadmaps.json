@@ -1,0 +1,416 @@
+{
+  "tech_software": [
+    {
+      "Phase": "Phase 1: Programming Foundations & Version Control",
+      "Duration": "3 Months",
+      "Topics": [
+        "Variables, Control Flow, and Data Structures in Python/JS/C#",
+        "Object-Oriented Programming (OOP) Principles & Design Patterns",
+        "Git Fundamentals: Branching, Merging, and GitHub Workflows",
+        "Basic Command Line Operations & Scripting"
+      ],
+      "ProjectSuggestion": "Build a CLI-based task manager with local file persistence."
+    },
+    {
+      "Phase": "Phase 2: Relational Databases & Core Web Technologies",
+      "Duration": "3 Months",
+      "Topics": [
+        "SQL Basics: Tables, Queries, Joins, and Indexing",
+        "REST API Architecture: HTTP Methods, Headers, Request Lifecycle",
+        "Building Backend Endpoints with Node.js/Express or ASP.NET Core",
+        "Unit Testing & API Documentation (Swagger/Postman)"
+      ],
+      "ProjectSuggestion": "Develop a RESTful Book Inventory API with full CRUD and SQL database integration."
+    },
+    {
+      "Phase": "Phase 3: Frontend Interfaces & State Management",
+      "Duration": "3 Months",
+      "Topics": [
+        "HTML5 Semantic Structures & CSS3 Responsive Layouts (Flexbox/Grid)",
+        "React Component Lifecycle, Virtual DOM, and JSX Syntax",
+        "Component State Management with useState, useEffect, and Context API",
+        "Asynchronous Data Fetching & Integration with Backend APIs"
+      ],
+      "ProjectSuggestion": "Create an interactive dashboard that fetches, searches, and visualizes library data."
+    },
+    {
+      "Phase": "Phase 4: Cloud Infrastructure & DevOps Pipelines",
+      "Duration": "3 Months",
+      "Topics": [
+        "Containerization Basics using Docker files and Docker Compose",
+        "CI/CD Integration Pipelines (GitHub Actions/Jenkins)",
+        "Cloud Foundations: Launching Virtual Servers and Databases on AWS/Azure",
+        "Monitoring, Logging, and App Performance Tuning"
+      ],
+      "ProjectSuggestion": "Deploy the fullstack book inventory system to a cloud server using a Dockerized container pipeline."
+    }
+  ],
+  "ai_data": [
+    {
+      "Phase": "Phase 1: Advanced Python & Exploratory Data Analysis",
+      "Duration": "3 Months",
+      "Topics": [
+        "Data Analysis Libraries: NumPy Arrays and Pandas DataFrames",
+        "Data Visualizations using Matplotlib and Seaborn charts",
+        "Data Cleaning: Handling missing values, outliers, and normalization",
+        "SQL for Data Retrieval: Filtering, aggregating, and joining datasets"
+      ],
+      "ProjectSuggestion": "Perform Exploratory Data Analysis (EDA) on a dataset of global retail sales and generate an insights report."
+    },
+    {
+      "Phase": "Phase 2: Mathematics & Classical Machine Learning",
+      "Duration": "3 Months",
+      "Topics": [
+        "Applied Linear Algebra, Calculus, and Probability Theory",
+        "Supervised Learning: Linear/Logistic Regression, Decision Trees, SVMs",
+        "Unsupervised Learning: K-Means Clustering and PCA dimensionality reduction",
+        "Model Vetting: Cross-validation, Bias-Variance trade-off, and confusion matrices"
+      ],
+      "ProjectSuggestion": "Build and tune a predictive model to classify customer churn using Scikit-Learn."
+    },
+    {
+      "Phase": "Phase 3: Deep Learning, NLP & Computer Vision",
+      "Duration": "3 Months",
+      "Topics": [
+        "Neural Network Architecture & Backpropagation Algorithms",
+        "Deep Learning Frameworks: PyTorch or TensorFlow workflows",
+        "Natural Language Processing: Text Tokenization, Embedding, and Transformer Models",
+        "Computer Vision: Image Processing and Convolutional Neural Networks (CNNs)"
+      ],
+      "ProjectSuggestion": "Construct a custom image classification model or an NLP sentiment classifier using PyTorch."
+    },
+    {
+      "Phase": "Phase 4: MLOps & Model Deployment",
+      "Duration": "3 Months",
+      "Topics": [
+        "Model Quantization & Optimizing Inference Speeds",
+        "Model Packaging using ONNX or MLflow tracking",
+        "Creating Prediction APIs using FastAPI & Docker containers",
+        "Monitoring Model Drift and Re-training pipelines"
+      ],
+      "ProjectSuggestion": "Deploy a sentiment analysis model as a production-grade containerized microservice."
+    }
+  ],
+  "medical": [
+    {
+      "Phase": "Phase 1: Pre-Clinical Science & Anatomical Foundations",
+      "Duration": "12 Months",
+      "Topics": [
+        "Human Gross Anatomy: Skeletal, muscular, and nervous structures",
+        "Physiology & Biochemistry: Cellular functions and metabolic pathways",
+        "Medical Ethics, History of Medicine, and Patient Communication",
+        "Histology and Cell Biology basics"
+      ],
+      "ProjectSuggestion": "Complete a comprehensive anatomical mapping and physiology lab journal."
+    },
+    {
+      "Phase": "Phase 2: Para-Clinical Studies & Diagnostic Sciences",
+      "Duration": "12 Months",
+      "Topics": [
+        "Pathology: Disease processes, tissue response, and tumor classifications",
+        "Microbiology: Identification of bacteria, viruses, and parasites",
+        "Pharmacology: Drug absorption, distribution, metabolism, and interactions",
+        "Introduction to Clinical Laboratory Diagnostics & Imaging basics"
+      ],
+      "ProjectSuggestion": "Write a comparative drug interaction case study report based on clinical pharmacology."
+    },
+    {
+      "Phase": "Phase 3: Core Clinical Postings & Diagnostics Practice",
+      "Duration": "12 Months",
+      "Topics": [
+        "General Medicine and Ward Postings: History taking and examination",
+        "General Surgery, Surgical Techniques, and Sterile Procedures",
+        "Obstetrics, Gynecology, and Pediatrics care guidelines",
+        "Emergency Medicine & Intensive Care Unit (ICU) rotation basics"
+      ],
+      "ProjectSuggestion": "Document a log of 10 structured patient case study journals under clinical supervisor feedback."
+    },
+    {
+      "Phase": "Phase 4: Clinical Internship & Specialization Prep",
+      "Duration": "12 Months",
+      "Topics": [
+        "Rotational Internship: General Wards, Emergency, and Rural health centers",
+        "Patient Diagnostics, Treatment Planning, and Prescription Drafting",
+        "National Licensing/Residency Board Exam Preparation",
+        "Advanced Medical Specialties: Cardiology, Neurology, or Oncology overview"
+      ],
+      "ProjectSuggestion": "Successfully complete the comprehensive medical residency licensing review portfolio."
+    }
+  ],
+  "commerce_finance": [
+    {
+      "Phase": "Phase 1: Accounting Principles & Corporate Regulations",
+      "Duration": "3 Months",
+      "Topics": [
+        "Double-Entry Bookkeeping: Ledgers, Trial Balances, and Financial Statements",
+        "Corporate Law: Company formation, Governance, and Board of Directors duties",
+        "Business Economics & Microeconomic Principles",
+        "Quantitative Aptitude & Statistical Methods for Commerce"
+      ],
+      "ProjectSuggestion": "Audit and reconcile the annual balance sheet of a sample startup."
+    },
+    {
+      "Phase": "Phase 2: Direct/Indirect Taxation & Management Auditing",
+      "Duration": "3 Months",
+      "Topics": [
+        "Direct Tax Systems: Income tax slabs, deductions, and exemptions",
+        "Indirect Tax Systems: GST compliance, filings, and input tax credit",
+        "Cost and Management Accounting: Job costing, budgeting, and variance analysis",
+        "Auditing Standards: Internal audits, documentation, and reporting standards"
+      ],
+      "ProjectSuggestion": "Prepare a comprehensive corporate tax planning model and GST return report."
+    },
+    {
+      "Phase": "Phase 3: Financial Analytics & Corporate Finance",
+      "Duration": "3 Months",
+      "Topics": [
+        "Corporate Finance: Cost of capital, capital structure, and dividend policy",
+        "Financial Valuation Models: Discounted Cash Flow (DCF) and multiples comparison",
+        "Investment Banking & Financial Markets: Equities, bonds, and derivatives",
+        "Financial Statement Analysis: Ratios, cash flow, and trend analysis"
+      ],
+      "ProjectSuggestion": "Develop a complete 3-statement financial model and DCF valuation for a public firm."
+    },
+    {
+      "Phase": "Phase 4: Strategic Management & Risk Advisory",
+      "Duration": "3 Months",
+      "Topics": [
+        "Strategic Management: Competitive analysis (SWOT/Porter's 5 forces) & execution",
+        "Financial Risk Management: Hedging, derivatives, and portfolio risk metrics",
+        "Corporate Governance, Compliance, and Professional Ethics",
+        "Global Financial Markets and Forex management"
+      ],
+      "ProjectSuggestion": "Draft an enterprise risk management and strategic advisory deck for a firm expanding globally."
+    }
+  ],
+  "design_creative": [
+    {
+      "Phase": "Phase 1: Design Thinking & Typography Foundations",
+      "Duration": "3 Months",
+      "Topics": [
+        "Design Thinking Methodology: Empathy, Define, Ideate, Prototype, Test",
+        "Typography Principles: Typefaces, hierarchy, kerning, and legibility",
+        "Color Theory & Composition: Harmonies, contrast, grids, and alignment",
+        "User Persona Research, Empathy Maps, and User Journeys"
+      ],
+      "ProjectSuggestion": "Perform user research and create an empathy-driven design brief for a local business."
+    },
+    {
+      "Phase": "Phase 2: Digital Design Tools & Prototyping",
+      "Duration": "3 Months",
+      "Topics": [
+        "Vector Graphics: Working in Adobe Illustrator or Figma",
+        "Raster Editing: Photo manipulation and layouts in Adobe Photoshop",
+        "High-Fidelity Wireframing and Navigation Flows in Figma",
+        "Interaction Design: Micro-animations, transitions, and component states"
+      ],
+      "ProjectSuggestion": "Design the high-fidelity UI and interactive prototype for a mobile app in Figma."
+    },
+    {
+      "Phase": "Phase 3: User Research & Component Libraries",
+      "Duration": "3 Months",
+      "Topics": [
+        "Information Architecture: Sitemaps, card sorting, and navigation design",
+        "Usability Testing: Interviewing users, mapping heatmaps, and iterations",
+        "Design Systems: Building responsive components, variables, and auto-layouts",
+        "Accessibility in Design (WCAG 2.1 compliance, contrast, readability)"
+      ],
+      "ProjectSuggestion": "Conduct a usability test on your app prototype, document findings, and refine the design system."
+    },
+    {
+      "Phase": "Phase 4: Portfolio Development & Freelance Management",
+      "Duration": "3 Months",
+      "Topics": [
+        "Writing Design Case Studies: Problem, process, solution, and results",
+        "Creating an Online Portfolio: Behance, Dribbble, or a personal site",
+        "Freelancing and Studio Management: Pricing, contracts, and pitching clients",
+        "Basic Frontend Hand-off: Redlines, variables, and developer collab"
+      ],
+      "ProjectSuggestion": "Publish 3 comprehensive UX/UI design case studies on Behance and launch a personal portfolio site."
+    }
+  ],
+  "law": [
+    {
+      "Phase": "Phase 1: Legal Systems & Constitutional Foundations",
+      "Duration": "6 Months",
+      "Topics": [
+        "Jurisprudence: Philosophy of law, legal concepts, and historical systems",
+        "Indian Constitutional Law: Fundamental rights, duties, and state policy directives",
+        "Torts Law: Civil wrongs, negligence, liability, and consumer protection",
+        "Contract Law: Essentials of valid contracts, breaches, and remedies"
+      ],
+      "ProjectSuggestion": "Write an analytical paper on the evolution of fundamental rights under constitutional case laws."
+    },
+    {
+      "Phase": "Phase 2: Criminal Law & Civil/Criminal Procedures",
+      "Duration": "6 Months",
+      "Topics": [
+        "Criminal Law (Indian Penal Code): General exceptions, offenses, and punishments",
+        "Code of Civil Procedure (CPC): Jurisdiction, pleadings, execution, and appeals",
+        "Code of Criminal Procedure (CrPC): Investigation, arrests, trial stages, and bail",
+        "Law of Evidence: Relevance of facts, confessions, and examination of witnesses"
+      ],
+      "ProjectSuggestion": "Draft a formal bail application and mock pleading index based on a criminal case study."
+    },
+    {
+      "Phase": "Phase 3: Corporate Law & Intellectual Property Rights",
+      "Duration": "6 Months",
+      "Topics": [
+        "Company Law: Share capital, governance, mergers, and winding up procedures",
+        "Intellectual Property Rights: Trademarks, patents, copyrights, and filings",
+        "Environmental Law and Protection Statutes",
+        "Alternative Dispute Resolution (ADR): Arbitration, conciliation, and mediation"
+      ],
+      "ProjectSuggestion": "Draft a mock trademark registration application and a non-disclosure agreement."
+    },
+    {
+      "Phase": "Phase 4: Courtroom Practice, Ethics & Moot Courts",
+      "Duration": "6 Months",
+      "Topics": [
+        "Legal Drafting: Writs, petitions, plaints, and written statements",
+        "Professional Ethics & Contempt of Court Rules",
+        "Courtroom Etiquette, Trial Advocacy, and Cross-Examination skills",
+        "Moot Court Participation: Researching memorials and oral arguments"
+      ],
+      "ProjectSuggestion": "Participate in a mock trial, drafting a comprehensive legal memorial for the plaintiff."
+    }
+  ],
+  "government": [
+    {
+      "Phase": "Phase 1: Core General Studies Foundations",
+      "Duration": "6 Months",
+      "Topics": [
+        "Indian Polity & Constitutional Structure",
+        "Modern Indian History, Art, and Cultural Heritage",
+        "Physical, Economic, and Human Geography of India & the World",
+        "Basic Mathematics, Logical Reasoning, and Data Interpretation"
+      ],
+      "ProjectSuggestion": "Write a weekly analytical essay summarizing major socio-economic reforms."
+    },
+    {
+      "Phase": "Phase 2: Economic Policy & Analytical Aptitude",
+      "Duration": "3 Months",
+      "Topics": [
+        "Indian Economics: Inflation, GDP, fiscal policies, and banking structures",
+        "CSAT Preparation: Advanced logical reasoning, math shortcuts, and reading comprehension",
+        "International Relations: Foreign policy, major treaties, and global summits",
+        "General Science & Technological advancements"
+      ],
+      "ProjectSuggestion": "Solve 10 years of CSAT examination questions and compile a strengths/weaknesses log."
+    },
+    {
+      "Phase": "Phase 3: Socio-Economic Policies & Current Events",
+      "Duration": "3 Months",
+      "Topics": [
+        "Social Justice: Policies for vulnerable groups, health, and education",
+        "Environment & Ecology: Biodiversity, climate policy, and conservation efforts",
+        "Daily Current Affairs Tracking: Critical editorials from newspapers",
+        "Internal Security & Disaster Management protocols"
+      ],
+      "ProjectSuggestion": "Compile a policy critique paper evaluating a major government social scheme."
+    },
+    {
+      "Phase": "Phase 4: Answer Writing Mastery & Personality Test Preparation",
+      "Duration": "3 Months",
+      "Topics": [
+        "Mains Answer Writing Structure: Intro, body, positive/negative evaluation, and conclusion",
+        "Ethics, Integrity, and Case Studies: Administrative decisions under pressure",
+        "Mock Mains Test Series: Timed writing practice",
+        "Interview Board Personality Prep: Current affairs debates, body language, and hobbies"
+      ],
+      "ProjectSuggestion": "Complete a 15-day timed mains answer-writing test series under evaluator mock feedback."
+    }
+  ],
+  "entrepreneurship": [
+    {
+      "Phase": "Phase 1: Market Identification & Customer Discovery",
+      "Duration": "3 Months",
+      "Topics": [
+        "Lean Startup Principles & Problem-Solution Fit validation",
+        "Conducting Customer Discovery Interviews to identify pain points",
+        "Market Sizing: Calculating TAM, SAM, and SOM metrics",
+        "Competitor Matrix Analysis & Unique Value Proposition (UVP) drafting"
+      ],
+      "ProjectSuggestion": "Conduct 20 customer interviews and compile a problem validation report."
+    },
+    {
+      "Phase": "Phase 2: Product Strategy, Roadmap & MVP Launch",
+      "Duration": "3 Months",
+      "Topics": [
+        "No-Code Tools, Low-Code, or Rapid Tech Stack Prototyping",
+        "Writing Product Requirement Documents (PRDs) & defining scope",
+        "Figma Wireframing and MVP User Flow layouts",
+        "Setting up Product Metrics: Conversion, Retention, Daily Active Users (DAU)"
+      ],
+      "ProjectSuggestion": "Build and launch a functional Minimum Viable Product (MVP) using no-code or simple tech."
+    },
+    {
+      "Phase": "Phase 3: Growth Hacking & Customer Acquisition",
+      "Duration": "3 Months",
+      "Topics": [
+        "Search Engine Optimization (SEO) & Content Marketing engines",
+        "Paid Advertising (Meta/Google Ads) & Customer Acquisition Cost (CAC) metrics",
+        "User Acquisition Funnel Optimization (AARRR metric pipeline)",
+        "Building email marketing and organic social viral loops"
+      ],
+      "ProjectSuggestion": "Launch an acquisition campaign, onboard 100 beta users, and evaluate cohort retention."
+    },
+    {
+      "Phase": "Phase 4: Startup Finance, Pitching & Fundraising",
+      "Duration": "3 Months",
+      "Topics": [
+        "Unit Economics: LTV, CAC, margins, and cash flow burn rate",
+        "Equity, Cap Table Basics, and Safe Notes legal configurations",
+        "Pitch Deck Design, Financial Projections, and Storytelling for VCs",
+        "Venture Capital vs Bootstrapping: Sourcing contacts & negotiations"
+      ],
+      "ProjectSuggestion": "Design a venture-ready startup pitch deck and 5-year financial projection spreadsheet."
+    }
+  ],
+  "vocational": [
+    {
+      "Phase": "Phase 1: Trade Science & Safety Foundations",
+      "Duration": "3 Months",
+      "Topics": [
+        "Industrial Safety Standards & Safety Gear (PPE)",
+        "Working Tools: Measurement gauges, hand tools, and basic instrumentation",
+        "Basics of Trade Mathematics: Units, dimensions, and conversions",
+        "Reading Technical Blueprints and Schematics"
+      ],
+      "ProjectSuggestion": "Draw up a workspace safety audit and blueprint inspection checklist."
+    },
+    {
+      "Phase": "Phase 2: Intermediate Workshop & Machine Controls",
+      "Duration": "3 Months",
+      "Topics": [
+        "Basic Electrical Circuits, Wiring, and Switchboard controls",
+        "Machine Operations: Drilling, grinding, welding, or lathe settings",
+        "Material Sciences: Identifying metals, polymers, and insulation properties",
+        "Troubleshooting basic physical components"
+      ],
+      "ProjectSuggestion": "Construct a fully wired circuit board or calibrate a mechanical component prototype."
+    },
+    {
+      "Phase": "Phase 3: Advanced Field Deployments & Standards",
+      "Duration": "3 Months",
+      "Topics": [
+        "Commercial Repair Practices & Diagnostic equipment operations",
+        "National Code and Regulatory Compliance for Trades",
+        "Estimating materials, cost bidding, and service invoicing",
+        "Field Safety: High voltage, high pressure, or chemical protocols"
+      ],
+      "ProjectSuggestion": "Diagnose, repair, and document a mock industrial machinery breakdown."
+    },
+    {
+      "Phase": "Phase 4: Apprenticeship, Licensing & Enterprise Management",
+      "Duration": "3 Months",
+      "Topics": [
+        "Field Apprenticeship: Practical on-site project hours",
+        "National/State Trade License Exam Preparation",
+        "Business Management: Bookkeeping, clients, and shop operations",
+        "Advanced Specializations: Smart meters, solar installation, or automation controls"
+      ],
+      "ProjectSuggestion": "Earn a trade-level safety certification and compile a mock small business startup plan."
+    }
+  ]
+}

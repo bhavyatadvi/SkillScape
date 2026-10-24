@@ -1,0 +1,2064 @@
+[
+    {
+        "id":  "Q_AFTERGRAD_CIVIL_001",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "Which type of problem in Civil Engineering would you most enjoy solving?",
+        "intent":  "Discover Civil Engineering subdomain interest",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Designing structures to withstand different loads (Structural Engineering)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.structural",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Understanding soil behavior and foundation performance (Geotechnical Engineering)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.geotech",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Planning transportation systems and traffic movement (Transportation Engineering)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.transport",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Managing construction projects, cost, schedule, and resources (Construction Management)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "I am not interested in core Civil Engineering anymore.",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil",
+                                                "weight":  -5.0,
+                                                "isRejection":  true
+                                            }
+                                        ],
+                            "isRejection":  true
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_MECH_001",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Mechanical Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "Within Mechanical Engineering, what area aligns best with your interests?",
+        "intent":  "Discover Mechanical Engineering subdomain interest",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Designing machines, CAD modeling, and product development (Design Engineering)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.mech.design",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Optimizing production processes and factory operations (Manufacturing/Production)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.mech.manufacturing",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Working on heating, cooling, and fluid dynamics (Thermal/HVAC)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.mech.thermal",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Automotive design, robotics, or mechatronics",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.mech.auto",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_ELEC_001",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Electrical Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "What aspect of Electrical Engineering is most appealing to you for your career?",
+        "intent":  "Discover Electrical Engineering subdomain interest",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Power systems, smart grids, and high voltage generation",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.elec.power",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Power electronics and motor control systems",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.elec.powerelec",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Renewable energy systems (Solar, Wind) and EV technology",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.elec.renewable",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Industrial automation, instrumentation, and control systems",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.elec.automation",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_ECE_001",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Electronics \u0026 VLSI",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "Which electronics domain are you most interested in pursuing?",
+        "intent":  "Discover ECE subdomain interest",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Designing microchips, semiconductor technology, and FPGA (VLSI Design)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.ece.vlsi",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Programming microcontrollers and building smart devices (Embedded Systems \u0026 IoT)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.ece.embedded",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Telecommunications, RF engineering, and signal processing",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.ece.telecom",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_CSE_001",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Software Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "Which type of problem would you enjoy working on most as a Computer Science graduate?",
+        "intent":  "Discover broad CSE direction",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Building applications, user interfaces, and backend software systems",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.cs.software",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Finding patterns in data and making systems learn from it (Data Science / AI)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.cs.data",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            },
+                                            {
+                                                "trait":  "sci.eng.cs.ai_ml",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Designing scalable infrastructure, servers, and cloud systems",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.cs.cloud",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            },
+                                            {
+                                                "trait":  "sci.eng.cs.devops",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Protecting systems, investigating security problems, and finding vulnerabilities",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.cs.cybersec",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "Designing user experiences and interactive digital products",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.cs.uiux",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_CYBER_001",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Cybersecurity",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Specialization",
+        "competencyId":  "",
+        "text":  "Within Cybersecurity, what kind of role sounds the most exciting to you?",
+        "intent":  "Discover Cybersecurity sub-specialization",
+        "targetDiscriminatesJson":  "[\"soc analyst\", \"soc\", \"security operations\", \"penetration tester\", \"penetration testing\", \"ethical hacker\", \"digital forensics analyst\", \"digital forensics\", \"forensics analyst\", \"grc analyst\", \"governance risk compliance\", \"cloud security engineer\", \"cloud security\", \"security architect\", \"application security\", \"appsec\", \"threat intelligence analyst\", \"threat hunter\", \"incident response\", \"incident responder\"]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Actively hacking into systems to find vulnerabilities (Penetration Testing / Ethical Hacking)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.cs.pentest",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Monitoring networks in real-time to detect and stop cyber attacks (SOC / Incident Response)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.cs.soc",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            },
+                                            {
+                                                "trait":  "sci.eng.cs.ir",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Securing cloud infrastructure and managing identity access (Cloud Security)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.cs.cloudsec",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Investigating cyber crimes and recovering digital evidence (Digital Forensics)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.cs.forensics",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "Managing security policies, compliance, and risk assessments (GRC)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.cs.grc",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        }
+                    ],
+        "displayOrder":  2,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_COM_001",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Commerce",
+        "subdomain":  "Commerce",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "As a Commerce/Business graduate, which pathway are you most focused on?",
+        "intent":  "Identify commerce post-grad pathway",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Professional Accounting and Audit (e.g., CA, CMA, CS)",
+                            "signals":  [
+                                            {
+                                                "trait":  "com.acc.prof",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Corporate Finance, Investment Banking, or Financial Analysis (e.g., CFA)",
+                            "signals":  [
+                                            {
+                                                "trait":  "com.fin.inv",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "General Management, Strategy, or Entrepreneurship (e.g., MBA)",
+                            "signals":  [
+                                            {
+                                                "trait":  "mgmt.mba",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Marketing, Sales, or Human Resources",
+                            "signals":  [
+                                            {
+                                                "trait":  "com.marketing",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            },
+                                            {
+                                                "trait":  "com.hr",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_CIVIL_002",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Structural preference",
+        "competencyId":  "",
+        "text":  "When a structure has to be safe, economical, and practical to build, what would you focus on first?",
+        "intent":  "Assess Civil Engineering structural work preference",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Selecting an efficient structural system and load path",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.struct",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Checking soil conditions and designing reliable foundations",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.geo",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Planning construction methods, sequence, and site resources",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Improving materials and designs for lower environmental impact",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.environ_civil",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        }
+                    ],
+        "displayOrder":  2,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_CIVIL_003",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Construction operations",
+        "competencyId":  "",
+        "text":  "On a construction project that is falling behind schedule, which contribution would you find most satisfying?",
+        "intent":  "Assess Civil Engineering management and operations preference",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Replanning activities and coordinating contractors to recover time",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Reviewing drawings and resolving a structural design issue",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.struct",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Improving material flow, equipment use, and site productivity",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Verifying quality and safety checks before work continues",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  4.0
+                                            }
+                                        ]
+                        }
+                    ],
+        "displayOrder":  3,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_CIVIL_004",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Infrastructure interest",
+        "competencyId":  "",
+        "text":  "Which public infrastructure challenge would you be most motivated to improve?",
+        "intent":  "Assess Civil Engineering infrastructure preference",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Reducing congestion through better roads, transit, and traffic design",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.transport",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Providing dependable water supply, drainage, and flood protection",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.water",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Making buildings and infrastructure more sustainable and resilient",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.environ_civil",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Delivering a large project on budget through strong planning and controls",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        }
+                    ],
+        "displayOrder":  4,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_CIVIL_005",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Work style",
+        "competencyId":  "",
+        "text":  "What kind of day-to-day Civil Engineering work would suit you best?",
+        "intent":  "Assess Civil Engineering work style",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Leading site meetings, tracking progress, and solving delivery issues",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Performing detailed analysis and creating safe design calculations",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.struct",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Investigating ground conditions and advising on foundations",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.geo",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Using survey data and digital models to plan construction accurately",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.surveying",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        }
+                    ],
+        "displayOrder":  5,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_CIVIL_006",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Career direction",
+        "competencyId":  "",
+        "text":  "Which Civil Engineering outcome would make you feel you had done your best work?",
+        "intent":  "Assess Civil Engineering career direction",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "A complex structure that performs safely for decades",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.struct",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "A well-managed project delivered safely, on time, and within budget",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "A transport network that makes travel smoother for communities",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.transport",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "A water or environmental solution that improves public health",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.water",
+                                                "weight":  5.0
+                                            },
+                                            {
+                                                "trait":  "sci.eng.civil.environ_civil",
+                                                "weight":  4.0
+                                            }
+                                        ]
+                        }
+                    ],
+        "displayOrder":  6,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_CIVIL_007",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Project controls",
+        "competencyId":  "",
+        "text":  "Which project-control responsibility would you most like to own on a large Civil Engineering project?",
+        "intent":  "Assess Civil Engineering project controls preference",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Building schedules, tracking milestones, and managing project risks",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Preparing estimates, monitoring costs, and managing contracts",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Reviewing design calculations and technical specifications",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.struct",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Coordinating survey information and setting-out activities",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.surveying",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        }
+                    ],
+        "displayOrder":  7,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_CIVIL_008",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Technical problem solving",
+        "competencyId":  "",
+        "text":  "A new project has an uncertain site condition. Which investigation would you be most interested in leading?",
+        "intent":  "Assess Civil Engineering technical problem-solving preference",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Evaluating soil samples, groundwater, and foundation options",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.geo",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Checking structural behavior under loads and extreme events",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.struct",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Studying drainage, water flow, and flood-risk controls",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.water",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Finding a safe construction sequence with minimal site disruption",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        }
+                    ],
+        "displayOrder":  8,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_CIVIL_009",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Collaboration preference",
+        "competencyId":  "",
+        "text":  "Which group would you most enjoy collaborating with as part of your Civil Engineering career?",
+        "intent":  "Assess Civil Engineering collaboration preference",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Site teams, contractors, and clients delivering a live project",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Architects and engineers refining a complex structural design",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.struct",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "City planners and agencies improving transport systems",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.transport",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Environmental specialists protecting water and ecosystems",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.environ_civil",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        }
+                    ],
+        "displayOrder":  9,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_CIVIL_010",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Civil Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Professional development",
+        "competencyId":  "",
+        "text":  "What would you most want to become known for in Civil Engineering over the next few years?",
+        "intent":  "Assess Civil Engineering professional direction",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Delivering complex projects through excellent management and operations",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.construction",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Producing dependable structural designs for demanding projects",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.struct",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Creating safer and more efficient transportation infrastructure",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.transport",
+                                                "weight":  5.0
+                                            }
+                                        ]
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Designing sustainable water and environmental infrastructure",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.eng.civil.water",
+                                                "weight":  5.0
+                                            },
+                                            {
+                                                "trait":  "sci.eng.civil.environ_civil",
+                                                "weight":  4.0
+                                            }
+                                        ]
+                        }
+                    ],
+        "displayOrder":  10,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_BBA_01_16",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Business",
+        "subdomain":  "Business Administration",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "In a business setting, what role excites you the most?",
+        "intent":  "Discover BBA specialization",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Managing teams and operations (HR/Operations)",
+                            "signals":  [
+                                            {
+                                                "trait":  "bus.hr",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Analyzing markets and driving sales (Marketing)",
+                            "signals":  [
+                                            {
+                                                "trait":  "bus.marketing",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Handling company finances (Finance)",
+                            "signals":  [
+                                            {
+                                                "trait":  "bus.finance",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Starting your own venture (Entrepreneurship)",
+                            "signals":  [
+                                            {
+                                                "trait":  "bus.entrepreneurship",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "I am not interested in this anymore.",
+                            "signals":  [
+                                            {
+                                                "trait":  "bus",
+                                                "weight":  -5.0,
+                                                "isRejection":  true
+                                            }
+                                        ],
+                            "isRejection":  true
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_BA_01_16",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Arts",
+        "subdomain":  "Arts \u0026 Humanities",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "Which aspect of Arts and Humanities do you enjoy the most?",
+        "intent":  "Discover BA specialization",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Understanding human behavior (Psychology/Sociology)",
+                            "signals":  [
+                                            {
+                                                "trait":  "arts.psychology",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Analyzing historical events (History/PolSci)",
+                            "signals":  [
+                                            {
+                                                "trait":  "arts.history",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Writing and communicating (Journalism/Languages)",
+                            "signals":  [
+                                            {
+                                                "trait":  "arts.journalism",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Creating visual concepts (Design)",
+                            "signals":  [
+                                            {
+                                                "trait":  "arts.design",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "I am not interested in this anymore.",
+                            "signals":  [
+                                            {
+                                                "trait":  "arts",
+                                                "weight":  -5.0,
+                                                "isRejection":  true
+                                            }
+                                        ],
+                            "isRejection":  true
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_BSC_01_16",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Science",
+        "subdomain":  "Pure Sciences",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "Which scientific field fascinates you the most?",
+        "intent":  "Discover BSc specialization",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Studying matter and energy (Physics/Chemistry)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.physics",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Exploring biological systems (Biology/Biotech)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.biology",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Solving complex equations (Mathematics)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.math",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Studying the environment (Environmental Science)",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci.environment",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "I am not interested in this anymore.",
+                            "signals":  [
+                                            {
+                                                "trait":  "sci",
+                                                "weight":  -5.0,
+                                                "isRejection":  true
+                                            }
+                                        ],
+                            "isRejection":  true
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_BARCH_01_16",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Architecture",
+        "subdomain":  "Architecture",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "What aspect of architecture do you prefer?",
+        "intent":  "Discover BArch specialization",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Designing aesthetic residential spaces",
+                            "signals":  [
+                                            {
+                                                "trait":  "arch.residential",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Urban planning and public spaces",
+                            "signals":  [
+                                            {
+                                                "trait":  "arch.urban",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Sustainable and green building design",
+                            "signals":  [
+                                            {
+                                                "trait":  "arch.sustainable",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Interior design and space planning",
+                            "signals":  [
+                                            {
+                                                "trait":  "arch.interior",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "I am not interested in this anymore.",
+                            "signals":  [
+                                            {
+                                                "trait":  "arch",
+                                                "weight":  -5.0,
+                                                "isRejection":  true
+                                            }
+                                        ],
+                            "isRejection":  true
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_BPHARM_01_16",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Pharmacy",
+        "subdomain":  "Pharmacy",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "In the pharmaceutical industry, where do you see yourself?",
+        "intent":  "Discover BPharm specialization",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Researching and developing new drugs",
+                            "signals":  [
+                                            {
+                                                "trait":  "pharm.research",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Quality control and regulatory affairs",
+                            "signals":  [
+                                            {
+                                                "trait":  "pharm.quality",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Clinical pharmacy and patient care",
+                            "signals":  [
+                                            {
+                                                "trait":  "pharm.clinical",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Pharmaceutical marketing and sales",
+                            "signals":  [
+                                            {
+                                                "trait":  "pharm.sales",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "I am not interested in this anymore.",
+                            "signals":  [
+                                            {
+                                                "trait":  "pharm",
+                                                "weight":  -5.0,
+                                                "isRejection":  true
+                                            }
+                                        ],
+                            "isRejection":  true
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_LLB_01_16",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Law",
+        "subdomain":  "Law",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "Which area of law interests you the most?",
+        "intent":  "Discover LLB specialization",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Corporate and business law",
+                            "signals":  [
+                                            {
+                                                "trait":  "law.corporate",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Criminal law and litigation",
+                            "signals":  [
+                                            {
+                                                "trait":  "law.criminal",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Family and civil law",
+                            "signals":  [
+                                            {
+                                                "trait":  "law.civil",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Intellectual property law",
+                            "signals":  [
+                                            {
+                                                "trait":  "law.ip",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "I am not interested in this anymore.",
+                            "signals":  [
+                                            {
+                                                "trait":  "law",
+                                                "weight":  -5.0,
+                                                "isRejection":  true
+                                            }
+                                        ],
+                            "isRejection":  true
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_BDES_01_16",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Design",
+        "subdomain":  "Design",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "What type of design work do you enjoy?",
+        "intent":  "Discover BDes specialization",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Fashion and apparel design",
+                            "signals":  [
+                                            {
+                                                "trait":  "des.fashion",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Graphic and visual communication",
+                            "signals":  [
+                                            {
+                                                "trait":  "des.graphic",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Industrial and product design",
+                            "signals":  [
+                                            {
+                                                "trait":  "des.product",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "UI/UX and digital product design",
+                            "signals":  [
+                                            {
+                                                "trait":  "des.uiux",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "I am not interested in this anymore.",
+                            "signals":  [
+                                            {
+                                                "trait":  "des",
+                                                "weight":  -5.0,
+                                                "isRejection":  true
+                                            }
+                                        ],
+                            "isRejection":  true
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_EE_01_16",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Electrical Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "What electrical engineering field do you prefer?",
+        "intent":  "Discover EE specialization",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Power systems and renewable energy",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng.ee.power",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Control systems and automation",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng.ee.control",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Electronics and circuit design",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng.ee.circuits",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Telecommunications",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng.ee.telecom",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "I am not interested in this anymore.",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng",
+                                                "weight":  -5.0,
+                                                "isRejection":  true
+                                            }
+                                        ],
+                            "isRejection":  true
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_ECE_01_16",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Electronics Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "What electronics engineering field do you prefer?",
+        "intent":  "Discover ECE specialization",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "VLSI and microchip design",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng.ece.vlsi",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Embedded systems and IoT",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng.ece.embedded",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Signal processing",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng.ece.signal",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Communication systems",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng.ece.comm",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "I am not interested in this anymore.",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng",
+                                                "weight":  -5.0,
+                                                "isRejection":  true
+                                            }
+                                        ],
+                            "isRejection":  true
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id":  "Q_AFTERGRAD_CHEM_01_16",
+        "phaseKey":  "AfterGraduation",
+        "subPhaseKey":  "",
+        "domain":  "Technology",
+        "subdomain":  "Chemical Engineering",
+        "questionType":  "multiple_choice",
+        "languageComplexity":  "Simple",
+        "dimension":  "Goals",
+        "competencyId":  "",
+        "text":  "What chemical engineering field do you prefer?",
+        "intent":  "Discover Chemical specialization",
+        "targetDiscriminatesJson":  "[]",
+        "options":  [
+                        {
+                            "index":  0,
+                            "text":  "Process engineering and plant design",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng.chem.process",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  1,
+                            "text":  "Materials science and polymers",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng.chem.materials",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  2,
+                            "text":  "Biochemical engineering",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng.chem.bio",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  3,
+                            "text":  "Environmental engineering",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng.chem.environment",
+                                                "weight":  5.0,
+                                                "isRejection":  false
+                                            }
+                                        ],
+                            "isRejection":  false
+                        },
+                        {
+                            "index":  4,
+                            "text":  "I am not interested in this anymore.",
+                            "signals":  [
+                                            {
+                                                "trait":  "eng",
+                                                "weight":  -5.0,
+                                                "isRejection":  true
+                                            }
+                                        ],
+                            "isRejection":  true
+                        }
+                    ],
+        "displayOrder":  1,
+        "isActive":  true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_02",
+        "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture",
+        "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "Goals", "competencyId": "",
+        "text": "Which architecture project would you most like to develop?",
+        "intent": "Distinguish architecture specializations through project preference", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "A connected district with walkable streets and public spaces", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "A low-energy building designed around climate and daylight", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "A comfortable home shaped around how its residents live", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "A flexible interior that gives an existing building new life", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "A heritage building carefully adapted for present-day use", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "A park and landscape that improve the surrounding neighborhood", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "A complex building coordinated through BIM and digital models", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ],
+        "displayOrder": 2, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_03",
+        "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture",
+        "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "WorkStyle", "competencyId": "",
+        "text": "Which design challenge would keep you most engaged?",
+        "intent": "Assess preferred architectural problem-solving work", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "Balancing density, movement, and shared space across a city area", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "Reducing energy use while keeping a building comfortable", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "Making a home functional, welcoming, and suited to its site", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "Planning interior circulation, lighting, materials, and furniture", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "Preserving historic character while meeting safety and access needs", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "Connecting planting, drainage, shade, and outdoor activity", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "Resolving design clashes across detailed 3D building models", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ],
+        "displayOrder": 3, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_04",
+        "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture",
+        "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "Values", "competencyId": "",
+        "text": "What outcome would make you proudest of your work?",
+        "intent": "Identify the built-environment impact the learner values", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "A neighborhood where people can reach daily needs on foot", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "A building that uses fewer resources and performs well over time", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "A home that supports the routines and wellbeing of its occupants", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "An interior that makes people feel comfortable and included", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "A historic place retained and useful for the next generation", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "A green public landscape that manages heat and rain naturally", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "A coordinated, buildable design delivered with fewer site conflicts", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ],
+        "displayOrder": 4, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_05", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "WorkStyle", "competencyId": "",
+        "text": "Which task would you choose first in an architecture studio?", "intent": "Identify preferred architecture studio task", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "Mapping streets, land use, and public movement", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "Comparing materials, shading, and energy performance", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "Sketching room layouts around a family's needs", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "Planning finishes, lighting, and furniture for a space", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "Recording historic details before a careful restoration", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "Studying terrain, planting, and outdoor circulation", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "Building a coordinated 3D model and checking clashes", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 5, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_06", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "Values", "competencyId": "",
+        "text": "Which design scale interests you most?", "intent": "Assess preferred scale of architectural work", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "A district or neighborhood", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "A building's relationship with climate and resources", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "A home and the daily life inside it", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "The rooms and shared spaces within a building", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "A landmark or historic group of buildings", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "A site's open spaces and landscape systems", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "The detailed model connecting building systems", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 6, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_07", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "WorkStyle", "competencyId": "",
+        "text": "Which group would you most like to collaborate with on a project?", "intent": "Identify preferred architecture collaborators", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "City planners and transport specialists", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "Energy consultants and environmental scientists", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "Homeowners and housing specialists", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "Interior designers, artists, and furniture makers", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "Conservation experts and historians", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "Ecologists and landscape designers", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "Structural and building-services teams using shared models", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 7, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_08", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "ProblemSolving", "competencyId": "",
+        "text": "Which project constraint would you most enjoy working through?", "intent": "Distinguish preferred architecture constraints", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "Making a growing city safer and easier to move around", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "Meeting a tight energy or carbon target", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "Fitting a family's needs onto a compact site", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "Creating a welcoming interior within an existing floor plan", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "Updating an old structure without losing its character", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "Designing a useful landscape with limited water", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "Coordinating a complex design across many disciplines", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 8, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_09", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "Interests", "competencyId": "",
+        "text": "What would you most enjoy presenting in a design review?", "intent": "Identify preferred architecture presentation output", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "A plan showing how streets and public spaces connect", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "A design showing daylight, ventilation, and energy choices", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "A home plan and views tailored to its residents", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "A set of interior views, finishes, and lighting studies", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "A measured record and reuse plan for a historic building", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "A landscape plan with planting and water strategies", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "A coordinated BIM model with schedules and details", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 9, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_10", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "Values", "competencyId": "",
+        "text": "Which outcome matters most to you when a project is complete?", "intent": "Assess architectural project outcomes valued", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "A neighborhood that is more connected and accessible", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "A building that stays comfortable with less energy", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "A household that feels at home in a well-planned space", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "People finding an interior intuitive and pleasant to use", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "A valued historic place continuing to serve the public", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "A greener site that supports people and local nature", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "A coordinated design that can be built as intended", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 10, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_11", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "Interests", "competencyId": "",
+        "text": "Which subject would you choose for a short architecture research project?", "intent": "Identify preferred architecture research themes", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "How street design affects daily travel choices", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "How building materials affect lifetime carbon emissions", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "How home layouts support changing family needs", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "How interior color and lighting affect wellbeing", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "How traditional construction can guide building repair", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "How urban trees reduce heat and improve outdoor comfort", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "How BIM improves coordination during construction", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 11, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_12", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "ProblemSolving", "competencyId": "",
+        "text": "Which early-stage design activity sounds most engaging?", "intent": "Identify preferred architecture concept development", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "Studying a site's streets, connections, and nearby services", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "Testing building orientation and passive cooling ideas", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "Turning a resident's needs into a home concept", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "Exploring how people move through an interior", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "Understanding the history and original structure of a site", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "Reading landform and natural patterns before shaping a site", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "Setting up a shared digital model for the design team", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 12, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_13", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "WorkStyle", "competencyId": "",
+        "text": "Where would you most like to spend time during a project?", "intent": "Assess preferred architecture work setting", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "Walking a neighborhood and observing how it is used", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "Testing a building's performance with design tools", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "Meeting residents and refining a home with them", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "Selecting materials and reviewing interior samples", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "Surveying a historic structure and its surroundings", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "Observing a site, its plants, soil, and drainage", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "Working through a detailed model with consultants", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 13, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_14", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "Goals", "competencyId": "",
+        "text": "Which kind of design decision would you most enjoy making?", "intent": "Identify preferred architecture design decisions", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "Where public routes and gathering spaces should connect", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "How form and materials can reduce energy demand", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "How rooms can adapt to everyday household routines", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "How lighting and surfaces shape an indoor experience", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "Which changes preserve the meaning of an older building", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "How paths and planting respond to land and climate", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "How design information is organized for construction", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 14, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_15", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "Interests", "competencyId": "",
+        "text": "Which type of drawing or model would you most enjoy developing?", "intent": "Assess preferred architecture representation", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "A neighborhood framework and movement diagram", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "A building section explaining shade and airflow", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "A home plan with carefully arranged private spaces", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "An interior perspective showing light and materials", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "A measured drawing of historic features and fabric", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "A site plan showing landform, paths, and planting", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "A coordinated digital model with construction details", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 15, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_16", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "Values", "competencyId": "",
+        "text": "Which future change in the built environment would you most like to support?", "intent": "Identify long-term built-environment interests", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "More inclusive and walkable cities", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "Buildings that use less energy and create less waste", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "Homes that are flexible, healthy, and accessible", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "Interiors that support wellbeing and different abilities", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "Historic places maintained and reused with care", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "Greener streets and public landscapes that handle heat", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "Building projects delivered with better digital coordination", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 16, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_17", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "ProblemSolving", "competencyId": "",
+        "text": "A new site is available. Which first question would you ask?", "intent": "Identify preferred architecture site analysis", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "How does it connect to transit, streets, and local services?", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "How can sun, wind, and resources shape the building?", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "What kind of home would best fit its future residents?", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "What indoor experience should people have there?", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "Are there historic structures or details to retain?", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "What landform, vegetation, and water patterns are present?", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "Which systems and consultants need coordinated modeling?", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 17, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_18", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "WorkStyle", "competencyId": "",
+        "text": "Which part of a project timeline would you most like to own?", "intent": "Assess preferred architecture project phase", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "Early area studies and public-realm planning", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "Design development focused on building performance", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "Concept through detailing for a residential project", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "Interior planning, specification, and fit-out", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "Survey, repair strategy, and adaptive reuse", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "Landscape concept, planting, and site implementation", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "Model coordination and documentation for construction", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 18, "isActive": true
+    },
+    {
+        "id": "Q_AFTERGRAD_ARCH_19", "phaseKey": "AfterGraduation", "subPhaseKey": "", "domain": "Architecture", "subdomain": "Architecture", "questionType": "multiple_choice", "languageComplexity": "Simple", "dimension": "Interests", "competencyId": "",
+        "text": "Which architecture case study would you be most curious to explore?", "intent": "Identify architecture case study interests", "targetDiscriminatesJson": "[]",
+        "options": [
+            { "index": 0, "text": "A transit-oriented neighborhood redevelopment", "signals": [{ "trait": "arch.urban", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 1, "text": "A net-zero building adapted to a hot climate", "signals": [{ "trait": "arch.sustainable", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 2, "text": "A compact home designed for a changing family", "signals": [{ "trait": "arch.residential", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 3, "text": "A public interior redesigned for accessibility", "signals": [{ "trait": "arch.interior", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 4, "text": "A historic building transformed for a new use", "signals": [{ "trait": "arch.conservation", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 5, "text": "A public park that restored a damaged urban site", "signals": [{ "trait": "arch.landscape", "weight": 5.0, "isRejection": false }], "isRejection": false },
+            { "index": 6, "text": "A complex building delivered through integrated BIM", "signals": [{ "trait": "arch.bim", "weight": 5.0, "isRejection": false }], "isRejection": false }
+        ], "displayOrder": 19, "isActive": true
+    }
+]

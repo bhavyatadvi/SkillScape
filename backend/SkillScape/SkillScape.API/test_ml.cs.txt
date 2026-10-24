@@ -1,0 +1,31 @@
+using System;
+using System.IO;
+using Microsoft.ML;
+using Microsoft.ML.Data;
+
+public class SalaryDataRow
+{
+    [LoadColumn(0)]
+    public string Domain { get; set; } = string.Empty;
+
+    [LoadColumn(1)]
+    public float YearsOfExperience { get; set; }
+
+    [LoadColumn(2)]
+    public float Salary { get; set; }
+}
+
+class Program
+{
+    static void Main()
+    {
+        var _mlContext = new MLContext(seed: 0);
+        string dataPath = Path.Combine(Environment.CurrentDirectory, "salary_data.csv");
+        var dataView = _mlContext.Data.LoadFromTextFile<SalaryDataRow>(dataPath, hasHeader: true, separatorChar: ',');
+        var pipeline = _mlContext.Transforms.Categorical.OneHotEncoding("DomainEncoded", "Domain")
+            .Append(_mlContext.Transforms.Concatenate("Features", "DomainEncoded", "YearsOfExperience"))
+            .Append(_mlContext.Regression.Trainers.FastTreeTweedie(labelColumnName: "Salary", featureColumnName: "Features"));
+        var model = pipeline.Fit(dataView);
+        Console.WriteLine("Success");
+    }
+}

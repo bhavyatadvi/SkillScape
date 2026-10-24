@@ -1,0 +1,132 @@
+.global-bg-container {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  overflow: hidden;
+  background-color: #F7F9FF; /* Base light tint */
+  pointer-events: none;
+}
+
+/* Layer 2: Subtle blueprint grid */
+.global-bg-grid {
+  position: absolute;
+  inset: -10%;
+  width: 120%;
+  height: 120%;
+  background-image:
+    linear-gradient(rgba(47, 98, 245, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(47, 98, 245, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+  opacity: 0.8;
+  mask-image: radial-gradient(circle at center, black 40%, transparent 95%);
+  -webkit-mask-image: radial-gradient(circle at center, black 40%, transparent 95%);
+}
+
+/* Layer 3: Large soft glowing blobs */
+.global-bg-glow-1 {
+  position: absolute;
+  top: -10%;
+  left: -5%;
+  width: 50vw;
+  height: 50vw;
+  background: radial-gradient(circle, rgba(47, 98, 245, 0.15) 0%, transparent 65%);
+  animation: float-glow-fast 12s ease-in-out infinite alternate;
+}
+
+.global-bg-glow-2 {
+  position: absolute;
+  bottom: 0%;
+  right: -5%;
+  width: 60vw;
+  height: 60vw;
+  background: radial-gradient(circle, rgba(14, 30, 80, 0.08) 0%, transparent 65%);
+  animation: float-glow-fast 15s ease-in-out infinite alternate-reverse;
+}
+
+.global-bg-glow-3 {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 70vw;
+  height: 70vw;
+  background: radial-gradient(circle, rgba(238, 243, 255, 0.7) 0%, transparent 70%);
+  animation: float-pulse 10s ease-in-out infinite alternate;
+  mix-blend-mode: overlay;
+}
+
+/* Layer 4: Subtle particles */
+.global-bg-particles {
+  position: absolute;
+  inset: 0;
+}
+
+.particle {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  /* Particles are now SVG icons, so no background color */
+}
+
+/* Generate 20 distinct particle animations cleanly */
+.particle:nth-child(4n + 1) { animation: float-up-1 12s linear infinite; }
+.particle:nth-child(4n + 2) { animation: float-up-2 15s linear infinite; }
+.particle:nth-child(4n + 3) { animation: float-up-3 10s linear infinite; }
+.particle:nth-child(4n + 4) { animation: float-up-4 18s linear infinite; }
+
+@keyframes float-glow-fast {
+  0% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(5%, 5%, 0) scale(1.1); }
+  100% { transform: translate3d(-3%, -4%, 0) scale(0.9); }
+}
+
+@keyframes float-pulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(1.05); opacity: 1; }
+}
+
+@keyframes float-up-1 {
+  0% { transform: translateY(110vh) translateX(0); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(-10vh) translateX(-40px); opacity: 0; }
+}
+@keyframes float-up-2 {
+  0% { transform: translateY(110vh) translateX(0); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(-10vh) translateX(60px); opacity: 0; }
+}
+@keyframes float-up-3 {
+  0% { transform: translateY(110vh) translateX(0) scale(1.5); opacity: 0; }
+  10% { opacity: 0.8; }
+  90% { opacity: 0.8; }
+  100% { transform: translateY(-10vh) translateX(-30px) scale(1.5); opacity: 0; }
+}
+@keyframes float-up-4 {
+  0% { transform: translateY(110vh) translateX(0) scale(0.5); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(-10vh) translateX(20px) scale(0.5); opacity: 0; }
+}
+
+/* Layer 5: Faint diagonal rays */
+.global-bg-rays {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    linear-gradient(65deg, transparent 45%, rgba(255,255,255,0.4) 48%, transparent 52%),
+    linear-gradient(-45deg, transparent 35%, rgba(238, 243, 255,0.3) 38%, transparent 42%);
+  opacity: 0.5;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .global-bg-glow-1,
+  .global-bg-glow-2,
+  .particle {
+    animation: none !important;
+  }
+}

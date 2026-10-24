@@ -1,0 +1,20 @@
+TABLE_QUALIFIER TABLE_OWNER TABLE_NAME COLUMN_NAME DATA_TYPE TYPE_NAME PRECISION LENGTH SCALE RADIX NULLABLE REMARKS COLUMN_DEF SQL_DATA_TYPE SQL_DATETIME_SUB CHAR_OCTET_LENGTH ORDINAL_POSITION IS_NULLABLE SS_DATA_TYPE
+--------------- ----------- ---------- ----------- --------- --------- --------- ------ ----- ----- -------- ------- ---------- ------------- ---------------- ----------------- ---------------- ----------- ------------
+SkillScapeDb dbo SalaryBenchmarks Id -9 nvarchar 450 900 NULL NULL 0 NULL NULL -9 NULL 900 1 NO 39
+SkillScapeDb dbo SalaryBenchmarks RoleKey -9 nvarchar 256 512 NULL NULL 0 NULL NULL -9 NULL 512 2 NO 39
+SkillScapeDb dbo SalaryBenchmarks CanonicalRole -10 ntext 1073741823 2147483646 NULL NULL 0 NULL NULL -10 NULL 2147483646 3 NO 39
+SkillScapeDb dbo SalaryBenchmarks OccupationFamily -10 ntext 1073741823 2147483646 NULL NULL 0 NULL NULL -10 NULL 2147483646 4 NO 39
+SkillScapeDb dbo SalaryBenchmarks Domain -10 ntext 1073741823 2147483646 NULL NULL 0 NULL NULL -10 NULL 2147483646 5 NO 39
+SkillScapeDb dbo SalaryBenchmarks Country -10 ntext 1073741823 2147483646 NULL NULL 0 NULL NULL -10 NULL 2147483646 6 NO 39
+SkillScapeDb dbo SalaryBenchmarks Currency -10 ntext 1073741823 2147483646 NULL NULL 0 NULL NULL -10 NULL 2147483646 7 NO 39
+SkillScapeDb dbo SalaryBenchmarks ExperienceBand -10 ntext 1073741823 2147483646 NULL NULL 0 NULL NULL -10 NULL 2147483646 8 NO 39
+SkillScapeDb dbo SalaryBenchmarks P25Salary 6 float 15 8 NULL 10 0 NULL NULL 6 NULL NULL 9 NO 62
+SkillScapeDb dbo SalaryBenchmarks P50Salary 6 float 15 8 NULL 10 0 NULL NULL 6 NULL NULL 10 NO 62
+SkillScapeDb dbo SalaryBenchmarks P75Salary 6 float 15 8 NULL 10 0 NULL NULL 6 NULL NULL 11 NO 62
+SkillScapeDb dbo SalaryBenchmarks DataSourceCount 4 int 10 4 0 10 0 NULL NULL 4 NULL NULL 12 NO 56
+SkillScapeDb dbo SalaryBenchmarks SourceDate -9 datetime2 27 54 NULL NULL 0 NULL NULL -9 NULL NULL 13 NO 0
+SkillScapeDb dbo SalaryBenchmarks LastUpdated -9 datetime2 27 54 NULL NULL 0 NULL NULL -9 NULL NULL 14 NO 0
+SkillScapeDb dbo SalaryBenchmarks DataQuality -10 ntext 1073741823 2147483646 NULL NULL 0 NULL NULL -10 NULL 2147483646 15 NO 39
+SkillScapeDb dbo SalaryBenchmarks Notes -10 ntext 1073741823 2147483646 NULL NULL 0 NULL NULL -10 NULL 2147483646 16 NO 39
+
+(16 rows affected)

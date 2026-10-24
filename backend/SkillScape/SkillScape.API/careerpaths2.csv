@@ -1,0 +1,795 @@
+Id,Title
+--,-----
+10th-art,Arts & Humanities
+10th-art-geog,Geography Branch
+10th-art-geog-f1,Geography Branch - Core Field
+10th-art-geog-f1-s1,Geography Branch - Core Field - Specialization
+10th-art-geog-f1-s1-r1,Lead Geography Branch - Core Field - Specialization
+10th-art-geog-f1-s1-r2,Senior Geography Branch - Core Field - Specialization Architect
+10th-art-hist,History Branch
+10th-art-hist-f1,History Branch - Core Field
+10th-art-hist-f1-s1,History Branch - Core Field - Specialization
+10th-art-hist-f1-s1-r1,Lead History Branch - Core Field - Specialization
+10th-art-hist-f1-s1-r2,Senior History Branch - Core Field - Specialization Architect
+10th-art-phil,Philosophy Branch
+10th-art-phil-f1,Philosophy Branch - Core Field
+10th-art-phil-f1-s1,Philosophy Branch - Core Field - Specialization
+10th-art-phil-f1-s1-r1,Lead Philosophy Branch - Core Field - Specialization
+10th-art-phil-f1-s1-r2,Senior Philosophy Branch - Core Field - Specialization Architect
+10th-art-polsci,Political Science Branch
+10th-art-polsci-f1,Political Science Branch - Core Field
+10th-art-polsci-f1-s1,Political Science Branch - Core Field - Specialization
+10th-art-polsci-f1-s1-r1,Lead Political Science Branch - Core Field - Specialization
+10th-art-polsci-f1-s1-r2,Senior Political Science Branch - Core Field - Specialization Architect
+10th-art-psych,Psychology Branch
+10th-art-psych-f1,Psychology Branch - Core Field
+10th-art-psych-f1-s1,Psychology Branch - Core Field - Specialization
+10th-art-psych-f1-s1-r1,Lead Psychology Branch - Core Field - Specialization
+10th-art-psych-f1-s1-r2,Senior Psychology Branch - Core Field - Specialization Architect
+10th-art-soc,Sociology Branch
+10th-art-soc-f1,Sociology Branch - Core Field
+10th-art-soc-f1-s1,Sociology Branch - Core Field - Specialization
+10th-art-soc-f1-s1-r1,Lead Sociology Branch - Core Field - Specialization
+10th-art-soc-f1-s1-r2,Senior Sociology Branch - Core Field - Specialization Architect
+10th-com,Commerce Stream
+10th-com-math,Commerce with Mathematics
+10th-com-math-f1,Commerce with Mathematics - Core Field
+10th-com-math-f1-s1,Commerce with Mathematics - Core Field - Specialization
+10th-com-math-f1-s1-r1,Lead Commerce with Mathematics - Core Field - Specialization
+10th-com-math-f1-s1-r2,Senior Commerce with Mathematics - Core Field - Specialization Architect
+10th-com-nomath,Commerce without Mathematics
+10th-com-nomath-f1,Commerce without Mathematics - Core Field
+10th-com-nomath-f1-s1,Commerce without Mathematics - Core Field - Specialization
+10th-com-nomath-f1-s1-r1,Lead Commerce without Mathematics - Core Field - Specialization
+10th-com-nomath-f1-s1-r2,Senior Commerce without Mathematics - Core Field - Specialization Architect
+10th-dip,Diploma Studies
+10th-dip-auto,Automobile Engineering Diploma
+10th-dip-auto-f1,Automobile Engineering Diploma - Core Field
+10th-dip-auto-f1-s1,Automobile Engineering Diploma - Core Field - Specialization
+10th-dip-auto-f1-s1-r1,Lead Automobile Engineering Diploma - Core Field - Specialization
+10th-dip-auto-f1-s1-r2,Senior Automobile Engineering Diploma - Core Field - Specialization Architect
+10th-dip-chem,Chemical Engineering Diploma
+10th-dip-chem-f1,Chemical Engineering Diploma - Core Field
+10th-dip-chem-f1-s1,Chemical Engineering Diploma - Core Field - Specialization
+10th-dip-chem-f1-s1-r1,Lead Chemical Engineering Diploma - Core Field - Specialization
+10th-dip-chem-f1-s1-r2,Senior Chemical Engineering Diploma - Core Field - Specialization Architect
+10th-dip-civil,Civil Engineering Diploma
+10th-dip-civil-f1,Civil Engineering Diploma - Core Field
+10th-dip-civil-f1-s1,Civil Engineering Diploma - Core Field - Specialization
+10th-dip-civil-f1-s1-r1,Lead Civil Engineering Diploma - Core Field - Specialization
+10th-dip-civil-f1-s1-r2,Senior Civil Engineering Diploma - Core Field - Specialization Architect
+10th-dip-comp,Computer Engineering Diploma
+10th-dip-comp-f1,Computer Engineering Diploma - Core Field
+10th-dip-comp-f1-s1,Computer Engineering Diploma - Core Field - Specialization
+10th-dip-comp-f1-s1-r1,Lead Computer Engineering Diploma - Core Field - Specialization
+10th-dip-comp-f1-s1-r2,Senior Computer Engineering Diploma - Core Field - Specialization Architect
+10th-dip-elec,Electrical Engineering Diploma
+10th-dip-elec-f1,Electrical Engineering Diploma - Core Field
+10th-dip-elec-f1-s1,Electrical Engineering Diploma - Core Field - Specialization
+10th-dip-elec-f1-s1-r1,Lead Electrical Engineering Diploma - Core Field - Specialization
+10th-dip-elec-f1-s1-r2,Senior Electrical Engineering Diploma - Core Field - Specialization Architect
+10th-dip-entc,Electronics Engineering Diploma
+10th-dip-entc-f1,Electronics Engineering Diploma - Core Field
+10th-dip-entc-f1-s1,Electronics Engineering Diploma - Core Field - Specialization
+10th-dip-entc-f1-s1-r1,Lead Electronics Engineering Diploma - Core Field - Specialization
+10th-dip-entc-f1-s1-r2,Senior Electronics Engineering Diploma - Core Field - Specialization Architect
+10th-dip-mech,Mechanical Engineering Diploma
+10th-dip-mecha,Mechatronics Diploma
+10th-dip-mecha-f1,Mechatronics Diploma - Core Field
+10th-dip-mecha-f1-s1,Mechatronics Diploma - Core Field - Specialization
+10th-dip-mecha-f1-s1-r1,Lead Mechatronics Diploma - Core Field - Specialization
+10th-dip-mecha-f1-s1-r2,Senior Mechatronics Diploma - Core Field - Specialization Architect
+10th-dip-mech-f1,Mechanical Engineering Diploma - Core Field
+10th-dip-mech-f1-s1,Mechanical Engineering Diploma - Core Field - Specialization
+10th-dip-mech-f1-s1-r1,Lead Mechanical Engineering Diploma - Core Field - Specialization
+10th-dip-mech-f1-s1-r2,Senior Mechanical Engineering Diploma - Core Field - Specialization Architect
+10th-dip-text,Textile Technology Diploma
+10th-dip-text-f1,Textile Technology Diploma - Core Field
+10th-dip-text-f1-s1,Textile Technology Diploma - Core Field - Specialization
+10th-dip-text-f1-s1-r1,Lead Textile Technology Diploma - Core Field - Specialization
+10th-dip-text-f1-s1-r2,Senior Textile Technology Diploma - Core Field - Specialization Architect
+10th-iti,ITI Trades
+10th-iti-elec,Electrician Trade ITI
+10th-iti-elec-f1,Electrician Trade ITI - Core Field
+10th-iti-elec-f1-s1,Electrician Trade ITI - Core Field - Specialization
+10th-iti-elec-f1-s1-r1,Lead Electrician Trade ITI - Core Field - Specialization
+10th-iti-elec-f1-s1-r2,Senior Electrician Trade ITI - Core Field - Specialization Architect
+10th-iti-fitter,Fitter Trade ITI
+10th-iti-fitter-f1,Fitter Trade ITI - Core Field
+10th-iti-fitter-f1-s1,Fitter Trade ITI - Core Field - Specialization
+10th-iti-fitter-f1-s1-r1,Lead Fitter Trade ITI - Core Field - Specialization
+10th-iti-fitter-f1-s1-r2,Senior Fitter Trade ITI - Core Field - Specialization Architect
+10th-iti-mech,Mechanic Trade ITI
+10th-iti-mech-f1,Mechanic Trade ITI - Core Field
+10th-iti-mech-f1-s1,Mechanic Trade ITI - Core Field - Specialization
+10th-iti-mech-f1-s1-r1,Lead Mechanic Trade ITI - Core Field - Specialization
+10th-iti-mech-f1-s1-r2,Senior Mechanic Trade ITI - Core Field - Specialization Architect
+10th-iti-plumb,Plumber Trade ITI
+10th-iti-plumb-f1,Plumber Trade ITI - Core Field
+10th-iti-plumb-f1-s1,Plumber Trade ITI - Core Field - Specialization
+10th-iti-plumb-f1-s1-r1,Lead Plumber Trade ITI - Core Field - Specialization
+10th-iti-plumb-f1-s1-r2,Senior Plumber Trade ITI - Core Field - Specialization Architect
+10th-iti-tech,Technician Trade ITI
+10th-iti-tech-f1,Technician Trade ITI - Core Field
+10th-iti-tech-f1-s1,Technician Trade ITI - Core Field - Specialization
+10th-iti-tech-f1-s1-r1,Lead Technician Trade ITI - Core Field - Specialization
+10th-iti-tech-f1-s1-r2,Senior Technician Trade ITI - Core Field - Specialization Architect
+10th-iti-welder,Welder Trade ITI
+10th-iti-welder-f1,Welder Trade ITI - Core Field
+10th-iti-welder-f1-s1,Welder Trade ITI - Core Field - Specialization
+10th-iti-welder-f1-s1-r1,Lead Welder Trade ITI - Core Field - Specialization
+10th-iti-welder-f1-s1-r2,Senior Welder Trade ITI - Core Field - Specialization Architect
+10th-sci,Science Stream
+10th-sci-pcb,PCB (Physics, Chemistry, Biology)
+10th-sci-pcb-f1,PCB (Physics, Chemistry, Biology) - Core Field
+10th-sci-pcb-f1-s1,PCB (Physics, Chemistry, Biology) - Core Field - Specialization
+10th-sci-pcb-f1-s1-r1,Lead PCB (Physics, Chemistry, Biology) - Core Field - Specialization
+10th-sci-pcb-f1-s1-r2,Senior PCB (Physics, Chemistry, Biology) - Core Field - Specialization Architect
+10th-sci-pcm,PCM (Physics, Chemistry, Math)
+10th-sci-pcmb,PCMB (Bio-Math Combination)
+10th-sci-pcmb-f1,PCMB (Bio-Math Combination) - Core Field
+10th-sci-pcmb-f1-s1,PCMB (Bio-Math Combination) - Core Field - Specialization
+10th-sci-pcmb-f1-s1-r1,Lead PCMB (Bio-Math Combination) - Core Field - Specialization
+10th-sci-pcmb-f1-s1-r2,Senior PCMB (Bio-Math Combination) - Core Field - Specialization Architect
+10th-sci-pcm-f1,PCM (Physics, Chemistry, Math) - Core Field
+10th-sci-pcm-f1-s1,PCM (Physics, Chemistry, Math) - Core Field - Specialization
+10th-sci-pcm-f1-s1-r1,Lead PCM (Physics, Chemistry, Math) - Core Field - Specialization
+10th-sci-pcm-f1-s1-r2,Senior PCM (Physics, Chemistry, Math) - Core Field - Specialization Architect
+10th-voc,Vocational Training
+10th-voc-anim,Animation & VFX
+10th-voc-anim-f1,Animation & VFX - Core Field
+10th-voc-anim-f1-s1,Animation & VFX - Core Field - Specialization
+10th-voc-anim-f1-s1-r1,Lead Animation & VFX - Core Field - Specialization
+10th-voc-anim-f1-s1-r2,Senior Animation & VFX - Core Field - Specialization Architect
+10th-voc-cul,Culinary Arts
+10th-voc-cul-f1,Culinary Arts - Core Field
+10th-voc-cul-f1-s1,Culinary Arts - Core Field - Specialization
+10th-voc-cul-f1-s1-r1,Lead Culinary Arts - Core Field - Specialization
+10th-voc-cul-f1-s1-r2,Senior Culinary Arts - Core Field - Specialization Architect
+10th-voc-dm,Digital Marketing
+10th-voc-dm-f1,Digital Marketing - Core Field
+10th-voc-dm-f1-s1,Digital Marketing - Core Field - Specialization
+10th-voc-dm-f1-s1-r1,Lead Digital Marketing - Core Field - Specialization
+10th-voc-dm-f1-s1-r2,Senior Digital Marketing - Core Field - Specialization Architect
+10th-voc-gd,Graphic Design
+10th-voc-gd-f1,Graphic Design - Core Field
+10th-voc-gd-f1-s1,Graphic Design - Core Field - Specialization
+10th-voc-gd-f1-s1-r1,Lead Graphic Design - Core Field - Specialization
+10th-voc-gd-f1-s1-r2,Senior Graphic Design - Core Field - Specialization Architect
+10th-voc-hosp,Hospitality Operations
+10th-voc-hosp-f1,Hospitality Operations - Core Field
+10th-voc-hosp-f1-s1,Hospitality Operations - Core Field - Specialization
+10th-voc-hosp-f1-s1-r1,Lead Hospitality Operations - Core Field - Specialization
+10th-voc-hosp-f1-s1-r2,Senior Hospitality Operations - Core Field - Specialization Architect
+10th-voc-photo,Photography Skills
+10th-voc-photo-f1,Photography Skills - Core Field
+10th-voc-photo-f1-s1,Photography Skills - Core Field - Specialization
+10th-voc-photo-f1-s1-r1,Lead Photography Skills - Core Field - Specialization
+10th-voc-photo-f1-s1-r2,Senior Photography Skills - Core Field - Specialization Architect
+12th-art,Arts Stream
+12th-art-civil,Civil Services Preparations
+12th-art-civil-state,State Service Commission
+12th-art-civil-state-s1,State Service Commission - Specialization
+12th-art-civil-state-s1-r1,Lead State Service Commission - Specialization
+12th-art-civil-state-s1-r2,Senior State Service Commission - Specialization Architect
+12th-art-civil-upsc,UPSC IAS Preparation
+12th-art-civil-upsc-s1,UPSC IAS Preparation - Specialization
+12th-art-civil-upsc-s1-r1,Lead UPSC IAS Preparation - Specialization
+12th-art-civil-upsc-s1-r2,Senior UPSC IAS Preparation - Specialization Architect
+12th-art-des,Creative Design Studies
+12th-art-des-fashion,Fashion & Apparel Design
+12th-art-des-fashion-s1,Fashion & Apparel Design - Specialization
+12th-art-des-fashion-s1-r1,Lead Fashion & Apparel Design - Specialization
+12th-art-des-fashion-s1-r2,Senior Fashion & Apparel Design - Specialization Architect
+12th-art-des-interior,Commercial Interior Design
+12th-art-des-interior-s1,Commercial Interior Design - Specialization
+12th-art-des-interior-s1-r1,Lead Commercial Interior Design - Specialization
+12th-art-des-interior-s1-r2,Senior Commercial Interior Design - Specialization Architect
+12th-art-des-product,Industrial Product Design
+12th-art-des-product-s1,Industrial Product Design - Specialization
+12th-art-des-product-s1-r1,Lead Industrial Product Design - Specialization
+12th-art-des-product-s1-r2,Senior Industrial Product Design - Specialization Architect
+12th-art-des-uiux,UI/UX Designer
+12th-art-des-uiux-s1,UI/UX Designer - Specialization
+12th-art-des-uiux-s1-r1,Lead UI/UX Designer - Specialization
+12th-art-des-uiux-s1-r2,Senior UI/UX Designer - Specialization Architect
+12th-art-edu,Education & Teaching
+12th-art-edu-lecturer,College Lecturer
+12th-art-edu-lecturer-s1,College Lecturer - Specialization
+12th-art-edu-lecturer-s1-r1,Lead College Lecturer - Specialization
+12th-art-edu-lecturer-s1-r2,Senior College Lecturer - Specialization Architect
+12th-art-edu-prof,University Professor
+12th-art-edu-prof-s1,University Professor - Specialization
+12th-art-edu-prof-s1-r1,Lead University Professor - Specialization
+12th-art-edu-prof-s1-r2,Senior University Professor - Specialization Architect
+12th-art-edu-teacher,High School Teacher
+12th-art-edu-teacher-s1,High School Teacher - Specialization
+12th-art-edu-teacher-s1-r1,Lead High School Teacher - Specialization
+12th-art-edu-teacher-s1-r2,Senior High School Teacher - Specialization Architect
+12th-art-law,Legal Studies & Judiciary
+12th-art-law-corporate,Corporate Lawyer
+12th-art-law-corporate-s1,Corporate Lawyer - Specialization
+12th-art-law-corporate-s1-r1,Lead Corporate Lawyer - Specialization
+12th-art-law-corporate-s1-r2,Senior Corporate Lawyer - Specialization Architect
+12th-art-law-criminal,Criminal Litigation Lawyer
+12th-art-law-criminal-s1,Criminal Litigation Lawyer - Specialization
+12th-art-law-criminal-s1-r1,Lead Criminal Litigation Lawyer - Specialization
+12th-art-law-criminal-s1-r2,Senior Criminal Litigation Lawyer - Specialization Architect
+12th-art-law-judge,Judicial Magistrate
+12th-art-law-judge-s1,Judicial Magistrate - Specialization
+12th-art-law-judge-s1-r1,Lead Judicial Magistrate - Specialization
+12th-art-law-judge-s1-r2,Senior Judicial Magistrate - Specialization Architect
+12th-art-media,Media & Journalism
+12th-art-media-creator,Digital Content Creator
+12th-art-media-creator-s1,Digital Content Creator - Specialization
+12th-art-media-creator-s1-r1,Lead Digital Content Creator - Specialization
+12th-art-media-creator-s1-r2,Senior Digital Content Creator - Specialization Architect
+12th-art-media-film,Cinematography & Film Making
+12th-art-media-film-s1,Cinematography & Film Making - Specialization
+12th-art-media-film-s1-r1,Lead Cinematography & Film Making - Specialization
+12th-art-media-film-s1-r2,Senior Cinematography & Film Making - Specialization Architect
+12th-art-media-journal,Print & Digital Journalism
+12th-art-media-journal-s1,Print & Digital Journalism - Specialization
+12th-art-media-journal-s1-r1,Lead Print & Digital Journalism - Specialization
+12th-art-media-journal-s1-r2,Senior Print & Digital Journalism - Specialization Architect
+12th-art-psych,Psychology Practices
+12th-art-psych-clinical,Clinical Psychologist
+12th-art-psych-clinical-s1,Clinical Psychologist - Specialization
+12th-art-psych-clinical-s1-r1,Lead Clinical Psychologist - Specialization
+12th-art-psych-clinical-s1-r2,Senior Clinical Psychologist - Specialization Architect
+12th-art-psych-counsel,Family & Career Counsellor
+12th-art-psych-counsel-s1,Family & Career Counsellor - Specialization
+12th-art-psych-counsel-s1-r1,Lead Family & Career Counsellor - Specialization
+12th-art-psych-counsel-s1-r2,Senior Family & Career Counsellor - Specialization Architect
+12th-art-soc,Social Sciences & Policy
+12th-art-soc-anthro,Anthropology Studies
+12th-art-soc-anthro-s1,Anthropology Studies - Specialization
+12th-art-soc-anthro-s1-r1,Lead Anthropology Studies - Specialization
+12th-art-soc-anthro-s1-r2,Senior Anthropology Studies - Specialization Architect
+12th-art-soc-policy,Public Policy Advisor
+12th-art-soc-policy-s1,Public Policy Advisor - Specialization
+12th-art-soc-policy-s1-r1,Lead Public Policy Advisor - Specialization
+12th-art-soc-policy-s1-r2,Senior Public Policy Advisor - Specialization Architect
+12th-art-soc-sociology,Sociology Research
+12th-art-soc-sociology-s1,Sociology Research - Specialization
+12th-art-soc-sociology-s1-r1,Lead Sociology Research - Specialization
+12th-art-soc-sociology-s1-r2,Senior Sociology Research - Specialization Architect
+12th-com,Commerce Stream
+12th-com-acct,Accounting & Taxation
+12th-com-acct-auditor,Statutory Auditor
+12th-com-acct-auditor-s1,Statutory Auditor - Specialization
+12th-com-acct-auditor-s1-r1,Lead Statutory Auditor - Specialization
+12th-com-acct-auditor-s1-r2,Senior Statutory Auditor - Specialization Architect
+12th-com-acct-tax,Taxation Consultant
+12th-com-acct-tax-s1,Taxation Consultant - Specialization
+12th-com-acct-tax-s1-r1,Lead Taxation Consultant - Specialization
+12th-com-acct-tax-s1-r2,Senior Taxation Consultant - Specialization Architect
+12th-com-bank,Banking Services
+12th-com-bank-ib,Investment Banking Specialist
+12th-com-bank-ib-s1,Investment Banking Specialist - Specialization
+12th-com-bank-ib-s1-r1,Lead Investment Banking Specialist - Specialization
+12th-com-bank-ib-s1-r2,Senior Investment Banking Specialist - Specialization Architect
+12th-com-bank-retail,Retail & Branch Banking
+12th-com-bank-retail-s1,Retail & Branch Banking - Specialization
+12th-com-bank-retail-s1-r1,Lead Retail & Branch Banking - Specialization
+12th-com-bank-retail-s1-r2,Senior Retail & Branch Banking - Specialization Architect
+12th-com-bus,Business & Startups
+12th-com-bus-bba,BBA Management studies
+12th-com-bus-bba-s1,BBA Management studies - Specialization
+12th-com-bus-bba-s1-r1,Lead BBA Management studies - Specialization
+12th-com-bus-bba-s1-r2,Senior BBA Management studies - Specialization Architect
+12th-com-bus-ent,Business Entrepreneurship
+12th-com-bus-ent-s1,Business Entrepreneurship - Specialization
+12th-com-bus-ent-s1-r1,Lead Business Entrepreneurship - Specialization
+12th-com-bus-ent-s1-r2,Senior Business Entrepreneurship - Specialization Architect
+12th-com-bus-founder,Startup Founder
+12th-com-bus-founder-s1,Startup Founder - Specialization
+12th-com-bus-founder-s1-r1,Lead Startup Founder - Specialization
+12th-com-bus-founder-s1-r2,Senior Startup Founder - Specialization Architect
+12th-com-bus-mba,MBA Corporate Finance
+12th-com-bus-mba-s1,MBA Corporate Finance - Specialization
+12th-com-bus-mba-s1-r1,Lead MBA Corporate Finance - Specialization
+12th-com-bus-mba-s1-r2,Senior MBA Corporate Finance - Specialization Architect
+12th-com-econ,Economics & Analysis
+12th-com-econ-economist,Professional Economist
+12th-com-econ-economist-s1,Professional Economist - Specialization
+12th-com-econ-economist-s1-r1,Lead Professional Economist - Specialization
+12th-com-econ-economist-s1-r2,Senior Professional Economist - Specialization Architect
+12th-com-econ-policy,Economic Policy Analyst
+12th-com-econ-policy-s1,Economic Policy Analyst - Specialization
+12th-com-econ-policy-s1-r1,Lead Economic Policy Analyst - Specialization
+12th-com-econ-policy-s1-r2,Senior Economic Policy Analyst - Specialization Architect
+12th-com-fin,Finance Specialties
+12th-com-fin-ca,Chartered Accountant (CA)
+12th-com-fin-ca-s1,Chartered Accountant (CA) - Specialization
+12th-com-fin-ca-s1-r1,Lead Chartered Accountant (CA) - Specialization
+12th-com-fin-ca-s1-r2,Senior Chartered Accountant (CA) - Specialization Architect
+12th-com-fin-cfa,Chartered Financial Analyst
+12th-com-fin-cfa-s1,Chartered Financial Analyst - Specialization
+12th-com-fin-cfa-s1-r1,Lead Chartered Financial Analyst - Specialization
+12th-com-fin-cfa-s1-r2,Senior Chartered Financial Analyst - Specialization Architect
+12th-com-fin-cfp,Certified Financial Planner
+12th-com-fin-cfp-s1,Certified Financial Planner - Specialization
+12th-com-fin-cfp-s1-r1,Lead Certified Financial Planner - Specialization
+12th-com-fin-cfp-s1-r2,Senior Certified Financial Planner - Specialization Architect
+12th-com-fin-cma,Cost & Management Accountant
+12th-com-fin-cma-s1,Cost & Management Accountant - Specialization
+12th-com-fin-cma-s1-r1,Lead Cost & Management Accountant - Specialization
+12th-com-fin-cma-s1-r2,Senior Cost & Management Accountant - Specialization Architect
+12th-com-fin-cs,Company Secretary (CS)
+12th-com-fin-cs-s1,Company Secretary (CS) - Specialization
+12th-com-fin-cs-s1-r1,Lead Company Secretary (CS) - Specialization
+12th-com-fin-cs-s1-r2,Senior Company Secretary (CS) - Specialization Architect
+12th-com-fin-frm,Financial Risk Manager
+12th-com-fin-frm-s1,Financial Risk Manager - Specialization
+12th-com-fin-frm-s1-r1,Lead Financial Risk Manager - Specialization
+12th-com-fin-frm-s1-r2,Senior Financial Risk Manager - Specialization Architect
+12th-com-fintech,Financial Technology
+12th-com-fintech-analyst,Financial Analyst
+12th-com-fintech-analyst-s1,Financial Analyst - Specialization
+12th-com-fintech-analyst-s1-r1,Lead Financial Analyst - Specialization
+12th-com-fintech-analyst-s1-r2,Senior Financial Analyst - Specialization Architect
+12th-com-fintech-quant,Quant Analytics Specialist
+12th-com-fintech-quant-s1,Quant Analytics Specialist - Specialization
+12th-com-fintech-quant-s1-r1,Lead Quant Analytics Specialist - Specialization
+12th-com-fintech-quant-s1-r2,Senior Quant Analytics Specialist - Specialization Architect
+12th-com-fintech-wealth,Wealth Manager
+12th-com-fintech-wealth-s1,Wealth Manager - Specialization
+12th-com-fintech-wealth-s1-r1,Lead Wealth Manager - Specialization
+12th-com-fintech-wealth-s1-r2,Senior Wealth Manager - Specialization Architect
+12th-pcb,Science PCB Stream
+12th-pcb-hc,Healthcare Professions
+12th-pcb-hc-occup,Occupational Therapy
+12th-pcb-hc-occup-s1,Occupational Therapy - Specialization
+12th-pcb-hc-occup-s1-r1,Lead Occupational Therapy - Specialization
+12th-pcb-hc-occup-s1-r2,Senior Occupational Therapy - Specialization Architect
+12th-pcb-hc-path,Pathology Lab Diagnostics
+12th-pcb-hc-path-s1,Pathology Lab Diagnostics - Specialization
+12th-pcb-hc-path-s1-r1,Lead Pathology Lab Diagnostics - Specialization
+12th-pcb-hc-path-s1-r2,Senior Pathology Lab Diagnostics - Specialization Architect
+12th-pcb-hc-physio,Physiotherapy & Rehab
+12th-pcb-hc-physio-s1,Physiotherapy & Rehab - Specialization
+12th-pcb-hc-physio-s1-r1,Lead Physiotherapy & Rehab - Specialization
+12th-pcb-hc-physio-s1-r2,Senior Physiotherapy & Rehab - Specialization Architect
+12th-pcb-hc-radio,Radiology Tech
+12th-pcb-hc-radio-s1,Radiology Tech - Specialization
+12th-pcb-hc-radio-s1-r1,Lead Radiology Tech - Specialization
+12th-pcb-hc-radio-s1-r2,Senior Radiology Tech - Specialization Architect
+12th-pcb-med,Medical Sciences (MBBS/BDS)
+12th-pcb-med-bams,BAMS Ayurvedic Practitioner
+12th-pcb-med-bams-s1,BAMS Ayurvedic Practitioner - Specialization
+12th-pcb-med-bams-s1-r1,Lead BAMS Ayurvedic Practitioner - Specialization
+12th-pcb-med-bams-s1-r2,Senior BAMS Ayurvedic Practitioner - Specialization Architect
+12th-pcb-med-bds,BDS Dentist
+12th-pcb-med-bds-s1,BDS Dentist - Specialization
+12th-pcb-med-bds-s1-r1,Lead BDS Dentist - Specialization
+12th-pcb-med-bds-s1-r2,Senior BDS Dentist - Specialization Architect
+12th-pcb-med-bhms,BHMS Homeopathic Doctor
+12th-pcb-med-bhms-s1,BHMS Homeopathic Doctor - Specialization
+12th-pcb-med-bhms-s1-r1,Lead BHMS Homeopathic Doctor - Specialization
+12th-pcb-med-bhms-s1-r2,Senior BHMS Homeopathic Doctor - Specialization Architect
+12th-pcb-med-biotech,Biotechnology Studies
+12th-pcb-med-biotech-s1,Biotechnology Studies - Specialization
+12th-pcb-med-biotech-s1-r1,Lead Biotechnology Studies - Specialization
+12th-pcb-med-biotech-s1-r2,Senior Biotechnology Studies - Specialization Architect
+12th-pcb-med-bpt,BPT Physiotherapist
+12th-pcb-med-bpt-s1,BPT Physiotherapist - Specialization
+12th-pcb-med-bpt-s1-r1,Lead BPT Physiotherapist - Specialization
+12th-pcb-med-bpt-s1-r2,Senior BPT Physiotherapist - Specialization Architect
+12th-pcb-med-genetics,Genetics Research
+12th-pcb-med-genetics-s1,Genetics Research - Specialization
+12th-pcb-med-genetics-s1-r1,Lead Genetics Research - Specialization
+12th-pcb-med-genetics-s1-r2,Senior Genetics Research - Specialization Architect
+12th-pcb-med-mbbs,MBBS Doctor
+12th-pcb-med-mbbs-s1,MBBS Doctor - Specialization
+12th-pcb-med-mbbs-s1-r1,Lead MBBS Doctor - Specialization
+12th-pcb-med-mbbs-s1-r2,Senior MBBS Doctor - Specialization Architect
+12th-pcb-med-nurse,B.Sc Nursing Care
+12th-pcb-med-nurse-s1,B.Sc Nursing Care - Specialization
+12th-pcb-med-nurse-s1-r1,Lead B.Sc Nursing Care - Specialization
+12th-pcb-med-nurse-s1-r2,Senior B.Sc Nursing Care - Specialization Architect
+12th-pcb-med-pharm,Pharmacy Practice
+12th-pcb-med-pharm-s1,Pharmacy Practice - Specialization
+12th-pcb-med-pharm-s1-r1,Lead Pharmacy Practice - Specialization
+12th-pcb-med-pharm-s1-r2,Senior Pharmacy Practice - Specialization Architect
+12th-pcb-med-vet,Veterinary Medicine
+12th-pcb-med-vet-s1,Veterinary Medicine - Specialization
+12th-pcb-med-vet-s1-r1,Lead Veterinary Medicine - Specialization
+12th-pcb-med-vet-s1-r2,Senior Veterinary Medicine - Specialization Architect
+12th-pcb-res,Biological Research
+12th-pcb-res-biomed,Biomedical Science Studies
+12th-pcb-res-biomed-s1,Biomedical Science Studies - Specialization
+12th-pcb-res-biomed-s1-r1,Lead Biomedical Science Studies - Specialization
+12th-pcb-res-biomed-s1-r2,Senior Biomedical Science Studies - Specialization Architect
+12th-pcb-res-immuno,Immunology & Vaccine Studies
+12th-pcb-res-immuno-s1,Immunology & Vaccine Studies - Specialization
+12th-pcb-res-immuno-s1-r1,Lead Immunology & Vaccine Studies - Specialization
+12th-pcb-res-immuno-s1-r2,Senior Immunology & Vaccine Studies - Specialization Architect
+12th-pcb-res-neuro,Neuroscience Research
+12th-pcb-res-neuro-s1,Neuroscience Research - Specialization
+12th-pcb-res-neuro-s1-r1,Lead Neuroscience Research - Specialization
+12th-pcb-res-neuro-s1-r2,Senior Neuroscience Research - Specialization Architect
+12th-pcm,Science PCM Stream
+12th-pcm-arch,Architecture Studies
+12th-pcm-arch-barch,B.Arch Architecture
+12th-pcm-arch-barch-s1,B.Arch Architecture - Specialization
+12th-pcm-arch-barch-s1-r1,Lead B.Arch Architecture - Specialization
+12th-pcm-arch-barch-s1-r2,Senior B.Arch Architecture - Specialization Architect
+12th-pcm-arch-interior,Interior Designing
+12th-pcm-arch-interior-s1,Interior Designing - Specialization
+12th-pcm-arch-interior-s1-r1,Lead Interior Designing - Specialization
+12th-pcm-arch-interior-s1-r2,Senior Interior Designing - Specialization Architect
+12th-pcm-arch-urban,Urban & City Planning
+12th-pcm-arch-urban-s1,Urban & City Planning - Specialization
+12th-pcm-arch-urban-s1-r1,Lead Urban & City Planning - Specialization
+12th-pcm-arch-urban-s1-r2,Senior Urban & City Planning - Specialization Architect
+12th-pcm-av,Aviation Tracks
+12th-pcm-av-maint,Aircraft Maintenance
+12th-pcm-av-maint-s1,Aircraft Maintenance - Specialization
+12th-pcm-av-maint-s1-r1,Lead Aircraft Maintenance - Specialization
+12th-pcm-av-maint-s1-r2,Senior Aircraft Maintenance - Specialization Architect
+12th-pcm-av-mgmt,Aviation Operations Management
+12th-pcm-av-mgmt-s1,Aviation Operations Management - Specialization
+12th-pcm-av-mgmt-s1-r1,Lead Aviation Operations Management - Specialization
+12th-pcm-av-mgmt-s1-r2,Senior Aviation Operations Management - Specialization Architect
+12th-pcm-av-pilot,Commercial & Fighter Pilot
+12th-pcm-av-pilot-s1,Commercial & Fighter Pilot - Specialization
+12th-pcm-av-pilot-s1-r1,Lead Commercial & Fighter Pilot - Specialization
+12th-pcm-av-pilot-s1-r2,Senior Commercial & Fighter Pilot - Specialization Architect
+12th-pcmb,Science PCMB Stream
+12th-pcmb-eng,Engineering & Technology
+12th-pcmb-eng-f1,Engineering & Technology - Core Field
+12th-pcmb-eng-f1-s1,Engineering & Technology - Core Field - Specialization
+12th-pcmb-eng-f1-s1-r1,Lead Engineering & Technology - Core Field - Specialization
+12th-pcmb-eng-f1-s1-r2,Senior Engineering & Technology - Core Field - Specialization Architect
+12th-pcmb-env,Environment, Agriculture & Food Science
+12th-pcmb-env-f1,Environment, Agriculture & Food Science - Core Field
+12th-pcmb-env-f1-s1,Environment, Agriculture & Food Science - Core Field - Specialization
+12th-pcmb-env-f1-s1-r1,Lead Environment, Agriculture & Food Science - Core Field - Specialization
+12th-pcmb-env-f1-s1-r2,Senior Environment, Agriculture & Food Science - Core Field - Specialization Architect
+12th-pcmb-life,Life Sciences & Biotechnology
+12th-pcmb-life-f1,Life Sciences & Biotechnology - Core Field
+12th-pcmb-life-f1-s1,Life Sciences & Biotechnology - Core Field - Specialization
+12th-pcmb-life-f1-s1-r1,Lead Life Sciences & Biotechnology - Core Field - Specialization
+12th-pcmb-life-f1-s1-r2,Senior Life Sciences & Biotechnology - Core Field - Specialization Architect
+12th-pcmb-med,Medical & Healthcare
+12th-pcmb-med-f1,Medical & Healthcare - Core Field
+12th-pcmb-med-f1-s1,Medical & Healthcare - Core Field - Specialization
+12th-pcmb-med-f1-s1-r1,Lead Medical & Healthcare - Core Field - Specialization
+12th-pcmb-med-f1-s1-r2,Senior Medical & Healthcare - Core Field - Specialization Architect
+12th-pcmb-sci,Pure Sciences & Research
+12th-pcmb-sci-f1,Pure Sciences & Research - Core Field
+12th-pcmb-sci-f1-s1,Pure Sciences & Research - Core Field - Specialization
+12th-pcmb-sci-f1-s1-r1,Lead Pure Sciences & Research - Core Field - Specialization
+12th-pcmb-sci-f1-s1-r2,Senior Pure Sciences & Research - Core Field - Specialization Architect
+12th-pcm-def,Defence Commissioning
+12th-pcm-def-army,Indian Army
+12th-pcm-def-army-s1,Indian Army - Specialization
+12th-pcm-def-army-s1-r1,Lead Indian Army - Specialization
+12th-pcm-def-army-s1-r2,Senior Indian Army - Specialization Architect
+12th-pcm-def-iaf,Indian Air Force
+12th-pcm-def-iaf-s1,Indian Air Force - Specialization
+12th-pcm-def-iaf-s1-r1,Lead Indian Air Force - Specialization
+12th-pcm-def-iaf-s1-r2,Senior Indian Air Force - Specialization Architect
+12th-pcm-def-navy,Indian Navy
+12th-pcm-def-navy-s1,Indian Navy - Specialization
+12th-pcm-def-navy-s1-r1,Lead Indian Navy - Specialization
+12th-pcm-def-navy-s1-r2,Senior Indian Navy - Specialization Architect
+12th-pcm-def-nda,NDA Academy Commissions
+12th-pcm-def-nda-s1,NDA Academy Commissions - Specialization
+12th-pcm-def-nda-s1-r1,Lead NDA Academy Commissions - Specialization
+12th-pcm-def-nda-s1-r2,Senior NDA Academy Commissions - Specialization Architect
+12th-pcm-eng,Engineering (B.Tech/B.E)
+12th-pcm-eng-aero,Aerospace & Aeronautical Eng
+12th-pcm-eng-aero-s1,Aerospace & Aeronautical Eng - Specialization
+12th-pcm-eng-aero-s1-r1,Lead Aerospace & Aeronautical Eng - Specialization
+12th-pcm-eng-aero-s1-r2,Senior Aerospace & Aeronautical Eng - Specialization Architect
+12th-pcm-eng-ai,Artificial Intelligence Engineering
+12th-pcm-eng-ai-s1,Artificial Intelligence Engineering - Specialization
+12th-pcm-eng-ai-s1-r1,Lead Artificial Intelligence Engineering - Specialization
+12th-pcm-eng-ai-s1-r2,Senior Artificial Intelligence Engineering - Specialization Architect
+12th-pcm-eng-auto,Automobile Design Engineering
+12th-pcm-eng-auto-s1,Automobile Design Engineering - Specialization
+12th-pcm-eng-auto-s1-r1,Lead Automobile Design Engineering - Specialization
+12th-pcm-eng-auto-s1-r2,Senior Automobile Design Engineering - Specialization Architect
+12th-pcm-eng-biotech,Biotechnology Engineering
+12th-pcm-eng-biotech-s1,Biotechnology Engineering - Specialization
+12th-pcm-eng-biotech-s1-r1,Lead Biotechnology Engineering - Specialization
+12th-pcm-eng-biotech-s1-r2,Senior Biotechnology Engineering - Specialization Architect
+12th-pcm-eng-chem,Chemical Engineering
+12th-pcm-eng-chem-s1,Chemical Engineering - Specialization
+12th-pcm-eng-chem-s1-r1,Lead Chemical Engineering - Specialization
+12th-pcm-eng-chem-s1-r2,Senior Chemical Engineering - Specialization Architect
+12th-pcm-eng-civil,Civil & Structural Engineering
+12th-pcm-eng-civil-s1,Civil & Structural Engineering - Specialization
+12th-pcm-eng-civil-s1-r1,Lead Civil & Structural Engineering - Specialization
+12th-pcm-eng-civil-s1-r2,Senior Civil & Structural Engineering - Specialization Architect
+12th-pcm-eng-cloud,Cloud Computing Engineering
+12th-pcm-eng-cloud-s1,Cloud Computing Engineering - Specialization
+12th-pcm-eng-cloud-s1-r1,Lead Cloud Computing Engineering - Specialization
+12th-pcm-eng-cloud-s1-r2,Senior Cloud Computing Engineering - Specialization Architect
+12th-pcm-eng-cs,Computer Science Engineering
+12th-pcm-eng-cs-ai,AI Engineer
+12th-pcm-eng-cs-ai-r1,Lead AI Engineer
+12th-pcm-eng-cs-ai-r2,Senior AI Engineer Architect
+12th-pcm-eng-cs-arch,Solution Architect
+12th-pcm-eng-cs-arch-r1,Lead Solution Architect
+12th-pcm-eng-cs-arch-r2,Senior Solution Architect Architect
+12th-pcm-eng-cs-arvr,AR/VR Developer
+12th-pcm-eng-cs-arvr-r1,Lead AR/VR Developer
+12th-pcm-eng-cs-arvr-r2,Senior AR/VR Developer Architect
+12th-pcm-eng-cs-back,Backend Engineer
+12th-pcm-eng-cs-back-r1,Lead Backend Engineer
+12th-pcm-eng-cs-back-r2,Senior Backend Engineer Architect
+12th-pcm-eng-cs-block,Blockchain Developer
+12th-pcm-eng-cs-block-r1,Lead Blockchain Developer
+12th-pcm-eng-cs-block-r2,Senior Blockchain Developer Architect
+12th-pcm-eng-cs-cloud,Cloud Engineer
+12th-pcm-eng-cs-cloud-r1,Lead Cloud Engineer
+12th-pcm-eng-cs-cloud-r2,Senior Cloud Engineer Architect
+12th-pcm-eng-cs-cto,CTO Path
+12th-pcm-eng-cs-cto-r1,Lead CTO Path
+12th-pcm-eng-cs-cto-r2,Senior CTO Path Architect
+12th-pcm-eng-cs-data,Data Engineer
+12th-pcm-eng-cs-data-r1,Lead Data Engineer
+12th-pcm-eng-cs-data-r2,Senior Data Engineer Architect
+12th-pcm-eng-cs-devops,DevOps Engineer
+12th-pcm-eng-cs-devops-r1,Lead DevOps Engineer
+12th-pcm-eng-cs-devops-r2,Senior DevOps Engineer Architect
+12th-pcm-eng-cs-embed,Embedded Engineer
+12th-pcm-eng-cs-embed-r1,Lead Embedded Engineer
+12th-pcm-eng-cs-embed-r2,Senior Embedded Engineer Architect
+12th-pcm-eng-cs-front,Frontend Engineer
+12th-pcm-eng-cs-front-r1,Lead Frontend Engineer
+12th-pcm-eng-cs-front-r2,Senior Frontend Engineer Architect
+12th-pcm-eng-cs-full,Full Stack Engineer
+12th-pcm-eng-cs-full-r1,Lead Full Stack Engineer
+12th-pcm-eng-cs-full-r2,Senior Full Stack Engineer Architect
+12th-pcm-eng-cs-game,Game Developer
+12th-pcm-eng-cs-game-r1,Lead Game Developer
+12th-pcm-eng-cs-game-r2,Senior Game Developer Architect
+12th-pcm-eng-cs-ml,ML Engineer
+12th-pcm-eng-cs-ml-r1,Lead ML Engineer
+12th-pcm-eng-cs-ml-r2,Senior ML Engineer Architect
+12th-pcm-eng-cs-prod,Product Engineer
+12th-pcm-eng-cs-prod-r1,Lead Product Engineer
+12th-pcm-eng-cs-prod-r2,Senior Product Engineer Architect
+12th-pcm-eng-cs-sre,Site Reliability Engineer
+12th-pcm-eng-cs-sre-r1,Lead Site Reliability Engineer
+12th-pcm-eng-cs-sre-r2,Senior Site Reliability Engineer Architect
+12th-pcm-eng-cyber,Cyber Security Systems
+12th-pcm-eng-cyber-s1,Cyber Security Systems - Specialization
+12th-pcm-eng-cyber-s1-r1,Lead Cyber Security Systems - Specialization
+12th-pcm-eng-cyber-s1-r2,Senior Cyber Security Systems - Specialization Architect
+12th-pcm-eng-ds,Data Science Engineering
+12th-pcm-eng-ds-s1,Data Science Engineering - Specialization
+12th-pcm-eng-ds-s1-r1,Lead Data Science Engineering - Specialization
+12th-pcm-eng-ds-s1-r2,Senior Data Science Engineering - Specialization Architect
+12th-pcm-eng-elec,Electronics Engineering
+12th-pcm-eng-elec-s1,Electronics Engineering - Specialization
+12th-pcm-eng-elec-s1-r1,Lead Electronics Engineering - Specialization
+12th-pcm-eng-elec-s1-r2,Senior Electronics Engineering - Specialization Architect
+12th-pcm-eng-electrical,Electrical Engineering
+12th-pcm-eng-electrical-s1,Electrical Engineering - Specialization
+12th-pcm-eng-electrical-s1-r1,Lead Electrical Engineering - Specialization
+12th-pcm-eng-electrical-s1-r2,Senior Electrical Engineering - Specialization Architect
+12th-pcm-eng-env,Environmental Engineering
+12th-pcm-eng-env-s1,Environmental Engineering - Specialization
+12th-pcm-eng-env-s1-r1,Lead Environmental Engineering - Specialization
+12th-pcm-eng-env-s1-r2,Senior Environmental Engineering - Specialization Architect
+12th-pcm-eng-marine,Marine Engineering
+12th-pcm-eng-marine-s1,Marine Engineering - Specialization
+12th-pcm-eng-marine-s1-r1,Lead Marine Engineering - Specialization
+12th-pcm-eng-marine-s1-r2,Senior Marine Engineering - Specialization Architect
+12th-pcm-eng-mech,Mechanical Engineering
+12th-pcm-eng-mecha,Mechatronics Engineering
+12th-pcm-eng-mecha-s1,Mechatronics Engineering - Specialization
+12th-pcm-eng-mecha-s1-r1,Lead Mechatronics Engineering - Specialization
+12th-pcm-eng-mecha-s1-r2,Senior Mechatronics Engineering - Specialization Architect
+12th-pcm-eng-mech-s1,Mechanical Engineering - Specialization
+12th-pcm-eng-mech-s1-r1,Lead Mechanical Engineering - Specialization
+12th-pcm-eng-mech-s1-r2,Senior Mechanical Engineering - Specialization Architect
+12th-pcm-eng-ml,Machine Learning Systems
+12th-pcm-eng-ml-s1,Machine Learning Systems - Specialization
+12th-pcm-eng-ml-s1-r1,Lead Machine Learning Systems - Specialization
+12th-pcm-eng-ml-s1-r2,Senior Machine Learning Systems - Specialization Architect
+12th-pcm-eng-nano,Nanotechnology Systems
+12th-pcm-eng-nano-s1,Nanotechnology Systems - Specialization
+12th-pcm-eng-nano-s1-r1,Lead Nanotechnology Systems - Specialization
+12th-pcm-eng-nano-s1-r2,Senior Nanotechnology Systems - Specialization Architect
+12th-pcm-eng-petr,Petroleum & Gas Engineering
+12th-pcm-eng-petr-s1,Petroleum & Gas Engineering - Specialization
+12th-pcm-eng-petr-s1-r1,Lead Petroleum & Gas Engineering - Specialization
+12th-pcm-eng-petr-s1-r2,Senior Petroleum & Gas Engineering - Specialization Architect
+12th-pcm-eng-robo,Robotics Systems Engineering
+12th-pcm-eng-robo-s1,Robotics Systems Engineering - Specialization
+12th-pcm-eng-robo-s1-r1,Lead Robotics Systems Engineering - Specialization
+12th-pcm-eng-robo-s1-r2,Senior Robotics Systems Engineering - Specialization Architect
+12th-pcm-eng-se,Software Engineering Practice
+12th-pcm-eng-se-s1,Software Engineering Practice - Specialization
+12th-pcm-eng-se-s1-r1,Lead Software Engineering Practice - Specialization
+12th-pcm-eng-se-s1-r2,Senior Software Engineering Practice - Specialization Architect
+12th-pcm-res,Core Research Sciences
+12th-pcm-res-astro,Astronomy Research
+12th-pcm-res-astro-s1,Astronomy Research - Specialization
+12th-pcm-res-astro-s1-r1,Lead Astronomy Research - Specialization
+12th-pcm-res-astro-s1-r2,Senior Astronomy Research - Specialization Architect
+12th-pcm-res-math,Mathematics Research
+12th-pcm-res-math-s1,Mathematics Research - Specialization
+12th-pcm-res-math-s1-r1,Lead Mathematics Research - Specialization
+12th-pcm-res-math-s1-r2,Senior Mathematics Research - Specialization Architect
+12th-pcm-res-phys,Physics Research
+12th-pcm-res-phys-s1,Physics Research - Specialization
+12th-pcm-res-phys-s1-r1,Lead Physics Research - Specialization
+12th-pcm-res-phys-s1-r2,Senior Physics Research - Specialization Architect
+12th-pcm-res-space,Space Science & Technology
+12th-pcm-res-space-s1,Space Science & Technology - Specialization
+12th-pcm-res-space-s1-r1,Lead Space Science & Technology - Specialization
+12th-pcm-res-space-s1-r2,Senior Space Science & Technology - Specialization Architect
+gov-bank,Banking PO & RBI Services
+gov-bank-sd1,Banking PO & RBI Services - Core Domain
+gov-bank-sd1-f1,Banking PO & RBI Services - Core Domain - Core Field
+gov-bank-sd1-f1-s1,Banking PO & RBI Services - Core Domain - Core Field - Specialization
+gov-bank-sd1-f1-s1-r1,Lead Banking PO & RBI Services - Core Domain - Core Field - Specialization
+gov-bank-sd1-f1-s1-r2,Senior Banking PO & RBI Services - Core Domain - Core Field - Specialization Architect
+gov-bank-sd2,Banking PO & RBI Services - Advanced Studies
+gov-bank-sd2-f1,Banking PO & RBI Services - Advanced Studies - Core Field
+gov-bank-sd2-f1-s1,Banking PO & RBI Services - Advanced Studies - Core Field - Specialization
+gov-bank-sd2-f1-s1-r1,Lead Banking PO & RBI Services - Advanced Studies - Core Field - Specialization
+gov-bank-sd2-f1-s1-r2,Senior Banking PO & RBI Services - Advanced Studies - Core Field - Specialization Architect
+gov-civil,Civil Services
+gov-civil-sd1,Civil Services - Core Domain
+gov-civil-sd1-f1,Civil Services - Core Domain - Core Field
+gov-civil-sd1-f1-s1,Civil Services - Core Domain - Core Field - Specialization
+gov-civil-sd1-f1-s1-r1,Lead Civil Services - Core Domain - Core Field - Specialization
+gov-civil-sd1-f1-s1-r2,Senior Civil Services - Core Domain - Core Field - Specialization Architect
+gov-civil-sd2,Civil Services - Advanced Studies
+gov-civil-sd2-f1,Civil Services - Advanced Studies - Core Field
+gov-civil-sd2-f1-s1,Civil Services - Advanced Studies - Core Field - Specialization
+gov-civil-sd2-f1-s1-r1,Lead Civil Services - Advanced Studies - Core Field - Specialization
+gov-civil-sd2-f1-s1-r2,Senior Civil Services - Advanced Studies - Core Field - Specialization Architect
+gov-def,Defence Commission
+gov-def-sd1,Defence Commission - Core Domain
+gov-def-sd1-f1,Defence Commission - Core Domain - Core Field
+gov-def-sd1-f1-s1,Defence Commission - Core Domain - Core Field - Specialization
+gov-def-sd1-f1-s1-r1,Lead Defence Commission - Core Domain - Core Field - Specialization
+gov-def-sd1-f1-s1-r2,Senior Defence Commission - Core Domain - Core Field - Specialization Architect
+gov-def-sd2,Defence Commission - Advanced Studies
+gov-def-sd2-f1,Defence Commission - Advanced Studies - Core Field
+gov-def-sd2-f1-s1,Defence Commission - Advanced Studies - Core Field - Specialization
+gov-def-sd2-f1-s1-r1,Lead Defence Commission - Advanced Studies - Core Field - Specialization
+gov-def-sd2-f1-s1-r2,Senior Defence Commission - Advanced Studies - Core Field - Specialization Architect
+grad-art,Creative Arts & Design
+grad-art-sd1,Creative Arts & Design - Core Domain
+grad-art-sd1-f1,Creative Arts & Design - Core Domain - Core Field
+grad-art-sd1-f1-s1,Creative Arts & Design - Core Domain - Core Field - Specialization
+grad-art-sd1-f1-s1-r1,Lead Creative Arts & Design - Core Domain - Core Field - Specialization
+grad-art-sd1-f1-s1-r2,Senior Creative Arts & Design - Core Domain - Core Field - Specialization Architect
+grad-art-sd2,Creative Arts & Design - Advanced Studies
+grad-art-sd2-f1,Creative Arts & Design - Advanced Studies - Core Field
+grad-art-sd2-f1-s1,Creative Arts & Design - Advanced Studies - Core Field - Specialization
+grad-art-sd2-f1-s1-r1,Lead Creative Arts & Design - Advanced Studies - Core Field - Specialization
+grad-art-sd2-f1-s1-r2,Senior Creative Arts & Design - Advanced Studies - Core Field - Specialization Architect
+grad-bus,Business Administration
+grad-bus-sd1,Business Administration - Core Domain
+grad-bus-sd1-f1,Business Administration - Core Domain - Core Field
+grad-bus-sd1-f1-s1,Business Administration - Core Domain - Core Field - Specialization
+grad-bus-sd1-f1-s1-r1,Lead Business Administration - Core Domain - Core Field - Specialization
+grad-bus-sd1-f1-s1-r2,Senior Business Administration - Core Domain - Core Field - Specialization Architect
+grad-bus-sd2,Business Administration - Advanced Studies
+grad-bus-sd2-f1,Business Administration - Advanced Studies - Core Field
+grad-bus-sd2-f1-s1,Business Administration - Advanced Studies - Core Field - Specialization
+grad-bus-sd2-f1-s1-r1,Lead Business Administration - Advanced Studies - Core Field - Specialization
+grad-bus-sd2-f1-s1-r2,Senior Business Administration - Advanced Studies - Core Field - Specialization Architect
+grad-cs,Computer Science & IT
+grad-cs-sd1,Computer Science & IT - Core Domain
+grad-cs-sd1-f1,Computer Science & IT - Core Domain - Core Field
+grad-cs-sd1-f1-s1,Computer Science & IT - Core Domain - Core Field - Specialization
+grad-cs-sd1-f1-s1-r1,Lead Computer Science & IT - Core Domain - Core Field - Specialization
+grad-cs-sd1-f1-s1-r2,Senior Computer Science & IT - Core Domain - Core Field - Specialization Architect
+grad-cs-sd2,Computer Science & IT - Advanced Studies
+grad-cs-sd2-f1,Computer Science & IT - Advanced Studies - Core Field
+grad-cs-sd2-f1-s1,Computer Science & IT - Advanced Studies - Core Field - Specialization
+grad-cs-sd2-f1-s1-r1,Lead Computer Science & IT - Advanced Studies - Core Field - Specialization
+grad-cs-sd2-f1-s1-r2,Senior Computer Science & IT - Advanced Studies - Core Field - Specialization Architect
+grad-eng,Engineering Specializations
+grad-eng-sd1,Engineering Specializations - Core Domain
+grad-eng-sd1-f1,Engineering Specializations - Core Domain - Core Field
+grad-eng-sd1-f1-s1,Engineering Specializations - Core Domain - Core Field - Specialization
+grad-eng-sd1-f1-s1-r1,Lead Engineering Specializations - Core Domain - Core Field - Specialization
+grad-eng-sd1-f1-s1-r2,Senior Engineering Specializations - Core Domain - Core Field - Specialization Architect
+grad-eng-sd2,Engineering Specializations - Advanced Studies
+grad-eng-sd2-f1,Engineering Specializations - Advanced Studies - Core Field
+grad-eng-sd2-f1-s1,Engineering Specializations - Advanced Studies - Core Field - Specialization
+grad-eng-sd2-f1-s1-r1,Lead Engineering Specializations - Advanced Studies - Core Field - Specialization
+grad-eng-sd2-f1-s1-r2,Senior Engineering Specializations - Advanced Studies - Core Field - Specialization Architect
+grad-med,Clinical & Healthcare Practice
+grad-med-sd1,Clinical & Healthcare Practice - Core Domain
+grad-med-sd1-f1,Clinical & Healthcare Practice - Core Domain - Core Field
+grad-med-sd1-f1-s1,Clinical & Healthcare Practice - Core Domain - Core Field - Specialization
+grad-med-sd1-f1-s1-r1,Lead Clinical & Healthcare Practice - Core Domain - Core Field - Specialization
+grad-med-sd1-f1-s1-r2,Senior Clinical & Healthcare Practice - Core Domain - Core Field - Specialization Architect
+grad-med-sd2,Clinical & Healthcare Practice - Advanced Studies
+grad-med-sd2-f1,Clinical & Healthcare Practice - Advanced Studies - Core Field
+grad-med-sd2-f1-s1,Clinical & Healthcare Practice - Advanced Studies - Core Field - Specialization
+grad-med-sd2-f1-s1-r1,Lead Clinical & Healthcare Practice - Advanced Studies - Core Field - Specialization
+grad-med-sd2-f1-s1-r2,Senior Clinical & Healthcare Practice - Advanced Studies - Core Field - Specialization Architect
+int-mba,Global MBA Programs
+int-mba-sd1,Global MBA Programs - Core Domain
+int-mba-sd1-f1,Global MBA Programs - Core Domain - Core Field
+int-mba-sd1-f1-s1,Global MBA Programs - Core Domain - Core Field - Specialization
+int-mba-sd1-f1-s1-r1,Lead Global MBA Programs - Core Domain - Core Field - Specialization
+int-mba-sd1-f1-s1-r2,Senior Global MBA Programs - Core Domain - Core Field - Specialization Architect
+int-mba-sd2,Global MBA Programs - Advanced Studies
+int-mba-sd2-f1,Global MBA Programs - Advanced Studies - Core Field
+int-mba-sd2-f1-s1,Global MBA Programs - Advanced Studies - Core Field - Specialization
+int-mba-sd2-f1-s1-r1,Lead Global MBA Programs - Advanced Studies - Core Field - Specialization
+int-mba-sd2-f1-s1-r2,Senior Global MBA Programs - Advanced Studies - Core Field - Specialization Architect
+int-ms,MS in STEM Fields
+int-ms-sd1,MS in STEM Fields - Core Domain
+int-ms-sd1-f1,MS in STEM Fields - Core Domain - Core Field
+int-ms-sd1-f1-s1,MS in STEM Fields - Core Domain - Core Field - Specialization
+int-ms-sd1-f1-s1-r1,Lead MS in STEM Fields - Core Domain - Core Field - Specialization
+int-ms-sd1-f1-s1-r2,Senior MS in STEM Fields - Core Domain - Core Field - Specialization Architect
+int-ms-sd2,MS in STEM Fields - Advanced Studies
+int-ms-sd2-f1,MS in STEM Fields - Advanced Studies - Core Field
+int-ms-sd2-f1-s1,MS in STEM Fields - Advanced Studies - Core Field - Specialization
+int-ms-sd2-f1-s1-r1,Lead MS in STEM Fields - Advanced Studies - Core Field - Specialization
+int-ms-sd2-f1-s1-r2,Senior MS in STEM Fields - Advanced Studies - Core Field - Specialization Architect
+pg-phd,PhD & Academic Research
+pg-phd-sd1,PhD & Academic Research - Core Domain
+pg-phd-sd1-f1,PhD & Academic Research - Core Domain - Core Field
+pg-phd-sd1-f1-s1,PhD & Academic Research - Core Domain - Core Field - Specialization
+pg-phd-sd1-f1-s1-r1,Lead PhD & Academic Research - Core Domain - Core Field - Specialization
+pg-phd-sd1-f1-s1-r2,Senior PhD & Academic Research - Core Domain - Core Field - Specialization Architect
+pg-phd-sd2,PhD & Academic Research - Advanced Studies
+pg-phd-sd2-f1,PhD & Academic Research - Advanced Studies - Core Field
+pg-phd-sd2-f1-s1,PhD & Academic Research - Advanced Studies - Core Field - Specialization
+pg-phd-sd2-f1-s1-r1,Lead PhD & Academic Research - Advanced Studies - Core Field - Specialization
+pg-phd-sd2-f1-s1-r2,Senior PhD & Academic Research - Advanced Studies - Core Field - Specialization Architect
+pg-prof,Advanced Professional Practice
+pg-prof-sd1,Advanced Professional Practice - Core Domain
+pg-prof-sd1-f1,Advanced Professional Practice - Core Domain - Core Field
+pg-prof-sd1-f1-s1,Advanced Professional Practice - Core Domain - Core Field - Specialization
+pg-prof-sd1-f1-s1-r1,Lead Advanced Professional Practice - Core Domain - Core Field - Specialization
+pg-prof-sd1-f1-s1-r2,Senior Advanced Professional Practice - Core Domain - Core Field - Specialization Architect
+pg-prof-sd2,Advanced Professional Practice - Advanced Studies
+pg-prof-sd2-f1,Advanced Professional Practice - Advanced Studies - Core Field
+pg-prof-sd2-f1-s1,Advanced Professional Practice - Advanced Studies - Core Field - Specialization
+pg-prof-sd2-f1-s1-r1,Lead Advanced Professional Practice - Advanced Studies - Core Field - Specialization
+pg-prof-sd2-f1-s1-r2,Senior Advanced Professional Practice - Advanced Studies - Core Field - Specialization Architect
+swi-des,Switching to Creative Design
+swi-des-sd1,Switching to Creative Design - Core Domain
+swi-des-sd1-f1,Switching to Creative Design - Core Domain - Core Field
+swi-des-sd1-f1-s1,Switching to Creative Design - Core Domain - Core Field - Specialization
+swi-des-sd1-f1-s1-r1,Lead Switching to Creative Design - Core Domain - Core Field - Specialization
+swi-des-sd1-f1-s1-r2,Senior Switching to Creative Design - Core Domain - Core Field - Specialization Architect
+swi-des-sd2,Switching to Creative Design - Advanced Studies
+swi-des-sd2-f1,Switching to Creative Design - Advanced Studies - Core Field
+swi-des-sd2-f1-s1,Switching to Creative Design - Advanced Studies - Core Field - Specialization
+swi-des-sd2-f1-s1-r1,Lead Switching to Creative Design - Advanced Studies - Core Field - Specialization
+swi-des-sd2-f1-s1-r2,Senior Switching to Creative Design - Advanced Studies - Core Field - Specialization Architect
+swi-mgmt,Switching to Management & PM
+swi-mgmt-sd1,Switching to Management & PM - Core Domain
+swi-mgmt-sd1-f1,Switching to Management & PM - Core Domain - Core Field
+swi-mgmt-sd1-f1-s1,Switching to Management & PM - Core Domain - Core Field - Specialization
+swi-mgmt-sd1-f1-s1-r1,Lead Switching to Management & PM - Core Domain - Core Field - Specialization
+swi-mgmt-sd1-f1-s1-r2,Senior Switching to Management & PM - Core Domain - Core Field - Specialization Architect
+swi-mgmt-sd2,Switching to Management & PM - Advanced Studies
+swi-mgmt-sd2-f1,Switching to Management & PM - Advanced Studies - Core Field
+swi-mgmt-sd2-f1-s1,Switching to Management & PM - Advanced Studies - Core Field - Specialization
+swi-mgmt-sd2-f1-s1-r1,Lead Switching to Management & PM - Advanced Studies - Core Field - Specialization
+swi-mgmt-sd2-f1-s1-r2,Senior Switching to Management & PM - Advanced Studies - Core Field - Specialization Architect
+swi-tech,Switching to Software Engineering
+swi-tech-sd1,Switching to Software Engineering - Core Domain
+swi-tech-sd1-f1,Switching to Software Engineering - Core Domain - Core Field
+swi-tech-sd1-f1-s1,Switching to Software Engineering - Core Domain - Core Field - Specialization
+swi-tech-sd1-f1-s1-r1,Lead Switching to Software Engineering - Core Domain - Core Field - Specialization
+swi-tech-sd1-f1-s1-r2,Senior Switching to Software Engineering - Core Domain - Core Field - Specialization Architect
+swi-tech-sd2,Switching to Software Engineering - Advanced Studies
+swi-tech-sd2-f1,Switching to Software Engineering - Advanced Studies - Core Field
+swi-tech-sd2-f1-s1,Switching to Software Engineering - Advanced Studies - Core Field - Specialization
+swi-tech-sd2-f1-s1-r1,Lead Switching to Software Engineering - Advanced Studies - Core Field - Specialization
+swi-tech-sd2-f1-s1-r2,Senior Switching to Software Engineering - Advanced Studies - Core Field - Specialization Architect
+
+(791 rows affected)

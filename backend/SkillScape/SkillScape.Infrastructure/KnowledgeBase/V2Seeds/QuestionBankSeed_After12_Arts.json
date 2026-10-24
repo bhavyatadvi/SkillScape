@@ -1,0 +1,754 @@
+[
+    {
+        "id": "Q_ART_DEG_01",
+        "phaseKey": "After12th",
+        "subPhaseKey": "arts",
+        "questionType": "DegreePreference",
+        "languageComplexity": "Simple",
+        "text": "In the humanities and arts, where does your strongest interest lie?",
+        "targetDiscriminatesJson": "[\"deg.ba.psych\", \"deg.ba.llb\", \"deg.bdes\", \"deg.ba.journalism\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Understanding human behavior, mental health, and cognitive processes.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.psych",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "arts.psych",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Debating, understanding the legal system, fighting cases, and corporate compliance.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.llb",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "prof.cs",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Visual aesthetics, user interfaces, fashion, or graphic design.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bdes",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "arts.des",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Writing, reporting news, mass communication, and media production.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.journalism",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "arts.media.jour",
+                        "weight": 0.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_ART_SOC_02",
+        "phaseKey": "After12th",
+        "subPhaseKey": "arts",
+        "questionType": "Interest",
+        "languageComplexity": "Intermediate",
+        "text": "Which of these societal aspects do you find most compelling to study?",
+        "targetDiscriminatesJson": "[\"deg.ba.socio\", \"deg.ba.polsci\", \"deg.ba.history\", \"deg.ba.english\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "How communities, cultures, and social structures evolve.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.socio",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Government policies, international relations, and political systems.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.polsci",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "gov.admin",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Ancient civilizations, historical events, and archaeology.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.history",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Classic literature, poetry, and linguistic analysis.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.english",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "arts.edu",
+                        "weight": 0.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_ART_ENV_03",
+        "phaseKey": "After12th",
+        "subPhaseKey": "arts",
+        "questionType": "WorkEnvironment",
+        "languageComplexity": "Simple",
+        "text": "What kind of work environment fits your personality best?",
+        "targetDiscriminatesJson": "[\"deg.bfa\", \"deg.ba.journalism\", \"deg.ba.llb\", \"deg.ba.psych\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "A quiet studio where I can paint, sculpt, or create fine art independently.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bfa",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "arts.fine",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "A chaotic, fast-paced newsroom where I am always chasing the next story.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.journalism",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "A formal courtroom or corporate office defending clients and arguing cases.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.llb",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "A private clinic setting where I can counsel individuals 1-on-1.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.psych",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_ART_TECH_04",
+        "phaseKey": "After12th",
+        "subPhaseKey": "arts",
+        "questionType": "Interest",
+        "languageComplexity": "Intermediate",
+        "text": "How do you feel about integrating digital technology into your arts career?",
+        "targetDiscriminatesJson": "[\"deg.bdes.anim\", \"deg.bdes.ui\", \"deg.ba\", \"deg.bca\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "I love 3D modeling, digital animation, and video game design.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bdes.anim",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "arts.des.anim",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "I enjoy designing websites, user interfaces, and mobile app layouts.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bdes.ui",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "arts.des.ui",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "I prefer traditional mediums like physical writing, paper, or canvas.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "deg.bfa",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "I actually want to learn to code and program the software itself.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bca",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_ART_GOV_05",
+        "phaseKey": "After12th",
+        "subPhaseKey": "arts",
+        "questionType": "Goal",
+        "languageComplexity": "Simple",
+        "text": "Are you primarily taking Arts to prepare for Civil Services (UPSC) or Government Exams?",
+        "targetDiscriminatesJson": "[\"gov.admin\", \"deg.ba.polsci\", \"deg.ba.history\", \"arts.media\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Yes, my ultimate goal is to become an IAS/IPS officer or join civil services.",
+                "signals": [
+                    {
+                        "nodeId": "gov.admin",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.ba.polsci",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "deg.ba.history",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "I might give government exams, but I also want a strong backup in academia or teaching.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.edu",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "arts.edu",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "No, I want to work in the private sector (corporate law, design, HR).",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.llb",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "deg.bdes",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "No, I want to pursue a creative field like media, writing, or film.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.journalism",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "arts.media",
+                        "weight": 0.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_ARTS_001",
+        "phaseKey": "After12th",
+        "subPhaseKey": "arts",
+        "questionType": "ScenarioBased",
+        "languageComplexity": "Simple",
+        "text": "A client is accused of a serious criminal offence. Which part of the case would you find most intellectually interesting?",
+        "targetDiscriminatesJson": "[\"deg.ba.llb\", \"deg.bba.llb\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Building the defence arguments and representing the client in court",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.llb",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "arts.law.criminal",
+                        "weight": 0.85
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Investigating the evidence, identifying inconsistencies, and locating witnesses",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.llb",
+                        "weight": 0.75
+                    },
+                    {
+                        "nodeId": "arts.law",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Analysing the constitutional or procedural issues that could affect the verdict",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.llb",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "arts.law.const",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Writing about the broader legal and policy implications of the case",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.journalism",
+                        "weight": 0.7
+                    },
+                    {
+                        "nodeId": "arts.law",
+                        "weight": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_ARTS_002",
+        "phaseKey": "After12th",
+        "subPhaseKey": "arts",
+        "questionType": "SubfieldDiscriminator",
+        "languageComplexity": "Intermediate",
+        "text": "Within the legal profession, which area of law would you be most excited to specialise in?",
+        "targetDiscriminatesJson": "[\"arts.law.corporate\", \"arts.law.criminal\", \"arts.law.ip\", \"arts.law.cyber\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Corporate law - advising companies on mergers, contracts, and governance",
+                "signals": [
+                    {
+                        "nodeId": "arts.law.corporate",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "deg.bba.llb",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Criminal law - prosecuting or defending individuals in criminal cases",
+                "signals": [
+                    {
+                        "nodeId": "arts.law.criminal",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "deg.ba.llb",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Intellectual property law - protecting patents, trademarks, and copyrights",
+                "signals": [
+                    {
+                        "nodeId": "arts.law.ip",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Cyber law and technology policy - advising on digital privacy and regulation",
+                "signals": [
+                    {
+                        "nodeId": "arts.law.cyber",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_ARTS_003",
+        "phaseKey": "After12th",
+        "subPhaseKey": "arts",
+        "questionType": "ResearchPreference",
+        "languageComplexity": "Simple",
+        "text": "You are studying why students in a school perform very differently under exam pressure. Which part of the research would interest you most?",
+        "targetDiscriminatesJson": "[\"arts.psych\", \"deg.ba.psych\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Understanding how cognitive processes like memory and attention change under stress",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.psych",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "arts.psych.cognitive",
+                        "weight": 0.85
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Studying the emotional and behavioural patterns of students during stressful periods",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.psych",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "arts.psych.clinical",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Designing and testing interventions that reduce student anxiety and improve outcomes",
+                "signals": [
+                    {
+                        "nodeId": "arts.psych.applied",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.ba.psych",
+                        "weight": 0.75
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Analysing performance data across thousands of students to find systemic patterns",
+                "signals": [
+                    {
+                        "nodeId": "arts.psych.research",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "com.mgmt.analytics",
+                        "weight": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_ARTS_004",
+        "phaseKey": "After12th",
+        "subPhaseKey": "arts",
+        "questionType": "ProjectPreference",
+        "languageComplexity": "Simple",
+        "text": "A technology company discovers that a competitor is using its patented invention without permission. Which role would interest you?",
+        "targetDiscriminatesJson": "[\"arts.law.ip\", \"arts.law.corporate\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Building the legal case around the intellectual property infringement",
+                "signals": [
+                    {
+                        "nodeId": "arts.law.ip",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Negotiating a commercial licensing or settlement agreement between the companies",
+                "signals": [
+                    {
+                        "nodeId": "arts.law.corporate",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Writing a detailed investigative article about the corporate dispute and its implications",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.journalism",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "arts.media.jour",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Designing awareness materials to communicate the brand position to the public",
+                "signals": [
+                    {
+                        "nodeId": "arts.des",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "com.mktg",
+                        "weight": 0.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_ARTS_005",
+        "phaseKey": "After12th",
+        "subPhaseKey": "arts",
+        "questionType": "TaskPreference",
+        "languageComplexity": "Simple",
+        "text": "In a media or journalism career, which type of work would you find most rewarding?",
+        "targetDiscriminatesJson": "[\"deg.ba.journalism\", \"arts.media.film\", \"arts.media.content\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Investigating and breaking a major story that holds institutions accountable",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.journalism",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "arts.media.jour",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Directing or producing a documentary film that changes public perspectives",
+                "signals": [
+                    {
+                        "nodeId": "arts.media.film",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Creating engaging content such as articles, videos, or podcasts for digital audiences",
+                "signals": [
+                    {
+                        "nodeId": "arts.media.content",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.ba.journalism",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Managing a social media strategy and public relations for a major organisation",
+                "signals": [
+                    {
+                        "nodeId": "com.mktg",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "deg.ba.journalism",
+                        "weight": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_ARTS_006",
+        "phaseKey": "After12th",
+        "subPhaseKey": "arts",
+        "questionType": "CareerDirection",
+        "languageComplexity": "Simple",
+        "text": "Which of these career paths in the humanities and social sciences sounds most meaningful to you?",
+        "targetDiscriminatesJson": "[\"deg.ba.socio\", \"deg.ba.polsci\", \"arts.edu\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Social work and community development - improving lives at grassroots level",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.socio",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Public policy or diplomacy - shaping national and international decisions",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.polsci",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "gov.admin",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Education and teaching - inspiring and developing the next generation",
+                "signals": [
+                    {
+                        "nodeId": "arts.edu",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Counselling and mental health - supporting individuals through personal challenges",
+                "signals": [
+                    {
+                        "nodeId": "arts.psych.clinical",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.ba.psych",
+                        "weight": 0.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_ARTS_007",
+        "phaseKey": "After12th",
+        "subPhaseKey": "arts",
+        "questionType": "DesignDiscriminator",
+        "languageComplexity": "Simple",
+        "text": "Within the design field, which type of creative work excites you most?",
+        "targetDiscriminatesJson": "[\"deg.bdes\", \"arts.des.anim\", \"arts.des.ui\", \"arts.fine\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Graphic design - creating visual identities, posters, and brand materials",
+                "signals": [
+                    {
+                        "nodeId": "deg.bdes",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "arts.des",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "3D animation and motion graphics for films, games, and digital media",
+                "signals": [
+                    {
+                        "nodeId": "arts.des.anim",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "deg.bdes.anim",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "UX/UI design - creating intuitive aesthetically pleasing digital product interfaces",
+                "signals": [
+                    {
+                        "nodeId": "arts.des.ui",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "deg.bdes.ui",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Fashion design - creating clothing collections and working in the fashion industry",
+                "signals": [
+                    {
+                        "nodeId": "arts.des.fashion",
+                        "weight": 0.95
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "Q_AFTERGRAD_BA_EXPLORE_01",
+    "phaseKey": "AfterGraduation",
+    "subPhaseKey": "",
+    "domain": "Arts",
+    "subdomain": "Arts & Humanities",
+    "questionType": "multiple_choice",
+    "languageComplexity": "Simple",
+    "dimension": "domain_preference",
+    "competencyId": "",
+    "text": "After your BA, which kind of work would you most like to explore first?",
+    "intent": "Discover a broad career direction after a BA",
+    "targetDiscriminatesJson": "[\"arts.psych\",\"arts.sociol\",\"arts.poli_sci\",\"arts.journalism\",\"arts.education\",\"arts.language\",\"arts.law\",\"com.marketing\",\"design.ui_ux\",\"tech.data.analytics\"]",
+    "options": [
+      { "index": 0, "text": "Understand people and help improve individual or community wellbeing", "signals": [{ "nodeId": "arts.psych", "weight": 0.9 }, { "nodeId": "arts.sociol", "weight": 0.55 }] },
+      { "index": 1, "text": "Research public issues and help shape policy or public services", "signals": [{ "nodeId": "arts.poli_sci", "weight": 0.9 }, { "nodeId": "arts.sociol", "weight": 0.45 }] },
+      { "index": 2, "text": "Report stories, create media, or communicate ideas to an audience", "signals": [{ "nodeId": "arts.journalism", "weight": 0.9 }, { "nodeId": "arts.language", "weight": 0.5 }] },
+      { "index": 3, "text": "Teach, guide learners, or design useful learning experiences", "signals": [{ "nodeId": "arts.education", "weight": 0.9 }, { "nodeId": "arts.psych", "weight": 0.4 }] },
+      { "index": 4, "text": "Interpret rights and rules, and help people resolve legal issues", "signals": [{ "nodeId": "arts.law", "weight": 0.9 }, { "nodeId": "arts.poli_sci", "weight": 0.4 }] },
+      { "index": 5, "text": "Work with language, research, writing, or publishing", "signals": [{ "nodeId": "arts.language", "weight": 0.8 }, { "nodeId": "arts.journalism", "weight": 0.55 }] },
+      { "index": 6, "text": "Explore marketing, audience research, or business communication", "signals": [{ "nodeId": "com.marketing", "weight": 0.8 }, { "nodeId": "arts.journalism", "weight": 0.4 }] },
+      { "index": 7, "text": "Create visual experiences and understand what users need", "signals": [{ "nodeId": "design.ui_ux", "weight": 0.85 }, { "nodeId": "design.fine_arts", "weight": 0.4 }] },
+      { "index": 8, "text": "Use data to explain trends and help people make decisions", "signals": [{ "nodeId": "tech.data.analytics", "weight": 0.75 }, { "nodeId": "com.marketing", "weight": 0.35 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_BA_EXPLORE_02",
+    "phaseKey": "AfterGraduation",
+    "subPhaseKey": "",
+    "domain": "Arts",
+    "subdomain": "Arts & Humanities",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "ba_applied_work_preference",
+    "competencyId": "",
+    "text": "Which project would you be most motivated to take responsibility for?",
+    "intent": "Distinguish applied career preferences across BA pathways",
+    "targetDiscriminatesJson": "[\"arts.psych\",\"arts.sociol\",\"arts.poli_sci\",\"arts.journalism\",\"arts.education\",\"arts.language\",\"arts.law\",\"com.marketing\",\"design.ui_ux\",\"tech.data.analytics\"]",
+    "options": [
+      { "index": 0, "text": "Interview people and turn what you learn into useful evidence", "signals": [{ "nodeId": "arts.sociol", "weight": 0.85 }, { "nodeId": "arts.psych", "weight": 0.45 }] },
+      { "index": 1, "text": "Prepare a clear story or publication from reliable sources", "signals": [{ "nodeId": "arts.journalism", "weight": 0.85 }, { "nodeId": "arts.language", "weight": 0.5 }] },
+      { "index": 2, "text": "Explain a difficult idea and help someone learn it", "signals": [{ "nodeId": "arts.education", "weight": 0.85 }, { "nodeId": "arts.language", "weight": 0.4 }] },
+      { "index": 3, "text": "Compare rules or policy choices and recommend a fair response", "signals": [{ "nodeId": "arts.law", "weight": 0.75 }, { "nodeId": "arts.poli_sci", "weight": 0.7 }] },
+      { "index": 4, "text": "Plan a campaign and understand what an audience responds to", "signals": [{ "nodeId": "com.marketing", "weight": 0.8 }, { "nodeId": "arts.journalism", "weight": 0.4 }] },
+      { "index": 5, "text": "Create a clear visual experience around people's needs", "signals": [{ "nodeId": "design.ui_ux", "weight": 0.8 }, { "nodeId": "design.fine_arts", "weight": 0.4 }] },
+      { "index": 6, "text": "Compare data and explain patterns that can guide a decision", "signals": [{ "nodeId": "tech.data.analytics", "weight": 0.8 }, { "nodeId": "com.marketing", "weight": 0.35 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_BA_EXPLORE_03",
+    "phaseKey": "AfterGraduation",
+    "subPhaseKey": "",
+    "domain": "Arts",
+    "subdomain": "Arts & Humanities",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "ba_people_or_information_work",
+    "competencyId": "",
+    "text": "Which part of a typical workday sounds most satisfying to you?",
+    "intent": "Identify preferred BA career work activities",
+    "targetDiscriminatesJson": "[\"arts.psych\",\"arts.sociol\",\"arts.poli_sci\",\"arts.journalism\",\"arts.education\",\"arts.language\",\"arts.law\",\"com.marketing\",\"design.ui_ux\",\"tech.data.analytics\"]",
+    "options": [
+      { "index": 0, "text": "Listen carefully, understand a person's needs, and support their progress", "signals": [{ "nodeId": "arts.psych", "weight": 0.8 }, { "nodeId": "arts.education", "weight": 0.45 }] },
+      { "index": 1, "text": "Read documents, check facts, and write a precise summary", "signals": [{ "nodeId": "arts.law", "weight": 0.65 }, { "nodeId": "arts.language", "weight": 0.65 }, { "nodeId": "arts.journalism", "weight": 0.45 }] },
+      { "index": 2, "text": "Study patterns in society and explain what the evidence means", "signals": [{ "nodeId": "arts.sociol", "weight": 0.85 }, { "nodeId": "arts.poli_sci", "weight": 0.45 }] },
+      { "index": 3, "text": "Present ideas, facilitate a discussion, or guide a group", "signals": [{ "nodeId": "arts.education", "weight": 0.75 }, { "nodeId": "arts.poli_sci", "weight": 0.45 }, { "nodeId": "arts.journalism", "weight": 0.35 }] },
+      { "index": 4, "text": "Study audience needs and shape a message or campaign", "signals": [{ "nodeId": "com.marketing", "weight": 0.75 }, { "nodeId": "arts.journalism", "weight": 0.4 }] },
+      { "index": 5, "text": "Improve how people navigate a visual product or service", "signals": [{ "nodeId": "design.ui_ux", "weight": 0.8 }] },
+      { "index": 6, "text": "Organize information and show what the numbers suggest", "signals": [{ "nodeId": "tech.data.analytics", "weight": 0.8 }, { "nodeId": "arts.sociol", "weight": 0.35 }] }
+    ]
+  },
+  {
+    "id": "Q_AFTERGRAD_BA_EXPLORE_04",
+    "phaseKey": "AfterGraduation",
+    "subPhaseKey": "",
+    "domain": "Arts",
+    "subdomain": "Arts & Humanities",
+    "questionType": "CareerSpecific",
+    "languageComplexity": "Simple",
+    "dimension": "ba_impact_preference",
+    "competencyId": "",
+    "text": "What kind of result would make you feel your work matters?",
+    "intent": "Validate the impact a BA learner wants from a career",
+    "targetDiscriminatesJson": "[\"arts.psych\",\"arts.sociol\",\"arts.poli_sci\",\"arts.journalism\",\"arts.education\",\"arts.language\",\"arts.law\",\"com.marketing\",\"design.ui_ux\",\"tech.data.analytics\"]",
+    "options": [
+      { "index": 0, "text": "A person or community gets better support because of your work", "signals": [{ "nodeId": "arts.psych", "weight": 0.65 }, { "nodeId": "arts.sociol", "weight": 0.65 }] },
+      { "index": 1, "text": "A public decision improves after people understand the evidence", "signals": [{ "nodeId": "arts.poli_sci", "weight": 0.85 }, { "nodeId": "arts.sociol", "weight": 0.45 }] },
+      { "index": 2, "text": "An audience understands an important issue more clearly", "signals": [{ "nodeId": "arts.journalism", "weight": 0.8 }, { "nodeId": "arts.language", "weight": 0.45 }] },
+      { "index": 3, "text": "Learners gain confidence or make progress", "signals": [{ "nodeId": "arts.education", "weight": 0.85 }, { "nodeId": "arts.psych", "weight": 0.4 }] },
+      { "index": 4, "text": "A campaign helps the right audience find a useful service", "signals": [{ "nodeId": "com.marketing", "weight": 0.8 }] },
+      { "index": 5, "text": "People can use a product more easily because its design improved", "signals": [{ "nodeId": "design.ui_ux", "weight": 0.8 }] },
+      { "index": 6, "text": "An evidence-based analysis helps someone make a better decision", "signals": [{ "nodeId": "tech.data.analytics", "weight": 0.7 }, { "nodeId": "arts.poli_sci", "weight": 0.4 }] }
+    ]
+  }
+]

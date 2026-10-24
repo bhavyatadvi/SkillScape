@@ -1,0 +1,1921 @@
+[
+    {
+        "domainId": "frontend",
+        "domainName": "Frontend Development",
+        "description": "Build beautiful and interactive user interfaces with modern web technologies",
+        "color": "bg-pink-500",
+        "iconUrl": "https://api.dicebear.com/7.x/icons/svg?seed=frontend",
+        "skills": [
+            {
+                "id": "fe-skill-1",
+                "name": "HTML5 & Semantic Markup",
+                "description": "Master semantic HTML structure",
+                "difficultyLevel": "Beginner",
+                "xpReward": 25,
+                "displayOrder": 1,
+                "steps": [
+                    {
+                        "id": "fe-step-1-1",
+                        "title": "HTML5 Basics",
+                        "description": "Learn the anatomy of an HTML document, tags, elements, and attributes.",
+                        "estimatedHours": 5,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Understanding the DOM (Document Object Model)",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Elements, Tags & Attributes",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Headings, Paragraphs & Text Formatting",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Links & Navigation (<a href>)",
+                                "displayOrder": 4
+                            },
+                            {
+                                "title": "Images, Audio & Video Elements",
+                                "displayOrder": 5
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fe-step-1-2",
+                        "title": "Forms and Inputs",
+                        "description": "Learn how to capture user input through forms.",
+                        "estimatedHours": 8,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Form Element & Action Attributes",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Input Types (text, password, email, number)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Radio Buttons, Checkboxes & Select Menus",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Form Validation (required, min, max, pattern)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fe-step-1-3",
+                        "title": "Semantic Web",
+                        "description": "Write readable and SEO-optimized markup.",
+                        "estimatedHours": 10,
+                        "stepNumber": 3,
+                        "topics": [
+                            {
+                                "title": "Semantic Tags: <header>, <nav>, main, section, article, footer",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Benefits of Semantic HTML for SEO",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Accessibility Fundamentals (a11y)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "ARIA Roles and Best Practices",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "fe-skill-2",
+                "name": "CSS3 & Responsive Design",
+                "description": "Style modern web applications perfectly on every device",
+                "difficultyLevel": "Beginner",
+                "xpReward": 35,
+                "displayOrder": 2,
+                "steps": [
+                    {
+                        "id": "fe-step-2-1",
+                        "title": "CSS Fundamentals & Box Model",
+                        "description": "Box model, selectors, and core styling.",
+                        "estimatedHours": 8,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Selectors & Specificity",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "The Box Model: Padding, Margin, Border",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Colors, Backgrounds & Borders",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Typography: Fonts, Line-height, Text Align",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fe-step-2-2",
+                        "title": "Advanced Layouts (Flexbox & Grid)",
+                        "description": "Learn to position elements effectively.",
+                        "estimatedHours": 15,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Flexbox Container & Items",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Aligning and Justifying Items with Flexbox",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "CSS Grid: Rows, Columns, and Areas",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Combining Flexbox and Grid",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fe-step-2-3",
+                        "title": "Responsive Design & Media Queries",
+                        "description": "Make websites look stunning on any screen size.",
+                        "estimatedHours": 10,
+                        "stepNumber": 3,
+                        "topics": [
+                            {
+                                "title": "Mobile-first vs Desktop-first Approach",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Writing Media Queries (@media)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Responsive Units (vw, vh, rem, em, %)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Responsive Images and Media",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "fe-skill-3",
+                "name": "JavaScript Fundamentals",
+                "description": "Learn the core programming language of the web",
+                "difficultyLevel": "Beginner",
+                "xpReward": 50,
+                "displayOrder": 3,
+                "steps": [
+                    {
+                        "id": "fe-step-3-1",
+                        "title": "Basic Concepts",
+                        "description": "Variables, types, and logic.",
+                        "estimatedHours": 10,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Variables (var, let, const)",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Primitive Data Types (String, Number, Boolean, Null, Undefined)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Operators (Arithmetic, Assignment, Comparison, Logical)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Conditional Statements (if/else, switch)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fe-step-3-2",
+                        "title": "Functions & Data Structures",
+                        "description": "Functions, Arrays, and Objects.",
+                        "estimatedHours": 12,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Defining & Calling Functions",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Arrow Functions & Scope",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Arrays & Array Methods (map, filter, reduce)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Objects, Properties, and Methods",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fe-step-3-3",
+                        "title": "DOM Manipulation",
+                        "description": "Interact with the HTML document.",
+                        "estimatedHours": 12,
+                        "stepNumber": 3,
+                        "topics": [
+                            {
+                                "title": "Selecting Elements (getElementById, querySelector)",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Creating and Appending Elements",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Modifying Classes, Styles, and Attributes",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Event Listeners & Event Bubbling",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fe-step-3-4",
+                        "title": "Asynchronous JavaScript",
+                        "description": "Handling tasks that take time without blocking the UI.",
+                        "estimatedHours": 14,
+                        "stepNumber": 4,
+                        "topics": [
+                            {
+                                "title": "Callbacks & The Event Loop",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Promises",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Async/Await",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Fetching Data via REST APIs (fetch API)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "fe-skill-4",
+                "name": "React.js Ecosystem",
+                "description": "Build scalable Single Page Applications",
+                "difficultyLevel": "Intermediate",
+                "xpReward": 100,
+                "displayOrder": 4,
+                "steps": [
+                    {
+                        "id": "fe-step-4-1",
+                        "title": "React Basics",
+                        "description": "Components and JSX.",
+                        "estimatedHours": 15,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "What is React & Why use it?",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "JSX Syntax & Rules",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Functional Components",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Passing Data with Props",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fe-step-4-2",
+                        "title": "Component State & Lifecycle",
+                        "description": "Making components dynamic.",
+                        "estimatedHours": 20,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Handling State with useState",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Handling Side Effects with useEffect",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Handling Forms in React",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Conditional Rendering",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fe-step-4-3",
+                        "title": "Routing & Advanced Patterns",
+                        "description": "Navigating between pages and complex patterns.",
+                        "estimatedHours": 15,
+                        "stepNumber": 3,
+                        "topics": [
+                            {
+                                "title": "React Router setup & Basics",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Dynamic Routing & URL Parameters",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Custom Hooks",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Context API for State Management",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fe-step-4-4",
+                        "title": "Global State Management",
+                        "description": "Managing data logically across the app.",
+                        "estimatedHours": 20,
+                        "stepNumber": 4,
+                        "topics": [
+                            {
+                                "title": "Context API best practices",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Intro to Redux Toolkit",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Redux Slices and Store",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Zustand Basics",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "domainId": "backend",
+        "domainName": "Backend Development",
+        "description": "Build robust APIs and server-side applications that power modern apps",
+        "color": "bg-blue-500",
+        "iconUrl": "https://api.dicebear.com/7.x/icons/svg?seed=backend",
+        "skills": [
+            {
+                "id": "be-skill-1",
+                "name": "C# Fundamentals",
+                "description": "Learn the core basics of object-oriented programming in C#",
+                "difficultyLevel": "Beginner",
+                "xpReward": 40,
+                "displayOrder": 1,
+                "steps": [
+                    {
+                        "id": "be-step-1-1",
+                        "title": "Variables, Types & Flow Control",
+                        "description": "Getting started with statically typed logic.",
+                        "estimatedHours": 8,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Data Types & Variables",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Strings & Type Casting",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Conditionals (if, switch)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Loops (for, while, foreach)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "be-step-1-2",
+                        "title": "Object-Oriented Programming (OOP)",
+                        "description": "Classes, Inheritance, and Interfaces.",
+                        "estimatedHours": 14,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Classes, Objects, and Constructors",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Encapsulation (Access Modifiers & Properties)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Inheritance & Polymorphism",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Interfaces and Abstract Classes",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "be-step-1-3",
+                        "title": "Collections & LINQ",
+                        "description": "Working with lists and data queries.",
+                        "estimatedHours": 10,
+                        "stepNumber": 3,
+                        "topics": [
+                            {
+                                "title": "Arrays, Lists, and Dictionaries",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Introduction to LINQ",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Filtering Data (Where, FirstOrDefault)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Transforming Data (Select, OrderBy)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "be-skill-2",
+                "name": "Database Integration (SQL & EF Core)",
+                "description": "Master storing and retrieving persistent data securely.",
+                "difficultyLevel": "Intermediate",
+                "xpReward": 75,
+                "displayOrder": 2,
+                "steps": [
+                    {
+                        "id": "be-step-2-1",
+                        "title": "Relational Databases & SQL",
+                        "description": "Designing and normalizing databases.",
+                        "estimatedHours": 10,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Tables, Columns, Primary/Foreign Keys",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Basic Queries (SELECT, INSERT, UPDATE, DELETE)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Filtering & Sorting (WHERE, ORDER BY)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "SQL Joins (INNER, LEFT, RIGHT)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "be-step-2-2",
+                        "title": "Database Design",
+                        "description": "Structuring tables efficiently.",
+                        "estimatedHours": 12,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Entity Relationship Diagrams (ERD)",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Database Normalization (1NF, 2NF, 3NF)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Indexes and Performance Basics",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Constraints and Triggers",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "be-step-2-3",
+                        "title": "Entity Framework Core Setup",
+                        "description": "Using C# to interact with SQL databases.",
+                        "estimatedHours": 15,
+                        "stepNumber": 3,
+                        "topics": [
+                            {
+                                "title": "What is an ORM?",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "DbContext and Data Models",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Migrations & Seeding Data",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "CRUD Operations with EF Core",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "be-skill-3",
+                "name": "ASP.NET Core REST APIs",
+                "description": "Build high-performance, secure backend architectures.",
+                "difficultyLevel": "Advanced",
+                "xpReward": 125,
+                "displayOrder": 3,
+                "steps": [
+                    {
+                        "id": "be-step-3-1",
+                        "title": "API Fundamentals",
+                        "description": "Web API basics.",
+                        "estimatedHours": 10,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "REST Principles",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "HTTP Methods (GET, POST, PUT, DELETE)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "HTTP Status Codes",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Postman/Swagger for API Testing",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "be-step-3-2",
+                        "title": "API Architecture",
+                        "description": "Controllers and Service layers.",
+                        "estimatedHours": 18,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Controllers & Routing",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Dependency Injection Lifecycle (Transient, Scoped, Singleton)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Service and Repository Patterns",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Data Transfer Objects (DTOs) & Mapping",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "be-step-3-3",
+                        "title": "Security & Middleware",
+                        "description": "Securing your endpoints.",
+                        "estimatedHours": 15,
+                        "stepNumber": 3,
+                        "topics": [
+                            {
+                                "title": "ASP.NET Middleware Pipeline",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Exception Handling Middlewares",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "JWT Authentication Fundamentals",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Role-based Authorization",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "domainId": "data",
+        "domainName": "Data Science",
+        "description": "Analyze data and extract intelligence using Python and Statistics",
+        "color": "bg-green-500",
+        "iconUrl": "https://api.dicebear.com/7.x/icons/svg?seed=data",
+        "skills": [
+            {
+                "id": "ds-skill-1",
+                "name": "Python for Data Analysis",
+                "description": "Use Python libraries to shape and transform big datasets.",
+                "difficultyLevel": "Beginner",
+                "xpReward": 45,
+                "displayOrder": 1,
+                "steps": [
+                    {
+                        "id": "ds-step-1-1",
+                        "title": "Data Fundamentals",
+                        "description": "Python basics and Jupyter tools.",
+                        "estimatedHours": 8,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Jupyter Notebooks Setup",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Python Data Structures",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "List Comprehensions & Lambdas",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Reading/Writing CSV and JSON files",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ds-step-1-2",
+                        "title": "NumPy Mastery",
+                        "description": "Numerical computation.",
+                        "estimatedHours": 10,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "NumPy Arrays vs Python Lists",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Array Indexing & Slicing",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Vectorized Operations",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Broadcasting & Matrix Math",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ds-step-1-3",
+                        "title": "Pandas DataFrames",
+                        "description": "tabular data manipulation.",
+                        "estimatedHours": 12,
+                        "stepNumber": 3,
+                        "topics": [
+                            {
+                                "title": "Series vs DataFrames",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Filtering & Querying Data",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Handling Missing Data (dropna, fillna)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Groupby & Aggregation",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ds-skill-2",
+                "name": "Data Visualization",
+                "description": "Present findings effectively.",
+                "difficultyLevel": "Intermediate",
+                "xpReward": 60,
+                "displayOrder": 2,
+                "steps": [
+                    {
+                        "id": "ds-step-2-1",
+                        "title": "Matplotlib Basics",
+                        "description": "Charting basics.",
+                        "estimatedHours": 10,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Line & Bar Charts",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Histograms and Pie Charts",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Customizing Axes, Titles, & Labels",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Subplots and Layouts",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ds-step-2-2",
+                        "title": "Statistical Plots with Seaborn",
+                        "description": "Advanced statistical visualization.",
+                        "estimatedHours": 12,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Scatter & Distribution Plots",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Boxplots & Violin Plots",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Heatmaps & Correlation Matrices",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Pairplots and Jointplots",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ds-step-2-3",
+                        "title": "Interactive Dashboards",
+                        "description": "Moving beyond static images.",
+                        "estimatedHours": 14,
+                        "stepNumber": 3,
+                        "topics": [
+                            {
+                                "title": "Plotly Express basics",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Interactive Hover and Zoom tools",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Intro to Dash/Streamlit",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Deploying a visualization dashboard",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "domainId": "ml",
+        "domainName": "Machine Learning",
+        "description": "Build intelligent predictive systems",
+        "color": "bg-indigo-500",
+        "iconUrl": "https://api.dicebear.com/7.x/icons/svg?seed=ml",
+        "skills": [
+            {
+                "id": "ml-skill-1",
+                "name": "Supervised Learning",
+                "description": "Classification and regression models.",
+                "difficultyLevel": "Intermediate",
+                "xpReward": 80,
+                "displayOrder": 1,
+                "steps": [
+                    {
+                        "id": "ml-step-1-1",
+                        "title": "Scikit-learn and Regression",
+                        "description": "Predicting continuous values.",
+                        "estimatedHours": 15,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Intro to Scikit-Learn",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Simple Linear Regression",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Multiple Regression",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Gradient Descent Concept",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ml-step-1-2",
+                        "title": "Classification Problems",
+                        "description": "Predicting categories.",
+                        "estimatedHours": 15,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Logistic Regression",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "K-Nearest Neighbors (KNN)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Decision Trees & Random Forests",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Support Vector Machines (SVM)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ml-step-1-3",
+                        "title": "Model Evaluation & Tuning",
+                        "description": "Ensuring your model actually works.",
+                        "estimatedHours": 15,
+                        "stepNumber": 3,
+                        "topics": [
+                            {
+                                "title": "Train/Test Splits",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Cross-Validation",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Metrics: Accuracy, Precision, Recall, F1",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Hyperparameter Tuning (GridSearch)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ml-skill-2",
+                "name": "Deep Learning Fundamentals",
+                "description": "Neural Networks and AI modeling.",
+                "difficultyLevel": "Advanced",
+                "xpReward": 150,
+                "displayOrder": 2,
+                "steps": [
+                    {
+                        "id": "ml-step-2-1",
+                        "title": "Neural Networks Basics",
+                        "description": "The math behind deep learning.",
+                        "estimatedHours": 20,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Perceptrons & Activation Functions",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Feedforward Networks",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Loss Functions",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Backpropagation",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ml-step-2-2",
+                        "title": "Computer Vision (CNNs)",
+                        "description": "Processing images.",
+                        "estimatedHours": 25,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Intro to PyTorch / TensorFlow",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Convolutional Layers and Pooling",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Building CNN architectures",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Transfer Learning (ResNet, VGG)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ml-step-2-3",
+                        "title": "Sequential Models (NLP)",
+                        "description": "Processing text and time-series.",
+                        "estimatedHours": 25,
+                        "stepNumber": 3,
+                        "topics": [
+                            {
+                                "title": "Word Embeddings",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Recurrent Neural Networks (RNN)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "LSTM & GRU",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Introduction to Transformers",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "domainId": "devops",
+        "domainName": "DevOps & Cloud",
+        "description": "Master deployment pipelines and cloud infrastructure",
+        "color": "bg-orange-500",
+        "iconUrl": "https://api.dicebear.com/7.x/icons/svg?seed=devops",
+        "skills": [
+            {
+                "id": "do-skill-1",
+                "name": "Linux & Bash Scripting",
+                "description": "Command line mastery for server admin.",
+                "difficultyLevel": "Beginner",
+                "xpReward": 30,
+                "displayOrder": 1,
+                "steps": [
+                    {
+                        "id": "do-step-1-1",
+                        "title": "Linux Fundamentals",
+                        "description": "Navigating the OS.",
+                        "estimatedHours": 10,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "File System Hierarchy",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Navigating Directories (cd, ls, pwd)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "File Permissions (chmod, chown)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Process Management (ps, top, kill)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do-step-1-2",
+                        "title": "Bash Scripting",
+                        "description": "Automating tasks via scripting.",
+                        "estimatedHours": 12,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Variables and Environment Vars",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Control Structures (If, For, While)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Piping and Redirection",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Cron Jobs for Scheduling",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do-skill-2",
+                "name": "Docker & Containers",
+                "description": "Containerizing applications for consistent execution.",
+                "difficultyLevel": "Intermediate",
+                "xpReward": 60,
+                "displayOrder": 2,
+                "steps": [
+                    {
+                        "id": "do-step-2-1",
+                        "title": "Docker Basics",
+                        "description": "Containerizing an app.",
+                        "estimatedHours": 15,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "What is Docker? Images vs Containers",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Writing Dockerfiles",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Building and Running Images",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Docker Hub & Registries",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do-step-2-2",
+                        "title": "Docker Workflow",
+                        "description": "Networking and persisting data.",
+                        "estimatedHours": 15,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Docker Volumes for Persistence",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Docker Networks (Bridge, Host)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Docker Compose for multi-container apps",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Multi-stage Builds",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do-skill-3",
+                "name": "CI/CD & Cloud Providers",
+                "description": "Automating deployment to the web.",
+                "difficultyLevel": "Advanced",
+                "xpReward": 100,
+                "displayOrder": 3,
+                "steps": [
+                    {
+                        "id": "do-step-3-1",
+                        "title": "CI/CD Pipelines",
+                        "description": "Continuous Integration/Continuous Deployment.",
+                        "estimatedHours": 15,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "GitHub Actions / GitLab CI Basics",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Writing Pipeline YAML Files",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Running Automated Tests in CI",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Artifacts and Deploy Stages",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do-step-3-2",
+                        "title": "Cloud Basics (AWS/Azure)",
+                        "description": "Running resources in the cloud.",
+                        "estimatedHours": 15,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "IaaS vs PaaS vs SaaS",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Compute Services (EC2 / Azure VMs)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Storage Services (S3 / Blob Storage)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Serverless Functions (Lambda)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "domainId": "business",
+        "domainName": "Business & Management",
+        "description": "Lead companies and drive strategic organizational growth",
+        "color": "bg-yellow-500",
+        "iconUrl": "https://api.dicebear.com/7.x/icons/svg?seed=business",
+        "skills": [
+            {
+                "id": "bz-skill-1",
+                "name": "Agile Project Management",
+                "description": "Deliver projects effectively.",
+                "difficultyLevel": "Beginner",
+                "xpReward": 40,
+                "displayOrder": 1,
+                "steps": [
+                    {
+                        "id": "bz-step-1-1",
+                        "title": "Agile Principles",
+                        "description": "The fundamentals of Agile.",
+                        "estimatedHours": 10,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Waterfall vs Agile",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "The Agile Manifesto",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Roles in Agile Teams",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Kanban Basics",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "bz-step-1-2",
+                        "title": "Scrum Framework",
+                        "description": "Running Agile sprints.",
+                        "estimatedHours": 12,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Sprint Planning",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Daily Standups",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Sprint Reviews",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Retrospectives & Backlog Refinement",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "bz-skill-2",
+                "name": "Product Strategy",
+                "description": "Figuring out what to build.",
+                "difficultyLevel": "Intermediate",
+                "xpReward": 60,
+                "displayOrder": 2,
+                "steps": [
+                    {
+                        "id": "bz-step-2-1",
+                        "title": "Market Discovery",
+                        "description": "Finding product-market fit.",
+                        "estimatedHours": 15,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Customer Interviews",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Competitive Analysis",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Value Proposition Canvas",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Minimum Viable Product (MVP)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "bz-step-2-2",
+                        "title": "Roadmapping",
+                        "description": "Planning product delivery.",
+                        "estimatedHours": 15,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Writing User Stories",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Prioritization Frameworks (RICE, MoSCoW)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Roadmap Tools (Jira, Trello, Linear)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Stakeholder Management",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "domainId": "design",
+        "domainName": "Creative & Design",
+        "description": "Create stunning visual brands and user experiences",
+        "color": "bg-red-500",
+        "iconUrl": "https://api.dicebear.com/7.x/icons/svg?seed=design",
+        "skills": [
+            {
+                "id": "dsg-skill-1",
+                "name": "UI/UX Foundations",
+                "description": "Design accessible, beautiful interfaces.",
+                "difficultyLevel": "Beginner",
+                "xpReward": 40,
+                "displayOrder": 1,
+                "steps": [
+                    {
+                        "id": "dsg-step-1-1",
+                        "title": "UX Principles",
+                        "description": "Understanding user needs.",
+                        "estimatedHours": 10,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "User Personas & User Journeys",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Information Architecture",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Wireframing vs Mockups",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Usability Testing Basics",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "dsg-step-1-2",
+                        "title": "UI Design Fundamentals",
+                        "description": "Visual aesthetics.",
+                        "estimatedHours": 12,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Color Theory & Contrast",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Typography Principles",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Spacing and Layout (Grid Systems)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Visual Hierarchy",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "dsg-skill-2",
+                "name": "Figma Prototyping",
+                "description": "Mastering the industry standard tool.",
+                "difficultyLevel": "Intermediate",
+                "xpReward": 70,
+                "displayOrder": 2,
+                "steps": [
+                    {
+                        "id": "dsg-step-2-1",
+                        "title": "Figma Basics",
+                        "description": "Navigating the tool.",
+                        "estimatedHours": 10,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Figma Interface & Frames",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Drawing Tools & Properties",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Layers and Grouping",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Exporting Assets",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "dsg-step-2-2",
+                        "title": "Advanced Figma",
+                        "description": "Professional workflows.",
+                        "estimatedHours": 18,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Components & Variants",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Auto Layout Mastery",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Design Systems & Styles",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Interactive Prototyping & Animations",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "domainId": "healthcare",
+        "domainName": "Healthcare & Medicine",
+        "description": "Treat patients and learn medical innovations",
+        "color": "bg-teal-500",
+        "iconUrl": "https://api.dicebear.com/7.x/icons/svg?seed=healthcare",
+        "skills": [
+            {
+                "id": "hc-skill-1",
+                "name": "Clinical Anatomy",
+                "description": "Understand core human anatomy.",
+                "difficultyLevel": "Beginner",
+                "xpReward": 50,
+                "displayOrder": 1,
+                "steps": [
+                    {
+                        "id": "hc-step-1-1",
+                        "title": "Organ Systems",
+                        "description": "The major body systems.",
+                        "estimatedHours": 20,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Cardiovascular System (Heart, Blood)",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Nervous System (Brain, Nerves)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Respiratory Functions (Lungs)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Digestive & Endocrine Systems",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "hc-step-1-2",
+                        "title": "Musculoskeletal Layout",
+                        "description": "Bones and muscles.",
+                        "estimatedHours": 15,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Skeletal Variations",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Muscular Attachments",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Joints & Ligaments",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Clinical Applications",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "hc-skill-2",
+                "name": "Patient Care & Ethics",
+                "description": "Real-world patient interactions.",
+                "difficultyLevel": "Intermediate",
+                "xpReward": 80,
+                "displayOrder": 2,
+                "steps": [
+                    {
+                        "id": "hc-step-2-1",
+                        "title": "Medical Ethics",
+                        "description": "Navigating difficult situations.",
+                        "estimatedHours": 10,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Patient Confidentiality (HIPAA)",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Informed Consent",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "End-of-life Decisions",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Resource Allocation",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "hc-step-2-2",
+                        "title": "Bedside Manner",
+                        "description": "Communication skills.",
+                        "estimatedHours": 12,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Active Listening",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Delivering Bad News",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Cultural Competence",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "De-escalation Techniques",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "domainId": "education",
+        "domainName": "Education & Teaching",
+        "description": "Inspire students and cultivate learning platforms",
+        "color": "bg-lime-500",
+        "iconUrl": "https://api.dicebear.com/7.x/icons/svg?seed=education",
+        "skills": [
+            {
+                "id": "ed-skill-1",
+                "name": "Pedagogy & Curriculum Design",
+                "description": "Learn modern teaching methodologies.",
+                "difficultyLevel": "Intermediate",
+                "xpReward": 60,
+                "displayOrder": 1,
+                "steps": [
+                    {
+                        "id": "ed-step-1-1",
+                        "title": "Instructional Design",
+                        "description": "Building effective lessons.",
+                        "estimatedHours": 15,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Taxonomy of Learning Objectives",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Syllabus Creation",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Differentiated Instruction",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Universal Design for Learning (UDL)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ed-step-1-2",
+                        "title": "Assessment Strategies",
+                        "description": "Evaluating students.",
+                        "estimatedHours": 12,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Formative vs Summative Assessment",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Creating Rubrics",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Peer and Self Evaluation",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Standardized Testing Analysis",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ed-skill-2",
+                "name": "Educational Technology",
+                "description": "Integrating tech into the classroom.",
+                "difficultyLevel": "Advanced",
+                "xpReward": 85,
+                "displayOrder": 2,
+                "steps": [
+                    {
+                        "id": "ed-step-2-1",
+                        "title": "Learning Management Systems",
+                        "description": "Managing online classrooms.",
+                        "estimatedHours": 10,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Canvas / Moodle Navigation",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Digital Assignment Setup",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Gradebook Architectures",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Automated Feedback Loops",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ed-step-2-2",
+                        "title": "Interactive Learning Media",
+                        "description": "Making lessons engaging.",
+                        "estimatedHours": 12,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Gamification in EdTech",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Interactive Polling (Kahoot/Mentimeter)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Video Lesson Production",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "AI Assistants in Education",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "domainId": "fullstack",
+        "domainName": "Full Stack Development",
+        "description": "Master both end-to-end architectures",
+        "color": "bg-purple-500",
+        "iconUrl": "https://api.dicebear.com/7.x/icons/svg?seed=fullstack",
+        "skills": [
+            {
+                "id": "fs-skill-1",
+                "name": "Frontend Foundations (React & CSS)",
+                "description": "Build interactive client applications.",
+                "difficultyLevel": "Beginner",
+                "xpReward": 50,
+                "displayOrder": 1,
+                "steps": [
+                    {
+                        "id": "fs-step-1-1",
+                        "title": "HTML/CSS Refresh",
+                        "description": "UI layout techniques.",
+                        "estimatedHours": 10,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Semantic HTML & Accessibility",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "CSS Flexbox & Grid",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "CSS Frameworks (Tailwind, Bootstrap)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Responsive Design",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fs-step-1-2",
+                        "title": "React Essentials",
+                        "description": "SPA development.",
+                        "estimatedHours": 20,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "React Components & JSX",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "State (useState) & Effects (useEffect)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Routing (React Router)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "API Data Fetching from React",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "fs-skill-2",
+                "name": "Backend Foundations (C# & APIs)",
+                "description": "Build the server infrastructure.",
+                "difficultyLevel": "Intermediate",
+                "xpReward": 80,
+                "displayOrder": 2,
+                "steps": [
+                    {
+                        "id": "fs-step-2-1",
+                        "title": "C# OOP & Core Concepts",
+                        "description": "Writing clean backend code.",
+                        "estimatedHours": 15,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "Interfaces and Abstract Classes",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Asynchronous Programming (async/await)",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "LINQ basics",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Error Handling & Logging",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fs-step-2-2",
+                        "title": "ASP.NET Core REST APIs",
+                        "description": "Exposing endpoints.",
+                        "estimatedHours": 18,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "Controllers and Routing",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Dependency Injection",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Middleware Pipeline",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Handling CORS (Cross-Origin Resource Sharing)",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "fs-skill-3",
+                "name": "Database Integration & Identity",
+                "description": "Connecting the DB to the API.",
+                "difficultyLevel": "Advanced",
+                "xpReward": 120,
+                "displayOrder": 3,
+                "steps": [
+                    {
+                        "id": "fs-step-3-1",
+                        "title": "Entity Framework Core",
+                        "description": "Data persistence layer.",
+                        "estimatedHours": 15,
+                        "stepNumber": 1,
+                        "topics": [
+                            {
+                                "title": "EF Core Code-First Migrations",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "One-to-Many & Many-to-Many Relationships",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Optimizing Queries (Include, AsNoTracking)",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Repository Pattern",
+                                "displayOrder": 4
+                            }
+                        ]
+                    },
+                    {
+                        "id": "fs-step-3-2",
+                        "title": "Authentication & Deploy",
+                        "description": "Securing and launching the app.",
+                        "estimatedHours": 20,
+                        "stepNumber": 2,
+                        "topics": [
+                            {
+                                "title": "JWT Token Authentication",
+                                "displayOrder": 1
+                            },
+                            {
+                                "title": "Role-Based Access Control",
+                                "displayOrder": 2
+                            },
+                            {
+                                "title": "Connecting React to Protected APIs",
+                                "displayOrder": 3
+                            },
+                            {
+                                "title": "Publishing Full-Stack app to Cloud",
+                                "displayOrder": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

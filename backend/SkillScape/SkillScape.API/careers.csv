@@ -1,0 +1,236 @@
+Id,Name
+--,----
+afterpg.adv_dip,Post-Master Diplomas & Certificates
+afterpg.adv_dip.arts,Advanced Humanities / Social Sciences Diplomas
+afterpg.adv_dip.mgmt,Advanced Management Specializations
+afterpg.adv_dip.tech,Advanced Technology Specializations
+afterpg.doctoral,Doctoral / Research Degrees
+afterpg.doctoral.higher,Higher Doctorates (D.Sc. / D.Litt. / LL.D.)
+afterpg.doctoral.phd,Doctor of Philosophy (PhD)
+afterpg.doctoral.prof,Professional Doctorate
+afterpg.medical_super,Medical Super-Specialization
+afterpg.medical_super.dm,Doctorate of Medicine (DM)
+afterpg.medical_super.fnb,Fellow of National Board (FNB)
+afterpg.medical_super.mch,Master of Chirurgiae (MCh)
+afterpg.prof_qual,Professional / Regulatory Qualifications
+afterpg.prof_qual.finance,Advanced Financial / Accounting Qualifications
+arts,Arts, Humanities & Social Sciences
+arts.education,Education & Teaching
+arts.hist,History
+arts.journalism,Journalism & Mass Communication
+arts.language,Language & Literature
+arts.law,Law
+arts.law.corporate,Corporate & Commercial Law
+arts.law.criminal,Criminal Law
+arts.law.ip,Intellectual Property Law
+arts.poli,Political Science
+arts.poli_sci,Political Science & Public Administration
+arts.psyc,Psychology
+arts.psyc.clinical_psychology,Clinical Psychology
+arts.psyc.counselling,Counselling
+arts.psyc.organizational_psychology,Organizational Psychology
+arts.psych,Psychology
+arts.soci,Sociology
+arts.sociol,Sociology & Social Work
+com,Commerce & Finance
+com.acco,Accounting
+com.bank,Banking
+com.banking,Banking & Insurance
+com.ca,Chartered Accountancy (CA)
+com.cma,Cost & Management Accountancy (CMA)
+com.cs_corp,Company Secretary (CS)
+com.econ,Economics
+com.fina,Finance
+com.fina.corporate_finance,Corporate Finance
+com.fina.equity_research,Equity Research
+com.fina.financial_analysis,Financial Analysis
+com.fina.financial_planning,Financial Planning
+com.fina.investment_banking,Investment Banking
+com.fina.portfolio_management,Portfolio Management
+com.fina.risk_management,Risk Management
+com.finance,Finance & Investment
+com.marketing,Marketing & Brand Management
+com.startup,Entrepreneurship & Startups
+deg.ba.eng,Bachelor of Arts in English Literature (BA)
+deg.ba.journalism,Bachelor of Arts in Journalism and Mass Communication (BA)
+deg.ba.llb,Bachelor of Arts and Bachelor of Laws (BA LLB)
+deg.ba.polsci,Bachelor of Arts in Political Science (BA)
+deg.ba.psych,Bachelor of Arts in Psychology (BA)
+deg.barch,Bachelor of Architecture (B.Arch)
+deg.bba.fin,Bachelor of Business Administration in Finance (BBA)
+deg.bba.gen,Bachelor of Business Administration (BBA)
+deg.bca,Bachelor of Computer Applications (BCA)
+deg.bcom.acc,Bachelor of Commerce in Accounting and Finance (B.Com)
+deg.bcom.fin,Bachelor of Commerce in Finance (B.Com Finance)
+deg.bcom.gen,Bachelor of Commerce (B.Com General)
+deg.bdes,Bachelor of Design (B.Des)
+deg.bds,Bachelor of Dental Surgery (BDS)
+deg.bpharm,Bachelor of Pharmacy (B.Pharm)
+deg.bpt,Bachelor of Physiotherapy (BPT)
+deg.bsc.biotech,B.Sc Biotechnology
+deg.bsc.cs,B.Sc Computer Science
+deg.bsc.data,B.Sc Data Science
+deg.bsc.eco,B.Sc Economics
+deg.bsc.math,B.Sc Mathematics
+deg.bsc.nursing,B.Sc Nursing
+deg.btech.ai,B.Tech Artificial Intelligence / ML
+deg.btech.cse,B.Tech Computer Science Engineering
+deg.btech.ece,B.Tech Electronics & Communication
+deg.btech.mech,B.Tech Mechanical Engineering
+deg.mbbs,Bachelor of Medicine and Bachelor of Surgery (MBBS)
+des,Design & Creative
+des.graphic_design,Graphic Design
+des.industrial_design,Industrial Design
+des.product_design,Product Design
+des.ui_design,UI Design
+des.ux_design,UX Design
+design,Design & Creative Arts
+design.animation,Animation, VFX & Gaming
+design.arch,Architecture
+design.arch.landscape,Landscape Architecture
+design.arch.urban,Urban Design & Planning
+design.fashion,Fashion Design & Textile
+design.film,Film & Media Production
+design.fine_arts,Fine Arts & Performing Arts
+design.graphic,Graphic Design & Visual Communication
+design.interior,Interior Design
+design.ui_ux,UI/UX Design & Product Design
+gov_admin,
+gov_admin_other,
+gov_admin_state,
+gov_admin_upsc,
+gov_defence,
+gov_defence_capf,
+gov_defence_officer,
+gov_defence_other,
+gov_edu_higher,
+gov_edu_research,
+gov_edu_school,
+gov_education,
+gov_finance,
+gov_finance_accounts,
+gov_finance_banking,
+gov_finance_regulatory,
+gov_finance_services,
+gov_finance_tax,
+gov_medical,
+gov_medical_gov,
+gov_medical_public,
+gov_medical_research,
+gov_spec_agri,
+gov_spec_econ,
+gov_spec_forest,
+gov_spec_law,
+gov_spec_other,
+gov_spec_stat,
+gov_specialized,
+gov_tech,
+gov_tech_ies,
+gov_tech_psu,
+gov_tech_scientific,
+gov_tech_state,
+govt,Government Services & Defence
+govt.banking,Government Banking & Finance
+govt.defence_officer,Defence Services (Officer Cadre)
+govt.police_para,Police & Paramilitary Services
+govt.psu_gate,PSU via GATE (ONGC/NTPC/BHEL/ISRO)
+govt.railways,Indian Railways (RRB)
+govt.ssc,Staff Selection Commission (SSC)
+govt.teaching_govt,Government Teaching
+govt.upsc,UPSC Civil Services (IAS/IPS/IFS)
+hosp,Hospitality, Tourism & Aviation
+hosp.aviation,Aviation (Pilot & Cabin Crew)
+hosp.hotel_mgmt,Hotel & Hospitality Management
+law,Law & Legal Services
+law.civil_law,Civil Law
+law.corporate_law,Corporate Law
+law.criminal_law,Criminal Law
+law.cyber_law,Cyber Law
+law.intellectual_property_law,Intellectual Property Law
+med,Medical & Health Sciences
+med.clinical,Clinical Medicine
+med.clinical.gen_med,General Medicine
+med.clinical.peds,Pediatrics
+med.diag.pathology,Pathology
+med.diag.radiology,Radiology
+med.surg.gen_surg,General Surgery
+mgmt,Management & Business Administration
+mgmt.hr,Human Resources Management
+mgmt.mba,MBA / PGDM
+mgmt.operations,Operations & Supply Chain
+Phase_AfterPostGraduation,After Post-Graduation
+prof.ca,Chartered Accountant (CA)
+prof.cfa,Chartered Financial Analyst (CFA)
+prof.cma,Cost and Management Accountant (CMA)
+prof.cs,Company Secretary (CS)
+sci,Science & Technology
+sci.agri,Agriculture & Veterinary Sciences
+sci.eng,Engineering
+sci.eng.aero,Aerospace Engineering
+sci.eng.biomd,Biomedical Engineering
+sci.eng.chem,Chemical Engineering
+sci.eng.civil,Civil Engineering
+sci.eng.civil.construction,Construction Management
+sci.eng.civil.environ_civil,Environmental Engineering (Civil)
+sci.eng.civil.geo,Geotechnical Engineering
+sci.eng.civil.struct,Structural Engineering
+sci.eng.civil.surveying,Surveying & Geomatics
+sci.eng.civil.transport,Transportation Engineering
+sci.eng.civil.water,Water Resources Engineering
+sci.eng.cs,Computer Science & Engineering
+sci.eng.cs.ai_ml,Artificial Intelligence & Machine Learning
+sci.eng.cs.cloud,Cloud Computing & DevOps
+sci.eng.cs.cybersec,Cybersecurity
+sci.eng.cs.data,Data Science & Analytics
+sci.eng.cs.networks,Networking & Telecommunications
+sci.eng.cs.software,Software Engineering
+sci.eng.ece,Electronics & Communication Engineering
+sci.eng.elec,Electrical Engineering
+sci.eng.elec.power,Power Systems Engineering
+sci.eng.elec.renew,Renewable Energy Engineering
+sci.eng.environ,Environmental Engineering
+sci.eng.marine,Marine Engineering
+sci.eng.mech,Mechanical Engineering
+sci.eng.mech.auto,Automotive Engineering
+sci.eng.mech.mfg,Manufacturing & Production Engineering
+sci.eng.mech.robotics,Robotics & Mechatronics
+sci.eng.mining,Mining Engineering
+sci.med,Medical & Health Sciences
+sci.med.allied,Allied Health Sciences
+sci.med.bds,Dentistry (BDS / MDS)
+sci.med.mbbs,Medicine (MBBS & Clinical Practice)
+sci.med.mbbs.cardio,Cardiology
+sci.med.mbbs.pediatrics,Pediatrics
+sci.med.mbbs.psychiatry,Psychiatry
+sci.med.mbbs.surgery,Surgery
+sci.med.nursing,Nursing
+sci.med.pharma,Pharmacy
+sci.med.physio,Physiotherapy & Rehabilitation
+sci.pure,Pure Sciences
+sci.pure.biotech,Biotechnology & Life Sciences
+sci.pure.chem,Chemistry
+sci.pure.env_sci,Environmental Science
+sci.pure.math,Mathematics & Statistics
+sci.pure.physics,Physics
+sports,Sports & Physical Education
+stream.arts,Arts & Humanities
+stream.commerce,Commerce (with/without Math)
+stream.diploma,Diploma / Polytechnic
+stream.iti,ITI / Vocational Training
+stream.pcb,Science - PCB (Physics, Chemistry, Biology)
+stream.pcm,Science - PCM (Physics, Chemistry, Math)
+stream.pcmb,Science - PCMB (Physics, Chemistry, Math, Biology)
+tech.cyber,Cybersecurity
+tech.cyber.cloud_sec,Cloud Security Engineer
+tech.cyber.forensics,Digital Forensics Analyst
+tech.cyber.pentest,Penetration Tester
+tech.cyber.soc,Cybersecurity Analyst / SOC Analyst
+tech.cyber.threat_intel,Threat Intelligence Analyst
+tech.data.analytics,Data Analyst
+tech.data.ds,Data Scientist
+tech.data.ml_eng,Machine Learning Engineer
+voc,Vocational & Skilled Trades
+voc.diploma,Polytechnic Diploma
+voc.iti,Industrial Training Institute (ITI)
+
+(232 rows affected)

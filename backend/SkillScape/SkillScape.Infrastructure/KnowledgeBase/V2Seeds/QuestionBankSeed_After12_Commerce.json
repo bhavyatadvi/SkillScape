@@ -1,0 +1,770 @@
+[
+    {
+        "id": "Q_COM_DEG_01",
+        "phaseKey": "After12th",
+        "subPhaseKey": "commerce",
+        "questionType": "DegreePreference",
+        "languageComplexity": "Simple",
+        "text": "Which of these professional paths in commerce aligns best with your ambition?",
+        "targetDiscriminatesJson": "[\"prof.ca\", \"deg.bba.gen\", \"deg.bcom.acc\", \"deg.bsc.eco\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "I want to clear rigorous professional exams to become a certified auditor or tax consultant.",
+                "signals": [
+                    {
+                        "nodeId": "prof.ca",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "prof.cma",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "I want a management-focused degree that prepares me for corporate leadership or starting a business.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bba.gen",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.fin",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "I prefer a traditional commerce degree focused on accounting, banking, and corporate finance.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bcom.acc",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bcom.fin",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "I am highly interested in market trends, macroeconomics, policy making, and statistical data.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.eco",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "com.fin.eco",
+                        "weight": 0.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_COM_SKILL_02",
+        "phaseKey": "After12th",
+        "subPhaseKey": "commerce",
+        "questionType": "Aptitude",
+        "languageComplexity": "Intermediate",
+        "text": "What is your strongest skillset when dealing with business scenarios?",
+        "targetDiscriminatesJson": "[\"prof.ca\", \"deg.bba.hr\", \"deg.bba.mktg\", \"prof.cs\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Crunching numbers, ensuring balance sheets tally, and finding financial discrepancies.",
+                "signals": [
+                    {
+                        "nodeId": "prof.ca",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bcom.acc",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Communicating, negotiating, and leading teams of people.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bba.hr",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.gen",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Creating compelling campaigns, understanding consumer psychology, and driving sales.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bba.mktg",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "com.mktg",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Ensuring strict legal compliance, drafting corporate governance policies, and understanding law.",
+                "signals": [
+                    {
+                        "nodeId": "prof.cs",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "deg.ba.llb",
+                        "weight": 0.6
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_COM_ENV_03",
+        "phaseKey": "After12th",
+        "subPhaseKey": "commerce",
+        "questionType": "WorkEnvironment",
+        "languageComplexity": "Simple",
+        "text": "What type of daily work environment sounds most appealing to you?",
+        "targetDiscriminatesJson": "[\"com.fin.ib\", \"deg.bba.ent\", \"deg.bcom.fin\", \"deg.bca\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "A high-pressure investment bank, trading stocks and analyzing global markets.",
+                "signals": [
+                    {
+                        "nodeId": "com.fin.ib",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.fin",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "A dynamic startup environment where I build a company from scratch.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bba.ent",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "A stable corporate accounting or banking job with predictable hours.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bcom.fin",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bcom.acc",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "I actually prefer the technology side of business, like analyzing data via software.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bca",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bsc.data",
+                        "weight": 0.7
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_COM_LAW_04",
+        "phaseKey": "After12th",
+        "subPhaseKey": "commerce",
+        "questionType": "Interest",
+        "languageComplexity": "Intermediate",
+        "text": "How do you feel about studying corporate law and regulations?",
+        "targetDiscriminatesJson": "[\"prof.cs\", \"deg.ba.llb\", \"prof.ca\", \"deg.bba.mktg\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "I find corporate laws, company acts, and compliance extremely interesting.",
+                "signals": [
+                    {
+                        "nodeId": "prof.cs",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bcom.acc",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "I want to be a full-fledged lawyer dealing with corporate litigation.",
+                "signals": [
+                    {
+                        "nodeId": "deg.ba.llb",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.llb",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "I only want to study the tax laws required for accounting and auditing.",
+                "signals": [
+                    {
+                        "nodeId": "prof.ca",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "prof.cma",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "I dislike law; I'd rather focus on marketing, branding, or operations.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bba.mktg",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.gen",
+                        "weight": 0.8
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_COM_MATH_05",
+        "phaseKey": "After12th",
+        "subPhaseKey": "commerce",
+        "questionType": "Aptitude",
+        "languageComplexity": "Simple",
+        "text": "What is your relationship with Mathematics and Statistics?",
+        "targetDiscriminatesJson": "[\"deg.bsc.eco\", \"deg.bstat\", \"deg.bcom.acc\", \"deg.bba.hr\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "I excel at calculus and advanced statistics, and want a math-heavy economics degree.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.eco",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bstat",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "I enjoy basic arithmetic and accounting math, but not advanced calculus.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bcom.acc",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "prof.ca",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "I try to avoid math entirely and prefer focusing on management theory or HR.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bba.hr",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.gen",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "I like using software to do the math for me, focusing on IT solutions.",
+                "signals": [
+                    {
+                        "nodeId": "deg.bca",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_COM_001",
+        "phaseKey": "After12th",
+        "subPhaseKey": "commerce",
+        "questionType": "ProjectPreference",
+        "languageComplexity": "Simple",
+        "text": "A company discovers inconsistencies in its financial records. Which task would you most want to handle?",
+        "targetDiscriminatesJson": "[\"prof.ca\", \"com.fin.analysis\", \"prof.cs\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Independently auditing the financial statements to verify their accuracy",
+                "signals": [
+                    {
+                        "nodeId": "prof.ca",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "deg.bcom.acc",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Determining the applicable tax treatment for the irregular transactions",
+                "signals": [
+                    {
+                        "nodeId": "prof.ca",
+                        "weight": 0.85
+                    },
+                    {
+                        "nodeId": "prof.cma",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Analysing financial performance trends to find the source of the discrepancy",
+                "signals": [
+                    {
+                        "nodeId": "com.fin.analysis",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.fin",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Reviewing internal controls and compliance procedures that may have been bypassed",
+                "signals": [
+                    {
+                        "nodeId": "prof.cs",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_COM_002",
+        "phaseKey": "After12th",
+        "subPhaseKey": "commerce",
+        "questionType": "ScenarioBased",
+        "languageComplexity": "Intermediate",
+        "text": "You are advising a growing startup on its financial strategy. Which problem would you most enjoy solving?",
+        "targetDiscriminatesJson": "[\"com.fin.ib\", \"deg.bba.fin\", \"deg.bba.ent\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Structuring the company equity and debt to optimise its capital cost",
+                "signals": [
+                    {
+                        "nodeId": "com.fin.ib",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.fin",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Evaluating the financial viability and return on investment of a new product line",
+                "signals": [
+                    {
+                        "nodeId": "com.fin.analysis",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.fin",
+                        "weight": 0.75
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Building the business plan and financial projections to pitch to investors",
+                "signals": [
+                    {
+                        "nodeId": "deg.bba.ent",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.gen",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Optimising the company tax structure within applicable Indian regulations",
+                "signals": [
+                    {
+                        "nodeId": "prof.ca",
+                        "weight": 0.9
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_COM_003",
+        "phaseKey": "After12th",
+        "subPhaseKey": "commerce",
+        "questionType": "TaskPreference",
+        "languageComplexity": "Simple",
+        "text": "A company is launching a new product. Which area of the launch would you most want to own?",
+        "targetDiscriminatesJson": "[\"deg.bba.mktg\", \"deg.bba.gen\", \"mgmt.operations\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Understanding customer segments and designing the go-to-market campaign",
+                "signals": [
+                    {
+                        "nodeId": "deg.bba.mktg",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "com.mktg",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Setting pricing strategy and forecasting revenue across different channels",
+                "signals": [
+                    {
+                        "nodeId": "deg.bba.fin",
+                        "weight": 0.8
+                    },
+                    {
+                        "nodeId": "deg.bba.gen",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Coordinating supply chain, production scheduling, and inventory management",
+                "signals": [
+                    {
+                        "nodeId": "mgmt.operations",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.gen",
+                        "weight": 0.6
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Analysing sales data to track launch performance and adjust tactics",
+                "signals": [
+                    {
+                        "nodeId": "com.mgmt.analytics",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.gen",
+                        "weight": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_COM_004",
+        "phaseKey": "After12th",
+        "subPhaseKey": "commerce",
+        "questionType": "Investigation",
+        "languageComplexity": "Intermediate",
+        "text": "A retail business is losing customers even though sales are increasing. Which problem would you most want to investigate?",
+        "targetDiscriminatesJson": "[\"deg.bba.mktg\", \"com.fin.analysis\", \"mgmt.operations\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Customer behaviour, brand perception, and the competitive positioning of products",
+                "signals": [
+                    {
+                        "nodeId": "deg.bba.mktg",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "com.mktg",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Product-level profitability - whether revenue growth is hiding margin erosion",
+                "signals": [
+                    {
+                        "nodeId": "com.fin.analysis",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "prof.ca",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Operational inefficiencies that affect delivery times and customer satisfaction",
+                "signals": [
+                    {
+                        "nodeId": "mgmt.operations",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Customer data and retention patterns to identify which segment is churning",
+                "signals": [
+                    {
+                        "nodeId": "com.mgmt.analytics",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.mktg",
+                        "weight": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_COM_005",
+        "phaseKey": "After12th",
+        "subPhaseKey": "commerce",
+        "questionType": "RolePreference",
+        "languageComplexity": "Simple",
+        "text": "Which professional role within a large corporation sounds most appealing to you?",
+        "targetDiscriminatesJson": "[\"prof.ca\", \"deg.bba.hr\", \"com.fin.ib\", \"mgmt.operations\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Chief Financial Officer - overseeing financial reporting, audit, and investor relations",
+                "signals": [
+                    {
+                        "nodeId": "prof.ca",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bcom.fin",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "HR Business Partner - developing talent strategy and managing employee performance",
+                "signals": [
+                    {
+                        "nodeId": "deg.bba.hr",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Investment Analyst - evaluating mergers, acquisitions, and capital allocation",
+                "signals": [
+                    {
+                        "nodeId": "com.fin.ib",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.fin",
+                        "weight": 0.7
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Operations Director - optimising supply chains, production systems, and logistics",
+                "signals": [
+                    {
+                        "nodeId": "mgmt.operations",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.gen",
+                        "weight": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_COM_006",
+        "phaseKey": "After12th",
+        "subPhaseKey": "commerce",
+        "questionType": "SubfieldDiscriminator",
+        "languageComplexity": "Intermediate",
+        "text": "Within the broad commerce and finance field, which specific career track interests you most?",
+        "targetDiscriminatesJson": "[\"prof.ca\", \"deg.bsc.eco\", \"com.mgmt.analytics\", \"deg.bca\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Chartered Accountancy - deep professional expertise in audit, tax, and corporate finance",
+                "signals": [
+                    {
+                        "nodeId": "prof.ca",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "prof.cma",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Economics research - studying markets, monetary policy, and macroeconomic trends",
+                "signals": [
+                    {
+                        "nodeId": "deg.bsc.eco",
+                        "weight": 0.95
+                    },
+                    {
+                        "nodeId": "com.fin.eco",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Business analytics - using data and statistics to inform strategic decisions",
+                "signals": [
+                    {
+                        "nodeId": "com.mgmt.analytics",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.gen",
+                        "weight": 0.5
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Technology management - managing software and IT systems within a business context",
+                "signals": [
+                    {
+                        "nodeId": "deg.bca",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.gen",
+                        "weight": 0.5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "Q_NEW_A12_COM_007",
+        "phaseKey": "After12th",
+        "subPhaseKey": "commerce",
+        "questionType": "FutureWorkPreference",
+        "languageComplexity": "Simple",
+        "text": "Ten years from now, which work description sounds most like what you would want to be doing?",
+        "targetDiscriminatesJson": "[\"prof.ca\", \"deg.bba.ent\", \"com.mktg\", \"com.fin.ib\"]",
+        "options": [
+            {
+                "index": 0,
+                "text": "Running my own accounting and advisory firm, helping businesses with finance and compliance",
+                "signals": [
+                    {
+                        "nodeId": "prof.ca",
+                        "weight": 0.9
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "text": "Leading the company I founded from early-stage to a profitable growing business",
+                "signals": [
+                    {
+                        "nodeId": "deg.bba.ent",
+                        "weight": 0.95
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "text": "Heading the marketing function of a leading consumer brand",
+                "signals": [
+                    {
+                        "nodeId": "com.mktg",
+                        "weight": 0.9
+                    },
+                    {
+                        "nodeId": "deg.bba.mktg",
+                        "weight": 0.8
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "text": "Working as an investment banker or fund manager advising on major transactions",
+                "signals": [
+                    {
+                        "nodeId": "com.fin.ib",
+                        "weight": 0.95
+                    }
+                ]
+            }
+        ]
+    }
+]
